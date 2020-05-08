@@ -17,7 +17,7 @@ function send_notification(widget, title, content) {
     }
 }
 function _send_native_notification(title, content) {
-    var notification = new Notification(title, {body: content, icon: "/mail/static/src/img/flectra_o.png"});
+    var notification = new Notification(title, {body: content, icon: "/mail/static/src/img/odoo_o.png"});
     notification.onclick = function () {
         window.focus();
         if (this.cancel) {
@@ -46,7 +46,12 @@ var _beep = (function () {
 function parse_and_transform(html_string, transform_function) {
     var open_token = "OPEN" + Date.now();
     var string = html_string.replace(/&lt;/g, open_token);
-    var children = $('<div>').html(string).contents();
+    var children;
+    try {
+        children = $('<div>').html(string).contents();
+    } catch (e) {
+        children = $('<div>').html('<pre>' + string + '</pre>').contents();
+    }
     return _parse_and_transform(children, transform_function)
                 .replace(new RegExp(open_token, "g"), "&lt;");
 }

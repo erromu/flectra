@@ -688,6 +688,13 @@ class TestMailgateway(TestMail):
         mail_test_model = self.env['ir.model']._get('mail.test')
         mail_channel_model = self.env['ir.model']._get('mail.channel')
 
+        self.bounce_alias = 'test_bounce'
+        self.catchall_alias = 'test_catchall'
+        self.catchall_domain = 'example.com'
+        self.env['ir.config_parameter'].set_param('mail.bounce.alias', self.bounce_alias)
+        self.env['ir.config_parameter'].set_param('mail.catchall.alias', self.catchall_alias)
+        self.env['ir.config_parameter'].set_param('mail.catchall.domain', self.catchall_domain)
+
         # groups@.. will cause the creation of new mail.test
         self.alias = self.env['mail.alias'].create({
             'alias_name': 'groups',
@@ -838,6 +845,39 @@ class TestMailgateway(TestMail):
         self.assertEqual(len(self._mails), 0,
                          'message_process: no bounce or notificatoin email should be sent with follower = author')
 
+    @mute_logger('flectra.addons.mail.models.mail_thread', 'flectra.models')
+    def test_message_process_bounce(self):
+        """Incoming email: bounce processing: no group created, message_bounce increased """
+        new_groups = self.format_and_process(
+            MAIL_TEMPLATE,
+            email_from='Valid Lelitre <valid.lelitre@agrolait.com>',
+            to='%s+%s-%s-%s@%s' % (
+                self.bounce_alias, self.fake_email.id,
+                self.fake_email.model, self.fake_email.res_id,
+                self.catchall_domain
+            ),
+            subject='Should bounce',
+        )
+        self.assertFalse(new_groups)
+        self.assertEqual(len(self._mails), 0, 'message_process: incoming bounce produces no mails')
+
+    @mute_logger('flectra.addons.mail.models.mail_thread', 'flectra.models')
+    def test_message_process_bounce_other_recipients(self):
+        """Incoming email: bounce processing: bounce should be computed even if not first recipient """
+        new_groups = self.format_and_process(
+            MAIL_TEMPLATE,
+            email_from='Valid Lelitre <valid.lelitre@agrolait.com>',
+            to='%s@%s, %s+%s-%s-%s@%s' % (
+                self.alias.alias_name, self.catchall_domain,
+                self.bounce_alias, self.fake_email.id,
+                self.fake_email.model, self.fake_email.res_id,
+                self.catchall_domain
+            ),
+            subject='Should bounce',
+        )
+        self.assertFalse(new_groups)
+        self.assertEqual(len(self._mails), 0, 'message_process: incoming bounce produces no mails')
+
     @mute_logger('flectra.addons.mail.models.mail_thread', 'flectra.models', 'flectra.addons.mail.models.mail_mail')
     def test_message_process_alias_partners_bounce(self):
         """ Incoming email from an unknown partner on a Partners only alias -> bounce """
@@ -931,6 +971,53 @@ class TestMailgateway(TestMail):
         #                  'message_process: after reply, group should have 2 followers (0 channels)')
 
     @mute_logger('flectra.addons.mail.models.mail_thread', 'flectra.models')
+    def test_message_process_alias_domain_confusion_no_domain(self):
+        """ Incoming email: write to alias even if no domain set: considered as valid alias """
+        self.env['ir.config_parameter'].set_param('mail.catchall.domain', '')
+
+        new_groups = self.format_and_process(
+            MAIL_TEMPLATE,
+            subject='Test Subject',
+            email_from='valid.other@gmail.com',
+            to='groups@another.domain.com',
+            msg_id='<whatever.JavaMail.diff1@agrolait.com>'
+        )
+        # Test: one group created
+        self.assertEqual(len(new_groups), 1, 'message_process: a new mail.test should have been created')
+
+    @mute_logger('flectra.addons.mail.models.mail_thread', 'flectra.models')
+    def test_message_process_alias_forward_domain_confusion(self):
+        """ Incoming email: write to alias of another model: forward to new alias """
+        new_rec = self.format_and_process(
+            MAIL_TEMPLATE,
+            subject='Test Subject',
+            email_from='valid.other@gmail.com',
+            to='%s@%s, %s@%s' % (self.alias.alias_name, self.catchall_domain, self.alias_2.alias_name, self.catchall_domain),
+            msg_id='<whatever.JavaMail.diff1@agrolait.com>',
+            target_model=self.alias_2.alias_model_id.model
+        )
+        # Test: one channel (alias 2) created
+        self.assertEqual(len(new_rec), 1, 'message_process: a new mail.channel should have been created')
+        self.assertEqual(new_rec._name, self.alias_2.alias_model_id.model)
+
+    @mute_logger('flectra.addons.mail.models.mail_thread', 'flectra.models')
+    def test_message_process_alias_forward_domain_confusion_no_domain(self):
+        """ Incoming email: write to alias of another model: forward to new alias even if no catchall domain """
+        self.env['ir.config_parameter'].set_param('mail.catchall.domain', '')
+
+        new_rec = self.format_and_process(
+            MAIL_TEMPLATE,
+            subject='Test Subject',
+            email_from='valid.other@gmail.com',
+            to='%s@%s, %s@%s' % (self.alias.alias_name, self.catchall_domain, self.alias_2.alias_name, 'another.domain.com'),
+            msg_id='<whatever.JavaMail.diff1@agrolait.com>',
+            target_model=self.alias_2.alias_model_id.model
+        )
+        # Test: one channel (alias 2) created
+        self.assertEqual(len(new_rec), 1, 'message_process: a new mail.channel should have been created')
+        self.assertEqual(new_rec._name, self.alias_2.alias_model_id.model)
+
+    @mute_logger('flectra.addons.mail.models.mail_thread', 'flectra.models')
     def test_message_process_in_reply_to(self):
         """ Incoming email using in-rely-to should go into the right destination even with a wrong destination """
         self.format_and_process(
@@ -977,9 +1064,10 @@ class TestMailgateway(TestMail):
             msg_id='<1198923581.41972151344608186800.JavaMail.4@agrolait.com>',
             target_model='mail.channel')
 
-        self.assertEqual(len(self.test_public.message_ids), 2, 'message_process: group should not contain new message')
-        self.assertEqual(len(self.fake_email.child_ids), 1, 'message_process: original email should not contain childs')
-        self.assertEqual(len(res_test.message_ids), 0)
+        self.assertEqual(len(self.test_public.message_ids), 1, 'message_process: group should not contain new message')
+        self.assertEqual(len(self.fake_email.child_ids), 0, 'message_process: original email should not contain childs')
+        self.assertEqual(res_test.name, 'My Dear Forward')
+        self.assertEqual(len(res_test.message_ids), 1)
 
     @mute_logger('flectra.addons.mail.models.mail_thread', 'flectra.models')
     def test_message_process_references_forward_cc(self):
@@ -1116,7 +1204,7 @@ class TestMailgateway(TestMail):
         self.assertIn('<pre>\nPlease call me as soon as possible this afternoon!\n<span data-o-mail-quote="1">\n--\nSylvie\n</span></pre>', msg.body,
                       'message_process: plaintext incoming email incorrectly parsed')
 
-    @mute_logger('odoo.addons.mail.models.mail_thread', 'odoo.models', 'odoo.addons.mail.models.mail_mail')
+    @mute_logger('flectra.addons.mail.models.mail_thread', 'flectra.models', 'flectra.addons.mail.models.mail_mail')
     def test_private_discussion(self):
         """ Testing private discussion between partners. """
         msg1_pids = [self.env.user.partner_id.id, self.partner_1.id]
