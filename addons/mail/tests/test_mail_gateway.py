@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 
 import socket
 
@@ -10,7 +10,7 @@ from flectra.tools import mute_logger
 MAIL_TEMPLATE = """Return-Path: <whatever-2a840@postmaster.twitter.com>
 To: {to}
 cc: {cc}
-Received: by mail1.openerp.com (Postfix, from userid 10002)
+Received: by mail1.flectra.com (Postfix, from userid 10002)
     id 5DF9ABFB2A; Fri, 10 Aug 2012 16:16:39 +0200 (CEST)
 From: {email_from}
 Subject: {subject}
@@ -51,7 +51,7 @@ Content-Transfer-Encoding: quoted-printable
 
 MAIL_TEMPLATE_PLAINTEXT = """Return-Path: <whatever-2a840@postmaster.twitter.com>
 To: {to}
-Received: by mail1.openerp.com (Postfix, from userid 10002)
+Received: by mail1.flectra.com (Postfix, from userid 10002)
     id 5DF9ABFB2A; Fri, 10 Aug 2012 16:16:39 +0200 (CEST)
 From: Sylvie Lelitre <test.sylvie.lelitre@agrolait.com>
 Subject: {subject}
@@ -78,7 +78,7 @@ X-Spam-Status: No, score=-2.6 required=5.0 tests=BAYES_00,FREEMAIL_FROM,
     HTML_MESSAGE,RCVD_IN_DNSWL_LOW autolearn=unavailable version=3.3.1
 Received: from mail-ie0-f173.google.com (mail-ie0-f173.google.com [209.85.223.173])
     by mail1.grosbedon.com (Postfix) with ESMTPS id 9BBD7BFAAA
-    for <raoul@openerp.fr>; Fri, 23 Aug 2013 13:17:55 +0200 (CEST)
+    for <raoul@flectra.fr>; Fri, 23 Aug 2013 13:17:55 +0200 (CEST)
 Received: by mail-ie0-f173.google.com with SMTP id qd12so575130ieb.4
         for <raoul@grosbedon.fr>; Fri, 23 Aug 2013 04:17:54 -0700 (PDT)
 DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
@@ -299,15 +299,15 @@ AAAAACwAAAAAAgACAAAEA3DJFQA7
 """
 
 MAIL_EML_ATTACHMENT = """Subject: Re: test attac
-From: Anon <anon@flectrahq.com>
+From: Anon <anon@flectra.com>
 To: anon@gmail.com
-References: <f3b9f8f8-28fa-2543-cab2-7aa68f679ebb@flectrahq.com>
-Message-ID: <cb7eaf62-58dc-2017-148c-305d0c78892f@flectrahq.com>
+References: <f3b9f8f8-28fa-2543-cab2-7aa68f679ebb@flectra.com>
+Message-ID: <cb7eaf62-58dc-2017-148c-305d0c78892f@flectra.com>
 Date: Wed, 14 Mar 2018 14:26:58 +0100
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101
  Thunderbird/52.6.0
 MIME-Version: 1.0
-In-Reply-To: <f3b9f8f8-28fa-2543-cab2-7aa68f679ebb@flectrahq.com>
+In-Reply-To: <f3b9f8f8-28fa-2543-cab2-7aa68f679ebb@flectra.com>
 Content-Type: multipart/mixed;
  boundary="------------A6B5FD5F68F4D73ECD739009"
 Content-Language: en-US
@@ -331,7 +331,7 @@ Content-Transfer-Encoding: 8bit
 Content-Disposition: attachment;
  filename="original_msg.eml"
 
-Delivered-To: anon2@gmail1.openerp.com
+Delivered-To: anon2@gmail1.flectra.com
 Received: by 10.46.1.170 with SMTP id f42csp2379722lji;
         Mon, 5 Mar 2018 01:19:23 -0800 (PST)
 X-Google-Smtp-Source: AG47ELsYTlAcblMxfnaEENQuF+MFoac5Q07wieyw0cybq/qOX4+DmayqoQILkiWT+NiTOcnr/ACO
@@ -356,33 +356,33 @@ ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc
          7wXuo/gpYe6E2cPuS2opei8AzjEhYTNzlYXTPvaoxCCTTjfGTaPv22TeRDehuIXngSEl
          Nmmw==
 ARC-Authentication-Results: i=1; mx.google.com;
-       dkim=pass header.i=@flectrahq.com header.s=mail header.b=MCzhjB9b;
-       spf=pass (google.com: domain of soup@flectrahq.com designates 149.202.180.44 as permitted sender) smtp.mailfrom=soup@flectrahq.com;
-       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=flectrahq.com
-Return-Path: <soup@flectrahq.com>
-Received: from mail2.flectrahq.com (mail2.flectrahq.com. [149.202.180.44])
+       dkim=pass header.i=@flectra.com header.s=mail header.b=MCzhjB9b;
+       spf=pass (google.com: domain of soup@flectra.com designates 149.202.180.44 as permitted sender) smtp.mailfrom=soup@flectra.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=flectra.com
+Return-Path: <soup@flectra.com>
+Received: from mail2.flectra.com (mail2.flectra.com. [149.202.180.44])
         by mx.google.com with ESMTPS id y4si4279200wmy.148.2018.03.05.01.19.22
         (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
         Mon, 05 Mar 2018 01:19:23 -0800 (PST)
-Received-SPF: pass (google.com: domain of soup@flectrahq.com designates 149.202.180.44 as permitted sender) client-ip=149.202.180.44;
+Received-SPF: pass (google.com: domain of soup@flectra.com designates 149.202.180.44 as permitted sender) client-ip=149.202.180.44;
 Authentication-Results: mx.google.com;
-       dkim=pass header.i=@flectrahq.com header.s=mail header.b=MCzhjB9b;
-       spf=pass (google.com: domain of soup@flectrahq.com designates 149.202.180.44 as permitted sender) smtp.mailfrom=soup@flectrahq.com;
-       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=flectrahq.com
+       dkim=pass header.i=@flectra.com header.s=mail header.b=MCzhjB9b;
+       spf=pass (google.com: domain of soup@flectra.com designates 149.202.180.44 as permitted sender) smtp.mailfrom=soup@flectra.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=flectra.com
 Received: from [10.10.31.24] (unknown [91.183.114.50])
 	(Authenticated sender: soup)
-	by mail2.flectrahq.com (Postfix) with ESMTPSA id 7B571A4085
-	for <what@flectrahq.com>; Mon,  5 Mar 2018 10:19:21 +0100 (CET)
-DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=flectrahq.com; s=mail;
+	by mail2.flectra.com (Postfix) with ESMTPSA id 7B571A4085
+	for <what@flectra.com>; Mon,  5 Mar 2018 10:19:21 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=flectra.com; s=mail;
 	t=1520241562; bh=L2r7Sp/vjogIdM1k8H9zDGDjnhKolsTTLLjndnFC4Jc=;
 	h=To:From:Subject:Date:From;
 	b=MCzhjB9bnsrJ3uKjq+GjujFxmtrq3fc7Vv7Vg2C72EPKnkxgqy6yPjWKtXbBlaiT3
 	 YjKI24aiSQlOeOPQiqFgiDzeqqemNDp+CRuhoYz1Vbz+ESRaHtkWRLb7ZjvohS2k7e
 	 RTq7tUxY2nUL2YrNHV7DFYtJVBwiTuyLP6eAiJdE=
-To: what@flectrahq.com
-From: Soup <soup@flectrahq.com>
+To: what@flectra.com
+From: Soup <soup@flectra.com>
 Subject: =?UTF-8?Q?Soupe_du_jour_:_Pois_cass=c3=a9s?=
-Message-ID: <a05d8334-7b7c-df68-c96a-4a88ed19f31b@flectrahq.com>
+Message-ID: <a05d8334-7b7c-df68-c96a-4a88ed19f31b@flectra.com>
 Date: Mon, 5 Mar 2018 10:19:21 +0100
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101
  Thunderbird/52.6.0
@@ -393,7 +393,7 @@ Content-Language: en-US
 X-Spam-Status: No, score=-1.2 required=5.0 tests=ALL_TRUSTED,BAYES_00,
 	HTML_IMAGE_ONLY_08,HTML_MESSAGE,T_REMOTE_IMAGE autolearn=no
 	autolearn_force=no version=3.4.0
-X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on mail2.flectrahq.com
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on mail2.flectra.com
 
 This is a multi-part message in MIME format.
 --------------1F2D18B1129FC2F0B9EECF50
@@ -405,10 +405,10 @@ Résultat de recherche d'images pour "dessin la princesse au petit pois"
 --
 Soup
 
-Odoo S.A.
+Flectra S.A.
 Chaussée de Namur, 40
 B-1367 Grand Rosière
-Web: http://www.flectrahq.com
+Web: http://www.flectra.com
 
 
 --------------1F2D18B1129FC2F0B9EECF50
@@ -428,10 +428,10 @@ src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjCNAadd3NDM8g9w0P_-g
     <pre class="moz-signature" cols="72">--
 Soup
 
-Odoo S.A.
+Flectra S.A.
 Chaussée de Namur, 40
 B-1367 Grand Rosière
-Web: <a class="moz-txt-link-freetext" href="http://www.flectrahq.com">http://www.flectrahq.com</a> </pre>
+Web: <a class="moz-txt-link-freetext" href="http://www.flectra.com">http://www.flectra.com</a> </pre>
   </body>
 </html>
 
@@ -519,9 +519,9 @@ To: "xxxx" <catchall@xxxx.xxxx>
 Subject: Re: xxxx (Ref PO1)
 Date: Sat, 14 Apr 2018 02:11:42 +0000
 Message-Id: <em67f5c44a-xxxx-xxxx-xxxx-69f56d618a94@wswin7hg4n4l1ce>
-In-Reply-To: <829228111124527.1111111602.256611118262939-openerp-129-xxxx.xxxx@ip-1-1-1-1>
-References: <867911111953277.1523671337.187951111160400-openerp-129-xxxx.xxxx@ip-1-1-1-1>
- <867911111953277.1523671337.256611118262939-openerp-129-xxxx.xxxx@ip-1-1-1-1>
+In-Reply-To: <829228111124527.1111111602.256611118262939-flectra-129-xxxx.xxxx@ip-1-1-1-1>
+References: <867911111953277.1523671337.187951111160400-flectra-129-xxxx.xxxx@ip-1-1-1-1>
+ <867911111953277.1523671337.256611118262939-flectra-129-xxxx.xxxx@ip-1-1-1-1>
 Reply-To: "xxxx xxxx" <xxxx@xxxx.com>
 User-Agent: eM_Client/7.0.26687.0
 Mime-Version: 1.0
@@ -578,7 +578,7 @@ xxxx@xxxx.com</a>&gt;</div>
 <div>Subject: xxxx</div><div><br /></div=
 >
 <div id=3D"x00b4101ba6e64ce"><blockquote cite=3D"829228972724527.1523671602=
-.256660938262939-openerp-129-xxxx.xxxx@ip-1-1-1-1" type=3D"cite"=
+.256660938262939-flectra-129-xxxx.xxxx@ip-1-1-1-1" type=3D"cite"=
  class=3D"cite2">
 <table border=3D"0" width=3D"100%" cellpadding=3D"0" bgcolor=3D"#ededed"=
  style=3D"padding: 20px; background-color: #ededed" summary=3D"o_mail_notif=
@@ -667,8 +667,8 @@ aa.com" style=3D"text-decoration:none; color: white;">info@aust-mfg.com</a>=
                       </tr>
                       <tr>
                         <td align=3D"center">
-                            Powered by <a href=3D"https://www.flectrahq.com">Flectr=
-a</a>.
+                            Powered by <a href=3D"https://www.flectra.com">Odo=
+o</a>.
                         </td>
                       </tr>
                     </tbody>
@@ -716,7 +716,7 @@ class TestMailgateway(TestMail):
             'subject': 'Public Discussion',
             'message_type': 'email',
             'author_id': self.partner_1.id,
-            'message_id': '<123456-openerp-%s-mail.test@%s>' % (self.test_public.id, socket.gethostname()),
+            'message_id': '<123456-flectra-%s-mail.test@%s>' % (self.test_public.id, socket.gethostname()),
         })
 
     @mute_logger('flectra.addons.mail.models.mail_thread')
@@ -1089,11 +1089,11 @@ class TestMailgateway(TestMail):
                           self.format_and_process,
                           MAIL_TEMPLATE, email_from='valid.lelitre@agrolait.com',
                           to='noone@example.com', subject='spam',
-                          extra='In-Reply-To: <12321321-openerp-%d-mail.test@%s>' % (self.test_public.id, socket.gethostname()),
+                          extra='In-Reply-To: <12321321-flectra-%d-mail.test@%s>' % (self.test_public.id, socket.gethostname()),
                           msg_id='<1198923581.41972151344608186802.JavaMail.diff1@agrolait.com>')
 
         # when 6.1 messages are present, compat mode is available
-        # Odoo 10 update: compat mode has been removed and should not work anymore
+        # Flectra 10 update: compat mode has been removed and should not work anymore
         self.fake_email.write({'message_id': False})
         # Do: compat mode accepts partial-matching emails
         self.assertRaises(
@@ -1102,16 +1102,16 @@ class TestMailgateway(TestMail):
             MAIL_TEMPLATE, email_from='other5@gmail.com',
             msg_id='<1.2.JavaMail.new@agrolait.com>',
             to='noone@example.com>', subject='spam',
-            extra='In-Reply-To: <12321321-openerp-%d-mail.test@%s>' % (self.test_public.id, socket.gethostname()))
+            extra='In-Reply-To: <12321321-flectra-%d-mail.test@%s>' % (self.test_public.id, socket.gethostname()))
 
         # 3''. 6.1 compat mode should not work if hostname does not match!
-        # Odoo 10 update: compat mode has been removed and should not work anymore and does not depend from hostname
+        # Flectra 10 update: compat mode has been removed and should not work anymore and does not depend from hostname
         self.assertRaises(ValueError,
                           self.format_and_process,
                           MAIL_TEMPLATE, email_from='other5@gmail.com',
                           msg_id='<1.3.JavaMail.new@agrolait.com>',
                           to='noone@example.com>', subject='spam',
-                          extra='In-Reply-To: <12321321-openerp-%d-mail.test@neighbor.com>' % self.test_public.id)
+                          extra='In-Reply-To: <12321321-flectra-%d-mail.test@neighbor.com>' % self.test_public.id)
 
         # Test created messages
         self.assertEqual(len(self.test_public.message_ids), 1)

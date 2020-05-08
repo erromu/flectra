@@ -92,7 +92,7 @@ class TestCRMLead(TestCrmCases):
         # During a mixed merge (involving leads and opps), data should be handled a certain way following their type (m2o, m2m, text, ...)  Start by creating two leads and an opp and giving the rights of Sales manager.
         default_stage_id = self.ref("crm.stage_lead1")
         LeadSalesmanager = self.env['crm.lead'].sudo(self.crm_salemanager.id)
-
+        branch = self.env.ref('base_branch_company.data_branch_1')
         # TEST CASE 1
         test_crm_opp_01 = LeadSalesmanager.create({
             'type': 'opportunity',

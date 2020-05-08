@@ -1,22 +1,24 @@
-# Translation of Odoo Server.
+# Translation of Flectra Server.
 # This file contains the translation of the following modules:
 # * mail
 # 
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2017
-# Kostas Goutoudis <goutoudis@gmail.com>, 2017
 # Giota Dandidou <giotadandidou@gmail.com>, 2017
-# George Tarasidis <george_tarasidis@yahoo.com>, 2017
 # Costas Pittalis <cpittalis@gmail.com>, 2017
 # Nikos Gkountras <nick@ngsol.net>, 2017
+# Martin Trigaux, 2017
+# George Tarasidis <george_tarasidis@yahoo.com>, 2017
+# Vasilis Dimopoulos <iap3tos@outlook.com>, 2018
+# Kostas Goutoudis <goutoudis@gmail.com>, 2018
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: Flectra Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-30 13:11+0000\n"
-"PO-Revision-Date: 2017-11-30 13:11+0000\n"
-"Last-Translator: Nikos Gkountras <nick@ngsol.net>, 2017\n"
-"Language-Team: Greek (https://www.transifex.com/odoo/teams/41243/el/)\n"
+"POT-Creation-Date: 2019-01-03 15:06+0000\n"
+"PO-Revision-Date: 2017-09-20 10:19+0000\n"
+"Last-Translator: Kostas Goutoudis <goutoudis@gmail.com>, 2018\n"
+"Language-Team: Greek (https://www.transifex.com/flectra/teams/41243/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -109,7 +111,7 @@ msgid ""
 "    </a>\n"
 "    % endif\n"
 "    using\n"
-"    <a target=\"_blank\" href=\"https://www.odoo.com\" style=\"text-decoration:none; color: #875A7B;\">Odoo</a>.\n"
+"    <a target=\"_blank\" href=\"https://www.flectra.com\" style=\"text-decoration:none; color: #875A7B;\">Flectra</a>.\n"
 "</p>\n"
 "</div>"
 msgstr ""
@@ -196,12 +198,12 @@ msgstr ""
 " </a>\n"
 " % endif\n"
 " χρησιμοποιώντας\n"
-" <a target=\"_blank\" href=\"https://www.odoo.com\" style=\"text-decoration:none; color: #875A7B;\">Odoo</a>.\n"
+" <a target=\"_blank\" href=\"https://www.flectra.com\" style=\"text-decoration:none; color: #875A7B;\">Flectra</a>.\n"
 "</p>\n"
 "</div>"
 
 #. module: mail
-#: code:addons/mail/models/mail_channel.py:674
+#: code:addons/mail/models/mail_channel.py:682
 #, python-format
 msgid " This channel is private. People must be invited to join it."
 msgstr ""
@@ -227,15 +229,27 @@ msgstr ""
 "object.parent_id.record_name and 'Re: %s' % object.parent_id.record_name)}"
 
 #. module: mail
-#. flectra-web
+#: code:addons/mail/wizard/invite.py:29
+#, python-format
+msgid "%(user_name)s invited you to follow %(document)s document: %(title)s"
+msgstr ""
+
+#. module: mail
+#: code:addons/mail/wizard/invite.py:31
+#, python-format
+msgid "%(user_name)s invited you to follow a new document."
+msgstr ""
+
+#. module: mail
+#. openerp-web
 #: code:addons/mail/static/src/js/chat_manager.js:63
 #, python-format
 msgid "%d Messages"
 msgstr "%d Μηνύματα"
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/js/activity.js:32
+#. openerp-web
+#: code:addons/mail/static/src/js/activity.js:89
 #, python-format
 msgid "%d days overdue"
 msgstr "%d ημέρες καθυστέρησης"
@@ -247,27 +261,27 @@ msgid "%s (copy)"
 msgstr "%s (αντίγραφο)"
 
 #. module: mail
-#: code:addons/mail/models/mail_thread.py:236
+#: code:addons/mail/models/mail_thread.py:241
 #, python-format
 msgid "%s created"
 msgstr "%s δημιουργήθηκε"
 
 #. module: mail
-#: code:addons/mail/models/res_users.py:77
+#: code:addons/mail/models/res_users.py:83
 #, python-format
 msgid "%s has joined the %s network."
 msgstr "%s έχει ενταχθεί το δίκτυο του %s."
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:211
 #, python-format
 msgid "&nbsp;("
 msgstr "&nbsp;("
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/xml/thread.xml:179
+#. openerp-web
+#: code:addons/mail/static/src/xml/thread.xml:184
 #, python-format
 msgid "(from"
 msgstr "(από"
@@ -283,42 +297,42 @@ msgstr ""
 "αντικατάσταση κειμένου με άλλο κείμενο"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/activity.xml:49
 #, python-format
 msgid ", due on"
 msgstr ", έως τις"
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/xml/thread.xml:331
+#. openerp-web
+#: code:addons/mail/static/src/xml/thread.xml:336
 #, python-format
 msgid "-------- Show older messages --------"
 msgstr "-------- Εμφάνιση παλαιότερων μηνυμάτων --------"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/systray.xml:78
 #, python-format
 msgid "0 Future"
 msgstr "0 Μελλοντικά"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/systray.xml:74
 #, python-format
 msgid "0 Late"
 msgstr "0 Καθυστερημένα"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/systray.xml:76
 #, python-format
 msgid "0 Today"
 msgstr "0 Σημερινά"
 
 #. module: mail
-#: code:addons/mail/models/mail_channel.py:678
+#: code:addons/mail/models/mail_channel.py:686
 #, python-format
 msgid ""
 "<br><br>\n"
@@ -334,7 +348,16 @@ msgstr ""
 "Μπορείτε να εισαγάγετε έτοιμες απαντήσεις στο μήνυμά σας πληκτρολογώντας <b>:συντόμευση</b>"
 
 #. module: mail
-#: code:addons/mail/models/mail_channel.py:584
+#: code:addons/mail/models/mail_channel.py:509
+#, python-format
+msgid ""
+"<div class=\"o_mail_notification\">%(author)s invited %(new_partner)s to <a "
+"href=\"#\" class=\"o_channel_redirect\" data-oe-"
+"id=\"%(channel_id)s\">#%(channel_name)s</a></div>"
+msgstr ""
+
+#. module: mail
+#: code:addons/mail/models/mail_channel.py:592
 #, python-format
 msgid ""
 "<div class=\"o_mail_notification\">created <a href=\"#\" "
@@ -344,8 +367,8 @@ msgstr ""
 "class=\"o_channel_redirect\" data-oe-id=\"%s\">#%s</a></div>"
 
 #. module: mail
-#: code:addons/mail/models/mail_channel.py:508
-#: code:addons/mail/models/mail_channel.py:561
+#: code:addons/mail/models/mail_channel.py:516
+#: code:addons/mail/models/mail_channel.py:569
 #, python-format
 msgid ""
 "<div class=\"o_mail_notification\">joined <a href=\"#\" "
@@ -365,25 +388,7 @@ msgstr ""
 "class=\"o_channel_redirect\" data-oe-id=\"%s\">#%s</a></div>"
 
 #. module: mail
-#: code:addons/mail/wizard/invite.py:23
-#, python-format
-msgid ""
-"<div><p>Hello,</p><p>%s invited you to follow %s document: %s.</p></div>"
-msgstr ""
-"<div><p>Γεια σας,</p><p>ο/η %s σας προσκάλεσε να ακολουθήσετε το %s έγγραφο:"
-" %s.<p></div>"
-
-#. module: mail
-#: code:addons/mail/wizard/invite.py:26
-#, python-format
-msgid ""
-"<div><p>Hello,</p><p>%s invited you to follow a new document.</p></div>"
-msgstr ""
-"<div><p>Γεια σας,</p><p>ο/η %s σας προσκάλεσε να ακολουθήσετε ένα νέο "
-"έγγραφο.</p></div>"
-
-#. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/js/tour.js:28
 #, python-format
 msgid ""
@@ -396,7 +401,7 @@ msgstr ""
 "πρώτα τους χρήστες από την εφαρμογή Ρυθμίσεις.</i></p>"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/js/tour.js:15
 #, python-format
 msgid ""
@@ -410,7 +415,7 @@ msgstr ""
 "εντολών.</p>"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/js/tour.js:11
 #, python-format
 msgid ""
@@ -618,7 +623,7 @@ msgid "Active domain"
 msgstr "Ενεργός τομέας"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/systray.xml:87
 #: model:ir.model.fields,field_description:mail.field_account_invoice_activity_ids
 #: model:ir.model.fields,field_description:mail.field_crm_lead_activity_ids
@@ -649,7 +654,7 @@ msgid "Activities"
 msgstr "Δραστηριότητες"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/chatter.xml:60
 #: model:ir.model,name:mail.model_mail_activity
 #: model:ir.model.fields,field_description:mail.field_mail_activity_activity_type_id
@@ -679,21 +684,21 @@ msgid "Activity Types"
 msgstr "Τύποι Δραστηριότητας"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/activity.xml:37
 #, python-format
 msgid "Activity type"
 msgstr "Τύπος Δραστηριότητας"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:87
 #, python-format
 msgid "Add"
 msgstr "Προσθήκη"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/followers.xml:64
 #: model:ir.model.fields,field_description:mail.field_ir_act_server_channel_ids
 #, python-format
@@ -701,7 +706,7 @@ msgid "Add Channels"
 msgstr "Προσθήκη Καναλιών"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/followers.xml:61
 #: model:ir.model.fields,field_description:mail.field_ir_act_server_partner_ids
 #: model:ir.ui.view,arch_db:mail.mail_wizard_invite_form
@@ -722,7 +727,7 @@ msgid "Add Signature"
 msgstr "Προσθήκη υπογραφής"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:41
 #: code:addons/mail/static/src/xml/client_action.xml:186
 #, python-format
@@ -730,7 +735,7 @@ msgid "Add a channel"
 msgstr "Προσθήκη Καναλιού"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:60
 #, python-format
 msgid "Add a private channel"
@@ -817,7 +822,7 @@ msgid "Aliases"
 msgstr "Ψευδώνυμο"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/systray.xml:17
 #: code:addons/mail/static/src/xml/systray.xml:28
 #, python-format
@@ -830,8 +835,9 @@ msgid "Always"
 msgstr "Πάντα"
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/js/chat_manager.js:198
+#. openerp-web
+#: code:addons/mail/models/mail_channel.py:685
+#: code:addons/mail/static/src/js/chat_manager.js:207
 #, python-format
 msgid "Anonymous"
 msgstr "Ανώνυμος"
@@ -855,14 +861,14 @@ msgid "Applies to"
 msgstr "Εφαρμογή σε"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/js/followers.js:333
 #, python-format
 msgid "Apply"
 msgstr "Εφαρμογή"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/activity.xml:45
 #: model:ir.model.fields,field_description:mail.field_mail_activity_user_id
 #, python-format
@@ -967,7 +973,7 @@ msgid "Available for mass mailing"
 msgstr "Διαθέσιμοι για μαζική αποστολή mail"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/followers.xml:89
 #, python-format
 msgid "Be careful with channels following internal notifications"
@@ -1000,7 +1006,7 @@ msgid "Call"
 msgstr "Τηλεφώνημα"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/js/followers.js:341
 #: code:addons/mail/static/src/xml/activity.xml:65
 #: model:ir.ui.view,arch_db:mail.email_compose_message_wizard_form
@@ -1092,7 +1098,7 @@ msgid "Channel Type"
 msgstr "Τύπος Καναλιού"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:36
 #: code:addons/mail/static/src/xml/client_action.xml:172
 #: code:addons/mail/static/src/xml/systray.xml:19
@@ -1117,7 +1123,7 @@ msgid "Channels/Partner"
 msgstr "Κανάλια/Συνεργάτης"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:168
 #: code:addons/mail/static/src/xml/systray.xml:18
 #: code:addons/mail/static/src/xml/systray.xml:32
@@ -1150,7 +1156,7 @@ msgid "Choose an example"
 msgstr "Επιλέξτε ένα παράδειγμα"
 
 #. module: mail
-#: code:addons/mail/models/mail_thread.py:342
+#: code:addons/mail/models/mail_thread.py:347
 #, python-format
 msgid "Click here to add new %(document)s or send an email to: %(email_link)s"
 msgstr ""
@@ -1158,7 +1164,7 @@ msgstr ""
 "%(email_link)s"
 
 #. module: mail
-#: code:addons/mail/models/mail_thread.py:358
+#: code:addons/mail/models/mail_thread.py:363
 #, python-format
 msgid "Click here to add new %s"
 msgstr "Κάντε κλικ εδώ για να προσθέσετε %s"
@@ -1231,15 +1237,15 @@ msgid "Configure your activity types"
 msgstr "Διαμορφώστε τους τύπους δραστηριότητάς σας"
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/xml/thread.xml:109
+#. openerp-web
+#: code:addons/mail/static/src/xml/thread.xml:114
 #, python-format
 msgid "Congratulations, your inbox is empty"
 msgstr "Συγχαρητήρια, ο φάκελος εισερχομένων είναι άδειος"
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/js/client_action.js:647
+#. openerp-web
+#: code:addons/mail/static/src/js/client_action.js:650
 #, python-format
 msgid "Congratulations, your inbox is empty!"
 msgstr "Συγχαρητήρια, ο φάκελος εισερχομένων είναι άδειος!"
@@ -1274,7 +1280,7 @@ msgid "Conversation is minimized"
 msgstr "Η Συνομιλία είναι ελαχιστοποιημένη"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/systray.xml:6
 #, python-format
 msgid "Conversations"
@@ -1287,7 +1293,7 @@ msgid "Counter of the number of bounced emails for this contact"
 msgstr "Μετρητής του αριθμού προωθήσεων emails για αυτή την επαφή"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/js/client_action.js:307
 #, python-format
 msgid "Create %s"
@@ -1325,7 +1331,7 @@ msgid "Created by"
 msgstr "Δημιουργήθηκε από"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/activity.xml:41
 #: model:ir.model.fields,field_description:mail.field_email_template_preview_create_date
 #: model:ir.model.fields,field_description:mail.field_mail_activity_create_date
@@ -1499,8 +1505,8 @@ msgid "Delete sent emails (mass mailing only)"
 msgstr "Διαγραφή απεσταλμένων emails (μόνο από μαζική αποστολή)"
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/xml/thread.xml:320
+#. openerp-web
+#: code:addons/mail/static/src/xml/thread.xml:325
 #, python-format
 msgid "Delete this attachment"
 msgstr "Διαγραφή συνημμένου"
@@ -1530,14 +1536,14 @@ msgstr ""
 "Εάν είναι κενό, θα προστεθεί το όνομα αντί αυτού."
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:46
 #, python-format
 msgid "Direct Messages"
 msgstr "Άμεσα Μηνύματα"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/activity.xml:81
 #: model:ir.ui.view,arch_db:mail.email_template_preview_form
 #: model:ir.ui.view,arch_db:mail.mail_activity_view_form_popup
@@ -1622,31 +1628,31 @@ msgid "Document Name"
 msgstr "Όνομα Εγγράφου"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/activity.xml:79
 #, python-format
 msgid "Done"
 msgstr "Ολοκληρωμένο"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/activity.xml:77
 #, python-format
 msgid "Done & Schedule Next"
 msgstr "Ολοκλήρωση & Προγραμματισμός Επόμενου"
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/xml/thread.xml:296
+#. openerp-web
+#: code:addons/mail/static/src/xml/thread.xml:301
 #, python-format
 msgid "Download this PDF"
 msgstr "Λήψη του PDF"
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/xml/thread.xml:272
-#: code:addons/mail/static/src/xml/thread.xml:285
-#: code:addons/mail/static/src/xml/thread.xml:308
+#. openerp-web
+#: code:addons/mail/static/src/xml/thread.xml:277
+#: code:addons/mail/static/src/xml/thread.xml:290
+#: code:addons/mail/static/src/xml/thread.xml:313
 #, python-format
 msgid "Download this attachment"
 msgstr "Λήψη του συνημμένου"
@@ -1657,8 +1663,8 @@ msgid "Due Date"
 msgstr "Ημερ. Λήξης"
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/js/activity.js:38
+#. openerp-web
+#: code:addons/mail/static/src/js/activity.js:95
 #, python-format
 msgid "Due in %d days"
 msgstr "Λήξη σε %d ημέρα/ες"
@@ -1669,21 +1675,21 @@ msgid "Dynamic Placeholder Generator"
 msgstr "Δυναμική Γεννήτρια Κράτησης Θέσης"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/activity.xml:62
 #, python-format
 msgid "Edit"
 msgstr "Επεξεργασία"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/js/followers.js:330
 #, python-format
 msgid "Edit Subscription of "
 msgstr "Επεξεργασία συνδρομής από "
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/followers.xml:49
 #, python-format
 msgid "Edit subscription"
@@ -1807,7 +1813,7 @@ msgid "Error during communication with the publisher warranty server."
 msgstr "Σφάλμα κατά την επικοινωνία με το διακομιστή εξουσιοδότησης εκδότη."
 
 #. module: mail
-#: code:addons/mail/models/mail_mail.py:302
+#: code:addons/mail/models/mail_mail.py:305
 #, python-format
 msgid ""
 "Error without exception. Probably due do sending an email without computed "
@@ -1893,8 +1899,8 @@ msgid "Favorited By"
 msgstr "Αγαπημένο από"
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/js/activity.js:209
+#. openerp-web
+#: code:addons/mail/static/src/js/activity.js:235
 #: model:ir.model.fields,field_description:mail.field_mail_activity_feedback
 #, python-format
 msgid "Feedback"
@@ -1907,7 +1913,7 @@ msgid "Field"
 msgstr "Πεδίο"
 
 #. module: mail
-#: code:addons/mail/models/ir_model.py:24
+#: code:addons/mail/models/ir_model.py:30
 #, python-format
 msgid "Field \"Mail Thread\" cannot be changed to \"False\"."
 msgstr "Το πεδίο \"Νήμα Email\" δεν μπορεί να αλλαχθεί σε \"Ψευδές\"."
@@ -1955,8 +1961,8 @@ msgid "Folded"
 msgstr "Διπλωμένα"
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/models/mail_thread.py:696
+#. openerp-web
+#: code:addons/mail/models/mail_thread.py:701
 #: code:addons/mail/static/src/xml/followers.xml:20
 #, python-format
 msgid "Follow"
@@ -2163,7 +2169,7 @@ msgid "Followers Form"
 msgstr "Ακόλουθοι από"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/chatter.xml:15
 #, python-format
 msgid "Followers of"
@@ -2175,7 +2181,7 @@ msgid "Followers only"
 msgstr "Μόνο ακόλουθοι"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/followers.xml:24
 #, python-format
 msgid "Following"
@@ -2198,7 +2204,7 @@ msgid "From"
 msgstr "Από"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/systray.xml:77
 #, python-format
 msgid "Future"
@@ -2216,7 +2222,7 @@ msgid "Gateway"
 msgstr "Δικτυακή πύλη (Gateway)"
 
 #. module: mail
-#: code:addons/mail/models/res_users.py:54
+#: code:addons/mail/models/res_users.py:55
 #, python-format
 msgid "Go to the configuration panel"
 msgstr "Μετάβαση στον πίνακα ελέγχου"
@@ -2245,8 +2251,8 @@ msgstr "Χειρισμός από Emails"
 
 #. module: mail
 #: selection:res.users,notification_type:0
-msgid "Handle in Odoo"
-msgstr "Χειρισμός από Odoo"
+msgid "Handle in Flectra"
+msgstr "Χειρισμός από Flectra"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.view_message_search
@@ -2263,6 +2269,12 @@ msgstr "Έχει συνημμένα"
 #: model:ir.ui.view,arch_db:mail.view_mail_form
 msgid "Headers"
 msgstr "Κεφαλίδες"
+
+#. module: mail
+#: code:addons/mail/wizard/invite.py:35
+#, python-format
+msgid "Hello,"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_message_subtype_hidden
@@ -2325,7 +2337,7 @@ msgid "Id of the followed resource"
 msgstr "Αναγνωριστικό του ακολουθούμενου πόρου."
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:119
 #: code:addons/mail/static/src/xml/client_action.xml:203
 #, python-format
@@ -2515,11 +2527,11 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,help:mail.field_res_config_settings_alias_domain
 msgid ""
-"If you have setup a catch-all email domain redirected to the Odoo server, "
+"If you have setup a catch-all email domain redirected to the Flectra server, "
 "enter the domain name here."
 msgstr ""
 "Εάν έχετε ρυθμίσει στον τομέα (domain) ένα 'catch-all' email, να "
-"ανακατευθύνεται σε διακομιστή Odoo , πληκτρολογήστε το όνομα τομέα εδώ."
+"ανακατευθύνεται σε διακομιστή Flectra , πληκτρολογήστε το όνομα τομέα εδώ."
 
 #. module: mail
 #: code:addons/mail/models/mail_alias.py:141
@@ -2528,8 +2540,8 @@ msgid "Inactive Alias"
 msgstr "Ανενεργό Ψευδώνυμο"
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/js/chat_manager.js:655
+#. openerp-web
+#: code:addons/mail/static/src/js/chat_manager.js:664
 #: code:addons/mail/static/src/xml/client_action.xml:22
 #: code:addons/mail/static/src/xml/client_action.xml:154
 #: code:addons/mail/static/src/xml/client_action.xml:164
@@ -2567,7 +2579,7 @@ msgstr ""
 "στο λεξικό ορισμών της python π.χ. \"{'field': 'value'}\""
 
 #. module: mail
-#: code:addons/mail/models/mail_thread.py:1792
+#: code:addons/mail/models/mail_thread.py:1807
 #, python-format
 msgid ""
 "Invalid record set: should be called as model (without records) or on "
@@ -2583,8 +2595,8 @@ msgid "Invalid token in route %s"
 msgstr "Μη έγκυρο διακριτικό στη διαδρομή %s"
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/js/chat_manager.js:579
+#. openerp-web
+#: code:addons/mail/static/src/js/chat_manager.js:588
 #, python-format
 msgid "Invitation"
 msgstr "Πρόσκληση"
@@ -2596,7 +2608,7 @@ msgid "Invitation to follow %s: %s"
 msgstr "Πρόσκληση για να ακολουθήσετε: %s: %s"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/js/client_action.js:44
 #: code:addons/mail/static/src/xml/client_action.xml:133
 #, python-format
@@ -2604,14 +2616,14 @@ msgid "Invite"
 msgstr "Προσκαλέστε"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/js/followers.js:170
 #, python-format
 msgid "Invite Follower"
 msgstr "Πρόσκληση Ακόλουθου"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/js/client_action.js:31
 #: code:addons/mail/static/src/xml/client_action.xml:133
 #, python-format
@@ -2619,8 +2631,8 @@ msgid "Invite people"
 msgstr "Πρόσκληση ατόμων"
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/js/client_action.js:867
+#. openerp-web
+#: code:addons/mail/static/src/js/client_action.js:870
 #, python-format
 msgid "Invite people to #%s"
 msgstr "Πρόσκληση ατόμων στο #%s"
@@ -2879,7 +2891,7 @@ msgid "Last Updated on"
 msgstr "Τελευταία Ενημέρωση στις"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/systray.xml:73
 #, python-format
 msgid "Late"
@@ -2897,8 +2909,8 @@ msgid "Leave"
 msgstr "Άδεια"
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/models/mail_channel.py:687
+#. openerp-web
+#: code:addons/mail/models/mail_channel.py:695
 #: code:addons/mail/static/src/xml/client_action.xml:112
 #, python-format
 msgid "Leave this channel"
@@ -2919,7 +2931,7 @@ msgstr ""
 "Λίστα των συνεργατών που θα προστεθούν ως ακόλουθοι του τρέχοντος εγγράφου."
 
 #. module: mail
-#: code:addons/mail/models/mail_channel.py:698
+#: code:addons/mail/models/mail_channel.py:706
 #, python-format
 msgid "List users in the current channel"
 msgstr "Λίστα χρηστών στο τρέχον κανάλι"
@@ -2945,7 +2957,7 @@ msgid "Livechat Conversation"
 msgstr "Ζωντανή Συνομιλία"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/js/chatter_composer.js:31
 #: model:ir.ui.view,arch_db:mail.email_compose_message_wizard_form
 #, python-format
@@ -2953,7 +2965,7 @@ msgid "Log"
 msgstr "Καταγραφή"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/chatter.xml:56
 #, python-format
 msgid "Log a note. Followers will not be notified."
@@ -2976,14 +2988,14 @@ msgid "Log an Internal Note"
 msgstr "Καταγραφή ενός Εσωτερικού Σημειώματος"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/chatter.xml:56
 #, python-format
 msgid "Log note"
 msgstr "Σημείωμα"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/chatter.xml:59
 #, python-format
 msgid "Log or schedule an activity"
@@ -3003,7 +3015,7 @@ msgid "Mail Channel Form"
 msgstr "Φόρμα Καναλιού email"
 
 #. module: mail
-#: code:addons/mail/models/mail_mail.py:369
+#: code:addons/mail/models/mail_mail.py:372
 #, python-format
 msgid "Mail Delivery Failed"
 msgstr "Παράδοση mail απέτυχε"
@@ -3034,7 +3046,7 @@ msgid "Mail: Email Queue Manager"
 msgstr "Mail: Διαχειριστής Ουράς Email"
 
 #. module: mail
-#: code:addons/mail/models/mail_thread.py:832
+#: code:addons/mail/models/mail_thread.py:837
 #, python-format
 msgid "Mailbox unavailable - %s"
 msgstr "Το γραμματοκιβώτιο δεν είναι διαθέσιμο - %s"
@@ -3045,21 +3057,21 @@ msgid "Mailing Opt-Out"
 msgstr "Εξαίρεση emailling"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/activity.xml:59
 #, python-format
 msgid "Mark Done"
 msgstr "Σήμανση ως Ολοκληρωμένο"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:134
 #, python-format
 msgid "Mark all as read"
 msgstr "Σήμανση όλων ως αναγνωσμένα"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:134
 #, python-format
 msgid "Mark all read"
@@ -3071,22 +3083,22 @@ msgid "Mark as Done"
 msgstr "Σήμανση ως Ολοκληρωμένο"
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/xml/thread.xml:206
+#. openerp-web
+#: code:addons/mail/static/src/xml/thread.xml:211
 #, python-format
 msgid "Mark as Read"
 msgstr "Σήμανση ως Αναγνωσμένο"
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/xml/thread.xml:153
-#: code:addons/mail/static/src/xml/thread.xml:200
+#. openerp-web
+#: code:addons/mail/static/src/xml/thread.xml:158
+#: code:addons/mail/static/src/xml/thread.xml:205
 #, python-format
 msgid "Mark as Todo"
 msgstr "Σήμανση ως Εκκρεμότητα"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/web_kanban_activity.xml:49
 #, python-format
 msgid "Mark as done"
@@ -3172,7 +3184,7 @@ msgid "Message references, such as identifiers of previous messages"
 msgstr "Μήνυμα αναφορών, όπως αναγνωριστικά προηγούμενων μηνυμάτων"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:124
 #, python-format
 msgid "Message sent in \""
@@ -3309,7 +3321,7 @@ msgid "Messages Search"
 msgstr "Αναζήτηση μηνυμάτων"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/js/tour.js:20
 #, python-format
 msgid "Messages can be <b>starred</b> to remind you to check back later."
@@ -3416,14 +3428,14 @@ msgid "Needaction Recipient"
 msgstr "Χρειάζεται δράση παραλήπτη"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:138
 #, python-format
 msgid "New Channel"
 msgstr "Νέο Κανάλι"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:137
 #, python-format
 msgid "New Message"
@@ -3460,7 +3472,7 @@ msgid "New Value Text"
 msgstr "Νέα Τιμή Κειμένου"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/js/chat_manager.js:55
 #: code:addons/mail/static/src/js/window_manager.js:139
 #: code:addons/mail/static/src/xml/systray.xml:12
@@ -3470,21 +3482,21 @@ msgid "New message"
 msgstr "Νέο μήνυμα"
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/xml/thread.xml:233
+#. openerp-web
+#: code:addons/mail/static/src/xml/thread.xml:238
 #, python-format
 msgid "New messages"
 msgstr "Νέα μηνύματα"
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/xml/thread.xml:110
+#. openerp-web
+#: code:addons/mail/static/src/xml/thread.xml:115
 #, python-format
 msgid "New messages appear here."
 msgstr "Τα νέα μηνύματα θα εμφανίζονται εδώ."
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/js/client_action.js:97
 #, python-format
 msgid "New people"
@@ -3573,7 +3585,7 @@ msgid "Next activities available"
 msgstr "Επόμενες διαθέσιμες δραστηριότητες"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/systray.xml:58
 #: code:addons/mail/static/src/xml/web_kanban_activity.xml:22
 #, python-format
@@ -3581,28 +3593,28 @@ msgid "No activities planned."
 msgstr "Δεν έχουν προγραμματιστεί δραστηριότητες."
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/systray.xml:47
 #, python-format
 msgid "No discussion yet..."
 msgstr "Καμία συζήτηση ακόμη..."
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/js/followers.js:185
 #, python-format
 msgid "No follower"
 msgstr "Χωρίς ακόλουθο"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/thread.xml:16
 #, python-format
 msgid "No matches found"
 msgstr "Δεν βρέθηκαν αντιστοιχίες"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/thread.xml:17
 #, python-format
 msgid "No message matches your search. Try to change your search filters."
@@ -3611,8 +3623,8 @@ msgstr ""
 " φίλτρα αναζήτησης."
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/xml/thread.xml:113
+#. openerp-web
+#: code:addons/mail/static/src/xml/thread.xml:118
 #, python-format
 msgid "No starred message"
 msgstr "Δεν υπάρχουν μηνύματα με αστέρι"
@@ -3632,8 +3644,8 @@ msgid "Note"
 msgstr "Σημείωση"
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/xml/thread.xml:157
+#. openerp-web
+#: code:addons/mail/static/src/xml/thread.xml:162
 #, python-format
 msgid "Note by"
 msgstr "Σημείωση από"
@@ -3871,36 +3883,36 @@ msgstr "Πλήθος μη αναγνωσμένων μηνυμάτων"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.message_user_assigned
-msgid "Odoo"
-msgstr "Odoo"
+msgid "Flectra"
+msgstr "Flectra"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
+#: code:addons/mail/static/src/js/client_action.js:898
+#, python-format
+msgid ""
+"Flectra has now the permission to send you native notifications on this device."
+msgstr "Η Flectra έχει την άδεια να στείλει ειδοποιήσεις σε αυτήν τη συσκευή."
+
+#. module: mail
+#. openerp-web
+#: code:addons/mail/static/src/xml/client_action.xml:11
+#, python-format
+msgid "Flectra needs your permission to"
+msgstr "Το Flectra χρειάζεται την άδεια σας για"
+
+#. module: mail
+#. openerp-web
 #: code:addons/mail/static/src/js/client_action.js:895
 #, python-format
 msgid ""
-"Odoo has now the permission to send you native notifications on this device."
-msgstr "Η Odoo έχει την άδεια να στείλει ειδοποιήσεις σε αυτήν τη συσκευή."
-
-#. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/xml/client_action.xml:11
-#, python-format
-msgid "Odoo needs your permission to"
-msgstr "Το Odoo χρειάζεται την άδεια σας για"
-
-#. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/js/client_action.js:892
-#, python-format
-msgid ""
-"Odoo will not have the permission to send native notifications on this "
+"Flectra will not have the permission to send native notifications on this "
 "device."
 msgstr ""
-"Το Odoo δεν θα έχει την άδεια να στείλει ειδοποιήσεις σε αυτήν τη συσκευή."
+"Το Flectra δεν θα έχει την άδεια να στείλει ειδοποιήσεις σε αυτήν τη συσκευή."
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:120
 #, python-format
 msgid "Offline"
@@ -3942,7 +3954,7 @@ msgid "On Change"
 msgstr "Σε Αλλαγή"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/js/tour.js:24
 #, python-format
 msgid ""
@@ -3953,14 +3965,14 @@ msgstr ""
 "αναθεωρήσετε ανά πάσα στιγμή εδώ."
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/js/followers.js:187
 #, python-format
 msgid "One follower"
 msgstr "Ένας ακόλουθος"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:118
 #: code:addons/mail/static/src/xml/client_action.xml:202
 #, python-format
@@ -3968,7 +3980,7 @@ msgid "Online"
 msgstr "Online"
 
 #. module: mail
-#: code:addons/mail/models/ir_model.py:22
+#: code:addons/mail/models/ir_model.py:28
 #, python-format
 msgid "Only custom models can be modified."
 msgstr "Μόνο τα προσαρμοσμένα μοντέλα μπορούν να τροποποιηθούν."
@@ -3989,21 +4001,21 @@ msgid "Open Parent Document"
 msgstr "Άνοιγμα Γονικού Εγγράφου"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:139
 #, python-format
 msgid "Open channel settings"
 msgstr "Άνοιγμα Ρυθμίσεων Καναλιού"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:187
 #, python-format
 msgid "Open chat"
 msgstr "Άνοιγμα Chat"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/extended_chat_window.xml:15
 #, python-format
 msgid "Open in Discuss"
@@ -4218,15 +4230,15 @@ msgstr ""
 "εξοικονομήσετε χώρο"
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/js/client_action.js:891
+#. openerp-web
+#: code:addons/mail/static/src/js/client_action.js:894
 #, python-format
 msgid "Permission denied"
 msgstr "Απαγορεύεται η πρόσβαση"
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/js/client_action.js:894
+#. openerp-web
+#: code:addons/mail/static/src/js/client_action.js:897
 #, python-format
 msgid "Permission granted"
 msgstr "Επιτρέπεται η πρόσβαση"
@@ -4264,36 +4276,36 @@ msgid "Planned"
 msgstr "Προγραμματισμένη"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/activity.xml:6
 #, python-format
 msgid "Planned activities"
 msgstr "Προγραμματισμένες δραστηριότητες"
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/xml/thread.xml:282
+#. openerp-web
+#: code:addons/mail/static/src/xml/thread.xml:287
 #, python-format
 msgid "Play this video"
 msgstr "Αναπαραγωγή του βίντεο"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/js/chatter_composer.js:158
 #, python-format
 msgid "Please complete customer's informations"
 msgstr "Παρακαλώ συμπληρώστε τις πληροφορίες του πελάτη"
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/js/many2many_tags_email.js:84
+#. openerp-web
+#: code:addons/mail/static/src/js/many2many_tags_email.js:96
 #, python-format
 msgid "Please complete customer's informations and email"
 msgstr "Παρακαλώ συμπληρώστε τις πληροφορίες του πελάτη και το email"
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/js/composer.js:651
+#. openerp-web
+#: code:addons/mail/static/src/js/composer.js:667
 #, python-format
 msgid "Please, wait while the file is uploading."
 msgstr "Παρακαλώ περιμένετε όσο το αρχείο αποστέλεται"
@@ -4303,11 +4315,11 @@ msgstr "Παρακαλώ περιμένετε όσο το αρχείο αποσ�
 msgid ""
 "Policy on how to handle Chatter notifications:\n"
 "- Emails: notifications are sent to your email\n"
-"- Odoo: notifications appear in your Odoo Inbox"
+"- Flectra: notifications appear in your Flectra Inbox"
 msgstr ""
 "Πολιτική σχετικά με τον τρόπο διαχείρισης των μηνυμάτων ειδοποιήσεων: \n"
 "- Emails: οι ειδοποιήσεις αποστέλλονται στο email σας\n"
-"- Odoo: oι ειδοποιήσεις εμφανίζονται στα εισερχόμενα του Odoo"
+"- Flectra: oι ειδοποιήσεις εμφανίζονται στα εισερχόμενα του Flectra"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias_alias_contact
@@ -4371,7 +4383,7 @@ msgid "Privacy"
 msgstr "Μυστικότητα"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:56
 #: code:addons/mail/static/src/xml/client_action.xml:176
 #, python-format
@@ -4379,8 +4391,8 @@ msgid "Private Channels"
 msgstr "Ιδιωτικά κανάλια"
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/js/client_action.js:848
+#. openerp-web
+#: code:addons/mail/static/src/js/client_action.js:851
 #, python-format
 msgid "Public Channels"
 msgstr "Δημόσια Κανάλια"
@@ -4498,15 +4510,15 @@ msgstr ""
 "τα σχετικά έγγραφα"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/followers.xml:51
 #, python-format
 msgid "Remove this follower"
 msgstr "Αφαίρεση ακολούθου"
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/xml/thread.xml:203
+#. openerp-web
+#: code:addons/mail/static/src/xml/thread.xml:208
 #: model:ir.ui.view,arch_db:mail.view_mail_form
 #, python-format
 msgid "Reply"
@@ -4601,8 +4613,8 @@ msgid "Save as new template"
 msgstr "Αποθήκευση ως νέο πρότυπο"
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/js/chat_window.js:40
+#. openerp-web
+#: code:addons/mail/static/src/js/chat_window.js:41
 #, python-format
 msgid "Say something"
 msgstr "Πείτε κάτι"
@@ -4613,14 +4625,14 @@ msgid "Schedule"
 msgstr "Προγραμματισμός"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/chatter.xml:60
 #, python-format
 msgid "Schedule activity"
 msgstr "Δραστηριότητα"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/web_kanban_activity.xml:56
 #, python-format
 msgid "Schedule an activity"
@@ -4664,8 +4676,8 @@ msgid "Selected group of users"
 msgstr "Επιλεγμένη ομάδα χρηστών"
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/js/composer.js:374
+#. openerp-web
+#: code:addons/mail/static/src/js/composer.js:382
 #: model:ir.ui.view,arch_db:mail.email_compose_message_wizard_form
 #, python-format
 msgid "Send"
@@ -4689,14 +4701,14 @@ msgid "Send Now"
 msgstr "Αποστολή τώρα"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/chatter.xml:53
 #, python-format
 msgid "Send a message"
 msgstr "Αποστολή ενός μηνύματος"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/chatter.xml:53
 #, python-format
 msgid "Send message"
@@ -4719,14 +4731,14 @@ msgstr ""
 "email του συντάκτη αν ρυθμιστεί, ή η διεύθυνση email."
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/js/thread_field.js:83
 #, python-format
 msgid "Sending Error"
 msgstr "Σφάλμα Αποστολής"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:108
 #, python-format
 msgid "Sends messages by email"
@@ -4750,7 +4762,7 @@ msgid "Sequence"
 msgstr "Ακολουθία"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:139
 #, python-format
 msgid "Settings"
@@ -4781,7 +4793,7 @@ msgstr ""
 "σήμερα"
 
 #. module: mail
-#: code:addons/mail/models/mail_channel.py:667
+#: code:addons/mail/models/mail_channel.py:675
 #, python-format
 msgid "Show an helper message"
 msgstr "Εμφάνιση βοηθητικού μηνύματος"
@@ -4848,8 +4860,8 @@ msgstr ""
 "άλλα μοντέλα."
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/js/chat_manager.js:661
+#. openerp-web
+#: code:addons/mail/static/src/js/chat_manager.js:670
 #: code:addons/mail/static/src/xml/client_action.xml:28
 #: code:addons/mail/static/src/xml/client_action.xml:156
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message_starred
@@ -4937,7 +4949,7 @@ msgid "Sub-model"
 msgstr "Υπο-μοντέλο"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/composer.xml:8
 #: model:ir.model.fields,field_description:mail.field_email_template_preview_subject
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message_subject
@@ -4962,8 +4974,8 @@ msgid "Subject..."
 msgstr "Θέμα..."
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/xml/thread.xml:216
+#. openerp-web
+#: code:addons/mail/static/src/xml/thread.xml:221
 #, python-format
 msgid "Subject:"
 msgstr "Θέμα:"
@@ -5042,11 +5054,11 @@ msgstr "Ο κώδικας HTML που αντικαθιστά τη συντόμε
 #: model:ir.model.fields,help:mail.field_mail_channel_alias_model_id
 #: model:ir.model.fields,help:mail.field_mail_test_alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (Flectra Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Το μοντέλο (Odoo Document Kind) στο οποίο αντιστοιχεί αυτό το ψευδώνυμο. "
+"Το μοντέλο (Flectra Document Kind) στο οποίο αντιστοιχεί αυτό το ψευδώνυμο. "
 "Κάθε εισερχόμενο email που δεν έχει απαντηθεί σε υπάρχουσα εγγραφή, θα "
 "προκαλέσει τη δημιουργία μίας νέας εγγραφής αυτού του μοντέλου (π.χ. Εργασία"
 " Έργου)"
@@ -5058,10 +5070,10 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_test_alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.flectra.com>"
 msgstr ""
 "Το όνομα του ψευδώνυμου email , π.χ. 'jobs', αν θέλετε να πάρετε emails για "
-"<jobs@example.odoo.com>"
+"<jobs@example.flectra.com>"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias_alias_user_id
@@ -5078,9 +5090,9 @@ msgstr ""
 "Διαφορετικά, θα χρησιμοποιήσει το λογαριασμό διαχειριστή, αν ο χρήστης δεν έχει βρεθεί στο σύστημα για τη συγκεκριμένη διεύθυνση."
 
 #. module: mail
-#: code:addons/mail/models/mail_activity.py:165
-#: code:addons/mail/models/mail_message.py:579
-#: code:addons/mail/models/mail_message.py:674
+#: code:addons/mail/models/mail_activity.py:175
+#: code:addons/mail/models/mail_message.py:598
+#: code:addons/mail/models/mail_message.py:698
 #, python-format
 msgid ""
 "The requested operation cannot be completed due to security restrictions. Please contact your system administrator.\n"
@@ -5156,7 +5168,7 @@ msgid "To (Partners)"
 msgstr "Προς (Συνεργάτες)"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/chatter.xml:14
 #: code:addons/mail/static/src/xml/extended_chat_window.xml:7
 #, python-format
@@ -5164,10 +5176,10 @@ msgid "To:"
 msgstr "Προς:"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: selection:account.invoice,activity_state:0
-#: code:addons/mail/static/src/js/activity.js:26
-#: code:addons/mail/static/src/js/thread.js:240
+#: code:addons/mail/static/src/js/activity.js:83
+#: code:addons/mail/static/src/js/thread.js:246
 #: code:addons/mail/static/src/xml/systray.xml:75
 #: selection:crm.lead,activity_state:0 selection:event.track,activity_state:0
 #: selection:hr.applicant,activity_state:0 selection:mail.activity,state:0
@@ -5201,8 +5213,8 @@ msgid "Todo"
 msgstr "Εκκρεμότητες"
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/js/activity.js:36
+#. openerp-web
+#: code:addons/mail/static/src/js/activity.js:93
 #, python-format
 msgid "Tomorrow"
 msgstr "Αύριο"
@@ -5265,13 +5277,13 @@ msgid "UUID"
 msgstr "UUID"
 
 #. module: mail
-#: code:addons/mail/models/mail_mail.py:235
+#: code:addons/mail/models/mail_mail.py:238
 #, python-format
 msgid "Unable to connect to SMTP Server"
 msgstr "Δεν είναι δυνατή η σύνδεση με το διακομιστή SMTP"
 
 #. module: mail
-#: code:addons/mail/models/mail_message.py:31
+#: code:addons/mail/models/mail_message.py:32
 #, python-format
 msgid "Unable to send email, please configure the sender's email address."
 msgstr ""
@@ -5279,8 +5291,8 @@ msgstr ""
 "αποστολέα."
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/models/mail_thread.py:700
+#. openerp-web
+#: code:addons/mail/models/mail_thread.py:705
 #: code:addons/mail/static/src/xml/followers.xml:22
 #, python-format
 msgid "Unfollow"
@@ -5433,32 +5445,39 @@ msgid "Unread messages"
 msgstr "Μη αναγνωσμένα μηνύματα"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:135
 #, python-format
 msgid "Unstar all"
 msgstr "Αφαίρεση αστεριού από όλα"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:135
 #, python-format
 msgid "Unstar all messages"
 msgstr "Αφαίρεση αστεριού από όλα τα μηνύματα"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:136
 #, python-format
 msgid "Unsubscribe"
 msgstr "Κατάργηση εγγραφής"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:136
 #, python-format
 msgid "Unsubscribe from channel"
 msgstr "Κατάργηση εγγραφής από το κανάλι"
+
+#. module: mail
+#. openerp-web
+#: code:addons/mail/static/src/js/chat_manager.js:486
+#, python-format
+msgid "Unsubscribed"
+msgstr "Καταργημένες εγγραφές"
 
 #. module: mail
 #: code:addons/mail/models/mail_template.py:510
@@ -5467,15 +5486,15 @@ msgid "Unsupported report type %s found."
 msgstr "Βρέθηκε μη υποστηριζόμενος τύπος αναφοράς %s."
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/xml/thread.xml:322
+#. openerp-web
+#: code:addons/mail/static/src/xml/thread.xml:327
 #, python-format
 msgid "Uploading"
 msgstr "Αποστέλεται"
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/js/composer.js:651
+#. openerp-web
+#: code:addons/mail/static/src/js/composer.js:667
 #, python-format
 msgid "Uploading error"
 msgstr "Σφάλμα κατά την μεταφόρτωση"
@@ -5510,7 +5529,7 @@ msgid "User"
 msgstr "Χρήστης"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:51
 #: code:addons/mail/static/src/xml/extended_chat_window.xml:8
 #, python-format
@@ -5523,7 +5542,7 @@ msgid "Users"
 msgstr "Χρήστες"
 
 #. module: mail
-#: code:addons/mail/models/mail_channel.py:711
+#: code:addons/mail/models/mail_channel.py:719
 #, python-format
 msgid "Users in this channel: %s %s and you."
 msgstr "Χρήστες αυτού του καναλιού: %s %s και εσείς."
@@ -5533,29 +5552,29 @@ msgstr "Χρήστες αυτού του καναλιού: %s %s και εσεί
 msgid ""
 "Using your own email server is required to send/receive emails in Community "
 "and Enterprise versions. Online users already benefit from a ready-to-use "
-"email server (@mycompany.odoo.com)."
+"email server (@mycompany.flectra.com)."
 msgstr ""
 "Η χρήση του δικού σας διακομιστή ηλεκτρονικού ταχυδρομείου απαιτείται για "
 "την αποστολή / λήψη μηνυμάτων ηλεκτρονικού ταχυδρομείου στις εκδόσεις "
-"Community και Enterprise. Οι χρήστες του προϊόντος Odoo Online ήδη "
+"Community και Enterprise. Οι χρήστες του προϊόντος Flectra Online ήδη "
 "επωφελούνται από έναν έτοιμο προς χρήση διακομιστή ηλεκτρονικού ταχυδρομείου"
-" (@mycompany.odoo.com)."
+" (@mycompany.flectra.com)."
 
 #. module: mail
-#: code:addons/mail/models/mail_thread.py:670
+#: code:addons/mail/models/mail_thread.py:675
 #: model:ir.ui.view,arch_db:mail.message_user_assigned
 #, python-format
 msgid "View"
 msgstr "Προβολή"
 
 #. module: mail
-#: code:addons/mail/models/mail_thread.py:668
+#: code:addons/mail/models/mail_thread.py:673
 #, python-format
 msgid "View %s"
 msgstr "Προβολή %s"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/js/followers.js:240
 #, python-format
 msgid ""
@@ -5614,55 +5633,55 @@ msgid "Who can follow the group's activities?"
 msgstr "Ποιος μπορεί να ακολουθήσει τις δραστηριότητες της ομάδας;"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/activity.xml:75
 #, python-format
 msgid "Write Feedback"
 msgstr "Γράψτε ένα σχόλιο"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/composer.xml:12
 #, python-format
 msgid "Write something..."
 msgstr "Γράψτε κάτι..."
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/js/activity.js:30
-#: code:addons/mail/static/src/js/thread.js:242
+#. openerp-web
+#: code:addons/mail/static/src/js/activity.js:87
+#: code:addons/mail/static/src/js/thread.js:248
 #, python-format
 msgid "Yesterday"
 msgstr "Χθες"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/js/client_action.js:96
 #, python-format
 msgid "You added <b>%s</b> to the conversation."
 msgstr "Έχετε προστεθεί <b>%s</b> στη συνομιλία."
 
 #. module: mail
-#: code:addons/mail/models/mail_channel.py:708
+#: code:addons/mail/models/mail_channel.py:716
 #, python-format
 msgid "You are alone in this channel."
 msgstr "Είστε μόνος/η σε αυτό το κανάλι."
 
 #. module: mail
-#: code:addons/mail/models/mail_channel.py:677
+#: code:addons/mail/models/mail_channel.py:685
 #, python-format
 msgid "You are in a private conversation with <b>@%s</b>."
 msgstr "Είστε σε ιδιωτική συνομιλία με <b>@%s</b>."
 
 #. module: mail
-#: code:addons/mail/models/mail_channel.py:672
+#: code:addons/mail/models/mail_channel.py:680
 #, python-format
 msgid "You are in channel <b>#%s</b>."
 msgstr "Είστε στο κανάλι <b>#%s</b>."
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/xml/thread.xml:114
+#. openerp-web
+#: code:addons/mail/static/src/xml/thread.xml:119
 #, python-format
 msgid ""
 "You can mark any message as 'starred', and it shows up in this channel."
@@ -5671,7 +5690,7 @@ msgstr ""
 "αυτό το κανάλι."
 
 #. module: mail
-#: code:addons/mail/models/res_users.py:53
+#: code:addons/mail/models/res_users.py:54
 #, python-format
 msgid ""
 "You cannot create a new user from here.\n"
@@ -5691,7 +5710,7 @@ msgstr ""
 " απαιτείται από άλλες μονάδες."
 
 #. module: mail
-#: code:addons/mail/models/mail_thread.py:349
+#: code:addons/mail/models/mail_thread.py:354
 #, python-format
 msgid ""
 "You could also add a new %(document)s by sending an email to: "
@@ -5706,8 +5725,8 @@ msgid "You have been assigned to the"
 msgstr "Έχετε ανατεθεί στο"
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/js/chat_manager.js:579
+#. openerp-web
+#: code:addons/mail/static/src/js/chat_manager.js:588
 #, python-format
 msgid "You have been invited to: "
 msgstr "Έχετε προσκληθεί να:"
@@ -5723,28 +5742,28 @@ msgstr ""
 "τα μηνύματα ηλεκτρονικού ταχυδρομείου που δημιουργούνται από αυτό το πρότυπο"
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/js/chat_manager.js:473
+#. openerp-web
+#: code:addons/mail/static/src/js/chat_manager.js:482
 #, python-format
 msgid "You unpinned your conversation with <b>%s</b>."
 msgstr "Ξεκαρφιτσώσατε την συνομιλία σας με <b>%s</b>."
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/js/chat_manager.js:471
+#. openerp-web
+#: code:addons/mail/static/src/js/chat_manager.js:480
 #, python-format
 msgid "You unsubscribed from <b>%s</b>."
 msgstr "Έχετε καταργήσει την εγγραφή σας από <b>%s</b>."
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:217
 #, python-format
 msgid "You:"
 msgstr "Εσείς:"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/js/thread_field.js:83
 #, python-format
 msgid "Your message has not been sent."
@@ -5757,7 +5776,7 @@ msgid "Your template should define email_from"
 msgstr "Το πρότυπό σας θα πρέπει να καθορίσει το email_from"
 
 #. module: mail
-#: code:addons/mail/models/mail_thread.py:966
+#: code:addons/mail/models/mail_thread.py:971
 #, python-format
 msgid "alias %s: %s"
 msgstr "ψευδώνυμο %s: %s"
@@ -5778,7 +5797,7 @@ msgid "created"
 msgstr "δημιουργήθηκε"
 
 #. module: mail
-#: code:addons/mail/models/mail_thread.py:315
+#: code:addons/mail/models/mail_thread.py:320
 #, python-format
 msgid "document"
 msgstr "εγγραφή"
@@ -5798,21 +5817,21 @@ msgid "e.g. Discuss proposal"
 msgstr "π.χ. Συζήτηση για προσφορά"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:11
 #, python-format
 msgid "enable desktop notifications"
 msgstr "ενεργοποίηση των ειδοποιήσεων επιφάνειας εργασίας"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/js/followers.js:189
 #, python-format
 msgid "followers"
 msgstr "ακόλουθοι"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/activity.xml:30
 #, python-format
 msgid "for"
@@ -5843,7 +5862,7 @@ msgstr "λανθασμένη ρύθμιση ψευδώνυμου"
 #: code:addons/mail/models/mail_alias.py:278
 #, python-format
 msgid "incorrectly configured alias (unknown reference record)"
-msgstr ""
+msgstr "λάνθασμένη διαμόρφωση ψευδώνυμου (άγνωστη αναφορά εγγραφής)"
 
 #. module: mail
 #: model:ir.model,name:mail.model_ir_actions_server
@@ -5861,19 +5880,19 @@ msgid "mail.alias.mixin"
 msgstr "mail.alias.mixin"
 
 #. module: mail
-#: code:addons/mail/models/mail_thread.py:943
+#: code:addons/mail/models/mail_thread.py:948
 #, python-format
 msgid "model %s does not accept document creation"
 msgstr "το μοντέλο %s δεν δέχεται την δημιουργία εγγράφων"
 
 #. module: mail
-#: code:addons/mail/models/mail_thread.py:938
+#: code:addons/mail/models/mail_thread.py:943
 #, python-format
 msgid "model %s does not accept document update"
 msgstr "το μοντέλο %s δεν δέχεται την ενημέρωση εγγράφων"
 
 #. module: mail
-#: code:addons/mail/models/mail_thread.py:931
+#: code:addons/mail/models/mail_thread.py:936
 #, python-format
 msgid ""
 "model %s does not accept document update, fall back on document creation"
@@ -5888,26 +5907,26 @@ msgstr "τροποποιήθηκε"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.res_config_settings_view_form
-msgid "mycompany.odoo.com"
-msgstr "mycompany.odoo.com"
+msgid "mycompany.flectra.com"
+msgstr "mycompany.flectra.com"
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/js/thread.js:21
+#. openerp-web
+#: code:addons/mail/static/src/js/thread.js:22
 #, python-format
 msgid "now"
 msgstr "τώρα"
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/xml/thread.xml:177
+#. openerp-web
+#: code:addons/mail/static/src/xml/thread.xml:181
 #: model:ir.ui.view,arch_db:mail.view_mail_form
 #, python-format
 msgid "on"
 msgstr "στις"
 
 #. module: mail
-#: code:addons/mail/models/mail_thread.py:913
+#: code:addons/mail/models/mail_thread.py:918
 #, python-format
 msgid ""
 "posting a message without model should be with a null res_id (private "
@@ -5917,7 +5936,7 @@ msgstr ""
 "πεδίο res_id (ιδιωτικό μήνυμα), λήφθηκε %s"
 
 #. module: mail
-#: code:addons/mail/models/mail_thread.py:917
+#: code:addons/mail/models/mail_thread.py:922
 #, python-format
 msgid ""
 "posting a message without model should be with a parent_id (private message)"
@@ -5936,15 +5955,15 @@ msgid "rd"
 msgstr "rd"
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/js/thread.js:17
+#. openerp-web
+#: code:addons/mail/static/src/js/thread.js:18
 #, python-format
 msgid "read less"
 msgstr "διαβάστε λιγότερα"
 
 #. module: mail
-#. flectra-web
-#: code:addons/mail/static/src/js/thread.js:16
+#. openerp-web
+#: code:addons/mail/static/src/js/thread.js:17
 #, python-format
 msgid "read more"
 msgstr "διαβάστε περισσότερα"
@@ -5955,13 +5974,13 @@ msgid "record:"
 msgstr "εγγραφή:"
 
 #. module: mail
-#: code:addons/mail/models/mail_thread.py:935
+#: code:addons/mail/models/mail_thread.py:940
 #, python-format
 msgid "reply to missing document (%s,%s)"
 msgstr "απάντηση στο έγγραφο που λείπει (%s,%s)"
 
 #. module: mail
-#: code:addons/mail/models/mail_thread.py:928
+#: code:addons/mail/models/mail_thread.py:933
 #, python-format
 msgid "reply to missing document (%s,%s), fall back on new document creation"
 msgstr ""
@@ -5974,7 +5993,7 @@ msgid "res.config.settings"
 msgstr "res.config.settings"
 
 #. module: mail
-#: code:addons/mail/models/mail_thread.py:913
+#: code:addons/mail/models/mail_thread.py:918
 #, python-format
 msgid "resetting thread_id"
 msgstr "επαναφορά thread_id"
@@ -6003,30 +6022,30 @@ msgid "sales"
 msgstr "πωλήσεις"
 
 #. module: mail
-#: code:addons/mail/models/mail_thread.py:917
-#: code:addons/mail/models/mail_thread.py:935
-#: code:addons/mail/models/mail_thread.py:938
+#: code:addons/mail/models/mail_thread.py:922
+#: code:addons/mail/models/mail_thread.py:940
 #: code:addons/mail/models/mail_thread.py:943
-#: code:addons/mail/models/mail_thread.py:966
+#: code:addons/mail/models/mail_thread.py:948
+#: code:addons/mail/models/mail_thread.py:971
 #, python-format
 msgid "skipping"
 msgstr "παρακάμπτοντας"
 
 #. module: mail
-#. flectra-web
+#. openerp-web
 #: code:addons/mail/static/src/xml/chatter.xml:20
 #, python-format
 msgid "this document"
 msgstr "τρέχον έγγραφο"
 
 #. module: mail
-#: code:addons/mail/models/mail_thread.py:966
+#: code:addons/mail/models/mail_thread.py:971
 #, python-format
 msgid "unknown error"
 msgstr "άγνωστο σφάλμα"
 
 #. module: mail
-#: code:addons/mail/models/mail_thread.py:906
+#: code:addons/mail/models/mail_thread.py:911
 #, python-format
 msgid "unknown target model %s"
 msgstr "άγνωστο μοντέλο στόχου %s"

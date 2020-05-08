@@ -2,14 +2,13 @@
 
 {
     'name': 'Discuss',
-    'author' : 'Odoo S.A',
     'version': '1.0',
     'category': 'Discuss',
     'sequence': 25,
     'summary': 'Discussions, Mailing Lists, News',
     'description': "",
-    'website': 'https://flectrahq.com/page/enterprise-social-network',
-    'depends': ['base', 'base_setup', 'bus'],
+    'website': 'https://www.flectra.com/page/enterprise-social-network',
+    'depends': ['base', 'base_setup', 'bus', 'web_tour'],
     'data': [
         'wizard/invite_view.xml',
         'wizard/mail_compose_message_view.xml',
@@ -36,7 +35,6 @@
         'views/ir_actions_views.xml',
         'views/ir_model_views.xml',
         'views/res_partner_views.xml',
-        'wizard/mass_mail.xml',
     ],
     'demo': [
         'data/mail_demo.xml',
@@ -44,7 +42,6 @@
     ],
     'installable': True,
     'application': True,
-    'post_init_hook': 'post_init',
     'qweb': [
         'static/src/xml/activity.xml',
         'static/src/xml/client_action.xml',

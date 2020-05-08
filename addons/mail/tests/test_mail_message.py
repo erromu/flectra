@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo, Flectra. See LICENSE file for full copyright and licensing details.
+# Part of Flectra. See LICENSE file for full copyright and licensing details.
 import base64
 import itertools
 
@@ -57,7 +57,7 @@ class TestMailMessage(TestMail):
             'model': 'mail.test',
             'res_id': self.test_pigs.id
         })
-        self.assertIn('-openerp-%d-mail.test' % self.test_pigs.id, msg.message_id.split('@')[0], 'mail_message: message_id for a void message should be a "private" one')
+        self.assertIn('-flectra-%d-mail.test' % self.test_pigs.id, msg.message_id.split('@')[0], 'mail_message: message_id for a void message should be a "private" one')
         self.assertEqual(msg.reply_to, '"%s" <%s>' % (self.user_employee.name, self.user_employee.email))
         self.assertEqual(msg.email_from, '"%s" <%s>' % (self.user_employee.name, self.user_employee.email))
 
@@ -70,7 +70,7 @@ class TestMailMessage(TestMail):
             'model': 'mail.test',
             'res_id': self.test_pigs.id
         })
-        self.assertIn('-openerp-%d-mail.test' % self.test_pigs.id, msg.message_id.split('@')[0], 'mail_message: message_id for a void message should be a "private" one')
+        self.assertIn('-flectra-%d-mail.test' % self.test_pigs.id, msg.message_id.split('@')[0], 'mail_message: message_id for a void message should be a "private" one')
         self.assertEqual(msg.reply_to, '"%s %s" <%s@%s>' % (self.env.user.company_id.name, self.test_pigs.name, self.test_pigs.alias_name, alias_domain))
         self.assertEqual(msg.email_from, '"%s" <%s>' % (self.user_employee.name, self.user_employee.email))
 
@@ -298,7 +298,7 @@ class TestMailMessageAccess(TestMail):
         self.test_pigs.message_post(body='Hi!', subject='test')
         self.assertEqual(len(self.test_pigs.message_ids), msg_cnt + 1)
 
-    @mute_logger('openerp.addons.mail.models.mail_mail')
+    @mute_logger('flectra.addons.mail.models.mail_mail')
     def test_mark_all_as_read(self):
         self.user_employee.notification_type = 'inbox'
         emp_partner = self.user_employee.partner_id.sudo(self.user_employee.id)
@@ -338,7 +338,7 @@ class TestMailMessageAccess(TestMail):
         na_count = emp_partner.get_needaction_count()
         self.assertEqual(na_count, 0, "mark all read should conclude all needactions even inacessible ones")
 
-    @mute_logger('openerp.addons.mail.models.mail_mail')
+    @mute_logger('flectra.addons.mail.models.mail_mail')
     def test_mark_all_as_read_share(self):
         self.user_portal.notification_type = 'inbox'
         portal_partner = self.user_portal.partner_id.sudo(self.user_portal.id)

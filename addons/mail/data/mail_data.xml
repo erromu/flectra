@@ -156,6 +156,18 @@
     ${ctx['signature'] | safe}
 % endif
 <br/>
+<p style="color: #555555;">
+    Sent by
+    % if ctx.get('website_url'):
+    <a href="${ctx['website_url']}" style="text-decoration:none; color: #875A7B;">
+    % endif
+    ${ctx.get('company_name')}
+    % if ctx.get('website_url'):
+    </a>
+    % endif
+    using
+    <a target="_blank" href="https://www.flectrahq.com" style="text-decoration:none; color: #875A7B;">Flectra</a>.
+</p>
 </div>]]></field>
         </record>
 

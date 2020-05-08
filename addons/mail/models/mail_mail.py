@@ -148,8 +148,13 @@ class MailMail(models.Model):
                    ('scheduled_date', '=', False)]
         if 'filters' in self._context:
             filters.extend(self._context['filters'])
-        # TODO: make limit configurable
-        filtered_ids = self.search(filters, limit=10000).ids
+
+        try:
+            send_limit = int(self.env["ir.config_parameter"].sudo().get_param("mail.send.limit", default='10000'))
+        except ValueError:
+            send_limit = 10000
+
+        filtered_ids = self.search(filters, limit=send_limit).ids
         if not ids:
             ids = filtered_ids
         else:
@@ -276,7 +281,7 @@ class MailMail(models.Model):
             except Exception as exc:
                 if raise_exception:
                     # To be consistent and backward compatible with mail_mail.send() raised
-                    # exceptions, it is encapsulated into an Odoo MailDeliveryException
+                    # exceptions, it is encapsulated into an Flectra MailDeliveryException
                     raise MailDeliveryException(_('Unable to connect to SMTP Server'), exc)
                 else:
                     self.browse(batch_ids).write({'state': 'exception', 'failure_reason': exc})
@@ -399,7 +404,7 @@ class MailMail(models.Model):
                     mail_sent = True
 
                 # /!\ can't use mail.state here, as mail.refresh() will cause an error
-                # see revid:odo@openerp.com-20120622152536-42b2s28lvdv3odyr in 6.1
+                # see revid:odo@flectra.com-20120622152536-42b2s28lvdv3odyr in 6.1
                 if mail_sent:
                     _logger.info('Mail with ID %r and Message-Id %r successfully sent', mail.id, mail.message_id)
                 mail._postprocess_sent_message(mail_sent=mail_sent)
