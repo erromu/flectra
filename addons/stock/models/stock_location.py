@@ -25,13 +25,6 @@ class Location(models.Model):
             res['barcode'] = res['complete_name']
         return res
 
-    def _should_be_valued(self):
-        self.ensure_one()
-        if self.usage == 'internal' or (
-                        self.usage == 'transit' and self.company_id):
-            return True
-        return False
-
     name = fields.Char('Location Name', required=True, translate=True)
     complete_name = fields.Char("Full Location Name", compute='_compute_complete_name', store=True)
     active = fields.Boolean('Active', default=True, help="By unchecking the active field, you may hide a location without deleting it.")
@@ -235,7 +228,7 @@ class Route(models.Model):
     @api.onchange('warehouse_selectable')
     def _onchange_warehouse_selectable(self):
         if not self.warehouse_selectable:
-            self.warehouse_ids = []
+            self.warehouse_ids = [(5, 0, 0)]
 
     def write(self, values):
         '''when a route is deactivated, deactivate also its pull and push rules'''

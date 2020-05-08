@@ -40,7 +40,7 @@ class ProductionLot(models.Model):
     @api.multi
     def write(self, vals):
         if 'product_id' in vals:
-            move_lines = self.env['stock.move.line'].search([('lot_id', 'in', self.ids)])
+            move_lines = self.env['stock.move.line'].search([('lot_id', 'in', self.ids), ('product_id', '!=', vals['product_id'])])
             if move_lines:
                 raise UserError(_(
                     'You are not allowed to change the product linked to a serial or lot number ' +
@@ -54,17 +54,3 @@ class ProductionLot(models.Model):
         # We only care for the quants in internal or transit locations.
         quants = self.quant_ids.filtered(lambda q: q.location_id.usage in ['internal', 'transit'])
         self.product_qty = sum(quants.mapped('quantity'))
-
-    @api.multi
-    def action_traceability(self):
-        move_ids = self.mapped('quant_ids').mapped('history_ids').ids
-        if not move_ids:
-            return False
-        return {
-            'domain': [('id', 'in', move_ids)],
-            'name': _('Traceability'),
-            'view_mode': 'tree,form',
-            'view_type': 'form',
-            'context': {'tree_view_ref': 'stock.view_move_tree'},
-            'res_model': 'stock.move',
-            'type': 'ir.actions.act_window'}
