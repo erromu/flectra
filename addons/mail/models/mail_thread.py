@@ -912,7 +912,7 @@ class MailThread(models.AbstractModel):
         model, thread_id, alias = route[0], route[1], route[4]
         record_set = None
 
-        _generic_bounce_body_html = _("""<div>
+        _generic_bounce_body_html = """<div>
 <p>Hello,</p>
 <p>The following email sent to %s cannot be accepted because this is a private email address.
    Only allowed people can contact us at this address.</p>
@@ -1542,7 +1542,7 @@ class MailThread(models.AbstractModel):
             # Very unusual situation, be we should be fault-tolerant here
             message_id = "<%s@localhost>" % time.time()
             _logger.debug('Parsing Message without message-id, generating a random one: %s', message_id)
-        msg_dict['message_id'] = message_id
+        msg_dict['message_id'] = message_id.strip()
 
         if message.get('Subject'):
             msg_dict['subject'] = tools.decode_smtp_header(message.get('Subject'))
