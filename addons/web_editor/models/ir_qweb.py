@@ -9,6 +9,7 @@ Also, adds methods to convert values back to Flectra models.
 """
 
 import ast
+import babel
 import base64
 import io
 import itertools
