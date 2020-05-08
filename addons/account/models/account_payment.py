@@ -197,8 +197,6 @@ class account_register_payments(models.TransientModel):
         '''
         amount = self._compute_payment_amount(invoices) if self.multi else self.amount
         payment_type = ('inbound' if amount > 0 else 'outbound') if self.multi else self.payment_type
-        communication = (' '.join([inv.reference or inv.number for inv in invoices])
-                         if self.multi else self.communication)
         return {
             'journal_id': self.journal_id.id,
             'payment_method_id': self.payment_method_id.id,
