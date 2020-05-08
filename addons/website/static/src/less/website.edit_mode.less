@@ -21,8 +21,9 @@
 
 .o_editable {
     &:not(:empty), &[data-oe-type] {
-        &:not([data-oe-model="ir.ui.view"]):not([data-oe-type="html"]):hover {
-            box-shadow: @flectra-brand-primary 0 0 5px 2px inset;
+        &:not([data-oe-model="ir.ui.view"]):not([data-oe-type="html"]):hover,
+        &.o_editable_date_field_linked {
+            box-shadow: @odoo-brand-primary 0 0 5px 2px inset;
         }
     }
     &:focus, &[data-oe-type] {
