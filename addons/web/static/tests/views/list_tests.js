@@ -1496,7 +1496,7 @@ QUnit.module('Views', {
     });
 
     QUnit.test('list view, editable, without data', function (assert) {
-        assert.expect(11);
+        assert.expect(13);
 
         this.data.foo.records = [];
 
@@ -1546,11 +1546,15 @@ QUnit.module('Views', {
         assert.strictEqual(list.$('tbody tr:eq(0) td:eq(1)').text().trim(), "",
             "the date field td should not have any content");
 
+        assert.strictEqual(list.$('tr.o_selected_row .o_list_record_selector input').prop('disabled'), true,
+            "record selector checkbox should be disabled while the record is not yet created");
         assert.strictEqual(list.$('.o_list_button button').prop('disabled'), true,
             "buttons should be disabled while the record is not yet created");
 
         list.$buttons.find('.o_list_button_save').click();
 
+        assert.strictEqual(list.$('tbody tr:eq(0) .o_list_record_selector input').prop('disabled'), false,
+            "record selector checkbox should not be disabled once the record is created");
         assert.strictEqual(list.$('.o_list_button button').prop('disabled'), false,
             "buttons should not be disabled once the record is created");
 
@@ -3231,7 +3235,6 @@ QUnit.module('Views', {
                         "should write the right field as sequence");
                     assert.deepEqual(args.ids, [4, 2, 3],
                         "should write the sequence in correct order");
-                    return $.when();
                 }
                 return this._super.apply(this, arguments);
             },
@@ -3763,6 +3766,130 @@ QUnit.module('Views', {
         def.resolve();
         assert.strictEqual(list.$('.o_list_view .o_data_row').length, 4,
             "list view should still contain 4 records");
+
+        list.destroy();
+    });
+
+    QUnit.test("quickcreate in a many2one in a list", function (assert) {
+        assert.expect(2);
+
+        var list = createView({
+            arch: '<tree editable="top"><field name="m2o"/></tree>',
+            data: this.data,
+            model: 'foo',
+            View: ListView,
+        });
+
+        list.$('.o_data_row:first .o_data_cell:first').click();
+
+        var $input = list.$('.o_data_row:first .o_data_cell:first input');
+        $input.val("aaa");
+        $input.trigger('keyup');
+        $input.trigger('blur');
+        list.el.click();
+
+        assert.strictEqual(document.body.getElementsByClassName('modal').length, 1,
+            "the quick_create modal should appear");
+
+        $('.modal .btn-primary:first').click();
+        list.el.click();
+
+        assert.strictEqual(list.$('.o_data_row:first').text(), "aaa", "value should have been updated");
+        list.destroy();
+    });
+
+    QUnit.test('readonly boolean in editable list is readonly', function (assert) {
+        assert.expect(6);
+
+        var list = createView({
+            View: ListView,
+            model: 'foo',
+            data: this.data,
+            arch: '<tree editable="bottom">' +
+                      '<field name="foo"/>' +
+                      '<field name="bar" attrs="{\'readonly\': [(\'foo\', \'!=\', \'yop\')]}"/>' +
+                  '</tree>',
+        });
+
+        // clicking on disabled checkbox with active row does not work
+        var $disabledCell = list.$('.o_data_row:eq(1) .o_data_cell:last-child');
+        $disabledCell.prev().click();
+        assert.strictEqual($disabledCell.find(':disabled:checked').length, 1);
+        var $disabledLabel = $disabledCell.find('.custom-control-label');
+        $disabledLabel.click();
+        assert.strictEqual($disabledCell.find(':checked').length, 1,
+            "clicking disabled checkbox did not work"
+        );
+        assert.ok(
+            $(document.activeElement).is('input[type="text"]'),
+            "disabled checkbox is not focused after click"
+        );
+
+        // clicking on enabled checkbox with active row toggles check mark
+        var $enabledCell = list.$('.o_data_row:eq(0) .o_data_cell:last-child');
+        $enabledCell.prev().click();
+        assert.strictEqual($enabledCell.find(':checked:not(:disabled)').length, 1);
+        var $enabledLabel = $enabledCell.find('span');
+        $enabledLabel.click();
+        assert.strictEqual($enabledCell.find(':checked').length, 0,
+            "clicking enabled checkbox worked and unchecked it"
+        );
+        assert.ok(
+            $(document.activeElement).is('input[type="checkbox"]'),
+            "enabled checkbox is focused after click"
+        );
+
+        list.destroy();
+    });
+
+    QUnit.test('toggle group in list in dialog (with other list below)', function (assert) {
+        // In this test, two list controllers are nested (one of them is opened
+        // in a dialog). When the user toggles a group in the dialog, a custom
+        // event is triggered by the renderer. This event must be stopped by the
+        // list controller of the dialog, otherwise it would be handled by the
+        // other controller as well, and it will crash (unknown group).
+        assert.expect(7);
+
+        // add enough bar records to have the 'Search More' option in the many2one
+        for (var i = 0; i < 8; i++) {
+            var id = i + 10;
+            this.data.bar.records.push({id: id, display_name: 'Value ' + id});
+        }
+
+        var list = createView({
+            View: ListView,
+            model: 'foo',
+            data: this.data,
+            arch: '<list editable="top"><field name="m2o"/></list>',
+            archs: {
+                'bar,false,list': '<list><field name="display_name"/></list>',
+                'bar,false,search': '<search>' +
+                        '<filter string="ID" domain="[]" context="{\'group_by\': \'id\'}"/>' +
+                    '</search>',
+            },
+        });
+
+        // edit first row and click on Search More
+        list.$('.o_data_cell:first').click();
+        var $dropdown = list.$('.o_field_many2one input').autocomplete('widget');
+        list.$('.o_field_many2one input').click();
+        $dropdown.find('.o_m2o_dropdown_option:contains(Search More)').mouseenter().click();
+        assert.strictEqual($('.modal').length, 1);
+
+        // group list view in the dialog
+        $('.modal .o_group_by_menu li a:contains(ID)').click();
+        assert.strictEqual($('.modal .o_group_header').length, 11);
+        assert.strictEqual($('.modal .o_data_row').length, 0);
+
+        // unfold last group
+        $('.modal .o_group_header:last').click();
+        assert.strictEqual($('.modal .o_group_header').length, 11);
+        assert.strictEqual($('.modal .o_data_row').length, 1);
+
+        // select visible record
+        $('.o_data_row').click();
+        assert.strictEqual($('.modal').length, 0);
+        assert.strictEqual(list.$('.o_field_many2one input').val(), 'Value 17');
 
         list.destroy();
     });
