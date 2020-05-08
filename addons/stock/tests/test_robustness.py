@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo, Flectra. See LICENSE file for full copyright and licensing details.
 
-from flectra.exceptions import UserError
+from flectra.exceptions import UserError, ValidationError
 from flectra.tests.common import TransactionCase
 
 
