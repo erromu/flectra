@@ -27,7 +27,7 @@ class DefaultConfig(object):
     OPENERP_DEFAULT_USER_ID = 1
     OPENERP_DEFAULT_PASSWORD = 'admin'
     OPENERP_HOSTNAME = 'localhost'
-    OPENERP_PORT = 8069
+    OPENERP_PORT = 7073
     OPENERP_DEFAULT_DATABASE = 'flectra'
     MAIL_ERROR = 'error@example.com'
     MAIL_SERVER = 'smtp.example.com'
