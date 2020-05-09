@@ -61,7 +61,7 @@ class PosConfig(models.Model):
         return self.env['ir.qweb'].render('point_of_sale.customer_facing_display_html')
 
     name = fields.Char(string='Point of Sale Name', index=True, required=True, help="An internal identification of the point of sale.")
-    is_installed_account_accountant = fields.Boolean(compute="_compute_is_installed_account_accountant")
+
     journal_ids = fields.Many2many(
         'account.journal', 'pos_config_journal_rel',
         'pos_config_id', 'journal_id', string='Available Payment Methods',
