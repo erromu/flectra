@@ -1,6 +1,7 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
-# Part of Odoo, Flectra. See LICENSE file for full copyright and licensing details.
+# Part of Flectra, Flectra. See LICENSE file for full copyright and licensing details.
+
 
 import argparse
 import logging
@@ -454,9 +455,9 @@ class KVMWinBuildExe(KVM):
 class KVMWinTestExe(KVM):
     def run(self):
         logging.info('Start testing Windows package')
-        setup_path = glob("%s/flectra-server-setup-*.exe" % self.args.build_dir)[0]
+        setup_path = glob("%s/openerp-server-setup-*.exe" % self.args.build_dir)[0]
         setupfile = setup_path.split('/')[-1]
-        setupversion = setupfile.split('flectra-server-setup-')[1].split('.exe')[0]
+        setupversion = setupfile.split('openerp-server-setup-')[1].split('.exe')[0]
 
         self.rsync(['"%s"' % setup_path, '%s@127.0.0.1:' % self.login])
         self.ssh("TEMP=/tmp ./%s /S" % setupfile)
@@ -469,7 +470,7 @@ class KVMWinTestExe(KVM):
 
 def build_exe(args):
     KVMWinBuildExe(args).start()
-    shutil.copy(glob('%s/flectra*.exe' % args.build_dir)[0], '%s/flectra_%s.%s.exe' % (args.build_dir, VERSION, TSTAMP))
+    shutil.copy(glob('%s/openerp*.exe' % args.build_dir)[0], '%s/flectra_%s.%s.exe' % (args.build_dir, VERSION, TSTAMP))
 
 
 def test_exe(args):
