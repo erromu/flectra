@@ -404,7 +404,7 @@ class MailMail(models.Model):
                     mail_sent = True
 
                 # /!\ can't use mail.state here, as mail.refresh() will cause an error
-                # see revid:odo@flectra.com-20120622152536-42b2s28lvdv3odyr in 6.1
+                # see revid:odo@flectrahq.com-20120622152536-42b2s28lvdv3odyr in 6.1
                 if mail_sent:
                     _logger.info('Mail with ID %r and Message-Id %r successfully sent', mail.id, mail.message_id)
                 mail._postprocess_sent_message(mail_sent=mail_sent)

@@ -56,7 +56,7 @@
                                     <tr>
                                         <td>
                                             <a t-attf-href="/my/ticket/#{ticket.id}?{{ keep_query() }}">
-                                                <span t-raw="ticket.sequence"/>
+                                                <span t-raw="ticket.ticket_seq"/>
                                             </a>
                                         </td>
                                         <td>

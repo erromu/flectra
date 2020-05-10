@@ -111,7 +111,7 @@ msgid ""
 "    </a>\n"
 "    % endif\n"
 "    using\n"
-"    <a target=\"_blank\" href=\"https://www.flectra.com\" style=\"text-decoration:none; color: #875A7B;\">Flectra</a>.\n"
+"    <a target=\"_blank\" href=\"https://www.flectrahq.com\" style=\"text-decoration:none; color: #875A7B;\">Flectra</a>.\n"
 "</p>\n"
 "</div>"
 msgstr ""
@@ -198,7 +198,7 @@ msgstr ""
 "    </a>\n"
 "    % endif\n"
 "    med\n"
-"    <a target=\"_blank\" href=\"https://www.flectra.com\" style=\"text-decoration:none; color: #875A7B;\">Flectra</a>.\n"
+"    <a target=\"_blank\" href=\"https://www.flectrahq.com\" style=\"text-decoration:none; color: #875A7B;\">Flectra</a>.\n"
 "</p>\n"
 "</div>"
 
@@ -4911,7 +4911,7 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_test_alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.flectra.com>"
+"<jobs@example.flectrahq.com>"
 msgstr ""
 
 #. module: mail
@@ -5378,7 +5378,7 @@ msgstr "Brukere i denne kanalen: %s %s og deg."
 msgid ""
 "Using your own email server is required to send/receive emails in Community "
 "and Enterprise versions. Online users already benefit from a ready-to-use "
-"email server (@mycompany.flectra.com)."
+"email server (@mycompany.flectrahq.com)."
 msgstr ""
 
 #. module: mail
@@ -5714,8 +5714,8 @@ msgstr "endret"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.res_config_settings_view_form
-msgid "mycompany.flectra.com"
-msgstr "mittfirma.flectra.com"
+msgid "mycompany.flectrahq.com"
+msgstr "mittfirma.flectrahq.com"
 
 #. module: mail
 #. openerp-web

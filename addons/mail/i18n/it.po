@@ -8,7 +8,7 @@
 # Manuela Feliciani <mfeliciani@alice.it>, 2018
 # Luigi Di Naro <gigidn@gmail.com>, 2018
 # David Minneci <david@numeko.it>, 2018
-# Cécile Collart <cco@flectra.com>, 2018
+# Cécile Collart <cco@flectrahq.com>, 2018
 # Lorenzo Battistini <lb@takobi.online>, 2018
 # Massimo Bianchi <bianchi.massimo@gmail.com>, 2018
 # p_amoruso <p.amoruso@elvenstudio.it>, 2018
@@ -22,10 +22,10 @@
 # Giovanni Perteghella <giovanni@perteghella.org>, 2018
 # Simone Bernini <simone@aperturelabs.it>, 2018
 # Marco Calcagni <mcalcagni@dinamicheaziendali.it>, 2018
-# efraimbiffi <eab@flectra.com>, 2018
+# efraimbiffi <eab@flectrahq.com>, 2018
 # Paolo Valier, 2018
 # Davide Corio <enlightx@gmail.com>, 2019
-# Léonie Bouchat <lbo@flectra.com>, 2019
+# Léonie Bouchat <lbo@flectrahq.com>, 2019
 # Sergio Zanchetta <primes2h@gmail.com>, 2019
 # 
 msgid ""
@@ -128,7 +128,7 @@ msgid ""
 "    </a>\n"
 "    % endif\n"
 "    using\n"
-"    <a target=\"_blank\" href=\"https://www.flectra.com\" style=\"text-decoration:none; color: #875A7B;\">Flectra</a>.\n"
+"    <a target=\"_blank\" href=\"https://www.flectrahq.com\" style=\"text-decoration:none; color: #875A7B;\">Flectra</a>.\n"
 "</p>\n"
 "</div>"
 msgstr ""
@@ -4976,10 +4976,10 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_test_alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.flectra.com>"
+"<jobs@example.flectrahq.com>"
 msgstr ""
 "Il nome dell’alias email, ad es. “lavori” se vuoi prendere e-mail per "
-"<jobs@example.flectra.com>"
+"<jobs@example.flectrahq.com>"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias_alias_user_id
@@ -5459,11 +5459,11 @@ msgstr "Utenti in questo canale: %s %s e tu."
 msgid ""
 "Using your own email server is required to send/receive emails in Community "
 "and Enterprise versions. Online users already benefit from a ready-to-use "
-"email server (@mycompany.flectra.com)."
+"email server (@mycompany.flectrahq.com)."
 msgstr ""
 "Devi usare il proprio server di posta elettronica per inviare o ricevere "
 "email nelle versioni Comunità e Impresa. Gli utenti online godono già di un "
-"server di posta elettronica pronti per l'uso (@mycompany.flectra.com)."
+"server di posta elettronica pronti per l'uso (@mycompany.flectrahq.com)."
 
 #. module: mail
 #: code:addons/mail/models/mail_thread.py:675
@@ -5810,8 +5810,8 @@ msgstr "modificato"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.res_config_settings_view_form
-msgid "mycompany.flectra.com"
-msgstr "miaazienda.flectra.com"
+msgid "mycompany.flectrahq.com"
+msgstr "miaazienda.flectrahq.com"
 
 #. module: mail
 #. openerp-web

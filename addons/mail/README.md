@@ -2,7 +2,7 @@ Flectra Enterprise Social Network
 ------------------------------
 
 Connect with experts, follow what interests you, share documents and promote
-best practices with Flectra <a href="https://www.flectra.com/page/enterprise-social-network">Enterprise Social Network</a>. Get work done with
+best practices with Flectra <a href="https://www.flectrahq.com/page/enterprise-social-network">Enterprise Social Network</a>. Get work done with
 effective collaboration across departments, geographies, documents and business
 applications. All of this while decreasing email overload.
 
