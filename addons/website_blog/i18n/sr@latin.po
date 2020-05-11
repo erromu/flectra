@@ -3,18 +3,19 @@
 # * website_blog
 # 
 # Translators:
-# Djordje Marjanovic <djordje_m@yahoo.com>, 2017
 # Ljubisa Jovev <ljubisa.jovev@gmail.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
 # Nemanja Dragovic <nemanjadragovic94@gmail.com>, 2017
+# Djordje Marjanovic <djordje_m@yahoo.com>, 2017
+# Martin Trigaux, 2017
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-24 09:00+0000\n"
-"PO-Revision-Date: 2017-10-24 09:00+0000\n"
-"Last-Translator: Nemanja Dragovic <nemanjadragovic94@gmail.com>, 2017\n"
-"Language-Team: Serbian (Latin) (https://www.transifex.com/odoo/teams/41243/sr%40latin/)\n"
+"POT-Creation-Date: 2019-01-03 15:07+0000\n"
+"PO-Revision-Date: 2017-09-20 10:25+0000\n"
+"Last-Translator: Martin Trigaux, 2017\n"
+"Language-Team: Serbian (Latin) (https://www.transifex.com/odoo/teams/41243/sr@latin/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -87,21 +88,21 @@ msgid ""
 msgstr ""
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:53
 #, python-format
 msgid "<b>Click on Save</b> to record your changes."
 msgstr ""
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:69
 #, python-format
 msgid "<b>Publish your blog post</b> to make it visible to your visitors."
 msgstr ""
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:73
 #, python-format
 msgid ""
@@ -110,13 +111,18 @@ msgid ""
 msgstr ""
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:44
 #, python-format
 msgid ""
 "<b>Write your story here.</b> Use the top toolbar to style your text: add an"
 " image or table, set bold or italic, etc. Drag and drop building blocks for "
 "more graphical blogs."
+msgstr ""
+
+#. module: website_blog
+#: model:ir.ui.view,arch_db:website_blog.latest_blogs
+msgid "<span class=\"fa fa-exclamation-triangle ml8\" title=\"Unpublished\"/>"
 msgstr ""
 
 #. module: website_blog
@@ -294,7 +300,7 @@ msgid "Building your company's website and selling your products online easy."
 msgstr ""
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:29
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 #, python-format
@@ -302,14 +308,14 @@ msgid "Change Cover"
 msgstr ""
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:35
 #, python-format
 msgid "Choose an image from the library."
 msgstr ""
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:30
 #, python-format
 msgid "Click here to change your post cover."
@@ -322,7 +328,7 @@ msgid ""
 msgstr ""
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:40
 #, python-format
 msgid "Click on <b>Save</b> to set the picture as cover."
@@ -595,7 +601,7 @@ msgid "Narrow"
 msgstr ""
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website_blog.editor.js:37
 #: model:ir.ui.view,arch_db:website_blog.content_new_blogpost
 #, python-format
@@ -651,7 +657,7 @@ msgid "Odoo, email"
 msgstr ""
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:63
 #, python-format
 msgid "Once you have reviewed the content on mobile, close the preview."
@@ -752,14 +758,14 @@ msgid "Red"
 msgstr ""
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:15
 #, python-format
 msgid "Select this menu item to create a new blog post."
 msgstr ""
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:26
 #, python-format
 msgid "Set a blog post <b>cover</b>."
@@ -779,7 +785,7 @@ msgid ""
 msgstr ""
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/models/website_blog.py:123
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:52
 #, python-format
@@ -907,7 +913,7 @@ msgid "Untitled Post"
 msgstr ""
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:58
 #, python-format
 msgid "Use this icon to preview your blog post on <b>mobile devices</b>."
@@ -960,7 +966,7 @@ msgid ""
 msgstr ""
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:20
 #, python-format
 msgid "Write a title, the subtitle is optional."

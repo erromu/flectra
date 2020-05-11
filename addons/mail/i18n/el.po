@@ -1,4 +1,4 @@
-# Translation of Flectra Server.
+# Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * mail
 # 
@@ -13,12 +13,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Flectra Server 11.0\n"
+"Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-03 15:06+0000\n"
 "PO-Revision-Date: 2017-09-20 10:19+0000\n"
 "Last-Translator: Kostas Goutoudis <goutoudis@gmail.com>, 2018\n"
-"Language-Team: Greek (https://www.transifex.com/flectra/teams/41243/el/)\n"
+"Language-Team: Greek (https://www.transifex.com/odoo/teams/41243/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -46,25 +46,25 @@ msgid ""
 "<tbody><tr>\n"
 "    <td valign=\"center\">\n"
 "        % if ctx.get('has_button_access'):\n"
-"        <a href=\"${ctx['button_access']['url']}\" style=\"padding: 8px 12px; font-size: 12px; color: #FFFFFF; text-decoration: none !important; font-weight: 400; background-color: #875A7B; border: 0px solid #875A7B; border-radius:3px\">${ctx['button_access']['title']}</a>\n"
+"        <a href=\"${ctx['button_access']['url']}\" style=\"padding: 8px 12px; font-size: 12px; color: #FFFFFF; text-decoration: none !important; font-weight: 400; background-color: #009efb; border: 0px solid #009efb; border-radius:3px\">${ctx['button_access']['title']}</a>\n"
 "        % endif\n"
 "\n"
 "        % if ctx.get('has_button_follow'):\n"
 "        % if ctx.get('has_button_access'):\n"
 "           |\n"
 "        % endif\n"
-"        <a href=\"${ctx['button_follow']['url']}\" style=\"color: #875A7B; text-decoration: none !important;\">${ctx['button_follow']['title']}</a>\n"
+"        <a href=\"${ctx['button_follow']['url']}\" style=\"color: #009efb; text-decoration: none !important;\">${ctx['button_follow']['title']}</a>\n"
 "        % elif ctx.get('has_button_unfollow'):\n"
 "        % if ctx.get('has_button_access'):\n"
 "           |\n"
 "        % endif\n"
-"        <a href=\"${ctx['button_unfollow']['url']}\" style=\"color: #875A7B; text-decoration: none !important;\">${ctx['button_unfollow']['title']}</a>\n"
+"        <a href=\"${ctx['button_unfollow']['url']}\" style=\"color: #009efb; text-decoration: none !important;\">${ctx['button_unfollow']['title']}</a>\n"
 "        % endif\n"
 "\n"
 "        % if ctx.get('actions'):\n"
 "        % for action in ctx['actions']:\n"
 "        |\n"
-"        <a href=\"${action['url']}\" style=\"color: #875A7B; text-decoration:none !important;\">${action['title']}</a>\n"
+"        <a href=\"${action['url']}\" style=\"color: #009efb; text-decoration:none !important;\">${action['title']}</a>\n"
 "        % endfor\n"
 "        % endif\n"
 "    </td>\n"
@@ -104,14 +104,14 @@ msgid ""
 "<p style=\"color: #555555;\">\n"
 "    Sent by\n"
 "    % if ctx.get('website_url'):\n"
-"    <a href=\"${ctx['website_url']}\" style=\"text-decoration:none; color: #875A7B;\">\n"
+"    <a href=\"${ctx['website_url']}\" style=\"text-decoration:none; color: #009efb;\">\n"
 "    % endif\n"
 "    ${ctx.get('company_name')}\n"
 "    % if ctx.get('website_url'):\n"
 "    </a>\n"
 "    % endif\n"
 "    using\n"
-"    <a target=\"_blank\" href=\"https://www.flectrahq.com\" style=\"text-decoration:none; color: #875A7B;\">Flectra</a>.\n"
+"    <a target=\"_blank\" href=\"https://www.flectrahq.com\" style=\"text-decoration:none; color: #009efb;\">Odoo</a>.\n"
 "</p>\n"
 "</div>"
 msgstr ""
@@ -133,25 +133,25 @@ msgstr ""
 "<tbody><tr>\n"
 " <td valign=\"center\">\n"
 " % if ctx.get('has_button_access'):\n"
-" <a href=\"${ctx['button_access']['url']}\" style=\"padding: 8px 12px; font-size: 12px; color: #FFFFFF; text-decoration: none !important; font-weight: 400; background-color: #875A7B; border: 0px solid #875A7B; border-radius:3px\">${ctx['button_access']['title']}</a>\n"
+" <a href=\"${ctx['button_access']['url']}\" style=\"padding: 8px 12px; font-size: 12px; color: #FFFFFF; text-decoration: none !important; font-weight: 400; background-color: #009efb; border: 0px solid #009efb; border-radius:3px\">${ctx['button_access']['title']}</a>\n"
 " % endif\n"
 "\n"
 " % if ctx.get('has_button_follow'):\n"
 " % if ctx.get('has_button_access'):\n"
 " |\n"
 " % endif\n"
-" <a href=\"${ctx['button_follow']['url']}\" style=\"color: #875A7B; text-decoration: none !important;\">${ctx['button_follow']['title']}</a>\n"
+" <a href=\"${ctx['button_follow']['url']}\" style=\"color: #009efb; text-decoration: none !important;\">${ctx['button_follow']['title']}</a>\n"
 " % elif ctx.get('has_button_unfollow'):\n"
 " % if ctx.get('has_button_access'):\n"
 " |\n"
 " % endif\n"
-" <a href=\"${ctx['button_unfollow']['url']}\" style=\"color: #875A7B; text-decoration: none !important;\">${ctx['button_unfollow']['title']}</a>\n"
+" <a href=\"${ctx['button_unfollow']['url']}\" style=\"color: #009efb; text-decoration: none !important;\">${ctx['button_unfollow']['title']}</a>\n"
 " % endif\n"
 "\n"
 " % if ctx.get('actions'):\n"
 " % for action in ctx['actions']:\n"
 " |\n"
-" <a href=\"${action['url']}\" style=\"color: #875A7B; text-decoration:none !important;\">${action['title']}</a>\n"
+" <a href=\"${action['url']}\" style=\"color: #009efb; text-decoration:none !important;\">${action['title']}</a>\n"
 " % endfor\n"
 " % endif\n"
 " </td>\n"
@@ -191,14 +191,14 @@ msgstr ""
 "<p style=\"color: #555555;\">\n"
 " Στάλθηκε από\n"
 " % if ctx.get('website_url'):\n"
-" <a href=\"${ctx['website_url']}\" style=\"text-decoration:none; color: #875A7B;\">\n"
+" <a href=\"${ctx['website_url']}\" style=\"text-decoration:none; color: #009efb;\">\n"
 " % endif\n"
 " ${ctx.get('company_name')}\n"
 " % if ctx.get('website_url'):\n"
 " </a>\n"
 " % endif\n"
 " χρησιμοποιώντας\n"
-" <a target=\"_blank\" href=\"https://www.flectrahq.com\" style=\"text-decoration:none; color: #875A7B;\">Flectra</a>.\n"
+" <a target=\"_blank\" href=\"https://www.flectrahq.com\" style=\"text-decoration:none; color: #009efb;\">Odoo</a>.\n"
 "</p>\n"
 "</div>"
 
@@ -2251,8 +2251,8 @@ msgstr "Χειρισμός από Emails"
 
 #. module: mail
 #: selection:res.users,notification_type:0
-msgid "Handle in Flectra"
-msgstr "Χειρισμός από Flectra"
+msgid "Handle in Odoo"
+msgstr "Χειρισμός από Odoo"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.view_message_search
@@ -2527,11 +2527,11 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,help:mail.field_res_config_settings_alias_domain
 msgid ""
-"If you have setup a catch-all email domain redirected to the Flectra server, "
+"If you have setup a catch-all email domain redirected to the Odoo server, "
 "enter the domain name here."
 msgstr ""
 "Εάν έχετε ρυθμίσει στον τομέα (domain) ένα 'catch-all' email, να "
-"ανακατευθύνεται σε διακομιστή Flectra , πληκτρολογήστε το όνομα τομέα εδώ."
+"ανακατευθύνεται σε διακομιστή Odoo , πληκτρολογήστε το όνομα τομέα εδώ."
 
 #. module: mail
 #: code:addons/mail/models/mail_alias.py:141
@@ -3883,33 +3883,33 @@ msgstr "Πλήθος μη αναγνωσμένων μηνυμάτων"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.message_user_assigned
-msgid "Flectra"
-msgstr "Flectra"
+msgid "Odoo"
+msgstr "Odoo"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/js/client_action.js:898
 #, python-format
 msgid ""
-"Flectra has now the permission to send you native notifications on this device."
-msgstr "Η Flectra έχει την άδεια να στείλει ειδοποιήσεις σε αυτήν τη συσκευή."
+"Odoo has now the permission to send you native notifications on this device."
+msgstr "Η Odoo έχει την άδεια να στείλει ειδοποιήσεις σε αυτήν τη συσκευή."
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:11
 #, python-format
-msgid "Flectra needs your permission to"
-msgstr "Το Flectra χρειάζεται την άδεια σας για"
+msgid "Odoo needs your permission to"
+msgstr "Το Odoo χρειάζεται την άδεια σας για"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/js/client_action.js:895
 #, python-format
 msgid ""
-"Flectra will not have the permission to send native notifications on this "
+"Odoo will not have the permission to send native notifications on this "
 "device."
 msgstr ""
-"Το Flectra δεν θα έχει την άδεια να στείλει ειδοποιήσεις σε αυτήν τη συσκευή."
+"Το Odoo δεν θα έχει την άδεια να στείλει ειδοποιήσεις σε αυτήν τη συσκευή."
 
 #. module: mail
 #. openerp-web
@@ -4315,11 +4315,11 @@ msgstr "Παρακαλώ περιμένετε όσο το αρχείο αποσ�
 msgid ""
 "Policy on how to handle Chatter notifications:\n"
 "- Emails: notifications are sent to your email\n"
-"- Flectra: notifications appear in your Flectra Inbox"
+"- Odoo: notifications appear in your Odoo Inbox"
 msgstr ""
 "Πολιτική σχετικά με τον τρόπο διαχείρισης των μηνυμάτων ειδοποιήσεων: \n"
 "- Emails: οι ειδοποιήσεις αποστέλλονται στο email σας\n"
-"- Flectra: oι ειδοποιήσεις εμφανίζονται στα εισερχόμενα του Flectra"
+"- Odoo: oι ειδοποιήσεις εμφανίζονται στα εισερχόμενα του Odoo"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias_alias_contact
@@ -5054,11 +5054,11 @@ msgstr "Ο κώδικας HTML που αντικαθιστά τη συντόμε
 #: model:ir.model.fields,help:mail.field_mail_channel_alias_model_id
 #: model:ir.model.fields,help:mail.field_mail_test_alias_model_id
 msgid ""
-"The model (Flectra Document Kind) to which this alias corresponds. Any incoming"
+"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Το μοντέλο (Flectra Document Kind) στο οποίο αντιστοιχεί αυτό το ψευδώνυμο. "
+"Το μοντέλο (Odoo Document Kind) στο οποίο αντιστοιχεί αυτό το ψευδώνυμο. "
 "Κάθε εισερχόμενο email που δεν έχει απαντηθεί σε υπάρχουσα εγγραφή, θα "
 "προκαλέσει τη δημιουργία μίας νέας εγγραφής αυτού του μοντέλου (π.χ. Εργασία"
 " Έργου)"
@@ -5556,7 +5556,7 @@ msgid ""
 msgstr ""
 "Η χρήση του δικού σας διακομιστή ηλεκτρονικού ταχυδρομείου απαιτείται για "
 "την αποστολή / λήψη μηνυμάτων ηλεκτρονικού ταχυδρομείου στις εκδόσεις "
-"Community και Enterprise. Οι χρήστες του προϊόντος Flectra Online ήδη "
+"Community και Enterprise. Οι χρήστες του προϊόντος Odoo Online ήδη "
 "επωφελούνται από έναν έτοιμο προς χρήση διακομιστή ηλεκτρονικού ταχυδρομείου"
 " (@mycompany.flectrahq.com)."
 

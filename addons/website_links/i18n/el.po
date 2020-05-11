@@ -3,7 +3,7 @@
 # * website_links
 # 
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 # Kostas Goutoudis <goutoudis@gmail.com>, 2017
 # George Tarasidis <george_tarasidis@yahoo.com>, 2017
 msgid ""
@@ -21,21 +21,21 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/js/website_links_charts.js:53
 #, python-format
 msgid " clicks"
-msgstr "κλικς"
+msgstr " κλικς"
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/js/website_links_charts.js:104
 #, python-format
 msgid " countries"
-msgstr "χώρες"
+msgstr " χώρες"
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/js/website_links_charts.js:57
 #, python-format
 msgid "# of clicks"
@@ -95,14 +95,14 @@ msgstr ""
 "event you want to promote or a special promotion.\"/>"
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/xml/recent_link.xml:37
 #, python-format
 msgid "Copy"
 msgstr "Αντιγραφή"
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/js/website_links.js:358
 #, python-format
 msgid "Generating link..."
@@ -181,14 +181,14 @@ msgid "Statistics"
 msgstr "Στατιστικά"
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/xml/recent_link.xml:38
 #, python-format
 msgid "Stats"
 msgstr "Στατιστικά"
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/js/website_links_charts.js:229
 #: code:addons/website_links/static/src/js/website_links_charts.js:230
 #: code:addons/website_links/static/src/js/website_links_charts.js:231
@@ -212,21 +212,21 @@ msgid "URL"
 msgstr "URL"
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/js/website_links.js:225
 #, python-format
 msgid "Unable to get recent links"
 msgstr "Δεν είναι δυνατή η λήψη πρόσφατων συνδέσμων"
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/js/website_links_charts.js:99
 #, python-format
 msgid "Undefined"
 msgstr "Μη ορισμένο"
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/js/website_links.js:248
 #, python-format
 msgid "You don't have any recent links."
@@ -238,7 +238,7 @@ msgid "Your tracked links"
 msgstr "Οι σύνδεσμοι που έχετε παρακολουθήσει"
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/xml/recent_link.xml:23
 #: model:ir.ui.view,arch_db:website_links.graphs
 #, python-format
@@ -246,7 +246,7 @@ msgid "cancel"
 msgstr "άκυρο"
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/xml/recent_link.xml:8
 #, python-format
 msgid "clicks"
@@ -258,21 +258,21 @@ msgid "copy"
 msgstr " αντίγραφο"
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/js/website_links.js:268
 #, python-format
 msgid "e.g. Newsletter, Social Network, .."
 msgstr "π.χ. Newsletter, Κοινωνικά Δίκτυα, ..."
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/js/website_links.js:265
 #, python-format
 msgid "e.g. Promotion of June, Winter Newsletter, .."
 msgstr "π.χ. Προώθηση Ιουνίου, Χειμερινό Newsletter, ..."
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/js/website_links.js:271
 #, python-format
 msgid "e.g. Search Engine, Website page, .."
@@ -280,11 +280,11 @@ msgstr "π.χ. Μηχανή Αναζήτησης, Σελίδα ιστότοπο�
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.create_shorten_url
-msgid "e.g. https://www.odoo.com/page/contactus"
-msgstr "π.χ. https://www.odoo.com/page/contactus"
+msgid "e.g. https://www.flectrahq.com/page/contactus"
+msgstr "π.χ. https://www.flectrahq.com/page/contactus"
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/xml/recent_link.xml:22
 #: model:ir.ui.view,arch_db:website_links.graphs
 #, python-format
@@ -292,7 +292,7 @@ msgid "ok"
 msgstr "ΟΚ"
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/xml/recent_link.xml:22
 #: model:ir.ui.view,arch_db:website_links.graphs
 #, python-format

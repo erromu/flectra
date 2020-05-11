@@ -3,22 +3,25 @@
 # * project
 # 
 # Translators:
-# Norimichi Sugimoto <norimichi.sugimoto@tls-ltd.co.jp>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
-# Yoshi Tashiro <tashiro@roomsfor.hk>, 2017
-# Masayuki Takesue <m_takesue@nifty.com>, 2017
-# Manami Hashi <manami@roomsfor.hk>, 2017
-# NOKA Shigekazu <shigekazu.noka@gmail.com>, 2017
-# SHIMIZU Taku <shimizu.taku@gmail.com>, 2017
 # 高木正勝 <masakatsu.takagi@pro-spire.co.jp>, 2017
+# Masayuki Takesue <m_takesue@nifty.com>, 2017
 # kent_ocean <ke.tanabe@gmail.com>, 2017
+# NOKA Shigekazu <shigekazu.noka@gmail.com>, 2017
+# Manami Hashi <manami@roomsfor.hk>, 2017
+# SHIMIZU Taku <shimizu.taku@gmail.com>, 2017
+# Norimichi Sugimoto <norimichi.sugimoto@tls-ltd.co.jp>, 2017
+# 城谷 龍弥 <tatsuya.shirotani@pro-spire.co.jp>, 2018
+# Martin Trigaux, 2018
+# Tim Siu Lai <tl@roomsfor.hk>, 2019
+# Yoshi Tashiro <tashiro@roomsfor.hk>, 2020
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-30 13:11+0000\n"
-"PO-Revision-Date: 2017-11-30 13:11+0000\n"
-"Last-Translator: kent_ocean <ke.tanabe@gmail.com>, 2017\n"
+"POT-Creation-Date: 2018-07-27 11:55+0000\n"
+"PO-Revision-Date: 2017-09-20 10:22+0000\n"
+"Last-Translator: Yoshi Tashiro <tashiro@roomsfor.hk>, 2020\n"
 "Language-Team: Japanese (https://www.transifex.com/odoo/teams/41243/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -39,7 +42,7 @@ msgid ""
 "                            <img src=\"web/static/src/img/logo.png\"/>\n"
 "                        </td>\n"
 "                        <td style=\"vertical-align: top; padding: 8px 10px;text-align: left;font-size: 14px;\">\n"
-"                            <a href=\"web/login\" style=\"float:right ;margin:15px auto;background: #875A7B;border-radius: 5px;color: #ffffff;font-size: 16px;padding: 10px 20px 10px 20px;text-decoration: none;\">Auto Login</a>\n"
+"                            <a href=\"web/login\" style=\"float:right ;margin:15px auto;background: #009efb;border-radius: 5px;color: #ffffff;font-size: 16px;padding: 10px 20px 10px 20px;text-decoration: none;\">Auto Login</a>\n"
 "                        </td>\n"
 "                    </tr>\n"
 "                </tbody>\n"
@@ -76,7 +79,7 @@ msgid ""
 "                                <span><a href=\"/web#view_type=kanban&model=project.project&action=project.open_view_project_all\">\n"
 "                                    <span style=\"font-weight:bold; text-decoration:underline;\">project planner</span></a></span>\n"
 "                                <span> to activate extra features</span>\n"
-"                                <span style=\"color:#875A7B;margin:0;font-weight:bold\">(${user.env['web.planner'].get_planner_progress('planner_project')}% done)</span>\n"
+"                                <span style=\"color:#009efb;margin:0;font-weight:bold\">(${user.env['web.planner'].get_planner_progress('planner_project')}% done)</span>\n"
 "                            </p>\n"
 "                            <ul style=\"margin-top:0pt;margin-bottom:0pt;font-size:13px;list-style-type:disc;\">\n"
 "                                <li dir=\"ltr\">\n"
@@ -112,12 +115,12 @@ msgid ""
 "                            </p>\n"
 "                            <p dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-bottom:8pt;\">\n"
 "                                <span>We would be delighted to assist you along the way. Contact us through our\n"
-"                                <a href=\"https://www.odoo.com/help\">support form</a> if you have any question.\n"
+"                                <a href=\"https://www.flectrahq.com/help\">support form</a> if you have any question.\n"
 "                                You can also discover how to get the best out of Odoo Project with our </span>\n"
-"                                <a target=\"_blank\" href=\"https://www.odoo.com/documentation/user/10.0/project.html\">\n"
+"                                <a target=\"_blank\" href=\"https://www.flectrahq.com/documentation/user/11.0/project.html\">\n"
 "                                <span style=\"text-decoration:underline;\">User Documentation</span></a>\n"
 "                                </span><span> or with our </span>\n"
-"                                <a target=\"_blank\" href=\"https://www.odoo.com/documentation\">\n"
+"                                <a target=\"_blank\" href=\"https://www.flectrahq.com/documentation\">\n"
 "                                <span style=\"text-decoration:underline;\">API Documentation</span></a>\n"
 "                            </p>\n"
 "                            <br>\n"
@@ -175,7 +178,7 @@ msgstr "タスク数"
 
 #. module: project
 #: code:addons/project/models/project.py:244
-#: code:addons/project/models/project.py:533
+#: code:addons/project/models/project.py:542
 #, python-format
 msgid "%s (copy)"
 msgstr "%s (コピー)"
@@ -185,7 +188,7 @@ msgstr "%s (コピー)"
 msgid ""
 "(Un)archiving a project automatically (un)archives its tasks and issues. Do "
 "you want to proceed?"
-msgstr "プロジェクトを自動的にアーカイブする(しない)と、そのタスクと課題がアーカイブされます(ません)。 続行しますか？"
+msgstr "プロジェクトをアーカイブ(または有効化)すると、紐づくタスクと課題が自動的にアーカイブ(または有効化)されます。続行しますか？"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -204,7 +207,7 @@ msgid ""
 msgstr "2.ここで、<strong>必要なプロジェクト</strong>を表示する時間を取ってください。"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:69
 #, python-format
 msgid ""
@@ -213,21 +216,21 @@ msgid ""
 msgstr "<b>タスクを誰かに割り当てる</b>。 <i>新しいユーザーを作成して招待することができます。</i>"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:80
 #, python-format
 msgid "<b>Click the save button</b> to apply your changes to the task."
 msgstr "<b>保存ボタンをクリック</b>して変更をタスクに適用します。"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:48
 #, python-format
 msgid "<b>Drag &amp; drop tasks</b> between columns as you work on them."
 msgstr "作業中に、列間で<b>タスクをドラッグ＆ドロップ</b>します。"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:94
 #, python-format
 msgid ""
@@ -235,7 +238,7 @@ msgid ""
 msgstr "<b>同僚を電子メールで招待</b>します。<br/> <i> 1行に1件のメールを入力します。</i>"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:54
 #, python-format
 msgid "<b>Star tasks</b> to mark team priorities."
@@ -928,7 +931,7 @@ msgid "Account Preferences"
 msgstr "アカウント設定"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:39
 #, python-format
 msgid "Action has a clear description"
@@ -964,7 +967,7 @@ msgid "Add a description..."
 msgstr "説明を追加..."
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:38
 #, python-format
 msgid ""
@@ -974,7 +977,7 @@ msgstr ""
 "<b>あなたのタスク用ステージ</b>を設定するカラムを追加してください。<br/><i>例. 仕様定義 &gt; 開発&gt; 完了</i>"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:56
 #, python-format
 msgid "Added in current sprint"
@@ -1011,7 +1014,7 @@ msgid "Aliased Model"
 msgstr "エイリアス対象モデル"
 
 #. module: project
-#: code:addons/project/controllers/portal.py:89
+#: code:addons/project/controllers/portal.py:92
 #, python-format
 msgid "All"
 msgstr "全て"
@@ -1068,7 +1071,7 @@ msgstr "アーカイブ済"
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_form2
 msgid "Assign to Me"
-msgstr ""
+msgstr "自分に割当"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_date_start
@@ -1143,7 +1146,7 @@ msgid ""
 msgstr "オフィスに戻って、マネジャーは顧客の要求をいくつかのタスクに分割し、それらを複数の従業員に委任します。"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:32
 #: code:addons/project/static/src/js/web_planner_project.js:48
 #: code:addons/project/static/src/js/web_planner_project.js:64
@@ -1159,7 +1162,7 @@ msgstr "残高"
 #. module: project
 #: model:project.task.type,name:project.project_stage_data_1
 msgid "Basic"
-msgstr "初期"
+msgstr "基本"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1174,6 +1177,7 @@ msgid ""
 msgstr "チームの生産性と時間に注意してください。ミーティングを1時間以内に終了させるようにしてください。"
 
 #. module: project
+#: code:addons/project/models/project.py:29
 #: model:project.task,legend_blocked:project.project_task_15
 #: model:project.task,legend_blocked:project.project_task_16
 #: model:project.task,legend_blocked:project.project_task_18
@@ -1200,6 +1204,7 @@ msgstr "チームの生産性と時間に注意してください。ミーティ
 #: model:project.task.type,legend_blocked:project.project_stage_data_1
 #: model:project.task.type,legend_blocked:project.project_stage_data_2
 #: selection:report.project.task.user,state:0
+#, python-format
 msgid "Blocked"
 msgstr "ブロック済"
 
@@ -1243,7 +1248,7 @@ msgid "Cancel"
 msgstr "取消"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:70
 #: code:addons/project/static/src/js/web_planner_project.js:85
 #: code:addons/project/static/src/js/web_planner_project.js:99
@@ -1258,7 +1263,7 @@ msgid "Change their Stages in the Project Stages tab"
 msgstr " プロジェクトステージ タブでステージの変更"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:23
 #, python-format
 msgid ""
@@ -1280,21 +1285,21 @@ msgid ""
 msgstr "サブタスクプロジェクトを選択すると、サブタスクが有効になり、デフォルトプロジェクト(おそらくプロジェクト自体)が設定されます。"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:55
 #, python-format
 msgid "Clear description and purpose"
 msgstr "明確な説明と目的"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:59
 #, python-format
 msgid "Click on a card to get the details of the task."
 msgstr "カードをクリックすると、タスクの詳細が表示されます。"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:31
 #, python-format
 msgid ""
@@ -1302,7 +1307,7 @@ msgid ""
 msgstr "カードをクリックして<b>プロジェクトに移動</b>し、タスクの整理を開始します。"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:64
 #, python-format
 msgid "Click on this button to modify the task."
@@ -1362,7 +1367,7 @@ msgid "Configuration"
 msgstr "設定"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:90
 #, python-format
 msgid "Configuration options are available in the Settings app."
@@ -1405,7 +1410,7 @@ msgid "Control projects quality and satisfaction"
 msgstr "プロジェクトの品質と満足度をコントロール！"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:34
 #, python-format
 msgid "Copywriting / Design"
@@ -1424,7 +1429,7 @@ msgstr "作成"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_project_view_form_simplified
 msgid "Create & Edit"
-msgstr ""
+msgstr "作成 & 編集"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_create_date
@@ -1449,7 +1454,7 @@ msgstr "新規プロジェクト作成"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_merge_wizard_create_new_task
 msgid "Create a new task"
-msgstr ""
+msgstr "タスクを作成しましょう"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1538,7 +1543,7 @@ msgid "Currently there are not any activity scheduled."
 msgstr "現在活動予定はありません。"
 
 #. module: project
-#: code:addons/project/models/project.py:818
+#: code:addons/project/models/project.py:836
 #: model:ir.model.fields,field_description:project.field_project_project_partner_id
 #: model:ir.model.fields,field_description:project.field_project_task_partner_id
 #: model:ir.ui.view,arch_db:project.edit_project
@@ -1547,7 +1552,8 @@ msgid "Customer"
 msgstr "顧客"
 
 #. module: project
-#: code:addons/project/models/project.py:818
+#: code:addons/project/models/project.py:836
+#: code:addons/project/models/project.py:839
 #, python-format
 msgid "Customer Email"
 msgstr "顧客Eメール"
@@ -1558,28 +1564,28 @@ msgid "Customer Service"
 msgstr "顧客サービス"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:74
 #, python-format
 msgid "Customer feedback has been requested"
 msgstr "お客様からのフィードバックが必要です"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:92
 #, python-format
 msgid "Customer has cancelled repair"
 msgstr "お客様が修理をキャンセルしました"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:72
 #, python-format
 msgid "Customer has reported new issue"
 msgstr "お客様から新しい課題が報告されました"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:71
 #, python-format
 msgid "Customer service has found new issue"
@@ -1653,7 +1659,7 @@ msgid "Deploy"
 msgstr "展開"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:20
 #, python-format
 msgid "Deployment"
@@ -1667,7 +1673,7 @@ msgid "Description"
 msgstr "説明"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:18
 #, python-format
 msgid "Development"
@@ -1679,7 +1685,7 @@ msgid "Development Process"
 msgstr "展開プロセス"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/project.js:71
 #: model:ir.ui.view,arch_db:project.project_project_view_form_simplified
 #, python-format
@@ -1697,21 +1703,21 @@ msgid "Display Name"
 msgstr "表示名"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:35
 #, python-format
 msgid "Distribute"
 msgstr "配信"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:43
 #, python-format
 msgid "Distribution is completed"
 msgstr "配信が完了しました"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:51
 #, python-format
 msgid "Documentation"
@@ -1747,7 +1753,7 @@ msgid "Don't hesitate to select only the events you are interested in!"
 msgstr "興味のあるイベントのみで結構ですのでお気軽に選んでください！"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:36
 #: code:addons/project/static/src/js/web_planner_project.js:69
 #: code:addons/project/static/src/js/web_planner_project.js:84
@@ -1809,6 +1815,12 @@ msgid "Ending Date"
 msgstr "終了日"
 
 #. module: project
+#: code:addons/project/models/project.py:556
+#, python-format
+msgid "Error! You cannot create recursive hierarchy of task(s)."
+msgstr ""
+
+#. module: project
 #: sql_constraint:project.project:0
 msgid "Error! project start-date must be lower than project end-date."
 msgstr "エラー！ プロジェクトの開始日はプロジェクトの終了日よりも前でなければなりません。"
@@ -1844,7 +1856,7 @@ msgid "Examples"
 msgstr "例"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:75
 #, python-format
 msgid "Expert advice has been requested"
@@ -1878,14 +1890,14 @@ msgid "Extra useful for when you're with a customer or in a meeting."
 msgstr "あなたが客先や会議にいるときに便利です。"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:89
 #, python-format
 msgid "Feedback from customer requested"
 msgstr "客様からのフィードバックがリクエストされました"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:27
 #, python-format
 msgid "Finally task is deployed"
@@ -1987,7 +1999,7 @@ msgid "Gives the sequence order when displaying a list of tasks."
 msgstr "タスクリストを表示する時に並び順を与えます。"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:99
 #, python-format
 msgid ""
@@ -2077,7 +2089,7 @@ msgid "Hours"
 msgstr "時間"
 
 #. module: project
-#: code:addons/project/models/project.py:730
+#: code:addons/project/models/project.py:745
 #, python-format
 msgid "I take it"
 msgstr "とります"
@@ -2100,14 +2112,14 @@ msgid ""
 msgstr "エイリアスを保持する親レコードのID(例：プロジェクトは、タスク作成エイリアスを保持)"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:104
 #, python-format
 msgid "Idea has been transformed into concrete actions"
 msgstr "アイデアが具体的な行動に変更されました"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:103
 #, python-format
 msgid "Idea is fully explained"
@@ -2119,7 +2131,7 @@ msgid "Ideally, a person should only be responsible for one project."
 msgstr "おかげで、人は1つのプロジェクトにしか責任を負いません。"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:96
 #, python-format
 msgid "Ideas"
@@ -2182,6 +2194,7 @@ msgid "Improve collaboration with customers"
 msgstr "顧客とのコラボレーションを改善する"
 
 #. module: project
+#: code:addons/project/models/project.py:35
 #: model:project.task,legend_normal:project.project_task_1
 #: model:project.task,legend_normal:project.project_task_10
 #: model:project.task,legend_normal:project.project_task_11
@@ -2230,11 +2243,12 @@ msgstr "顧客とのコラボレーションを改善する"
 #: model:project.task.type,legend_normal:project.project_stage_data_2
 #: model:project.task.type,name:project.project_stage_1
 #: selection:report.project.task.user,state:0
+#, python-format
 msgid "In Progress"
 msgstr "進行中"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:33
 #: code:addons/project/static/src/js/web_planner_project.js:66
 #: code:addons/project/static/src/js/web_planner_project.js:81
@@ -2243,7 +2257,7 @@ msgid "In progress"
 msgstr "進行中"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:80
 #, python-format
 msgid "Incoming"
@@ -2277,14 +2291,14 @@ msgid "Issue Version"
 msgstr "課題バージョン"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:73
 #, python-format
 msgid "Issue is being worked on"
 msgstr "課題は解決中です"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:76
 #, python-format
 msgid "Issue is resolved"
@@ -2390,7 +2404,7 @@ msgid "Last Modified on"
 msgstr "最終更新日"
 
 #. module: project
-#: code:addons/project/controllers/portal.py:86
+#: code:addons/project/controllers/portal.py:89
 #: model:ir.model.fields,field_description:project.field_project_task_date_last_stage_update
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_date_last_stage_update
 #, python-format
@@ -2427,7 +2441,7 @@ msgid ""
 msgstr ""
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:18
 #, python-format
 msgid "Let's create your first project."
@@ -2544,7 +2558,7 @@ msgstr "お気に入り"
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_search_form
 msgid "My Followed Tasks"
-msgstr ""
+msgstr "フォローしているタスク"
 
 #. module: project
 #: model:ir.actions.act_window,name:project.project_task_action_activity
@@ -2557,9 +2571,10 @@ msgid "My Tasks"
 msgstr "自分のタスク"
 
 #. module: project
-#: code:addons/project/controllers/portal.py:31
+#: code:addons/project/controllers/portal.py:35
 #: model:ir.model.fields,field_description:project.field_project_tags_name
 #: model:ir.ui.view,arch_db:project.portal_my_projects
+#: model:ir.ui.view,arch_db:project.portal_my_tasks
 #, python-format
 msgid "Name"
 msgstr "名称"
@@ -2567,7 +2582,7 @@ msgstr "名称"
 #. module: project
 #: model:ir.ui.view,arch_db:project.edit_project
 msgid "Name of the tasks :"
-msgstr ""
+msgstr "タスク名:"
 
 #. module: project
 #: model:project.task,legend_blocked:project.project_task_10
@@ -2588,7 +2603,7 @@ msgid "Need functional or technical help"
 msgstr "機能または技術的なヘルプが必要"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:65
 #: model:ir.ui.view,arch_db:project.view_task_project_user_search
 #: model:project.task.type,name:project.project_stage_data_0
@@ -2597,7 +2612,7 @@ msgid "New"
 msgstr "新規"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:87
 #, python-format
 msgid "New repair added"
@@ -2609,8 +2624,8 @@ msgid "New task name"
 msgstr ""
 
 #. module: project
-#: code:addons/project/controllers/portal.py:30
-#: code:addons/project/controllers/portal.py:83
+#: code:addons/project/controllers/portal.py:34
+#: code:addons/project/controllers/portal.py:86
 #, python-format
 msgid "Newest"
 msgstr "最新"
@@ -2622,10 +2637,16 @@ msgid "Next Activities"
 msgstr "次の活動"
 
 #. module: project
-#: code:addons/project/models/project.py:775
+#: code:addons/project/models/project.py:792
 #, python-format
 msgid "No Subject"
 msgstr "件名なし"
+
+#. module: project
+#: code:addons/project/controllers/portal.py:102
+#, python-format
+msgid "None"
+msgstr "なし"
 
 #. module: project
 #: selection:project.task,priority:0
@@ -2655,7 +2676,7 @@ msgid "Notifications"
 msgstr "通知"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:43
 #, python-format
 msgid "Now that the project is set up, <b>create a few tasks</b>."
@@ -2783,7 +2804,7 @@ msgid "Parent Record Thread ID"
 msgstr "親レコードスレッドID"
 
 #. module: project
-#: code:addons/project/models/project.py:861
+#: code:addons/project/models/project.py:878
 #: model:ir.model.fields,field_description:project.field_project_task_parent_id
 #: model:ir.ui.view,arch_db:project.view_task_form2
 #, python-format
@@ -2810,7 +2831,7 @@ msgid "Planner"
 msgstr "プランナー"
 
 #. module: project
-#: code:addons/project/models/project.py:887
+#: code:addons/project/models/project.py:918
 #, python-format
 msgid ""
 "Please remove existing tasks in the project linked to the accounts you want "
@@ -2852,7 +2873,8 @@ msgid "Product or software version"
 msgstr "プロダクトまたはソフトウェアのバージョン"
 
 #. module: project
-#: code:addons/project/models/project.py:346
+#: code:addons/project/controllers/portal.py:103
+#: code:addons/project/models/project.py:355
 #: model:ir.model,name:project.model_project_project
 #: model:ir.model.fields,field_description:project.field_project_task_project_id
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_project_id
@@ -2915,6 +2937,7 @@ msgstr "プロジェクトのタスク"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_res_company_project_time_mode_id
+#: model:ir.model.fields,field_description:project.field_res_config_settings_project_time_mode_id
 #: model:ir.model.fields,field_description:project.project_time_mode_id_duplicate_xmlid
 msgid "Project Time Unit"
 msgstr "プロジェクト時間単位"
@@ -2958,9 +2981,10 @@ msgstr "プロジェクトとタスク"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_res_config_settings_module_rating_project
 msgid "Rating on Tasks"
-msgstr ""
+msgstr "タスク評価"
 
 #. module: project
+#: code:addons/project/models/project.py:32
 #: model:project.task,legend_done:project.project_task_1
 #: model:project.task,legend_done:project.project_task_12
 #: model:project.task,legend_done:project.project_task_15
@@ -2990,11 +3014,12 @@ msgstr ""
 #: model:project.task.type,legend_done:project.project_stage_data_0
 #: model:project.task.type,legend_done:project.project_stage_data_1
 #: model:project.task.type,legend_done:project.project_stage_data_2
+#, python-format
 msgid "Ready for Next Stage"
-msgstr ""
+msgstr "次ステージへの準備済"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:41
 #, python-format
 msgid "Ready for layout / copywriting"
@@ -3006,21 +3031,21 @@ msgid "Ready for next stage"
 msgstr "次のステージに移動可"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:59
 #, python-format
 msgid "Ready for release"
 msgstr "リリース準備完了"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:57
 #, python-format
 msgid "Ready for testing"
 msgstr "テスト準備完了"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:42
 #, python-format
 msgid "Ready to be displayed, published or sent"
@@ -3034,7 +3059,7 @@ msgid "Ready to reopen"
 msgstr "再開準備完了"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:77
 #: code:addons/project/static/src/js/web_planner_project.js:106
 #, python-format
@@ -3072,12 +3097,17 @@ msgid "Red: the Task is blocked (there's a problem)"
 msgstr "赤：タスクがブロックされています(問題があります)"
 
 #. module: project
+#: model:ir.ui.view,arch_db:project.portal_my_tasks
+msgid "Ref"
+msgstr "参照"
+
+#. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_code
 msgid "Reference"
 msgstr "参照"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:52
 #, python-format
 msgid "Release"
@@ -3089,7 +3119,7 @@ msgid "Remaining Hours"
 msgstr "残時間"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/project.js:69
 #, python-format
 msgid "Remove Cover Image"
@@ -3101,14 +3131,14 @@ msgid "Repair Workshop"
 msgstr "修理工場"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:88
 #, python-format
 msgid "Repair has started"
 msgstr "修理開始"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:91
 #, python-format
 msgid "Repair is completed"
@@ -3121,7 +3151,7 @@ msgid "Reporting"
 msgstr "レポーティング"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:90
 #, python-format
 msgid "Request for parts has been sent"
@@ -3153,10 +3183,10 @@ msgid "Search"
 msgstr "検索"
 
 #. module: project
-#: code:addons/project/controllers/portal.py:92
+#: code:addons/project/controllers/portal.py:95
 #, python-format
 msgid "Search <span class=\"nolabel\"> (in Content)</span>"
-msgstr ""
+msgstr "サーチ <span class=\"nolabel\"> (内容)</span>"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_project_project_filter
@@ -3164,31 +3194,31 @@ msgid "Search Project"
 msgstr "プロジェクトの検索"
 
 #. module: project
-#: code:addons/project/controllers/portal.py:96
+#: code:addons/project/controllers/portal.py:99
 #, python-format
 msgid "Search in All"
-msgstr ""
+msgstr "すべて検索"
 
 #. module: project
-#: code:addons/project/controllers/portal.py:94
+#: code:addons/project/controllers/portal.py:97
 #, python-format
 msgid "Search in Customer"
-msgstr ""
+msgstr "お客様の検索"
 
 #. module: project
-#: code:addons/project/controllers/portal.py:93
+#: code:addons/project/controllers/portal.py:96
 #, python-format
 msgid "Search in Messages"
 msgstr "メッセージ内を検索"
 
 #. module: project
-#: code:addons/project/controllers/portal.py:95
+#: code:addons/project/controllers/portal.py:98
 #, python-format
 msgid "Search in Stages"
 msgstr ""
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/project.js:62
 #, python-format
 msgid "Select"
@@ -3223,7 +3253,7 @@ msgid "Set Cover Image"
 msgstr "カバーイメージを設定"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/project.js:61
 #, python-format
 msgid "Set a Cover Image"
@@ -3255,7 +3285,7 @@ msgstr "ダッシュボードにプロジェクトを表示"
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_search_form
 msgid "Show all records which has next action date is before today"
-msgstr ""
+msgstr "次のアクションの日付が今日より前のすべてのレコードを表示する"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3270,21 +3300,21 @@ msgid "Software development"
 msgstr "ソフト開発"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:16
 #, python-format
 msgid "Specification"
 msgstr "仕様"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:24
 #, python-format
 msgid "Specification is validated"
 msgstr "仕様が検証済"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:23
 #, python-format
 msgid "Specification of task is written"
@@ -3296,14 +3326,14 @@ msgid "Split your tasks to organize your work into sub-milestones"
 msgstr "タスクを分割し、より細かいマイルストンで作業管理"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:49
 #, python-format
 msgid "Sprint"
 msgstr "スプリント"
 
 #. module: project
-#: code:addons/project/controllers/portal.py:85
+#: code:addons/project/controllers/portal.py:88
 #: model:ir.model.fields,field_description:project.field_project_task_stage_id
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_stage_id
 #: model:ir.ui.view,arch_db:project.portal_my_tasks
@@ -3409,7 +3439,6 @@ msgstr ""
 
 #. module: project
 #: model:ir.model,name:project.model_project_task
-#: model:ir.ui.view,arch_db:project.portal_my_tasks
 #: model:ir.ui.view,arch_db:project.view_task_form2
 #: model:ir.ui.view,arch_db:project.view_task_project_user_search
 #: model:ir.ui.view,arch_db:project.view_task_search_form
@@ -3483,21 +3512,21 @@ msgid "Task blocked"
 msgstr "タスクブロック"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:25
 #, python-format
 msgid "Task is Developed"
 msgstr "タスクが作成されました"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:105
 #, python-format
 msgid "Task is completed"
 msgstr "タスクが終了しました"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:26
 #, python-format
 msgid "Task is tested"
@@ -3574,21 +3603,21 @@ msgid "Tasks to Merge"
 msgstr ""
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:50
 #, python-format
 msgid "Test"
 msgstr "テスト"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:58
 #, python-format
 msgid "Test is OK, need to document"
 msgstr "テストはOKです、ドキュメント化する必要があります"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:19
 #, python-format
 msgid "Testing"
@@ -3631,8 +3660,8 @@ msgstr ""
 #: model:ir.model.fields,help:project.field_project_project_alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
-msgstr "eメールのエイリアス.例えば<jobs@example.odoo.com>のメールを受け取りたい場合'jobs’を選択"
+"<jobs@example.flectrahq.com>"
+msgstr "eメールのエイリアス.例えば<jobs@example.flectrahq.com>のメールを受け取りたい場合'jobs’を選択"
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project_alias_user_id
@@ -3660,7 +3689,7 @@ msgid "There are no tasks."
 msgstr "タスクはありません。"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/xml/project.xml:7
 #, python-format
 msgid ""
@@ -3739,6 +3768,7 @@ msgstr ""
 #: model:ir.model.fields,help:project.field_account_analytic_account_company_uom_id
 #: model:ir.model.fields,help:project.field_project_project_company_uom_id
 #: model:ir.model.fields,help:project.field_res_company_project_time_mode_id
+#: model:ir.model.fields,help:project.field_res_config_settings_project_time_mode_id
 #: model:ir.model.fields,help:project.project_time_mode_id_duplicate_xmlid
 msgid ""
 "This will set the unit of measure used in projects and tasks.\n"
@@ -3789,13 +3819,13 @@ msgid "Timetable working hours to adjust the gantt diagram report"
 msgstr "ガントチャートレポートを調整するための時刻表労働時間数"
 
 #. module: project
-#: code:addons/project/controllers/portal.py:84
+#: code:addons/project/controllers/portal.py:87
 #, python-format
 msgid "Title"
 msgstr "タイトル"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:97
 #: model:project.task.type,name:project.project_stage_0
 #, python-format
@@ -3876,7 +3906,7 @@ msgid ""
 msgstr ""
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:103
 #, python-format
 msgid ""
@@ -3885,7 +3915,7 @@ msgid ""
 msgstr "会社のプロジェクト管理を設定するには、<b>導入ガイド</b>を使用してください。"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:85
 #, python-format
 msgid "Use the breadcrumbs to <b>go back to your tasks pipeline</b>."
@@ -3920,7 +3950,7 @@ msgstr ""
 "                        というわけで、プロジェクトマネジャーとして、チームメンバーがプロジェクトの次のステップに関与し、情報を提供し、喜んで貢献している週定例のステータスミーティングをどのように構成できますか？ ここにいくつかのヒントがあります。"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:17
 #, python-format
 msgid "Validation"
@@ -3951,7 +3981,7 @@ msgid "Visible by following customers"
 msgstr "フォローしている顧客に表示"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:67
 #: code:addons/project/static/src/js/web_planner_project.js:82
 #, python-format
@@ -3959,7 +3989,7 @@ msgid "Wait. Customer"
 msgstr "待機。顧客"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:68
 #: code:addons/project/static/src/js/web_planner_project.js:83
 #, python-format
@@ -3967,7 +3997,7 @@ msgid "Wait. Expert"
 msgstr "待機。 エキスパート"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:13
 #, python-format
 msgid ""
@@ -4011,6 +4041,16 @@ msgid ""
 msgstr "Googleでは、シンプルで効率的なChromeの拡張機能を開発し、タイムシートに入力できます：<br/> <br/>"
 
 #. module: project
+#: model:ir.model.fields,field_description:project.field_project_task_website_message_ids
+msgid "Website Messages"
+msgstr "ウェブサイトメッセージ"
+
+#. module: project
+#: model:ir.model.fields,help:project.field_project_task_website_message_ids
+msgid "Website communication history"
+msgstr "ウェブサイトコミュニケーション履歴"
+
+#. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Welcome"
 msgstr "ようこそ！"
@@ -4052,7 +4092,7 @@ msgid "Whether this project should be displayed on the dashboard or not"
 msgstr "このプロジェクトをダッシュボードに表示するかどうか"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:40
 #, python-format
 msgid "Work has started"
@@ -4066,7 +4106,7 @@ msgstr "作業時間"
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_form2
 msgid "Working Time to Assign"
-msgstr ""
+msgstr "割当作業時間"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_form2
@@ -4150,7 +4190,7 @@ msgid "You can save your reports to easily reuse it later"
 msgstr "後で簡単に再利用できるようにレポートを保存することができます"
 
 #. module: project
-#: code:addons/project/models/project.py:547
+#: code:addons/project/models/project.py:562
 #, python-format
 msgid ""
 "You can't define a parent task if its project is not correctly configured. "
@@ -4215,6 +4255,11 @@ msgid "etc.."
 msgstr "等.."
 
 #. module: project
+#: model:ir.ui.view,arch_db:project.portal_my_tasks
+msgid "for project:"
+msgstr ""
+
+#. module: project
 #: model:ir.ui.view,arch_db:project.view_task_kanban
 msgid "oe_kanban_text_red"
 msgstr "oe_kanban_text_red"
@@ -4235,7 +4280,7 @@ msgid "send us an email"
 msgstr "私達に電子メールを送る"
 
 #. module: project
-#: code:addons/project/models/project.py:595
+#: code:addons/project/models/project.py:610
 #, python-format
 msgid "tasks"
 msgstr "タスク"

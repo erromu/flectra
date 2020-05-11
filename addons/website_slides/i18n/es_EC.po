@@ -41,11 +41,11 @@ msgid ""
 "</p>\n"
 "<p style=\"text-align: center; margin-top: 10px;\">\n"
 "    <a style=\"-webkit-user-select: none; padding: 5px 10px; font-size: "
-"12px; line-height: 18px; color: #FFFFFF; border-color:#875A7B; text-"
+"12px; line-height: 18px; color: #FFFFFF; border-color:#009efb; text-"
 "decoration: none; display: inline-block; margin-bottom: 0px; font-weight: "
 "400; text-align: center; vertical-align: middle; cursor: pointer; white-"
-"space: nowrap; background-image: none; background-color: #875A7B; border: "
-"1px solid #875A7B; border-radius:3px\" class=\"o_default_snippet_text\" href="
+"space: nowrap; background-image: none; background-color: #009efb; border: "
+"1px solid #009efb; border-radius:3px\" class=\"o_default_snippet_text\" href="
 "\"${object.website_url}\">\n"
 "        View <strong>${object.name}</strong>\n"
 "    </a>\n"
@@ -71,11 +71,11 @@ msgid ""
 "</p>\n"
 "<p style=\"text-align: center; margin-top: 10px;\">\n"
 "    <a style=\"-webkit-user-select: none; padding: 5px 10px; font-size: "
-"12px; line-height: 18px; color: #FFFFFF; border-color:#875A7B; text-"
+"12px; line-height: 18px; color: #FFFFFF; border-color:#009efb; text-"
 "decoration: none; display: inline-block; margin-bottom: 0px; font-weight: "
 "400; text-align: center; vertical-align: middle; cursor: pointer; white-"
-"space: nowrap; background-image: none; background-color: #875A7B; border: "
-"1px solid #875A7B; border-radius:3px\" class=\"o_default_snippet_text\" href="
+"space: nowrap; background-image: none; background-color: #009efb; border: "
+"1px solid #009efb; border-radius:3px\" class=\"o_default_snippet_text\" href="
 "\"${object.website_url}\">\n"
 "        View <strong>${object.name}</strong>\n"
 "    </a>\n"
@@ -379,7 +379,7 @@ msgid "Categories"
 msgstr "Categorías"
 
 #. module: website_slides
-#. flectra-web
+#. openerp-web
 #: code:addons/website_slides/static/src/js/slides_upload.js:250
 #: code:addons/website_slides/static/src/xml/website_slides.xml:54
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_category_id
@@ -410,7 +410,7 @@ msgid "Channel Settings"
 msgstr "Configuración de canal"
 
 #. module: website_slides
-#. flectra-web
+#. openerp-web
 #: code:addons/website_slides/static/src/js/slides_upload.js:170
 #, python-format
 msgid "Channel contains the given title, please change before Save or Publish."
@@ -447,7 +447,7 @@ msgid "Content"
 msgstr "Contenido"
 
 #. module: website_slides
-#. flectra-web
+#. openerp-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:20
 #, python-format
 msgid "Content Preview"
@@ -478,7 +478,7 @@ msgid "Create a Google Project and Get a Key"
 msgstr ""
 
 #. module: website_slides
-#. flectra-web
+#. openerp-web
 #: code:addons/website_slides/static/src/js/slides_upload.js:219
 #, python-format
 msgid "Create new tag '%s'"
@@ -512,7 +512,7 @@ msgstr ""
 "acceder al contenido de este canal."
 
 #. module: website_slides
-#. flectra-web
+#. openerp-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:60
 #: code:addons/website_slides/static/src/xml/website_slides.xml:62
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_description
@@ -523,7 +523,7 @@ msgid "Description"
 msgstr "Descripción"
 
 #. module: website_slides
-#. flectra-web
+#. openerp-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:71
 #, python-format
 msgid "Discard"
@@ -540,15 +540,15 @@ msgid ""
 "Discover how you can integrate MRP, PLM, Quality and Maintenance in a single "
 "application to maximize the efficiency of your manufacturing operations.\n"
 "\n"
-"Read more about the features at: https://www.odoo.com/page/manufacturing-"
+"Read more about the features at: https://www.flectrahq.com/page/manufacturing-"
 "features\n"
 "\n"
-"Discover Odoo MRP: https://www.odoo.com/page/manufacturing"
+"Discover Odoo MRP: https://www.flectrahq.com/page/manufacturing"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_1
-msgid "Discover the CRM sales people love https://www.odoo.com/page/crm"
+msgid "Discover the CRM sales people love https://www.flectrahq.com/page/crm"
 msgstr ""
 
 #. module: website_slides
@@ -557,7 +557,7 @@ msgid ""
 "Discover the all-in-one business management software solution that fits any "
 "business size and use case.\n"
 "\n"
-"Learn more at https://odoo.com"
+"Learn more at https://flectrahq.com"
 msgstr ""
 
 #. module: website_slides
@@ -695,7 +695,7 @@ msgid "Featuring Policy"
 msgstr "Política de destacar"
 
 #. module: website_slides
-#. flectra-web
+#. openerp-web
 #: code:addons/website_slides/controllers/main.py:263
 #: code:addons/website_slides/static/src/js/slides_upload.js:89
 #, python-format
@@ -782,7 +782,7 @@ msgstr ""
 "El mensaje de error es:%s"
 
 #. module: website_slides
-#. flectra-web
+#. openerp-web
 #: code:addons/website_slides/static/src/js/slides_upload.js:84
 #, python-format
 msgid "Invalid file type. Please select pdf or image file"
@@ -823,7 +823,7 @@ msgstr "Ultimas publicaciones"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_8
-msgid "Learn more at https://www.odoo.com/page/sales"
+msgid "Learn more at https://www.flectrahq.com/page/sales"
 msgstr ""
 
 #. module: website_slides
@@ -986,7 +986,7 @@ msgid "OpenSource CMS, A performance comparison - Mantavya Gajjar"
 msgstr "OpenSource CMS, Una comparación de rendimiento - Mantavya Gajjar"
 
 #. module: website_slides
-#. flectra-web
+#. openerp-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:28
 #, python-format
 msgid "PDF or Image File"
@@ -1003,7 +1003,7 @@ msgid "Please"
 msgstr "Por favor"
 
 #. module: website_slides
-#. flectra-web
+#. openerp-web
 #: code:addons/website_slides/static/src/js/slides.js:56
 #, python-format
 msgid "Please <a href=\"/web?redirect=%s\">login</a> to vote this slide"
@@ -1098,14 +1098,14 @@ msgstr ""
 "más reciente o más vistas."
 
 #. module: website_slides
-#. flectra-web
+#. openerp-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:70
 #, python-format
 msgid "Save and Publish"
 msgstr "Grabar y Publicar"
 
 #. module: website_slides
-#. flectra-web
+#. openerp-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:69
 #, python-format
 msgid "Save as Draft"
@@ -1210,7 +1210,7 @@ msgid ""
 "Stop doing manual printing and scanning. Move to electronic signature with "
 "Odoo Sign!\n"
 "\n"
-"Discover more at https://www.odoo.com/page/sign"
+"Discover more at https://www.flectrahq.com/page/sign"
 msgstr ""
 
 #. module: website_slides
@@ -1219,7 +1219,7 @@ msgid "Tag"
 msgstr "Etiqueta"
 
 #. module: website_slides
-#. flectra-web
+#. openerp-web
 #: code:addons/website_slides/static/src/js/slides_upload.js:273
 #: code:addons/website_slides/static/src/xml/website_slides.xml:48
 #: model:ir.actions.act_window,name:website_slides.action_slide_tag
@@ -1280,7 +1280,7 @@ msgid "Thumbnail"
 msgstr "Miniatura"
 
 #. module: website_slides
-#. flectra-web
+#. openerp-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:42
 #: code:addons/website_slides/static/src/xml/website_slides.xml:44
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_name
@@ -1347,7 +1347,7 @@ msgstr ""
 "abajo."
 
 #. module: website_slides
-#. flectra-web
+#. openerp-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:9
 #: model:ir.ui.view,arch_db:website_slides.slides_channel_header
 #, python-format
@@ -1355,7 +1355,7 @@ msgid "Upload Presentation"
 msgstr "Cargar Presentación"
 
 #. module: website_slides
-#. flectra-web
+#. openerp-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:12
 #, python-format
 msgid "Uploading presentation..."
@@ -1407,7 +1407,7 @@ msgstr "Esperando por validación"
 msgid ""
 "Warehouse management software for the 21st century.\n"
 "\n"
-"Discover Odoo Inventory: https://www.odoo.com/page/warehouse"
+"Discover Odoo Inventory: https://www.flectrahq.com/page/warehouse"
 msgstr ""
 
 #. module: website_slides
@@ -1416,28 +1416,28 @@ msgid "Website"
 msgstr "Sitio web"
 
 #. module: website_slides
-#. flectra-web
+#. openerp-web
 #: code:addons/website_slides/static/src/js/slides_upload.js:114
 #, python-format
 msgid "You can not upload password protected file."
 msgstr "No puede subir un archivo protegido con contraseña."
 
 #. module: website_slides
-#. flectra-web
+#. openerp-web
 #: code:addons/website_slides/static/src/js/slides.js:65
 #, python-format
 msgid "You have already voted for this slide"
 msgstr "Usted ya ha votado por esta presentación"
 
 #. module: website_slides
-#. flectra-web
+#. openerp-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:36
 #, python-format
 msgid "Youtube Video URL"
 msgstr "URL vídeo de Youtube"
 
 #. module: website_slides
-#. flectra-web
+#. openerp-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:34
 #, python-format
 msgid "Youtube or Google Doc URL"

@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Kostas Goutoudis <goutoudis@gmail.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 # George Tarasidis <george_tarasidis@yahoo.com>, 2017
 # Stefanos Nikou <stefanos.nikou@gmail.com>, 2017
 # Costas Pittalis <cpittalis@gmail.com>, 2017
@@ -85,7 +85,7 @@ msgid ""
 msgstr ""
 
 #. module: account_asset
-#. flectra-web
+#. openerp-web
 #: code:addons/account_asset/static/src/js/account_asset.js:52
 #, python-format
 msgid "Accounting entries waiting for manual verification"
@@ -825,7 +825,7 @@ msgid "Post Depreciation Lines"
 msgstr "Ανάρτηση Γραμμών Αποσβέσεων"
 
 #. module: account_asset
-#. flectra-web
+#. openerp-web
 #: code:addons/account_asset/static/src/js/account_asset.js:49
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_depreciation_line_move_posted_check
 #: model:ir.model.fields,field_description:account_asset.field_asset_asset_report_move_check
@@ -919,7 +919,7 @@ msgstr "Σε Εξέλιξη"
 #. module: account_asset
 #: selection:account.asset.category,type:0
 msgid "Sale: Revenue Recognition"
-msgstr ""
+msgstr "Πώληση: Αναγνώριση Εσόδου"
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_account_asset_category_search
@@ -1024,7 +1024,7 @@ msgid "Type"
 msgstr "Τύπος"
 
 #. module: account_asset
-#. flectra-web
+#. openerp-web
 #: code:addons/account_asset/static/src/js/account_asset.js:55
 #, python-format
 msgid "Unposted"

@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Wolfgang Taferner <wolfgang.transifex@service.wt-io-it.at>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 # Fabian Liesch <fabian.liesch@gmail.com>, 2017
 msgid ""
 msgstr ""
@@ -21,28 +21,28 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: pos_reprint
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_reprint/static/src/xml/reprint.xml:13
 #, python-format
 msgid "Back"
 msgstr "Zurück"
 
 #. module: pos_reprint
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_reprint/static/src/js/reprint.js:38
 #, python-format
 msgid "Nothing to Print"
 msgstr "Nichts zum Ausdrucken!"
 
 #. module: pos_reprint
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_reprint/static/src/xml/reprint.xml:6
 #, python-format
 msgid "Reprint Receipt"
 msgstr "Belegkopie"
 
 #. module: pos_reprint
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_reprint/static/src/js/reprint.js:39
 #, python-format
 msgid "There is no previous receipt to print."

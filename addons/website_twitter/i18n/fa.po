@@ -3,9 +3,9 @@
 # * website_twitter
 # 
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2017
-# ifaraz ir <ifarazir@gmail.com>, 2017
-# Hamid Darabi <hamid.darabi@gmail.com>, 2017
+# Martin Trigaux, 2017
+# Faraz Sadri Alamdari <ifarazir@gmail.com>, 2017
+# Hamid Darabi, 2017
 # Hamed Mohammadi <hamed@dehongi.com>, 2017
 # Arash Sardari <arashss77@gmail.com>, 2018
 msgid ""
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: fa\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. module: website_twitter
 #: model:ir.ui.view,arch_db:website_twitter.website_twitter_snippet
@@ -127,7 +127,7 @@ msgid "Please set the Twitter API Key and Secret in the Website Settings."
 msgstr ""
 
 #. module: website_twitter
-#. flectra-web
+#. openerp-web
 #: code:addons/website_twitter/static/src/xml/website.twitter.xml:35
 #, python-format
 msgid "Reload"
@@ -246,7 +246,7 @@ msgid "Twitter API secret you can get it from https://apps.twitter.com/"
 msgstr ""
 
 #. module: website_twitter
-#. flectra-web
+#. openerp-web
 #: code:addons/website_twitter/static/src/xml/website.twitter.xml:41
 #, python-format
 msgid "Twitter Configuration"
@@ -255,7 +255,7 @@ msgstr ""
 #. module: website_twitter
 #: model:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form
 msgid "Twitter Roller"
-msgstr ""
+msgstr "رولر تویتر"
 
 #. module: website_twitter
 #: code:addons/website_twitter/models/res_config_settings.py:62

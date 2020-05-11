@@ -3,16 +3,19 @@
 # * website
 # 
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2017
-# Jorunn D. Newth <jdn@eyenetworks.no>, 2017
 # Viktor Basso <viktor@voit.no>, 2017
+# Aleksander, 2018
+# Martin Trigaux, 2019
+# Jorunn D. Newth, 2019
+# Marius Stedjan <marius@stedjan.com>, 2020
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-30 13:11+0000\n"
-"PO-Revision-Date: 2017-11-30 13:11+0000\n"
-"Last-Translator: Viktor Basso <viktor@voit.no>, 2017\n"
+"POT-Creation-Date: 2019-01-03 15:06+0000\n"
+"PO-Revision-Date: 2017-09-20 10:25+0000\n"
+"Last-Translator: Marius Stedjan <marius@stedjan.com>, 2020\n"
 "Language-Team: Norwegian Bokmål (https://www.transifex.com/odoo/teams/41243/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,15 +24,21 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: website
-#. flectra-web
-#: code:addons/website/static/src/js/editor/snippets.options.js:724
+#. openerp-web
+#: code:addons/website/static/src/js/editor/snippets.options.js:726
 #, python-format
 msgid " Add Images"
 msgstr "Legg til bilder"
 
 #. module: website
-#: code:addons/website/models/website.py:233
-#: code:addons/website/models/website.py:302
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "\" alert with a"
+msgstr "\" advar med en"
+
+#. module: website
+#: code:addons/website/models/website.py:246
+#: code:addons/website/models/website.py:315
 #, python-format
 msgid "%s (id:%s)"
 msgstr "%s (id:%s)"
@@ -51,14 +60,14 @@ msgid "&lt;?xml version=\"1.0\" encoding=\"utf-8\"?&gt;"
 msgstr "&lt;?xml version=\"1.0\" encoding=\"utf-8\"?&gt;"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.xml:40
 #, python-format
 msgid "&nbsp;"
 msgstr "&nbsp;"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.gallery.xml:51
 #, python-format
 msgid "&times;"
@@ -78,7 +87,7 @@ msgid "(copy)"
 msgstr "(kopi)"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.pageProperties.xml:29
 #, python-format
 msgid "(could be used in"
@@ -127,7 +136,7 @@ msgid "- The Odoo Team"
 msgstr "Odoo-teamet"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.pageProperties.xml:23
 #, python-format
 msgid ""
@@ -156,6 +165,12 @@ msgstr "12"
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "1s"
 msgstr "1s"
+
+#. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "2 <span class=\"sr-only\">(current)</span>"
+msgstr "2 <span class=\"sr-only\">(nåværende)</span>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
@@ -193,14 +208,14 @@ msgid "<b>A Small Subtitle</b>"
 msgstr "<b>En liten undertittel</b>"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/js/tours/banner.js:15
 #, python-format
 msgid "<b>Click Edit</b> to start designing your homepage."
 msgstr "<b>Klikk Oppdater</b> for å begynne å designe hjemmesiden din."
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/js/tours/banner.js:25
 #, python-format
 msgid ""
@@ -231,14 +246,14 @@ msgid ""
 msgstr ""
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/js/tours/banner.js:74
 #, python-format
 msgid "<b>Install a contact form</b> to improve this page."
 msgstr "<b>Legg til et kontaktskjema</b> for å forbedre denne siden."
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/js/tours/banner.js:79
 #, python-format
 msgid ""
@@ -392,6 +407,25 @@ msgid "<i class=\"fa fa-trash-o\"/>Remove Slide"
 msgstr "<i class=\"fa fa-trash-o\"/>Fjern slide"
 
 #. module: website
+#: model:ir.ui.view,arch_db:website.edit_website_pages
+msgid ""
+"<i title=\"Is the page included in the main menu?\" class=\"fa fa-thumb-"
+"tack\" aria-hidden=\"true\"/>"
+msgstr ""
+
+#. module: website
+#: model:ir.ui.view,arch_db:website.edit_website_pages
+msgid ""
+"<i title=\"Is the page indexed by search engines?\" class=\"fa fa-globe\" "
+"aria-hidden=\"true\"/>"
+msgstr ""
+
+#. module: website
+#: model:ir.ui.view,arch_db:website.edit_website_pages
+msgid "<i title=\"Is the page published?\" class=\"fa fa-eye\" aria-hidden=\"true\"/>"
+msgstr ""
+
+#. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid ""
 "<i>\n"
@@ -426,7 +460,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "<i>Instant setup, satisfied or reimbursed.</i>"
-msgstr ""
+msgstr "<i>Umiddelbart oppsett, fornøyd eller refundert.</i>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -434,7 +468,7 @@ msgid "<i>We wish you a fun time!</i>"
 msgstr "<i>Vi håper du får det morsomt!</i>"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/js/tours/banner.js:54
 #, python-format
 msgid ""
@@ -457,6 +491,14 @@ msgstr ""
 "historie.</small>"
 
 #. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid ""
+"<small id=\"emailHelp\" class=\"help-block text-muted\">We'll never share "
+"your email with anyone else.</small>"
+msgstr ""
+
+#. module: website
 #: model:ir.ui.view,arch_db:website.s_parallax_slider
 msgid "<small>Author of this quote</small>"
 msgstr "<small>Forfatter av dette sitatet</small>"
@@ -465,6 +507,12 @@ msgstr "<small>Forfatter av dette sitatet</small>"
 #: model:ir.ui.view,arch_db:website.s_parallax_slider
 msgid "<small>John Doe, CEO</small>"
 msgstr "<small>Jon Dyvik, administrerende direktør</small>"
+
+#. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "<span class=\"badge mb4\">This is a badge</span>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.user_navbar
@@ -535,17 +583,19 @@ msgstr ""
 "                                    </span>"
 
 #. module: website
-#: model:ir.ui.view,arch_db:website.layout
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
 msgid ""
 "<span class=\"sr-only\">Toggle navigation</span>\n"
-"                <span class=\"icon-bar\"/>\n"
-"                <span class=\"icon-bar\"/>\n"
-"                <span class=\"icon-bar\"/>"
+"                                                        <span class=\"icon-bar\"/>\n"
+"                                                        <span class=\"icon-bar\"/>\n"
+"                                                        <span class=\"icon-bar\"/>"
 msgstr ""
-"<span class=\"sr-only\">Navigasjon på/av</span>\n"
-"                <span class=\"icon-bar\"/>\n"
-"                <span class=\"icon-bar\"/>\n"
-"                <span class=\"icon-bar\"/>"
+
+#. module: website
+#: model:ir.ui.view,arch_db:website.user_navbar
+msgid "<span title=\"Mobile preview\" class=\"fa fa-mobile\"/>"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.user_navbar
@@ -802,6 +852,9 @@ msgid ""
 "A CDN helps you serve your website’s content with high availability and high"
 " performance to any visitor wherever they are located."
 msgstr ""
+"En CDN hjelper deg med å tjene din nettsides innhold med høyere "
+"tilgjengelighet og ytelse til enhver besøkende, uansett hvor de er "
+"lokalisert."
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_text_block
@@ -827,6 +880,10 @@ msgid ""
 "field as True to allow users to run this action. If it is set to False the "
 "action cannot be run through the website."
 msgstr ""
+"En kodet tjenerhandling kan kjøres fra nettsiden ved å bruke en dedikert "
+"kontroller. Adressen er <base>/website/action/<website_path>. Sett dette "
+"feltet til Sann for å tillate brukere å kjøre denne handlingen. Hvis satt "
+"til Usann, kan handlingen ikke kjøres fra nettsiden."
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_text_block
@@ -866,7 +923,13 @@ msgstr "Om oss"
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "Account &amp; Sales management"
-msgstr ""
+msgstr "Regnskap- og Salgsadministrasjon"
+
+#. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Action"
+msgstr "Handling"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_cdn_activated
@@ -888,14 +951,14 @@ msgid ""
 msgstr ""
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.seo.xml:53
 #, python-format
 msgid "Add"
 msgstr "Legg til"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.contentMenu.xml:49
 #, python-format
 msgid "Add Menu Entry"
@@ -907,14 +970,14 @@ msgid "Add a great slogan"
 msgstr "Legg til et flott slagord"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/js/menu/new_content.js:49
 #, python-format
 msgid "Add page in menu"
 msgstr "Legg til side i menyen"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.backend.xml:55
 #, python-format
 msgid "Add this feature"
@@ -932,7 +995,7 @@ msgid ""
 msgstr "Reklamer på et nøkkelord hvis du svarer JA på disse tre spørsmålene:"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/js/tours/banner.js:50
 #, python-format
 msgid "After having checked how it looks on mobile, <b>close the preview</b>."
@@ -953,6 +1016,12 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Aim for a .com and/or your country extension"
 msgstr "Sats på .com og/eller toppdomenet for landet ditt"
+
+#. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Alert"
+msgstr "Varsel"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_company_team
@@ -1022,15 +1091,15 @@ msgstr ""
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_page_arch_db
 msgid "Arch Blob"
-msgstr ""
+msgstr "Arch Blob"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_page_arch_fs
 msgid "Arch Filename"
-msgstr ""
+msgstr "Arch Filnavn"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.xml:60
 #, python-format
 msgid "Are you sure you want to delete this page ?"
@@ -1050,6 +1119,12 @@ msgstr "Tiltrekk nye leads"
 #: model:ir.model.fields,field_description:website.field_website_auto_redirect_lang
 msgid "Autoredirect Language"
 msgstr "Omdiriger automatisk til språkversjon"
+
+#. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Autosizing"
+msgstr "Autostørrelse"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_ir_act_server_website_published
@@ -1073,6 +1148,12 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website.500
 msgid "Back"
 msgstr "Tilbake"
+
+#. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Badge"
+msgstr "Medalje"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
@@ -1107,6 +1188,12 @@ msgid "Big"
 msgstr "Stor"
 
 #. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Breadcrumb"
+msgstr "Brødsmule"
+
+#. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "Build awareness and credibility"
 msgstr "Bygg kjennskap og troverdighet"
@@ -1115,6 +1202,12 @@ msgstr "Bygg kjennskap og troverdighet"
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "Building Profile"
 msgstr "Bygger profil"
+
+#. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Button"
+msgstr "Knapp"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -1139,7 +1232,7 @@ msgid "Can I afford for advertising on the keyword?"
 msgstr "Har jeg råd til annonsering på nøkkelordet?"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/js/backend/dashboard.js:106
 #: code:addons/website/static/src/xml/website.xml:27
 #: model:ir.ui.view,arch_db:website.500
@@ -1147,6 +1240,30 @@ msgstr "Har jeg råd til annonsering på nøkkelordet?"
 #, python-format
 msgid "Cancel"
 msgstr "Avbryt"
+
+#. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Card"
+msgstr "Kort"
+
+#. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Card Body"
+msgstr "Kort-innhold"
+
+#. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Card Footer"
+msgstr "Kort-bunntekst"
+
+#. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Card Header"
+msgstr "Kort-topptekst"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_feature_grid
@@ -1238,7 +1355,7 @@ msgid "Clone this page"
 msgstr "Dupliser denne siden"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.gallery.xml:51
 #, python-format
 msgid "Close"
@@ -1279,12 +1396,18 @@ msgid "Complete CRM for any size team"
 msgstr "Komplett CRM for team av alle størrelser"
 
 #. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Components"
+msgstr "Komponenter"
+
+#. module: website
 #: model:ir.ui.menu,name:website.menu_website_global_configuration
 msgid "Configuration"
 msgstr "Konfigurasjon"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/js/editor/snippets.options.js:24
 #, python-format
 msgid "Confirmation"
@@ -1356,7 +1479,7 @@ msgid "Content Delivery Network (CDN)"
 msgstr "Content Delivery Network (CDN)"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/js/menu/content.js:388
 #: code:addons/website/static/src/xml/website.xml:26
 #, python-format
@@ -1369,7 +1492,7 @@ msgid "Copyright &amp;copy;"
 msgstr "Opphavsrett &amp;copy;"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/js/menu/content.js:328
 #, python-format
 msgid "Create Menu"
@@ -1427,7 +1550,7 @@ msgid "Customize Theme"
 msgstr "Tilpass tema"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/js/tours/banner.js:32
 #, python-format
 msgid ""
@@ -1441,6 +1564,12 @@ msgstr ""
 #: model:ir.ui.menu,name:website.menu_dashboard
 msgid "Dashboard"
 msgstr "Dashbord"
+
+#. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Data"
+msgstr "Data"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.res_config_settings_view_form
@@ -1469,7 +1598,7 @@ msgid "Default language code"
 msgstr "Standard språkkode"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.seo.xml:41
 #, python-format
 msgid "Define Keywords"
@@ -1481,7 +1610,7 @@ msgid "Delete Blocks"
 msgstr "Slett blokker"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/js/menu/content.js:741
 #, python-format
 msgid "Delete Page"
@@ -1509,7 +1638,7 @@ msgid "Demo Logo"
 msgstr "Demo-logo"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.pageProperties.xml:23
 #: code:addons/website/static/src/xml/website.pageProperties.xml:32
 #, python-format
@@ -1517,7 +1646,7 @@ msgid "Dependencies"
 msgstr "Avhengigheter"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.seo.xml:20
 #, python-format
 msgid "Description"
@@ -1534,9 +1663,15 @@ msgid "Disable autoplay"
 msgstr "Slå av autoavspilling"
 
 #. module: website
-#. flectra-web
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Disabled"
+msgstr "Deaktivert"
+
+#. module: website
+#. openerp-web
 #: code:addons/website/static/src/js/menu/content.js:45
-#: code:addons/website/static/src/js/menu/seo.js:343
+#: code:addons/website/static/src/js/menu/seo.js:344
 #, python-format
 msgid "Discard"
 msgstr "Avbryt"
@@ -1562,7 +1697,7 @@ msgid "Display Name"
 msgstr "Visningsnavn"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/js/editor/snippets.options.js:89
 #, python-format
 msgid "Do you want to edit the company data ?"
@@ -1579,7 +1714,7 @@ msgid "Domain Name"
 msgstr "Domenenavn"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.xml:35
 #, python-format
 msgid "Don't forget to update all links referring to this page."
@@ -1607,25 +1742,31 @@ msgid "Downtown"
 msgstr "Bysentrum"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.contentMenu.xml:45
 #, python-format
 msgid "Drag a menu to the right to create a sub-menu"
 msgstr "Dra et menyvalg mot høyre for å opprette en undermeny"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/js/tours/banner.js:36
 #, python-format
 msgid "Drag another block in your page, below the cover."
 msgstr "Dra en blokk til inn i siden din, nedenfor forsidebildet."
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/js/tours/banner.js:20
 #, python-format
 msgid "Drag the <i>Cover</i> block and drop it in your page."
 msgstr "Dra blokken <i>Forsidebilde</i> og slipp den på siden din."
+
+#. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Dropdown"
+msgstr "Nedtrekksmeny"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_feature_grid
@@ -1648,7 +1789,7 @@ msgid "Edit"
 msgstr "Rediger"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/js/menu/content.js:417
 #: model:ir.ui.view,arch_db:website.user_navbar
 #, python-format
@@ -1672,7 +1813,7 @@ msgid "Edit in backend"
 msgstr "Rediger i backend"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.backend.xml:73
 #, python-format
 msgid "Edit my Analytics Client ID"
@@ -1688,7 +1829,7 @@ msgstr ""
 "\"Side ikke funnet\"."
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/js/editor/snippets.options.js:35
 #, python-format
 msgid "Edit the menu"
@@ -1700,14 +1841,31 @@ msgid "Editor and Designer"
 msgstr "Redaktør og formgiver"
 
 #. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Email address"
+msgstr "E-postadresse"
+
+#. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
 msgid "Email support"
 msgstr "Epoststøtte"
 
 #. module: website
+#: model:ir.ui.view,arch_db:website.res_config_settings_view_form
+msgid "Enable billing on your Google Project"
+msgstr ""
+
+#. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "End"
 msgstr "Slutt"
+
+#. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Enter email"
+msgstr "Legg inn e-post"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
@@ -1725,7 +1883,7 @@ msgid "Examples"
 msgstr "Eksempler"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.contentMenu.xml:61
 #, python-format
 msgid "Existing Page, URL or Email"
@@ -1749,6 +1907,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:website.field_website_page_xml_id
 msgid "External ID"
 msgstr "Ekstern ID"
+
+#. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Extra Small"
+msgstr "Ekstra liten"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
@@ -1791,6 +1955,11 @@ msgid "Feature Two"
 msgstr "Funksjon 2"
 
 #. module: website
+#: model:ir.model,name:website.model_ir_model_fields
+msgid "Fields"
+msgstr "Felter"
+
+#. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid ""
 "Finally don't try to make all your content accessible from the main menu or the footer.\n"
@@ -1820,10 +1989,10 @@ msgstr "Float"
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "Folded list"
-msgstr ""
+msgstr "Minimert liste"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.editor.xml:6
 #, python-format
 msgid "Follow all the"
@@ -1849,6 +2018,12 @@ msgid ""
 msgstr ""
 "For Odoo-teamet,<br/>\n"
 "                         Fabien Pinckaers, grunnlegger"
+
+#. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Form"
+msgstr "Skjema"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_company_team
@@ -1899,7 +2074,7 @@ msgid "Get an understanding of your methodology"
 msgstr "Forstå metodologien din"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/js/menu/seo.js:340
 #, python-format
 msgid ""
@@ -1919,14 +2094,14 @@ msgid "GitHub Account"
 msgstr "GitHub-konto"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/js/menu/content.js:48
 #, python-format
 msgid "Go To Page"
 msgstr "Gå til side"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/js/editor/snippets.options.js:27
 #, python-format
 msgid "Go to Link"
@@ -1938,7 +2113,7 @@ msgid "Go to Page Manager"
 msgstr "Gå til sideadministrasjon"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.backend.xml:20
 #: code:addons/website/static/src/xml/website.backend.xml:22
 #, python-format
@@ -1951,7 +2126,7 @@ msgid "GoDaddy"
 msgstr "GoDaddy"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/js/tours/banner.js:46
 #, python-format
 msgid ""
@@ -1967,7 +2142,7 @@ msgid "Google Adwords"
 msgstr "Google AdWords "
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/js/backend/dashboard.js:89
 #: model:ir.model.fields,field_description:website.field_res_config_settings_has_google_analytics
 #, python-format
@@ -1986,7 +2161,7 @@ msgid "Google Analytics in Dashboard"
 msgstr "Google Analytics i dashbord"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.backend.xml:92
 #, python-format
 msgid ""
@@ -2077,6 +2252,48 @@ msgid "HTTP routing"
 msgstr "HTTP-ruting"
 
 #. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Header"
+msgstr "Topptekst"
+
+#. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Headings 1"
+msgstr "Overskrift 1"
+
+#. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Headings 2"
+msgstr "Overskrift 2"
+
+#. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Headings 3"
+msgstr "Overskrift 3"
+
+#. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Headings 4"
+msgstr "Overskrift 4"
+
+#. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Headings 5"
+msgstr "Overskrift 5"
+
+#. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Headings 6"
+msgstr "Overskrift 6"
+
+#. module: website
 #: model:ir.ui.view,arch_db:website.s_cover
 msgid "Headline"
 msgstr "Overskrift"
@@ -2090,7 +2307,7 @@ msgstr ""
 " nytt nettsted:"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.pageProperties.xml:110
 #, python-format
 msgid "Hide this page from search results"
@@ -2098,14 +2315,22 @@ msgstr "Gjem denne siden fra søkeresultater"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.500
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
 #: model:ir.ui.view,arch_db:website.footer_default
 #: model:website.menu,name:website.menu_homepage
 #: model:website.menu,name:website.website2_menu_homepage
+#: model:website.page,arch_db:website.bs_debug_page
 msgid "Home"
 msgstr "Hjem"
 
 #. module: website
-#. flectra-web
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Home <span class=\"sr-only\">(current)</span>"
+msgstr "Hjem <span class=\"sr-only\">(nåværende)</span>"
+
+#. module: website
+#. openerp-web
 #: code:addons/website/static/src/xml/website.editor.xml:4
 #: model:ir.model.fields,field_description:website.field_website_homepage_id
 #: model:ir.model.fields,field_description:website.field_website_page_is_homepage
@@ -2124,7 +2349,7 @@ msgid "Homepage 0.0.0.0"
 msgstr "Hjemmeside 0.0.0.0"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.backend.xml:102
 #: model:ir.ui.view,arch_db:website.res_config_settings_view_form
 #, python-format
@@ -2132,7 +2357,7 @@ msgid "How to get my Client ID"
 msgstr "Hvordan få min klient-ID"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.backend.xml:97
 #: model:ir.ui.view,arch_db:website.res_config_settings_view_form
 #, python-format
@@ -2181,6 +2406,9 @@ msgid ""
 "* if False, the view currently does not extend its parent but can be enabled\n"
 "         "
 msgstr ""
+"Hvis denne visningen er arvet,\n"
+"* hvis Sann, vil visningen alltid utvide sin overordnede visning\n"
+"* hvis Sann, vil visningen ikke utvide sin overordnede visning, men kan skrus på"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -2188,28 +2416,28 @@ msgid "Improve your conversion from visitors to customers"
 msgstr "Forbedre konvertering fra besøkende til kunde"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.seo.xml:68
 #, python-format
 msgid "In description"
 msgstr "I beskrivelsen"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.seo.xml:69
 #, python-format
 msgid "In page's content"
 msgstr "I sideinnholdet"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.seo.xml:67
 #, python-format
 msgid "In title"
 msgstr "I tittelen"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.pageProperties.xml:108
 #: model:ir.ui.view,arch_db:website.index_management
 #, python-format
@@ -2224,7 +2452,7 @@ msgstr "Informasjon om"
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_page_inherit_id
 msgid "Inherited View"
-msgstr ""
+msgstr "Nedarvet visning"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -2273,6 +2501,7 @@ msgstr ""
 "å ta selskapet et nivå videre."
 
 #. module: website
+#: model:ir.model.fields,field_description:website.field_website_menu_is_visible
 #: model:ir.model.fields,field_description:website.field_website_page_is_visible
 msgid "Is Visible"
 msgstr "Er synlig"
@@ -2291,14 +2520,14 @@ msgid ""
 msgstr ""
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.pageProperties.xml:19
 #, python-format
 msgid "It looks like your file is being called by"
 msgstr "Det ser ut som filen din kalles av"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/js/content/website_root.js:212
 #, python-format
 msgid ""
@@ -2318,6 +2547,18 @@ msgid ""
 msgstr ""
 
 #. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Item 1"
+msgstr "Punkt 1"
+
+#. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Item 2"
+msgstr "Punkt 2"
+
+#. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "It’s time to grow your traffic!"
 msgstr "Det er på tide å skaffe deg mer trafikk!"
@@ -2333,11 +2574,17 @@ msgid "Key"
 msgstr "Nøkkel"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.seo.xml:48
 #, python-format
 msgid "Keyword"
 msgstr "Nøkkelord"
+
+#. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Label"
+msgstr "Merkelapp"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_res_config_settings_language_ids
@@ -2351,7 +2598,9 @@ msgid "Languages available on your website"
 msgstr "Språk tilgjengelige på nettstedet ditt"
 
 #. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
 #: model:ir.ui.view,arch_db:website.snippet_options
+#: model:website.page,arch_db:website.bs_debug_page
 msgid "Large"
 msgstr "Stor"
 
@@ -2366,7 +2615,7 @@ msgid "Last Modified on"
 msgstr "Sist oppdatert "
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.backend.xml:110
 #, python-format
 msgid "Last Month"
@@ -2389,14 +2638,14 @@ msgid "Last Updated on"
 msgstr "Sist oppdatert"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.backend.xml:109
 #, python-format
 msgid "Last Week"
 msgstr "Siste uke"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.backend.xml:111
 #, python-format
 msgid "Last Year"
@@ -2418,7 +2667,7 @@ msgid "Left"
 msgstr "Venstre"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.seo.xml:65
 #, python-format
 msgid "Legend:"
@@ -2430,11 +2679,17 @@ msgid "Let your customers log in to see their documents"
 msgstr "La kundene dine logge inn for å se dokumentene sine"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.editor.xml:5
 #, python-format
 msgid "Let's start designing."
 msgstr "La oss begynne å designe."
+
+#. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Library"
+msgstr "Bibliotek"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
@@ -2442,14 +2697,22 @@ msgid "Limited customization"
 msgstr "Begrenset tilpassing"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.contentMenu.xml:55
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
 #, python-format
 msgid "Link"
 msgstr "Link"
 
 #. module: website
-#. flectra-web
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Link button"
+msgstr "Link-knapp"
+
+#. module: website
+#. openerp-web
 #: code:addons/website/static/src/xml/website.backend.xml:81
 #, python-format
 msgid "Link my Analytics Account"
@@ -2471,7 +2734,7 @@ msgid "List of Features"
 msgstr "Liste over funksjonalitet"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/js/menu/seo.js:82
 #, python-format
 msgid "Loading..."
@@ -2541,7 +2804,7 @@ msgid "Menu"
 msgstr "Meny"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/js/menu/content.js:338
 #, python-format
 msgid "Menu Label"
@@ -2575,7 +2838,7 @@ msgstr ""
 "Mikkel er et av våre lyseste hoder."
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/js/menu/mobile_view.js:54
 #, python-format
 msgid "Mobile preview"
@@ -2593,7 +2856,12 @@ msgid "Model Data"
 msgstr "Modelldata"
 
 #. module: website
-#. flectra-web
+#: model:ir.model,name:website.model_ir_model
+msgid "Models"
+msgstr "Modeller"
+
+#. module: website
+#. openerp-web
 #: code:addons/website/static/src/xml/website.seo.xml:58
 #, python-format
 msgid "Most searched topics related to your keywords, ordered by importance:"
@@ -2637,7 +2905,7 @@ msgid "My Website"
 msgstr "Nettstedet mitt"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.pageProperties.xml:40
 #: model:ir.ui.view,arch_db:website.edit_website_pages
 #: model:ir.ui.view,arch_db:website.res_config_settings_view_form
@@ -2656,8 +2924,14 @@ msgid "Namecheap"
 msgstr "Namecheap"
 
 #. module: website
-#. flectra-web
-#: code:addons/website/static/src/js/menu/new_content.js:41
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Navbar"
+msgstr "Navigasjonsmeny"
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/js/menu/new_content.js:42
 #: code:addons/website/static/src/xml/website.contentMenu.xml:58
 #: model:ir.ui.view,arch_db:website.user_navbar
 #, python-format
@@ -2675,7 +2949,9 @@ msgid "Newsletter"
 msgstr "Nyhetsbrev"
 
 #. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
 #: model:ir.ui.view,arch_db:website.kanban_contain
+#: model:website.page,arch_db:website.bs_debug_page
 msgid "Next"
 msgstr "Neste"
 
@@ -2700,7 +2976,7 @@ msgid "None"
 msgstr "Ingen"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.seo.xml:66
 #, python-format
 msgid "Not used"
@@ -2783,7 +3059,7 @@ msgid "Odoo text and image block"
 msgstr "Odoo tekst og bilde-blokk"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.backend.xml:5
 #, python-format
 msgid "On Website"
@@ -2917,14 +3193,14 @@ msgid "Page Indexed"
 msgstr "Side indeksert"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.pageProperties.xml:46
 #, python-format
 msgid "Page Name"
 msgstr "Sidenavn"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/js/menu/content.js:51
 #: model:ir.ui.view,arch_db:website.user_navbar
 #, python-format
@@ -2932,7 +3208,7 @@ msgid "Page Properties"
 msgstr "Sideegenskaper"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/js/menu/new_content.js:42
 #: code:addons/website/static/src/xml/website.seo.xml:14
 #, python-format
@@ -2940,7 +3216,7 @@ msgid "Page Title"
 msgstr "Sidetittel"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.pageProperties.xml:53
 #: model:ir.model.fields,field_description:website.field_website_page_url
 #, python-format
@@ -2948,12 +3224,18 @@ msgid "Page URL"
 msgstr "Side-URL"
 
 #. module: website
-#: code:addons/website/models/website.py:208
-#: code:addons/website/models/website.py:277
+#: code:addons/website/models/website.py:221
+#: code:addons/website/models/website.py:290
 #: model:ir.ui.menu,name:website.menu_website_pages_list
 #, python-format
 msgid "Pages"
 msgstr "Sider"
+
+#. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Pagination"
+msgstr "Paginering"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
@@ -2970,14 +3252,24 @@ msgstr ""
 "nøkkelfunksjoner. For å sammenlikne produkter, bruk innsidekolonner."
 
 #. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid ""
+"Paragraph with <strong>bold</strong>, <span class=\"text-"
+"muted\">muted</span> and <em>italic</em> texts"
+msgstr ""
+"Paragraf med <strong>fet</strong>, <span class=\"text-muted\">dempet</span> "
+"og <em>kursiv</em> tekst"
+
+#. module: website
 #: model:ir.model.fields,field_description:website.field_website_menu_parent_left
 msgid "Parent Left"
-msgstr ""
+msgstr "Venstre forelder"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_menu_parent_id
 msgid "Parent Menu"
-msgstr ""
+msgstr "Overordnet meny"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_menu_parent_right
@@ -2992,7 +3284,7 @@ msgstr "Partnerdetaljer"
 #. module: website
 #: model:ir.model.fields,help:website.field_website_partner_id
 msgid "Partner-related data of the user"
-msgstr ""
+msgstr "Partnerrelatert brukerdata"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.template_partner_comment
@@ -3058,11 +3350,17 @@ msgid "Prev"
 msgstr "Forrige"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.seo.xml:28
 #, python-format
 msgid "Preview"
 msgstr "Forhåndsvisning"
+
+#. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Previous"
+msgstr "Forrige"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_comparisons
@@ -3076,7 +3374,7 @@ msgid "Promote"
 msgstr "Markedsfør"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/js/menu/seo.js:339
 #, python-format
 msgid "Promote Page"
@@ -3108,7 +3406,7 @@ msgid "Public User"
 msgstr "Offentlig bruker"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.pageProperties.xml:41
 #: code:addons/website/static/src/xml/website.pageProperties.xml:122
 #, python-format
@@ -3131,14 +3429,14 @@ msgstr ""
 "(Twitter, Facebook, LinkedIn)."
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/js/tours/banner.js:42
 #, python-format
 msgid "Publish your page by clicking on the <b>Save</b> button."
 msgstr "Publiser siden din ved å klikke på <b>Lagre</b>-knappen."
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/js/backend/button.js:37
 #: model:ir.ui.view,arch_db:website.publish_management
 #: model:ir.ui.view,arch_db:website.publish_short
@@ -3147,7 +3445,7 @@ msgid "Published"
 msgstr "Publisert"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.pageProperties.xml:133
 #: model:ir.model.fields,field_description:website.field_website_page_date_publish
 #, python-format
@@ -3191,7 +3489,7 @@ msgid "Redirect From"
 msgstr "Omdirigering fra"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.pageProperties.xml:62
 #, python-format
 msgid "Redirect Old URL"
@@ -3240,14 +3538,14 @@ msgid "Related Page"
 msgstr "Tilknyttet side"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.backend.xml:58
 #, python-format
 msgid "Remove this suggestion from dashboard"
 msgstr "Fjern dette forslaget fra dashbordet"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.xml:68
 #, python-format
 msgid "Rename Page To:"
@@ -3294,13 +3592,19 @@ msgid "Sample images"
 msgstr "Eksempelbilder"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/js/backend/dashboard.js:96
 #: code:addons/website/static/src/js/menu/content.js:44
-#: code:addons/website/static/src/js/menu/seo.js:342
+#: code:addons/website/static/src/js/menu/seo.js:343
 #, python-format
 msgid "Save"
 msgstr "Lagre"
+
+#. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Search"
+msgstr "Søk"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.menu_search
@@ -3338,7 +3642,7 @@ msgid "See how to translate on your own"
 msgstr "Se hvordan du kan oversette på egenhånd"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/js/menu/content.js:387
 #, python-format
 msgid "Select a Menu"
@@ -3385,6 +3689,12 @@ msgid "Send us an email"
 msgstr "Send oss en epostmelding"
 
 #. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Separated link"
+msgstr "Separert link"
+
+#. module: website
 #: model:ir.model.fields,field_description:website.field_website_menu_sequence
 #: model:ir.model.fields,field_description:website.field_website_page_priority
 #: model:ir.model.fields,field_description:website.field_website_redirect_sequence
@@ -3417,19 +3727,14 @@ msgstr "Skal brukere omdirigeres til språket satt i nettleseren deres"
 #: model:ir.model.fields,field_description:website.field_ir_ui_view_customize_show
 #: model:ir.model.fields,field_description:website.field_website_page_customize_show
 msgid "Show As Optional Inherit"
-msgstr ""
+msgstr "Vis som valgfritt arv"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.pageProperties.xml:86
 #, python-format
 msgid "Show in Top Menu"
 msgstr "Vis i toppmeny"
-
-#. module: website
-#: model:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "Show your address on a map in the"
-msgstr "Vis adressen din i et kart på"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -3452,7 +3757,9 @@ msgid "Slow"
 msgstr "Langsom"
 
 #. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
 #: model:ir.ui.view,arch_db:website.snippet_options
+#: model:website.page,arch_db:website.bs_debug_page
 msgid "Small"
 msgstr "Liten"
 
@@ -3463,13 +3770,19 @@ msgid "Social Media"
 msgstr "Sosiale medier"
 
 #. module: website
-#: code:addons/website/controllers/main.py:218
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Something else here"
+msgstr "Noe annet her"
+
+#. module: website
+#: code:addons/website/controllers/main.py:219
 #, python-format
 msgid "Sort by Name"
 msgstr "Sorter på navn"
 
 #. module: website
-#: code:addons/website/controllers/main.py:217
+#: code:addons/website/controllers/main.py:218
 #, python-format
 msgid "Sort by Url"
 msgstr "Sorter på URL"
@@ -3495,7 +3808,7 @@ msgid "Starter package"
 msgstr "Startpakke"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/js/editor/snippets.options.js:50
 #, python-format
 msgid "Stay on this page"
@@ -3517,7 +3830,7 @@ msgid "Subtitle 3"
 msgstr "Undertittel 3"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.seo.xml:58
 #, python-format
 msgid "Suggested"
@@ -3624,7 +3937,7 @@ msgstr "Fullstendig URL for å nå dokumentet via nettstedet."
 #. module: website
 #: model:ir.model.fields,help:website.field_ir_act_server_website_url
 msgid "The full URL to access the server action through the website."
-msgstr ""
+msgstr "Full URL for å få tilgang til server-handlinger gjennom nettstedet."
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.403
@@ -3669,7 +3982,7 @@ msgstr ""
 "Her er noen råd om det neste å fokusere på."
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.backend.xml:80
 #, python-format
 msgid "There is no data currently available."
@@ -3712,6 +4025,12 @@ msgstr ""
 "Dette feltet brukes til å sette/hente språkinnstillinger for brukeren."
 
 #. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "This is a \""
+msgstr "Dette er en \""
+
+#. module: website
 #: model:ir.ui.view,arch_db:website.page_404
 msgid ""
 "This page does not exist, but you can create it as you are administrator of "
@@ -3721,7 +4040,7 @@ msgstr ""
 "opprette den."
 
 #. module: website
-#: code:addons/website/models/website.py:246
+#: code:addons/website/models/website.py:259
 #, python-format
 msgid "This page is in the menu <b>%s</b>"
 msgstr "Denne siden er i menyen <b>%s</b>"
@@ -3756,12 +4075,18 @@ msgstr ""
 "For å få en ekstern vurdering av nettstedet ditt, kan du også sende det til"
 
 #. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Toggle <span class=\"caret\"/>"
+msgstr ""
+
+#. module: website
 #: model:ir.ui.view,arch_db:website.s_company_team
 msgid "Tony Fred, CEO"
 msgstr "Fred Tangen, CEO"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/js/menu/content.js:382
 #: model:website.menu,name:website.main_menu
 #: model:website.menu,name:website.website2_main_menu
@@ -3785,7 +4110,7 @@ msgid "Tracking ID"
 msgstr "Sporings-ID"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/js/editor/rte.summernote.js:17
 #, python-format
 msgid "Transform the picture (click twice to reset transformation)"
@@ -3816,7 +4141,7 @@ msgid "Twitter Scroller"
 msgstr "Twitter-skroller"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.pageProperties.xml:76
 #: model:ir.ui.view,arch_db:website.snippet_options
 #, python-format
@@ -3832,7 +4157,7 @@ msgstr ""
 "Skriv '<i class=\"confirm_word\">ja</i>' i feltet nedenfor for å bekrefte."
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.backend.xml:96
 #: model:ir.ui.view,arch_db:website.res_config_settings_view_form
 #: model:ir.ui.view,arch_db:website.view_website_form
@@ -3868,7 +4193,7 @@ msgid "Unlimited customization"
 msgstr "Ubegrenset tilpasning"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/js/backend/button.js:37
 #: model:ir.ui.view,arch_db:website.publish_management
 #: model:ir.ui.view,arch_db:website.publish_short
@@ -3892,6 +4217,11 @@ msgid "Url"
 msgstr "URL"
 
 #. module: website
+#: model:ir.ui.view,arch_db:website.res_config_settings_view_form
+msgid "Use Google Map on your website ("
+msgstr "Bruk Google Map på ditt nettsted ("
+
+#. module: website
 #: model:ir.ui.view,arch_db:website.s_faq_collapse
 msgid "Use Of Cookies"
 msgstr "Bruk av informasjonskapsler"
@@ -3907,7 +4237,7 @@ msgid "Use a Content Delivery Network (CDN)"
 msgstr "Bruk et Content Delivery Network (CDN)"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.pageProperties.xml:97
 #, python-format
 msgid "Use as Homepage"
@@ -3930,6 +4260,12 @@ msgid ""
 msgstr ""
 "User-agent: *\n"
 "Sitemap:"
+
+#. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "Utilities &amp; Typography"
+msgstr "Verktøy &amp; Typografi"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
@@ -3965,12 +4301,12 @@ msgstr "Se type"
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_page_mode
 msgid "View inheritance mode"
-msgstr ""
+msgstr "Arve-modus for visning"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_page_inherit_children_ids
 msgid "Views which inherit from this one"
-msgstr ""
+msgstr "Visninger som arver fra denne"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_blog_post_website_published
@@ -4001,7 +4337,7 @@ msgstr ""
 "innhold kan du tilby dine besøkende? Hvorfor skal de bli på nettstedet ditt?"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.backend.xml:70
 #, python-format
 msgid "Visits"
@@ -4032,7 +4368,7 @@ msgstr ""
 "løser problemer for virksomheten din."
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.xml:37
 #, python-format
 msgid "We found these ones:"
@@ -4281,14 +4617,14 @@ msgid "Welcome"
 msgstr "Velkommen"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.editor.xml:4
 #, python-format
 msgid "Welcome to your"
 msgstr "Velkommen til"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.editor.xml:10
 #, python-format
 msgid "What do you want to do?"
@@ -4372,7 +4708,7 @@ msgid ""
 msgstr ""
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.backend.xml:91
 #, python-format
 msgid "You do not seem to have access to this Analytics Account."
@@ -4386,7 +4722,7 @@ msgid ""
 msgstr ""
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.backend.xml:90
 #, python-format
 msgid "You need to log in to your Google Account before:"
@@ -4407,7 +4743,7 @@ msgid "You should try other search criteria."
 msgstr "Du bør prøve andre søkekriterier."
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.backend.xml:100
 #, python-format
 msgid "Your Client ID:"
@@ -4419,7 +4755,7 @@ msgid "Your Slide Title"
 msgstr ""
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.backend.xml:95
 #, python-format
 msgid "Your Tracking ID:"
@@ -4431,7 +4767,7 @@ msgid "Your Website Title"
 msgstr "Tittel på nettstedet ditt"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.editor.xml:11
 #, python-format
 msgid "Your current changes will be saved automatically."
@@ -4503,14 +4839,14 @@ msgid "check out our Blog application"
 msgstr "ta en kikk på blogg-appen vår"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.seo.xml:41
 #, python-format
 msgid "describing your page content"
 msgstr "som beskriver innholdet på siden din"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.xml:70
 #, python-format
 msgid "e.g. About Us"
@@ -4550,14 +4886,14 @@ msgid "for a free evaluation of the usability of your homepage."
 msgstr "for en gratis vurdering av brukervennligheten på hjemmesiden din"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.xml:41
 #, python-format
 msgid "found(s)"
-msgstr ""
+msgstr "fant"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.seo.xml:28
 #, python-format
 msgid "how your page will be listed on Google"
@@ -4631,6 +4967,12 @@ msgid "learn how people find your website,"
 msgstr "lær hvordan folk finner nettstedet ditt,"
 
 #. module: website
+#: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model:website.page,arch_db:website.bs_debug_page
+msgid "link"
+msgstr "link"
+
+#. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "make optimizations for Google referencing."
 msgstr "optimaliser for henvisninger fra Google."
@@ -4647,8 +4989,8 @@ msgstr "eller oppdater hovedversjon"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "page"
-msgstr "side"
+msgid "page, snippets, ...)"
+msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -4666,7 +5008,7 @@ msgid "sending us an email"
 msgstr "sende oss en epostmelding"
 
 #. module: website
-#. flectra-web
+#. openerp-web
 #: code:addons/website/static/src/xml/website.editor.xml:6
 #, python-format
 msgid "signs to get your website ready in no time."

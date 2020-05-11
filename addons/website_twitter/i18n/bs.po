@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Bole <bole@dajmi5.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 # Boško Stojaković <bluesoft83@gmail.com>, 2017
 msgid ""
 msgstr ""
@@ -125,7 +125,7 @@ msgid "Please set the Twitter API Key and Secret in the Website Settings."
 msgstr ""
 
 #. module: website_twitter
-#. flectra-web
+#. openerp-web
 #: code:addons/website_twitter/static/src/xml/website.twitter.xml:35
 #, python-format
 msgid "Reload"
@@ -244,7 +244,7 @@ msgid "Twitter API secret you can get it from https://apps.twitter.com/"
 msgstr ""
 
 #. module: website_twitter
-#. flectra-web
+#. openerp-web
 #: code:addons/website_twitter/static/src/xml/website.twitter.xml:41
 #, python-format
 msgid "Twitter Configuration"

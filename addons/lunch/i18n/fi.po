@@ -6,7 +6,7 @@
 # Kari Lindgren <kari.lindgren@emsystems.fi>, 2017
 # Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2017
 # Tuomo Aura <tuomo.aura@web-veistamo.fi>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux, 2017
 # Miku Laitinen <miku.laitinen@gmail.com>, 2017
 # Jussi Lehto <jussi@gulfeo.com>, 2017
 # Mikko Salmela <salmemik@gmail.com>, 2017
@@ -72,7 +72,7 @@ msgid "Active"
 msgstr "Aktiivinen"
 
 #. module: lunch
-#. flectra-web
+#. openerp-web
 #: code:addons/lunch/static/src/xml/lunch.xml:15
 #, python-format
 msgid "Add"
@@ -301,7 +301,7 @@ msgid "Display Name"
 msgstr "Näyttönimi"
 
 #. module: lunch
-#. flectra-web
+#. openerp-web
 #: code:addons/lunch/static/src/xml/lunch.xml:7
 #, python-format
 msgid "Don't forget the alerts displayed in the reddish area"
@@ -728,7 +728,7 @@ msgstr "Vastaanotettu"
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_alert_alert_type
 msgid "Recurrence"
-msgstr ""
+msgstr "Toistuvuus"
 
 #. module: lunch
 #: model:ir.actions.act_window,name:lunch.lunch_cashmove_action_payment
@@ -757,7 +757,7 @@ msgid "Search"
 msgstr "Haku"
 
 #. module: lunch
-#. flectra-web
+#. openerp-web
 #: code:addons/lunch/static/src/xml/lunch.xml:5
 #, python-format
 msgid "Select a product and put your order comments on the note."
@@ -813,7 +813,7 @@ msgid ""
 msgstr ""
 
 #. module: lunch
-#. flectra-web
+#. openerp-web
 #: code:addons/lunch/static/src/xml/lunch.xml:4
 #, python-format
 msgid "This is the first time you order a meal"
@@ -900,7 +900,7 @@ msgid "Your Orders"
 msgstr "Omat tilaukset"
 
 #. module: lunch
-#. flectra-web
+#. openerp-web
 #: code:addons/lunch/static/src/xml/lunch.xml:6
 #, python-format
 msgid "Your favorite meals will be created based on your last orders."

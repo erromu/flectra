@@ -3,11 +3,11 @@
 # * website_mail_channel
 # 
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux, 2017
 # Ermin Trevisan <trevi@twanda.com>, 2017
 # Ralf Hilgenstock <rh@dialoge.info>, 2017
-# Wolfgang Taferner <wolfgang.transifex@service.wt-io-it.at>, 2017
-# Niki Waibel <niki.waibel@gmail.com>, 2017
+# Wolfgang Taferner, 2017
+# Niki Waibel, 2017
 # DE R1 <e2fes1@hotmail.com>, 2017
 # DE T2 <e2f48d4s5vd1s2@outlook.com>, 2017
 msgid ""
@@ -68,7 +68,7 @@ msgid "<span class=\"oe_snippet_thumbnail_title\">Discussion Group</span>"
 msgstr "<span class=\"oe_snippet_thumbnail_title\">Diskussionsgruppe</span>"
 
 #. module: website_mail_channel
-#. flectra-web
+#. openerp-web
 #: code:addons/website_mail_channel/static/src/js/website_mail_channel.editor.js:17
 #, python-format
 msgid "Add a Subscribe Button"
@@ -107,7 +107,7 @@ msgid "Change Discussion List"
 msgstr "Ändere Diskussionsliste"
 
 #. module: website_mail_channel
-#. flectra-web
+#. openerp-web
 #: code:addons/website_mail_channel/static/src/js/website_mail_channel.editor.js:18
 #, python-format
 msgid "Discussion List"
@@ -121,7 +121,7 @@ msgstr "Diskussionskanal"
 #. module: website_mail_channel
 #: model:ir.ui.view,arch_db:website_mail_channel.group_message
 msgid "Follow-Ups"
-msgstr "Mahnungen"
+msgstr "Folgenachrichten"
 
 #. module: website_mail_channel
 #: model:ir.ui.view,arch_db:website_mail_channel.invalid_token_subscription

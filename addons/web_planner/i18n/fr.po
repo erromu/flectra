@@ -4,9 +4,9 @@
 # 
 # Translators:
 # Xavier Belmere <Info@cartmeleon.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 # Micky Jault <micky037@hotmail.fr>, 2017
-# Eloïse Stilmant <est@odoo.com>, 2017
+# Eloïse Stilmant <est@flectrahq.com>, 2017
 # Florian Hatat <mininet@wanadoo.fr>, 2017
 msgid ""
 msgstr ""
@@ -29,7 +29,7 @@ msgid "Active"
 msgstr "Actif/ve"
 
 #. module: web_planner
-#. flectra-web
+#. openerp-web
 #: code:addons/web_planner/static/src/js/web_planner_common.js:379
 #, python-format
 msgid "Cancel"
@@ -90,7 +90,7 @@ msgid "Last Updated on"
 msgstr "Dernière mise à jour le"
 
 #. module: web_planner
-#. flectra-web
+#. openerp-web
 #: code:addons/web_planner/static/src/js/web_planner_common.js:133
 #, python-format
 msgid "Mark As Done"
@@ -107,14 +107,14 @@ msgid "Name"
 msgstr "Nom"
 
 #. module: web_planner
-#. flectra-web
+#. openerp-web
 #: code:addons/web_planner/static/src/js/web_planner_common.js:141
 #, python-format
 msgid "Next Step"
 msgstr "Prochaine étape"
 
 #. module: web_planner
-#. flectra-web
+#. openerp-web
 #: code:addons/web_planner/static/src/js/web_planner_common.js:388
 #, python-format
 msgid "Odoo Enterprise"
@@ -154,7 +154,7 @@ msgid "Template"
 msgstr "Modèle"
 
 #. module: web_planner
-#. flectra-web
+#. openerp-web
 #: code:addons/web_planner/static/src/js/web_planner_common.js:365
 #, python-format
 msgid "Upgrade now"

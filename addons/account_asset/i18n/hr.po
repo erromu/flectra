@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Bole <bole@dajmi5.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 # Vladimir Olujić <olujic.vladimir@storm.hr>, 2017
 # Jasmina Otročak <jasmina@uvid.hr>, 2017
 # Filip Cuk <filipcuk2@gmail.com>, 2017
@@ -94,7 +94,7 @@ msgstr ""
 "cijeni."
 
 #. module: account_asset
-#. flectra-web
+#. openerp-web
 #: code:addons/account_asset/static/src/js/account_asset.js:52
 #, python-format
 msgid "Accounting entries waiting for manual verification"
@@ -842,7 +842,7 @@ msgid "Post Depreciation Lines"
 msgstr "Knjiži stavke amortizacije"
 
 #. module: account_asset
-#. flectra-web
+#. openerp-web
 #: code:addons/account_asset/static/src/js/account_asset.js:49
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_depreciation_line_move_posted_check
 #: model:ir.model.fields,field_description:account_asset.field_asset_asset_report_move_check
@@ -1040,7 +1040,7 @@ msgid "Type"
 msgstr "Vrsta"
 
 #. module: account_asset
-#. flectra-web
+#. openerp-web
 #: code:addons/account_asset/static/src/js/account_asset.js:55
 #, python-format
 msgid "Unposted"

@@ -4,17 +4,18 @@
 # 
 # Translators:
 # Ljubisa Jovev <ljubisa.jovev@gmail.com>, 2017
-# Nemanja Dragovic <nemanjadragovic94@gmail.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
 # Djordje Marjanovic <djordje_m@yahoo.com>, 2017
+# Martin Trigaux, 2017
+# Nemanja Dragovic <nemanjadragovic94@gmail.com>, 2017
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-30 13:11+0000\n"
-"PO-Revision-Date: 2017-11-30 13:11+0000\n"
-"Last-Translator: Djordje Marjanovic <djordje_m@yahoo.com>, 2017\n"
-"Language-Team: Serbian (Latin) (https://www.transifex.com/odoo/teams/41243/sr%40latin/)\n"
+"PO-Revision-Date: 2017-09-20 10:14+0000\n"
+"Last-Translator: Nemanja Dragovic <nemanjadragovic94@gmail.com>, 2017\n"
+"Language-Team: Serbian (Latin) (https://www.transifex.com/odoo/teams/41243/sr@latin/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -84,7 +85,7 @@ msgid ""
 msgstr ""
 
 #. module: account_asset
-#. flectra-web
+#. openerp-web
 #: code:addons/account_asset/static/src/js/account_asset.js:52
 #, python-format
 msgid "Accounting entries waiting for manual verification"
@@ -816,7 +817,7 @@ msgid "Post Depreciation Lines"
 msgstr ""
 
 #. module: account_asset
-#. flectra-web
+#. openerp-web
 #: code:addons/account_asset/static/src/js/account_asset.js:49
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_depreciation_line_move_posted_check
 #: model:ir.model.fields,field_description:account_asset.field_asset_asset_report_move_check
@@ -1010,7 +1011,7 @@ msgid "Type"
 msgstr "Tip"
 
 #. module: account_asset
-#. flectra-web
+#. openerp-web
 #: code:addons/account_asset/static/src/js/account_asset.js:55
 #, python-format
 msgid "Unposted"

@@ -3,24 +3,25 @@
 # * website_forum
 # 
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2017
-# Hamid Darabi <hamid.darabi@gmail.com>, 2017
-# ifaraz ir <ifarazir@gmail.com>, 2017
 # Morovat Guivi <tarjomac@gmail.com>, 2017
-# Hamed Mohammadi <hamed@dehongi.com>, 2017
+# Faraz Sadri Alamdari <ifarazir@gmail.com>, 2017
+# Hamid Darabi, 2017
+# Martin Trigaux, 2017
+# Hamed Mohammadi <hamed@dehongi.com>, 2019
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-24 09:00+0000\n"
-"PO-Revision-Date: 2017-10-24 09:00+0000\n"
-"Last-Translator: Hamed Mohammadi <hamed@dehongi.com>, 2017\n"
+"POT-Creation-Date: 2019-01-03 15:07+0000\n"
+"PO-Revision-Date: 2017-09-20 10:26+0000\n"
+"Last-Translator: Hamed Mohammadi <hamed@dehongi.com>, 2019\n"
 "Language-Team: Persian (https://www.transifex.com/odoo/teams/41243/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: fa\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. module: website_forum
 #: model:mail.template,body_html:website_forum.validation_email
@@ -54,7 +55,7 @@ msgid ""
 "                <p>You have been invited to validate your email in order to get access to\n"
 "                \"${object.company_id.name}\" Q/A Forums.</p>\n"
 "                <p>To validate your email, please click on the following link:</p>\n"
-"                <a style=\"margin-left: 15px; padding:5px 10px; border-radius: 3px; background-color:#875A7B; text-align:center; text-decoration:none; color:#F7FBFD;\" href=\"${ctx.get('token_url')}\">\n"
+"                <a style=\"margin-left: 15px; padding:5px 10px; border-radius: 3px; background-color:#009efb; text-align:center; text-decoration:none; color:#F7FBFD;\" href=\"${ctx.get('token_url')}\">\n"
 "                    Validate my account for \"${object.company_id.name}\" Q/A Forums\n"
 "                </a>\n"
 "                <p>Thanks for your participation!</p>\n"
@@ -65,7 +66,7 @@ msgid ""
 msgstr ""
 
 #. module: website_forum
-#. flectra-web
+#. openerp-web
 #: code:addons/website_forum/static/src/js/website_forum.js:24
 #, python-format
 msgid ""
@@ -118,14 +119,14 @@ msgid "/ (days + 2) **"
 msgstr ""
 
 #. module: website_forum
-#. flectra-web
+#. openerp-web
 #: code:addons/website_forum/static/src/xml/website_forum_share_templates.xml:29
 #, python-format
 msgid "45% of questions shared"
 msgstr ""
 
 #. module: website_forum
-#. flectra-web
+#. openerp-web
 #: code:addons/website_forum/static/src/xml/website_forum_share_templates.xml:30
 #, python-format
 msgid ""
@@ -277,6 +278,18 @@ msgid "<b>[Answer]</b>"
 msgstr ""
 
 #. module: website_forum
+#: model:ir.ui.view,arch_db:website_forum.edit_profile
+msgid "<i class=\"fa fa-pencil fa-1g pull-left\" title=\"Edit\"/>"
+msgstr ""
+
+#. module: website_forum
+#: model:ir.ui.view,arch_db:website_forum.edit_profile
+msgid ""
+"<i class=\"fa fa-trash-o fa-1g pull-right o_forum_profile_pic_clear\" "
+"title=\"Clear\"/>"
+msgstr ""
+
+#. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.badge
 msgid "<i class=\"text-muted\"> awarded users</i>"
 msgstr ""
@@ -351,7 +364,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website_forum.display_post_question_block
 #: model:ir.ui.view,arch_db:website_forum.post_description_full
 msgid "<span>By </span>"
-msgstr ""
+msgstr "<span>توسط </span>"
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.forum_post_template_new_answer
@@ -420,11 +433,11 @@ msgid "Add a Comment"
 msgstr ""
 
 #. module: website_forum
-#. flectra-web
+#. openerp-web
 #: code:addons/website_forum/static/src/js/website_forum.editor.js:43
 #, python-format
 msgid "Add page in menu"
-msgstr ""
+msgstr "افزودن صفحه در منو"
 
 #. module: website_forum
 #: model:ir.model.fields,help:website_forum.field_forum_forum_allow_share
@@ -451,7 +464,7 @@ msgid "Answer"
 msgstr "پاسخ"
 
 #. module: website_forum
-#: code:addons/website_forum/models/forum.py:499
+#: code:addons/website_forum/models/forum.py:511
 #: model:mail.message.subtype,description:website_forum.mt_answer_edit
 #: model:mail.message.subtype,name:website_forum.mt_answer_edit
 #, python-format
@@ -568,7 +581,7 @@ msgid "Ask questions without validation"
 msgstr ""
 
 #. module: website_forum
-#. flectra-web
+#. openerp-web
 #: code:addons/website_forum/static/src/js/website_tour_forum.js:29
 #, python-format
 msgid "Ask the question in this forum by clicking on the button."
@@ -647,7 +660,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website_forum.header
 #: model:ir.ui.view,arch_db:website_forum.user_detail_full
 msgid "Badges"
-msgstr ""
+msgstr "بج‌ها"
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.badge
@@ -673,7 +686,7 @@ msgid "Bumped on"
 msgstr ""
 
 #. module: website_forum
-#. flectra-web
+#. openerp-web
 #: code:addons/website_forum/static/src/xml/website_forum_share_templates.xml:34
 #, python-format
 msgid "By sharing you answer, you will get additional"
@@ -779,14 +792,14 @@ msgid "City"
 msgstr "شهر"
 
 #. module: website_forum
-#. flectra-web
+#. openerp-web
 #: code:addons/website_forum/static/src/js/website_tour_forum.js:24
 #, python-format
 msgid "Click <em>Continue</em> to create the forum."
 msgstr ""
 
 #. module: website_forum
-#. flectra-web
+#. openerp-web
 #: code:addons/website_forum/static/src/js/website_tour_forum.js:71
 #, python-format
 msgid "Click here to accept this answer."
@@ -810,21 +823,21 @@ msgid "Click to get good question titles"
 msgstr ""
 
 #. module: website_forum
-#. flectra-web
+#. openerp-web
 #: code:addons/website_forum/static/src/js/website_tour_forum.js:64
 #, python-format
 msgid "Click to post your answer."
 msgstr ""
 
 #. module: website_forum
-#. flectra-web
+#. openerp-web
 #: code:addons/website_forum/static/src/js/website_tour_forum.js:51
 #, python-format
 msgid "Click to post your question."
 msgstr ""
 
 #. module: website_forum
-#. flectra-web
+#. openerp-web
 #: code:addons/website_forum/static/src/xml/website_forum_share_templates.xml:46
 #: selection:forum.post,state:0
 #: model:ir.ui.view,arch_db:website_forum.post_description_full
@@ -974,7 +987,7 @@ msgstr "کشور"
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.edit_profile
 msgid "Country..."
-msgstr ""
+msgstr "کشور..."
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_post_vote_create_date
@@ -1178,7 +1191,7 @@ msgid "Enlightened"
 msgstr ""
 
 #. module: website_forum
-#. flectra-web
+#. openerp-web
 #: code:addons/website_forum/static/src/js/website_tour_forum.js:19
 #, python-format
 msgid "Enter a name for your new forum."
@@ -1312,7 +1325,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website_forum.view_forum_post_search
 #: model:website.menu,name:website_forum.menu_questions
 msgid "Forum"
-msgstr ""
+msgstr "انجمن"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_gamification_badge_level
@@ -1335,7 +1348,7 @@ msgstr ""
 #: model:ir.model,name:website_forum.model_forum_post
 #: model:ir.ui.view,arch_db:website_forum.view_forum_post_form
 msgid "Forum Post"
-msgstr ""
+msgstr "پست انجمن"
 
 #. module: website_forum
 #: model:ir.actions.act_window,name:website_forum.action_forum_post
@@ -1377,7 +1390,7 @@ msgid "Gamification user badge"
 msgstr ""
 
 #. module: website_forum
-#. flectra-web
+#. openerp-web
 #: code:addons/website_forum/static/src/js/website_tour_forum.js:33
 #, python-format
 msgid "Give your question title."
@@ -1463,6 +1476,11 @@ msgid "Help"
 msgstr "راهنما"
 
 #. module: website_forum
+#: model:forum.forum,welcome_message:website_forum.forum_help
+msgid "Hide Intro"
+msgstr ""
+
+#. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.new_question
 msgid ""
 "How to create a physical inventory at an anterior date?, How is the "
@@ -1519,7 +1537,7 @@ msgid ""
 msgstr ""
 
 #. module: website_forum
-#. flectra-web
+#. openerp-web
 #: code:addons/website_forum/static/src/js/website_tour_forum.js:43
 #, python-format
 msgid "Insert tags related to your question."
@@ -1677,7 +1695,7 @@ msgstr ""
 #. module: website_forum
 #: selection:forum.forum,default_order:0
 msgid "Most Voted"
-msgstr ""
+msgstr "بیشتری رای"
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.forum_index
@@ -1690,7 +1708,7 @@ msgid "Most voted"
 msgstr ""
 
 #. module: website_forum
-#. flectra-web
+#. openerp-web
 #: code:addons/website_forum/static/src/xml/website_forum_share_templates.xml:48
 #, python-format
 msgid ""
@@ -1721,7 +1739,7 @@ msgid "New Discussion"
 msgstr ""
 
 #. module: website_forum
-#. flectra-web
+#. openerp-web
 #: code:addons/website_forum/static/src/js/website_forum.editor.js:32
 #: model:ir.ui.view,arch_db:website_forum.content_new_forum
 #, python-format
@@ -1745,7 +1763,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website_forum.forum_index
 #: model:ir.ui.view,arch_db:website_forum.header
 msgid "Newest"
-msgstr ""
+msgstr "جدیدترین"
 
 #. module: website_forum
 #: model:gamification.badge,name:website_forum.badge_a_2
@@ -1771,20 +1789,20 @@ msgid "Nofollow links"
 msgstr ""
 
 #. module: website_forum
-#: code:addons/website_forum/models/forum.py:868
-#: code:addons/website_forum/models/forum.py:888
+#: code:addons/website_forum/models/forum.py:880
+#: code:addons/website_forum/models/forum.py:900
 #, python-format
 msgid "Not allowed to vote for its own post"
 msgstr ""
 
 #. module: website_forum
-#: code:addons/website_forum/models/forum.py:932
+#: code:addons/website_forum/models/forum.py:944
 #, python-format
 msgid "Not enough karma to create a new Tag"
 msgstr ""
 
 #. module: website_forum
-#: code:addons/website_forum/models/forum.py:489
+#: code:addons/website_forum/models/forum.py:501
 #, python-format
 msgid "Not enough karma to retag."
 msgstr ""
@@ -1834,10 +1852,10 @@ msgstr ""
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.post_answers
 msgid "On"
-msgstr ""
+msgstr "روشن"
 
 #. module: website_forum
-#. flectra-web
+#. openerp-web
 #: code:addons/website_forum/static/src/xml/website_forum_share_templates.xml:29
 #, python-format
 msgid "On average,"
@@ -1978,7 +1996,7 @@ msgid "Posted 100 comments"
 msgstr ""
 
 #. module: website_forum
-#: code:addons/website_forum/models/forum.py:433
+#: code:addons/website_forum/models/forum.py:438
 #, python-format
 msgid "Posting answer on a [Deleted] or [Closed] question is not possible"
 msgstr ""
@@ -1988,7 +2006,7 @@ msgstr ""
 #: model:ir.ui.menu,name:website_forum.menu_forum_posts
 #: model:ir.ui.view,arch_db:website_forum.forum_index
 msgid "Posts"
-msgstr ""
+msgstr "پستها"
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.new_question
@@ -2009,14 +2027,14 @@ msgid "Pundit"
 msgstr ""
 
 #. module: website_forum
-#. flectra-web
+#. openerp-web
 #: code:addons/website_forum/static/src/js/website_tour_forum.js:58
 #, python-format
 msgid "Put your answer here."
 msgstr ""
 
 #. module: website_forum
-#. flectra-web
+#. openerp-web
 #: code:addons/website_forum/static/src/js/website_tour_forum.js:37
 #, python-format
 msgid "Put your question here."
@@ -2034,7 +2052,7 @@ msgid "Question"
 msgstr "پرسش"
 
 #. module: website_forum
-#: code:addons/website_forum/models/forum.py:502
+#: code:addons/website_forum/models/forum.py:514
 #: model:mail.message.subtype,description:website_forum.mt_question_edit
 #: model:mail.message.subtype,name:website_forum.mt_question_edit
 #, python-format
@@ -2111,7 +2129,7 @@ msgid "Questions"
 msgstr "پرسش ها"
 
 #. module: website_forum
-#: code:addons/website_forum/models/forum.py:520
+#: code:addons/website_forum/models/forum.py:532
 #, python-format
 msgid "Re: %s"
 msgstr ""
@@ -2154,6 +2172,11 @@ msgstr ""
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.display_post_question_block
 msgid "Redirect to external link"
+msgstr ""
+
+#. module: website_forum
+#: model:forum.forum,welcome_message:website_forum.forum_help
+msgid "Register"
 msgstr ""
 
 #. module: website_forum
@@ -2239,7 +2262,7 @@ msgid "Seen:"
 msgstr ""
 
 #. module: website_forum
-#. flectra-web
+#. openerp-web
 #: code:addons/website_forum/static/src/js/website_tour_forum.js:15
 #, python-format
 msgid "Select this menu item to create a new forum."
@@ -2274,7 +2297,7 @@ msgid ""
 msgstr ""
 
 #. module: website_forum
-#. flectra-web
+#. openerp-web
 #: code:addons/website_forum/static/src/xml/website_forum_share_templates.xml:39
 #, python-format
 msgid ""
@@ -2293,29 +2316,29 @@ msgid "Silver badges count"
 msgstr ""
 
 #. module: website_forum
-#. flectra-web
+#. openerp-web
 #: code:addons/website_forum/static/src/js/website_forum.js:26
 #, python-format
 msgid "Sorry you must be logged in to perform this action"
 msgstr ""
 
 #. module: website_forum
-#. flectra-web
-#: code:addons/website_forum/static/src/js/website_forum.js:100
+#. openerp-web
+#: code:addons/website_forum/static/src/js/website_forum.js:101
 #, python-format
 msgid "Sorry you must be logged to flag a post"
 msgstr ""
 
 #. module: website_forum
-#. flectra-web
-#: code:addons/website_forum/static/src/js/website_forum.js:149
+#. openerp-web
+#: code:addons/website_forum/static/src/js/website_forum.js:150
 #, python-format
 msgid "Sorry you must be logged to vote"
 msgstr ""
 
 #. module: website_forum
-#. flectra-web
-#: code:addons/website_forum/static/src/js/website_forum.js:199
+#. openerp-web
+#: code:addons/website_forum/static/src/js/website_forum.js:200
 #, python-format
 msgid "Sorry, anonymous users cannot choose correct answer."
 msgstr ""
@@ -2326,8 +2349,8 @@ msgid "Sorry, this question is not available anymore."
 msgstr ""
 
 #. module: website_forum
-#. flectra-web
-#: code:addons/website_forum/static/src/js/website_forum.js:144
+#. openerp-web
+#: code:addons/website_forum/static/src/js/website_forum.js:145
 #, python-format
 msgid "Sorry, you cannot vote for your own posts"
 msgstr ""
@@ -2385,7 +2408,7 @@ msgstr "برچسب"
 #. module: website_forum
 #: sql_constraint:forum.tag:0
 msgid "Tag name already exists !"
-msgstr ""
+msgstr "برچسب نام از قبل وجود دارد!"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_post_tag_ids
@@ -2424,7 +2447,7 @@ msgid ""
 msgstr ""
 
 #. module: website_forum
-#. flectra-web
+#. openerp-web
 #: code:addons/website_forum/static/src/xml/website_forum_share_templates.xml:9
 #, python-format
 msgid "Thanks for posting!"
@@ -2433,7 +2456,7 @@ msgstr ""
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.post_description_full
 msgid "The"
-msgstr ""
+msgstr "این"
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.moderation_queue
@@ -2474,7 +2497,10 @@ msgid ""
 msgstr ""
 
 #. module: website_forum
+#: code:addons/website_forum/models/forum.py:51
 #: model:forum.forum,description:website_forum.forum_help
+#: model:forum.forum,welcome_message:website_forum.forum_help
+#, python-format
 msgid ""
 "This community is for professionals and enthusiasts of our products and "
 "services. Share and discuss the best content and new marketing ideas, build "
@@ -2496,15 +2522,15 @@ msgid "This forum does not allow %s"
 msgstr ""
 
 #. module: website_forum
-#. flectra-web
-#: code:addons/website_forum/static/src/js/website_forum.js:110
+#. openerp-web
+#: code:addons/website_forum/static/src/js/website_forum.js:111
 #, python-format
 msgid "This post can not be flagged"
 msgstr ""
 
 #. module: website_forum
-#. flectra-web
-#: code:addons/website_forum/static/src/js/website_forum.js:105
+#. openerp-web
+#: code:addons/website_forum/static/src/js/website_forum.js:106
 #, python-format
 msgid "This post is already flagged"
 msgstr ""
@@ -2681,7 +2707,7 @@ msgstr ""
 #: model:ir.model,name:website_forum.model_forum_post_vote
 #: model:ir.model.fields,field_description:website_forum.field_forum_post_vote_vote
 msgid "Vote"
-msgstr ""
+msgstr "رای گیری"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_post_vote_ids
@@ -2697,7 +2723,7 @@ msgstr ""
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.post_description_full
 msgid "Waiting for validation"
-msgstr ""
+msgstr "منتظر تایید اعتبار"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_res_users_forum_waiting_posts_count
@@ -2729,6 +2755,11 @@ msgstr "تاریخچه ارتباط با وبسایت"
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum_welcome_message
 msgid "Welcome Message"
+msgstr "پیام خوش آمد گویی"
+
+#. module: website_forum
+#: model:forum.forum,welcome_message:website_forum.forum_help
+msgid "Welcome!"
 msgstr ""
 
 #. module: website_forum
@@ -2777,6 +2808,12 @@ msgstr ""
 #, python-format
 msgid ""
 "You cannot choose %s as default post since the forum does not allow it."
+msgstr ""
+
+#. module: website_forum
+#: code:addons/website_forum/models/forum.py:428
+#, python-format
+msgid "You cannot create recursive forum posts."
 msgstr ""
 
 #. module: website_forum
@@ -2905,7 +2942,7 @@ msgstr ""
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.new_link
-msgid "e.g. https://www.odoo.com"
+msgid "e.g. https://www.flectrahq.com"
 msgstr ""
 
 #. module: website_forum
@@ -2971,7 +3008,7 @@ msgid "has been posted. Click here to access the question :"
 msgstr ""
 
 #. module: website_forum
-#. flectra-web
+#. openerp-web
 #: code:addons/website_forum/static/src/xml/website_forum_share_templates.xml:36
 #, python-format
 msgid "here"
@@ -2993,7 +3030,7 @@ msgid "how to install Odoo on a specific infrastructure,"
 msgstr ""
 
 #. module: website_forum
-#. flectra-web
+#. openerp-web
 #: code:addons/website_forum/static/src/xml/website_forum_share_templates.xml:34
 #, python-format
 msgid ""
@@ -3027,7 +3064,7 @@ msgid "karma"
 msgstr ""
 
 #. module: website_forum
-#. flectra-web
+#. openerp-web
 #: code:addons/website_forum/static/src/xml/website_forum_share_templates.xml:34
 #, python-format
 msgid "karma points"
@@ -3072,7 +3109,7 @@ msgid "on"
 msgstr "در"
 
 #. module: website_forum
-#. flectra-web
+#. openerp-web
 #: code:addons/website_forum/static/src/xml/website_forum_share_templates.xml:29
 #, python-format
 msgid ""
@@ -3172,7 +3209,7 @@ msgstr ""
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.user_detail_full
 msgid "website"
-msgstr ""
+msgstr "وبسایت"
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help

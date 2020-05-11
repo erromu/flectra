@@ -3,7 +3,7 @@
 # * google_spreadsheet
 # 
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 # Egon Raamat <egon@avalah.ee>, 2017
 msgid ""
 msgstr ""
@@ -20,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: google_spreadsheet
-#. flectra-web
+#. openerp-web
 #: code:addons/google_spreadsheet/static/src/xml/addtospreadsheet.xml:3
 #, python-format
 msgid "Add to Google Spreadsheet"

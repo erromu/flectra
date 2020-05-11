@@ -4,17 +4,18 @@
 # 
 # Translators:
 # Shaima Safar <shaima.safar@open-inside.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux, 2017
 # hoxhe Aits <hoxhe0@gmail.com>, 2017
 # Mustafa Rawi <mustafa@cubexco.com>, 2017
 # Majeed Alsamarraie <majeed.hatim@gmail.com>, 2017
+# Abdulmajeed Alomar <majeeed87@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:54+0000\n"
 "PO-Revision-Date: 2017-09-20 09:54+0000\n"
-"Last-Translator: Majeed Alsamarraie <majeed.hatim@gmail.com>, 2017\n"
+"Last-Translator: Abdulmajeed Alomar <majeeed87@gmail.com>, 2018\n"
 "Language-Team: Arabic (https://www.transifex.com/odoo/teams/41243/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,25 +24,25 @@ msgstr ""
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/js/website_links_charts.js:53
 #, python-format
 msgid " clicks"
-msgstr ""
+msgstr "نقرات"
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/js/website_links_charts.js:104
 #, python-format
 msgid " countries"
-msgstr ""
+msgstr "الدول"
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/js/website_links_charts.js:57
 #, python-format
 msgid "# of clicks"
-msgstr ""
+msgstr "# من النقرات"
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.share_page_menu
@@ -61,12 +62,12 @@ msgstr "<strong>متوسط </strong>"
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.graphs
 msgid "<strong>Original URL</strong>"
-msgstr ""
+msgstr " الرابط الأصلي"
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.graphs
 msgid "<strong>Redirected URL</strong>"
-msgstr ""
+msgstr "الرابط المحول"
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.graphs
@@ -92,14 +93,14 @@ msgid ""
 msgstr ""
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/xml/recent_link.xml:37
 #, python-format
 msgid "Copy"
 msgstr "نسخ"
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/js/website_links.js:358
 #, python-format
 msgid "Generating link..."
@@ -162,7 +163,7 @@ msgid ""
 "Source <i class=\"fa fa-info-circle\" data-toggle=\"tooltip\" data-"
 "placement=\"top\" title=\"Defines the source from which your traffic will "
 "come from, Facebook or Twitter for instance.\"/>"
-msgstr ""
+msgstr "المصدر"
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.graphs
@@ -170,14 +171,14 @@ msgid "Statistics"
 msgstr "الإحصائيات"
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/xml/recent_link.xml:38
 #, python-format
 msgid "Stats"
 msgstr "الاحصائيات"
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/js/website_links_charts.js:229
 #: code:addons/website_links/static/src/js/website_links_charts.js:230
 #: code:addons/website_links/static/src/js/website_links_charts.js:231
@@ -198,21 +199,21 @@ msgid "URL"
 msgstr "رابط ويب"
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/js/website_links.js:225
 #, python-format
 msgid "Unable to get recent links"
 msgstr "غير قادر على الحصول على وصلات الأخيرة"
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/js/website_links_charts.js:99
 #, python-format
 msgid "Undefined"
 msgstr "غير محدد"
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/js/website_links.js:248
 #, python-format
 msgid "You don't have any recent links."
@@ -224,7 +225,7 @@ msgid "Your tracked links"
 msgstr "الروابط تتبع الخاص بك"
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/xml/recent_link.xml:23
 #: model:ir.ui.view,arch_db:website_links.graphs
 #, python-format
@@ -232,7 +233,7 @@ msgid "cancel"
 msgstr "إلغاء"
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/xml/recent_link.xml:8
 #, python-format
 msgid "clicks"
@@ -244,21 +245,21 @@ msgid "copy"
 msgstr "نسخ"
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/js/website_links.js:268
 #, python-format
 msgid "e.g. Newsletter, Social Network, .."
 msgstr ""
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/js/website_links.js:265
 #, python-format
 msgid "e.g. Promotion of June, Winter Newsletter, .."
 msgstr ""
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/js/website_links.js:271
 #, python-format
 msgid "e.g. Search Engine, Website page, .."
@@ -266,11 +267,11 @@ msgstr ""
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.create_shorten_url
-msgid "e.g. https://www.odoo.com/page/contactus"
+msgid "e.g. https://www.flectrahq.com/page/contactus"
 msgstr ""
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/xml/recent_link.xml:22
 #: model:ir.ui.view,arch_db:website_links.graphs
 #, python-format
@@ -278,7 +279,7 @@ msgid "ok"
 msgstr "حسناً"
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/xml/recent_link.xml:22
 #: model:ir.ui.view,arch_db:website_links.graphs
 #, python-format

@@ -3,23 +3,24 @@
 # * account_asset
 # 
 # Translators:
-# Morten Schou <ms@msteknik.dk>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
 # peso <peer.sommerlund@gmail.com>, 2017
-# Sanne Kristensen <sanne@vkdata.dk>, 2017
-# Ejner Sønniksen <ejner@vkdata.dk>, 2017
 # Pernille Kristensen <pernillekristensen1994@gmail.com>, 2017
+# Morten Schou <ms@msteknik.dk>, 2017
 # Jesper Carstensen <info@danodoo.dk>, 2017
 # Jesper Carstensen <jc@danodoo.dk>, 2017
-# Laerke Mathiasen <lhm@flexerp.dk>, 2017
+# Martin Trigaux, 2017
+# Ejner Sønniksen <ejner@vkdata.dk>, 2017
+# lhmflexerp <lhm@flexerp.dk>, 2017
 # JonathanStein <jstein@image.dk>, 2017
+# Sanne Kristensen <sanne@vkdata.dk>, 2018
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-30 13:11+0000\n"
-"PO-Revision-Date: 2017-11-30 13:11+0000\n"
-"Last-Translator: JonathanStein <jstein@image.dk>, 2017\n"
+"PO-Revision-Date: 2017-09-20 10:14+0000\n"
+"Last-Translator: Sanne Kristensen <sanne@vkdata.dk>, 2018\n"
 "Language-Team: Danish (https://www.transifex.com/odoo/teams/41243/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -59,7 +60,7 @@ msgstr "Antal afdragslinjer"
 #: model:ir.cron,cron_name:account_asset.account_asset_cron
 #: model:ir.cron,name:account_asset.account_asset_cron
 msgid "Account Asset: Generate asset entries"
-msgstr ""
+msgstr "Aktiver: Generer aktivposter"
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_asset_depreciation_confirmation_wizard_date
@@ -94,7 +95,7 @@ msgstr ""
 "Konto bruges til at registrere køb af anlægsaktiv til dets oprindelige pris."
 
 #. module: account_asset
-#. flectra-web
+#. openerp-web
 #: code:addons/account_asset/static/src/js/account_asset.js:52
 #, python-format
 msgid "Accounting entries waiting for manual verification"
@@ -840,7 +841,7 @@ msgid "Post Depreciation Lines"
 msgstr "Bogfør afskrivningslinjer"
 
 #. module: account_asset
-#. flectra-web
+#. openerp-web
 #: code:addons/account_asset/static/src/js/account_asset.js:49
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_depreciation_line_move_posted_check
 #: model:ir.model.fields,field_description:account_asset.field_asset_asset_report_move_check
@@ -1037,7 +1038,7 @@ msgid "Type"
 msgstr "Type"
 
 #. module: account_asset
-#. flectra-web
+#. openerp-web
 #: code:addons/account_asset/static/src/js/account_asset.js:55
 #, python-format
 msgid "Unposted"

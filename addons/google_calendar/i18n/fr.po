@@ -6,25 +6,26 @@
 # Bertrand LATOUR <divoir@gmail.com>, 2017
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2017
 # Xavier Symons <xsy@openerp.com>, 2017
-# Melanie Bernard <mbe@odoo.com>, 2017
+# Melanie Bernard <mbe@flectrahq.com>, 2017
 # Olivier Lenoir <olivier.lenoir@free.fr>, 2017
-# Lucas Deliege <lud@odoo.com>, 2017
+# Lucas Deliege <lud@flectrahq.com>, 2017
 # Miguel Vidali <mvidali129@gmail.com>, 2017
 # Anthony CRESSON <contact@cresson-anthony.fr>, 2017
-# Clo <clo@odoo.com>, 2017
-# Florian Hatat <mininet@wanadoo.fr>, 2017
-# Eloïse Stilmant <est@odoo.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Clo <clo@flectrahq.com>, 2017
+# Florian Hatat, 2017
+# Eloïse Stilmant <est@flectrahq.com>, 2017
+# Martin Trigaux, 2017
 # Leo Schmitt <inactive+lschmitt@transifex.com>, 2017
-# Richard Mathot <rim@odoo.com>, 2017
+# Richard Mathot <rim@flectrahq.com>, 2017
 # Xavier Belmere <Info@cartmeleon.com>, 2017
+# e2f <projects@e2f.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-10 11:35+0000\n"
 "PO-Revision-Date: 2017-10-10 11:35+0000\n"
-"Last-Translator: Xavier Belmere <Info@cartmeleon.com>, 2017\n"
+"Last-Translator: e2f <projects@e2f.com>, 2018\n"
 "Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,14 +44,14 @@ msgid "API Credentials"
 msgstr "Identifiants pour l'API"
 
 #. module: google_calendar
-#. flectra-web
+#. openerp-web
 #: code:addons/google_calendar/static/src/js/google_calendar.js:89
 #, python-format
 msgid "Accounts"
 msgstr "Comptes"
 
 #. module: google_calendar
-#. flectra-web
+#. openerp-web
 #: code:addons/google_calendar/static/src/js/google_calendar.js:79
 #, python-format
 msgid ""
@@ -61,7 +62,7 @@ msgstr ""
 "pouvez maintenant relancer la synchronisation"
 
 #. module: google_calendar
-#. flectra-web
+#. openerp-web
 #: code:addons/google_calendar/static/src/js/google_calendar.js:57
 #, python-format
 msgid ""
@@ -72,7 +73,7 @@ msgstr ""
 "ne puissiez l'utiliser !"
 
 #. module: google_calendar
-#. flectra-web
+#. openerp-web
 #: code:addons/google_calendar/static/src/js/google_calendar.js:83
 #, python-format
 msgid ""
@@ -118,7 +119,7 @@ msgid "Client_key"
 msgstr "Client_key"
 
 #. module: google_calendar
-#. flectra-web
+#. openerp-web
 #: code:addons/google_calendar/static/src/js/google_calendar.js:54
 #: code:addons/google_calendar/static/src/js/google_calendar.js:58
 #, python-format
@@ -131,7 +132,7 @@ msgid "Display Name"
 msgstr "Nom à afficher"
 
 #. module: google_calendar
-#. flectra-web
+#. openerp-web
 #: code:addons/google_calendar/static/src/js/google_calendar.js:66
 #, python-format
 msgid "Do you want to do this now?"
@@ -143,14 +144,14 @@ msgid "Event"
 msgstr "Évènement"
 
 #. module: google_calendar
-#. flectra-web
+#. openerp-web
 #: code:addons/google_calendar/static/src/js/google_calendar.js:84
 #, python-format
 msgid "Event disconnection error"
 msgstr "Erreur de déconnexion d'événement"
 
 #. module: google_calendar
-#. flectra-web
+#. openerp-web
 #: code:addons/google_calendar/static/src/js/google_calendar.js:80
 #, python-format
 msgid "Event disconnection success"
@@ -166,7 +167,7 @@ msgstr "Id de l'évènement Google Calendar"
 #: model:ir.cron,cron_name:google_calendar.ir_cron_sync_all_cals
 #: model:ir.cron,name:google_calendar.ir_cron_sync_all_cals
 msgid "Google Calendar: synchronization"
-msgstr ""
+msgstr "Google Agenda : synchronisation"
 
 #. module: google_calendar
 #: sql_constraint:calendar.attendee:0
@@ -191,7 +192,7 @@ msgid "ID"
 msgstr "ID"
 
 #. module: google_calendar
-#. flectra-web
+#. openerp-web
 #: code:addons/google_calendar/static/src/js/google_calendar.js:65
 #, python-format
 msgid ""
@@ -231,7 +232,7 @@ msgid "Odoo Update Date"
 msgstr "Date de mise à jour d'Odoo"
 
 #. module: google_calendar
-#. flectra-web
+#. openerp-web
 #: code:addons/google_calendar/static/src/js/google_calendar.js:46
 #, python-format
 msgid "Redirection"
@@ -248,14 +249,14 @@ msgid "Settings"
 msgstr "Configuration"
 
 #. module: google_calendar
-#. flectra-web
+#. openerp-web
 #: code:addons/google_calendar/static/src/js/google_calendar.js:117
 #, python-format
 msgid "Sync with <b>Google</b>"
 msgstr "Synchroniser avec <b>Google</b>"
 
 #. module: google_calendar
-#. flectra-web
+#. openerp-web
 #: code:addons/google_calendar/static/src/js/google_calendar.js:50
 #, python-format
 msgid ""
@@ -266,7 +267,7 @@ msgstr ""
 "l'utiliser, voulez-vous le faire maintenant?"
 
 #. module: google_calendar
-#. flectra-web
+#. openerp-web
 #: code:addons/google_calendar/static/src/js/google_calendar.js:64
 #, python-format
 msgid ""
@@ -297,7 +298,7 @@ msgid "Users"
 msgstr "Utilisateurs"
 
 #. module: google_calendar
-#. flectra-web
+#. openerp-web
 #: code:addons/google_calendar/static/src/js/google_calendar.js:42
 #, python-format
 msgid "You will be redirected to Google to authorize access to your calendar!"

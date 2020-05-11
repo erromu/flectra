@@ -4,15 +4,16 @@
 # 
 # Translators:
 # Arma Gedonsky <armagedonsky@hot.ee>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux, 2017
 # Eneli Õigus <enelioigus@gmail.com>, 2017
+# Martin Aavastik <martin@avalah.ee>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-24 09:00+0000\n"
 "PO-Revision-Date: 2017-10-24 09:00+0000\n"
-"Last-Translator: Eneli Õigus <enelioigus@gmail.com>, 2017\n"
+"Last-Translator: Martin Aavastik <martin@avalah.ee>, 2018\n"
 "Language-Team: Estonian (https://www.transifex.com/odoo/teams/41243/et/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,7 +22,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: payment_stripe
-#. flectra-web
+#. openerp-web
 #: code:addons/payment_stripe/static/src/xml/stripe_templates.xml:8
 #, python-format
 msgid "&times;"
@@ -56,14 +57,14 @@ msgid "Checkout Image URL"
 msgstr ""
 
 #. module: payment_stripe
-#. flectra-web
+#. openerp-web
 #: code:addons/payment_stripe/static/src/xml/stripe_templates.xml:15
 #, python-format
 msgid "Close"
 msgstr "Sulge"
 
 #. module: payment_stripe
-#. flectra-web
+#. openerp-web
 #: code:addons/payment_stripe/static/src/xml/stripe_templates.xml:9
 #, python-format
 msgid "Error"
@@ -75,7 +76,7 @@ msgid "Expires (MM / YY)"
 msgstr ""
 
 #. module: payment_stripe
-#. flectra-web
+#. openerp-web
 #: code:addons/payment_stripe/static/src/js/stripe.js:32
 #, python-format
 msgid "Just one more second, confirming your payment..."
@@ -92,7 +93,7 @@ msgid "Payment Transaction"
 msgstr "Makse ülekanne"
 
 #. module: payment_stripe
-#. flectra-web
+#. openerp-web
 #: code:addons/payment_stripe/static/src/js/stripe.js:57
 #, python-format
 msgid "Payment error"
@@ -143,4 +144,4 @@ msgstr ""
 #. module: payment_stripe
 #: model:ir.model,name:payment_stripe.model_payment_token
 msgid "payment.token"
-msgstr ""
+msgstr "payment.token"

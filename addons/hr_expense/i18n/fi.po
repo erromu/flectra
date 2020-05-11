@@ -3,27 +3,29 @@
 # * hr_expense
 # 
 # Translators:
-# Tommi Rintala <tommi.rintala@gmail.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
-# Tuomo Aura <tuomo.aura@web-veistamo.fi>, 2017
-# Veikko Väätäjä <veikko.vaataja@gmail.com>, 2017
-# Svante Suominen <svante.suominen@web-veistamo.fi>, 2017
-# Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2017
-# Kari Lindgren <kari.lindgren@emsystems.fi>, 2017
 # Miku Laitinen <miku.laitinen@gmail.com>, 2017
-# salmemik <salmemik@gmail.com>, 2017
-# Kari Lindgren <karisatu@gmail.com>, 2017
-# Eino Mäkitalo <eino.makitalo@netitbe.fi>, 2017
+# Veikko Väätäjä <veikko.vaataja@gmail.com>, 2017
 # Iipponen <erno@web-veistamo.fi>, 2017
+# Eino Mäkitalo <eino.makitalo@netitbe.fi>, 2017
 # artol <arto.leskinen@tek.fi>, 2017
 # Marko Happonen <marko.happonen@sprintit.fi>, 2017
+# Kari Lindgren <karisatu@gmail.com>, 2017
+# Kari Lindgren <kari.lindgren@emsystems.fi>, 2017
+# Tommi Rintala <tommi.rintala@gmail.com>, 2017
+# Svante Suominen <svante.suominen@web-veistamo.fi>, 2017
+# Tuomo Aura <tuomo.aura@web-veistamo.fi>, 2017
+# Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2017
+# Mikko Salmela <salmemik@gmail.com>, 2017
+# Martin Trigaux, 2019
+# Tuomas Lyyra <tuomas.lyyra@legenda.fi>, 2019
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-16 08:08+0000\n"
-"PO-Revision-Date: 2017-11-16 08:08+0000\n"
-"Last-Translator: Marko Happonen <marko.happonen@sprintit.fi>, 2017\n"
+"POT-Creation-Date: 2019-01-03 15:06+0000\n"
+"PO-Revision-Date: 2017-09-20 10:18+0000\n"
+"Last-Translator: Tuomas Lyyra <tuomas.lyyra@legenda.fi>, 2019\n"
 "Language-Team: Finnish (https://www.transifex.com/odoo/teams/41243/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,7 +35,7 @@ msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
-msgid "(e.g. expenses@mycompany.odoo.com)"
+msgid "(e.g. expenses@mycompany.flectrahq.com)"
 msgstr ""
 
 #. module: hr_expense
@@ -69,7 +71,7 @@ msgid ""
 msgstr ""
 
 #. module: hr_expense
-#. flectra-web
+#. openerp-web
 #: code:addons/hr_expense/static/src/js/tour.js:48
 #, python-format
 msgid ""
@@ -78,14 +80,14 @@ msgid ""
 msgstr ""
 
 #. module: hr_expense
-#. flectra-web
+#. openerp-web
 #: code:addons/hr_expense/static/src/js/tour.js:21
 #, python-format
 msgid "<p>Click here to create your first expense and add it under here.</p>"
 msgstr ""
 
 #. module: hr_expense
-#. flectra-web
+#. openerp-web
 #: code:addons/hr_expense/static/src/js/tour.js:44
 #, python-format
 msgid ""
@@ -94,21 +96,21 @@ msgid ""
 msgstr ""
 
 #. module: hr_expense
-#. flectra-web
+#. openerp-web
 #: code:addons/hr_expense/static/src/js/tour.js:31
 #, python-format
 msgid "<p>Once your Expense is ready, you can save it.</p>"
 msgstr ""
 
 #. module: hr_expense
-#. flectra-web
+#. openerp-web
 #: code:addons/hr_expense/static/src/js/tour.js:39
 #, python-format
 msgid "<p>Select expenses to submit them to your manager</p>"
 msgstr ""
 
 #. module: hr_expense
-#. flectra-web
+#. openerp-web
 #: code:addons/hr_expense/static/src/js/tour.js:52
 #, python-format
 msgid ""
@@ -339,7 +341,7 @@ msgid "Ask your expert accountant what tax must be claimed to your customer"
 msgstr ""
 
 #. module: hr_expense
-#. flectra-web
+#. openerp-web
 #: code:addons/hr_expense/static/src/js/tour.js:35
 #, python-format
 msgid "Attach your receipt here."
@@ -867,7 +869,7 @@ msgid "General Information"
 msgstr "Yleistiedot"
 
 #. module: hr_expense
-#. flectra-web
+#. openerp-web
 #: code:addons/hr_expense/static/src/js/tour.js:16
 #, python-format
 msgid "Go to the expense to attach a receipt."
@@ -907,7 +909,7 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_register_payment_wizard_hide_payment_method
 msgid "Hide Payment Method"
-msgstr ""
+msgstr "Piilota maksutapa"
 
 #. module: hr_expense
 #: model:product.product,name:hr_expense.hotel_rent
@@ -1004,7 +1006,7 @@ msgid "Manager"
 msgstr "Päällikkö"
 
 #. module: hr_expense
-#. flectra-web
+#. openerp-web
 #: code:addons/hr_expense/static/src/js/tour.js:60
 #, python-format
 msgid "Managers can get all reports to approve from this menu."
@@ -1269,6 +1271,11 @@ msgid "Product Template"
 msgstr "Tuotemalli"
 
 #. module: hr_expense
+#: model:ir.ui.view,arch_db:hr_expense.product_product_expense_tree_view
+msgid "Product Variants"
+msgstr "Tuotevariaatiot"
+
+#. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid ""
 "Provide your customer with detailed reports (along with copies of receipts)"
@@ -1526,9 +1533,11 @@ msgid ""
 "Technical field used to hide the payment method if the selected journal has "
 "only one available which is 'manual'"
 msgstr ""
+"Tekninen kenttä, jolla piilotetaan maksutapa, jos valitussa päiväkirjassa on"
+" vain yksi käytettävissä oleva manuaali"
 
 #. module: hr_expense
-#. flectra-web
+#. openerp-web
 #: code:addons/hr_expense/static/src/js/tour.js:56
 #, python-format
 msgid ""
@@ -1627,7 +1636,6 @@ msgstr "Yhteensä"
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_total_amount
 #: model:ir.ui.view,arch_db:hr_expense.view_expenses_tree
-#: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_tree
 msgid "Total Amount"
 msgstr "Yhteensä"
@@ -1703,7 +1711,7 @@ msgid "When you charge"
 msgstr ""
 
 #. module: hr_expense
-#. flectra-web
+#. openerp-web
 #: code:addons/hr_expense/static/src/js/tour.js:26
 #, python-format
 msgid "Write the name of the product, or select an existing one."
@@ -1747,6 +1755,12 @@ msgstr ""
 #: code:addons/hr_expense/models/hr_expense.py:111
 #, python-format
 msgid "You cannot report expenses for different employees in the same report!"
+msgstr ""
+
+#. module: hr_expense
+#: code:addons/hr_expense/models/hr_expense.py:602
+#, python-format
+msgid "You cannot report expenses with different payment modes."
 msgstr ""
 
 #. module: hr_expense

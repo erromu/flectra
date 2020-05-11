@@ -3,17 +3,20 @@
 # * project
 # 
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2017
-# Jorunn D. Newth <jdn@eyenetworks.no>, 2017
 # Viktor Basso <viktor@voit.no>, 2017
 # Jan Pedro Tumusok <jpt@eyenetworks.no>, 2017
+# Aleksander, 2018
+# Mari Løken <inactive+mari123@transifex.com>, 2018
+# Martin Trigaux, 2018
+# Jorunn D. Newth, 2019
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-30 13:11+0000\n"
-"PO-Revision-Date: 2017-11-30 13:11+0000\n"
-"Last-Translator: Jan Pedro Tumusok <jpt@eyenetworks.no>, 2017\n"
+"POT-Creation-Date: 2018-07-27 11:55+0000\n"
+"PO-Revision-Date: 2017-09-20 10:22+0000\n"
+"Last-Translator: Jorunn D. Newth, 2019\n"
 "Language-Team: Norwegian Bokmål (https://www.transifex.com/odoo/teams/41243/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,7 +37,7 @@ msgid ""
 "                            <img src=\"web/static/src/img/logo.png\"/>\n"
 "                        </td>\n"
 "                        <td style=\"vertical-align: top; padding: 8px 10px;text-align: left;font-size: 14px;\">\n"
-"                            <a href=\"web/login\" style=\"float:right ;margin:15px auto;background: #875A7B;border-radius: 5px;color: #ffffff;font-size: 16px;padding: 10px 20px 10px 20px;text-decoration: none;\">Auto Login</a>\n"
+"                            <a href=\"web/login\" style=\"float:right ;margin:15px auto;background: #009efb;border-radius: 5px;color: #ffffff;font-size: 16px;padding: 10px 20px 10px 20px;text-decoration: none;\">Auto Login</a>\n"
 "                        </td>\n"
 "                    </tr>\n"
 "                </tbody>\n"
@@ -71,7 +74,7 @@ msgid ""
 "                                <span><a href=\"/web#view_type=kanban&model=project.project&action=project.open_view_project_all\">\n"
 "                                    <span style=\"font-weight:bold; text-decoration:underline;\">project planner</span></a></span>\n"
 "                                <span> to activate extra features</span>\n"
-"                                <span style=\"color:#875A7B;margin:0;font-weight:bold\">(${user.env['web.planner'].get_planner_progress('planner_project')}% done)</span>\n"
+"                                <span style=\"color:#009efb;margin:0;font-weight:bold\">(${user.env['web.planner'].get_planner_progress('planner_project')}% done)</span>\n"
 "                            </p>\n"
 "                            <ul style=\"margin-top:0pt;margin-bottom:0pt;font-size:13px;list-style-type:disc;\">\n"
 "                                <li dir=\"ltr\">\n"
@@ -107,12 +110,12 @@ msgid ""
 "                            </p>\n"
 "                            <p dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-bottom:8pt;\">\n"
 "                                <span>We would be delighted to assist you along the way. Contact us through our\n"
-"                                <a href=\"https://www.odoo.com/help\">support form</a> if you have any question.\n"
+"                                <a href=\"https://www.flectrahq.com/help\">support form</a> if you have any question.\n"
 "                                You can also discover how to get the best out of Odoo Project with our </span>\n"
-"                                <a target=\"_blank\" href=\"https://www.odoo.com/documentation/user/10.0/project.html\">\n"
+"                                <a target=\"_blank\" href=\"https://www.flectrahq.com/documentation/user/11.0/project.html\">\n"
 "                                <span style=\"text-decoration:underline;\">User Documentation</span></a>\n"
 "                                </span><span> or with our </span>\n"
-"                                <a target=\"_blank\" href=\"https://www.odoo.com/documentation\">\n"
+"                                <a target=\"_blank\" href=\"https://www.flectrahq.com/documentation\">\n"
 "                                <span style=\"text-decoration:underline;\">API Documentation</span></a>\n"
 "                            </p>\n"
 "                            <br>\n"
@@ -170,7 +173,7 @@ msgstr "# oppgaver"
 
 #. module: project
 #: code:addons/project/models/project.py:244
-#: code:addons/project/models/project.py:533
+#: code:addons/project/models/project.py:542
 #, python-format
 msgid "%s (copy)"
 msgstr "%s (kopi)"
@@ -203,7 +206,7 @@ msgstr ""
 "trenge:</strong>"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:69
 #, python-format
 msgid ""
@@ -214,21 +217,21 @@ msgstr ""
 " direkte.</i>"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:80
 #, python-format
 msgid "<b>Click the save button</b> to apply your changes to the task."
 msgstr "<b>Klikk 'Lagre'-knappen</b> for å lagre endringene i oppgaven."
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:48
 #, python-format
 msgid "<b>Drag &amp; drop tasks</b> between columns as you work on them."
 msgstr "<b>Dra og slipp oppgaver</b> mellom kolonnene når du jobber med dem."
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:94
 #, python-format
 msgid ""
@@ -238,7 +241,7 @@ msgstr ""
 "linje.</i>"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:54
 #, python-format
 msgid "<b>Star tasks</b> to mark team priorities."
@@ -898,6 +901,8 @@ msgid ""
 "A Python dictionary that will be evaluated to provide default values when "
 "creating new records for this alias."
 msgstr ""
+"Python-ordbok som vil brukes til å sette standardverdier når nye oppføringer"
+" opprettes for dette aliaset."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -926,7 +931,7 @@ msgid "Account Preferences"
 msgstr "Kontoinnstillinger"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:39
 #, python-format
 msgid "Action has a clear description"
@@ -938,6 +943,8 @@ msgid ""
 "Activate 'Allow invoicing based on timesheets' from the <i>Human Resources "
 "Settings</i>."
 msgstr ""
+"Aktiver 'Tillat fakturering basert på timeregistrering' fra <i>HR "
+"Settings</i>."
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_active
@@ -962,7 +969,7 @@ msgid "Add a description..."
 msgstr "Legg til beskrivelse..."
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:38
 #, python-format
 msgid ""
@@ -973,7 +980,7 @@ msgstr ""
 "dine</b>.<br/><i>For eksempel Spesifikasjon &gt; Utvikling &gt; Fullført</i>"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:56
 #, python-format
 msgid "Added in current sprint"
@@ -1010,7 +1017,7 @@ msgid "Aliased Model"
 msgstr ""
 
 #. module: project
-#: code:addons/project/controllers/portal.py:89
+#: code:addons/project/controllers/portal.py:92
 #, python-format
 msgid "All"
 msgstr "Alle"
@@ -1139,7 +1146,7 @@ msgid ""
 msgstr ""
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:32
 #: code:addons/project/static/src/js/web_planner_project.js:48
 #: code:addons/project/static/src/js/web_planner_project.js:64
@@ -1170,6 +1177,7 @@ msgid ""
 msgstr ""
 
 #. module: project
+#: code:addons/project/models/project.py:29
 #: model:project.task,legend_blocked:project.project_task_15
 #: model:project.task,legend_blocked:project.project_task_16
 #: model:project.task,legend_blocked:project.project_task_18
@@ -1196,6 +1204,7 @@ msgstr ""
 #: model:project.task.type,legend_blocked:project.project_stage_data_1
 #: model:project.task.type,legend_blocked:project.project_stage_data_2
 #: selection:report.project.task.user,state:0
+#, python-format
 msgid "Blocked"
 msgstr "Blokkert"
 
@@ -1236,7 +1245,7 @@ msgid "Cancel"
 msgstr "Avbryt"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:70
 #: code:addons/project/static/src/js/web_planner_project.js:85
 #: code:addons/project/static/src/js/web_planner_project.js:99
@@ -1251,7 +1260,7 @@ msgid "Change their Stages in the Project Stages tab"
 msgstr "Endre stadiene i fanen Prosjektstadier."
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:23
 #, python-format
 msgid ""
@@ -1277,21 +1286,21 @@ msgstr ""
 "standardprosjekt for dem (som kan være hovedprosjektet)."
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:55
 #, python-format
 msgid "Clear description and purpose"
 msgstr "Klar beskrivelse og formål"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:59
 #, python-format
 msgid "Click on a card to get the details of the task."
 msgstr "Klikk på et kort for å se detaljer for oppgaven."
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:31
 #, python-format
 msgid ""
@@ -1301,7 +1310,7 @@ msgstr ""
 "oppgaver."
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:64
 #, python-format
 msgid "Click on this button to modify the task."
@@ -1361,7 +1370,7 @@ msgid "Configuration"
 msgstr "Konfigurasjon"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:90
 #, python-format
 msgid "Configuration options are available in the Settings app."
@@ -1398,7 +1407,7 @@ msgstr "Kontakt"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_analytic_account_id
 msgid "Contract/Analytic"
-msgstr ""
+msgstr "Kontrakt/Analytisk"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1406,7 +1415,7 @@ msgid "Control projects quality and satisfaction"
 msgstr "Kontroller prosjektkvalitet og fornøydhet"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:34
 #, python-format
 msgid "Copywriting / Design"
@@ -1541,7 +1550,7 @@ msgid "Currently there are not any activity scheduled."
 msgstr "Det er for øyeblikket ikke planlagt noen aktiviteter."
 
 #. module: project
-#: code:addons/project/models/project.py:818
+#: code:addons/project/models/project.py:836
 #: model:ir.model.fields,field_description:project.field_project_project_partner_id
 #: model:ir.model.fields,field_description:project.field_project_task_partner_id
 #: model:ir.ui.view,arch_db:project.edit_project
@@ -1550,7 +1559,8 @@ msgid "Customer"
 msgstr "Kunde"
 
 #. module: project
-#: code:addons/project/models/project.py:818
+#: code:addons/project/models/project.py:836
+#: code:addons/project/models/project.py:839
 #, python-format
 msgid "Customer Email"
 msgstr "Kunde-epost"
@@ -1561,28 +1571,28 @@ msgid "Customer Service"
 msgstr "Kundestøtte"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:74
 #, python-format
 msgid "Customer feedback has been requested"
 msgstr "Tilbakemeldinger fra kunde er etterspurt"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:92
 #, python-format
 msgid "Customer has cancelled repair"
 msgstr "Kunden har avbestilt reparasjon"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:72
 #, python-format
 msgid "Customer has reported new issue"
 msgstr "Kunden har rapportert en ny sak"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:71
 #, python-format
 msgid "Customer service has found new issue"
@@ -1652,7 +1662,7 @@ msgid "Deploy"
 msgstr "Rull ut"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:20
 #, python-format
 msgid "Deployment"
@@ -1666,7 +1676,7 @@ msgid "Description"
 msgstr "Beskrivelse"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:18
 #, python-format
 msgid "Development"
@@ -1678,7 +1688,7 @@ msgid "Development Process"
 msgstr "Utviklingsproses"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/project.js:71
 #: model:ir.ui.view,arch_db:project.project_project_view_form_simplified
 #, python-format
@@ -1696,21 +1706,21 @@ msgid "Display Name"
 msgstr "Visningsnavn"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:35
 #, python-format
 msgid "Distribute"
 msgstr "Distribuer"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:43
 #, python-format
 msgid "Distribution is completed"
 msgstr "Distribusjon fullført"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:51
 #, python-format
 msgid "Documentation"
@@ -1746,7 +1756,7 @@ msgid "Don't hesitate to select only the events you are interested in!"
 msgstr "Ikke nøl med å velge bare arrangementene du er interessert i!"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:36
 #: code:addons/project/static/src/js/web_planner_project.js:69
 #: code:addons/project/static/src/js/web_planner_project.js:84
@@ -1808,6 +1818,12 @@ msgid "Ending Date"
 msgstr "Sluttdato"
 
 #. module: project
+#: code:addons/project/models/project.py:556
+#, python-format
+msgid "Error! You cannot create recursive hierarchy of task(s)."
+msgstr ""
+
+#. module: project
 #: sql_constraint:project.project:0
 msgid "Error! project start-date must be lower than project end-date."
 msgstr "Feil! Prosjektets startdato må komme før sluttdatoen."
@@ -1841,7 +1857,7 @@ msgid "Examples"
 msgstr "Eksempler"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:75
 #, python-format
 msgid "Expert advice has been requested"
@@ -1875,14 +1891,14 @@ msgid "Extra useful for when you're with a customer or in a meeting."
 msgstr "Ekstra nyttig når du er med en kunde eller i møter"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:89
 #, python-format
 msgid "Feedback from customer requested"
 msgstr "Tilbakemelding fra kunde etterspurt"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:27
 #, python-format
 msgid "Finally task is deployed"
@@ -1891,7 +1907,7 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_type_fold
 msgid "Folded in Kanban"
-msgstr ""
+msgstr "Minimert i kanban"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.edit_project
@@ -1899,6 +1915,8 @@ msgid ""
 "Follow this project to automatically track the events associated to tasks "
 "and issues of this project."
 msgstr ""
+"Følg prosjektet for å automatisk spore hendelser tilknyttet til oppgaver og "
+"saker på prosjektet."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_project_project_filter
@@ -1978,15 +1996,15 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project_sequence
 msgid "Gives the sequence order when displaying a list of Projects."
-msgstr ""
+msgstr "Gir rekkefølgen når du viser en liste over prosjekter."
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task_sequence
 msgid "Gives the sequence order when displaying a list of tasks."
-msgstr ""
+msgstr "Gir sorteringsrekkefølge ved listing av oppgaver"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:99
 #, python-format
 msgid ""
@@ -2072,7 +2090,7 @@ msgid "Hours"
 msgstr "Timer"
 
 #. module: project
-#: code:addons/project/models/project.py:730
+#: code:addons/project/models/project.py:745
 #, python-format
 msgid "I take it"
 msgstr "Jeg tar den"
@@ -2095,14 +2113,14 @@ msgid ""
 msgstr ""
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:104
 #, python-format
 msgid "Idea has been transformed into concrete actions"
 msgstr "Idé er transformert til konkrete tiltak"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:103
 #, python-format
 msgid "Idea is fully explained"
@@ -2114,7 +2132,7 @@ msgid "Ideally, a person should only be responsible for one project."
 msgstr "Ideelt sett bør én person bare være ansvarlig for ett prosjekt"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:96
 #, python-format
 msgid "Ideas"
@@ -2177,6 +2195,7 @@ msgid "Improve collaboration with customers"
 msgstr "Forbedre samarbeidet med kunder"
 
 #. module: project
+#: code:addons/project/models/project.py:35
 #: model:project.task,legend_normal:project.project_task_1
 #: model:project.task,legend_normal:project.project_task_10
 #: model:project.task,legend_normal:project.project_task_11
@@ -2225,11 +2244,12 @@ msgstr "Forbedre samarbeidet med kunder"
 #: model:project.task.type,legend_normal:project.project_stage_data_2
 #: model:project.task.type,name:project.project_stage_1
 #: selection:report.project.task.user,state:0
+#, python-format
 msgid "In Progress"
 msgstr "Under arbeid"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:33
 #: code:addons/project/static/src/js/web_planner_project.js:66
 #: code:addons/project/static/src/js/web_planner_project.js:81
@@ -2238,7 +2258,7 @@ msgid "In progress"
 msgstr "Under arbeid"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:80
 #, python-format
 msgid "Incoming"
@@ -2270,14 +2290,14 @@ msgid "Issue Version"
 msgstr "Saksversjon"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:73
 #, python-format
 msgid "Issue is being worked on"
 msgstr "Saken er under arbeid"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:76
 #, python-format
 msgid "Issue is resolved"
@@ -2381,7 +2401,7 @@ msgid "Last Modified on"
 msgstr "Sist oppdatert "
 
 #. module: project
-#: code:addons/project/controllers/portal.py:86
+#: code:addons/project/controllers/portal.py:89
 #: model:ir.model.fields,field_description:project.field_project_task_date_last_stage_update
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_date_last_stage_update
 #, python-format
@@ -2420,7 +2440,7 @@ msgstr ""
 "oppgaver og timelister."
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:18
 #, python-format
 msgid "Let's create your first project."
@@ -2440,6 +2460,9 @@ msgid ""
 " projects. It enables you to connect projects with budgets, planning, cost "
 "and revenue analysis, timesheets on projects, etc."
 msgstr ""
+"Koble dette prosjekt til en kontodimensjon hvis du ønsker økonomistyring for"
+" prosjekter. Dette muliggjør kobling mellom prosjekt og budsjett, "
+"planlegging, kostnader og omsetning, prosjekttimelister, etc."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -2547,9 +2570,10 @@ msgid "My Tasks"
 msgstr "Oppgavene mine"
 
 #. module: project
-#: code:addons/project/controllers/portal.py:31
+#: code:addons/project/controllers/portal.py:35
 #: model:ir.model.fields,field_description:project.field_project_tags_name
 #: model:ir.ui.view,arch_db:project.portal_my_projects
+#: model:ir.ui.view,arch_db:project.portal_my_tasks
 #, python-format
 msgid "Name"
 msgstr "Navn"
@@ -2578,7 +2602,7 @@ msgid "Need functional or technical help"
 msgstr "Trenger funksjonell eller teknisk hjelp"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:65
 #: model:ir.ui.view,arch_db:project.view_task_project_user_search
 #: model:project.task.type,name:project.project_stage_data_0
@@ -2587,7 +2611,7 @@ msgid "New"
 msgstr "Ny"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:87
 #, python-format
 msgid "New repair added"
@@ -2599,8 +2623,8 @@ msgid "New task name"
 msgstr "Nytt oppgavenavn"
 
 #. module: project
-#: code:addons/project/controllers/portal.py:30
-#: code:addons/project/controllers/portal.py:83
+#: code:addons/project/controllers/portal.py:34
+#: code:addons/project/controllers/portal.py:86
 #, python-format
 msgid "Newest"
 msgstr "Nyeste"
@@ -2612,10 +2636,16 @@ msgid "Next Activities"
 msgstr "Neste aktiviteter"
 
 #. module: project
-#: code:addons/project/models/project.py:775
+#: code:addons/project/models/project.py:792
 #, python-format
 msgid "No Subject"
 msgstr "Mangler emne"
+
+#. module: project
+#: code:addons/project/controllers/portal.py:102
+#, python-format
+msgid "None"
+msgstr "Ingen"
 
 #. module: project
 #: selection:project.task,priority:0
@@ -2645,7 +2675,7 @@ msgid "Notifications"
 msgstr "Varslinger"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:43
 #, python-format
 msgid "Now that the project is set up, <b>create a few tasks</b>."
@@ -2731,7 +2761,7 @@ msgstr ""
 #. module: project
 #: model:ir.actions.act_window,name:project.action_view_task_overpassed_draft
 msgid "Overpassed Tasks"
-msgstr ""
+msgstr "Oppgaver med passert frist"
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task_legend_blocked
@@ -2765,7 +2795,7 @@ msgstr "Eier"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_alias_parent_model_id
 msgid "Parent Model"
-msgstr ""
+msgstr "Overordnede modell"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_alias_parent_thread_id
@@ -2773,7 +2803,7 @@ msgid "Parent Record Thread ID"
 msgstr ""
 
 #. module: project
-#: code:addons/project/models/project.py:861
+#: code:addons/project/models/project.py:878
 #: model:ir.model.fields,field_description:project.field_project_task_parent_id
 #: model:ir.ui.view,arch_db:project.view_task_form2
 #, python-format
@@ -2799,7 +2829,7 @@ msgid "Planner"
 msgstr "Planlegger"
 
 #. module: project
-#: code:addons/project/models/project.py:887
+#: code:addons/project/models/project.py:918
 #, python-format
 msgid ""
 "Please remove existing tasks in the project linked to the accounts you want "
@@ -2838,7 +2868,8 @@ msgid "Product or software version"
 msgstr "Produkt- eller programvareversjon"
 
 #. module: project
-#: code:addons/project/models/project.py:346
+#: code:addons/project/controllers/portal.py:103
+#: code:addons/project/models/project.py:355
 #: model:ir.model,name:project.model_project_project
 #: model:ir.model.fields,field_description:project.field_project_task_project_id
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_project_id
@@ -2901,6 +2932,7 @@ msgstr "Prosjektoppgaver"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_res_company_project_time_mode_id
+#: model:ir.model.fields,field_description:project.field_res_config_settings_project_time_mode_id
 #: model:ir.model.fields,field_description:project.project_time_mode_id_duplicate_xmlid
 msgid "Project Time Unit"
 msgstr "Prosjekt-tidsenhet"
@@ -2947,6 +2979,7 @@ msgid "Rating on Tasks"
 msgstr "Vurdering av oppgaver"
 
 #. module: project
+#: code:addons/project/models/project.py:32
 #: model:project.task,legend_done:project.project_task_1
 #: model:project.task,legend_done:project.project_task_12
 #: model:project.task,legend_done:project.project_task_15
@@ -2976,11 +3009,12 @@ msgstr "Vurdering av oppgaver"
 #: model:project.task.type,legend_done:project.project_stage_data_0
 #: model:project.task.type,legend_done:project.project_stage_data_1
 #: model:project.task.type,legend_done:project.project_stage_data_2
+#, python-format
 msgid "Ready for Next Stage"
 msgstr "Klar for neste stadium"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:41
 #, python-format
 msgid "Ready for layout / copywriting"
@@ -2992,21 +3026,21 @@ msgid "Ready for next stage"
 msgstr "Klar for neste stadium"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:59
 #, python-format
 msgid "Ready for release"
 msgstr "Klar for lansering"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:57
 #, python-format
 msgid "Ready for testing"
 msgstr "Klar for testing"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:42
 #, python-format
 msgid "Ready to be displayed, published or sent"
@@ -3020,7 +3054,7 @@ msgid "Ready to reopen"
 msgstr "Klar til å gjenåpnes"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:77
 #: code:addons/project/static/src/js/web_planner_project.js:106
 #, python-format
@@ -3058,12 +3092,17 @@ msgid "Red: the Task is blocked (there's a problem)"
 msgstr "Rød: Oppgaven er blokkert (det er et problem)"
 
 #. module: project
+#: model:ir.ui.view,arch_db:project.portal_my_tasks
+msgid "Ref"
+msgstr "Ref"
+
+#. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_code
 msgid "Reference"
 msgstr "Referanse"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:52
 #, python-format
 msgid "Release"
@@ -3075,7 +3114,7 @@ msgid "Remaining Hours"
 msgstr "Gjenstående timer"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/project.js:69
 #, python-format
 msgid "Remove Cover Image"
@@ -3087,14 +3126,14 @@ msgid "Repair Workshop"
 msgstr "Reparasjonsverksted"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:88
 #, python-format
 msgid "Repair has started"
 msgstr "Reparasjon er påbegynt"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:91
 #, python-format
 msgid "Repair is completed"
@@ -3107,7 +3146,7 @@ msgid "Reporting"
 msgstr "Rapportering"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:90
 #, python-format
 msgid "Request for parts has been sent"
@@ -3139,7 +3178,7 @@ msgid "Search"
 msgstr "Søk"
 
 #. module: project
-#: code:addons/project/controllers/portal.py:92
+#: code:addons/project/controllers/portal.py:95
 #, python-format
 msgid "Search <span class=\"nolabel\"> (in Content)</span>"
 msgstr "Søk <span class=\"nolabel\"> (i innhold)</span>"
@@ -3150,31 +3189,31 @@ msgid "Search Project"
 msgstr "Søk prosjekt"
 
 #. module: project
-#: code:addons/project/controllers/portal.py:96
+#: code:addons/project/controllers/portal.py:99
 #, python-format
 msgid "Search in All"
 msgstr "Søk i alle felt"
 
 #. module: project
-#: code:addons/project/controllers/portal.py:94
+#: code:addons/project/controllers/portal.py:97
 #, python-format
 msgid "Search in Customer"
 msgstr "Søk i kunde"
 
 #. module: project
-#: code:addons/project/controllers/portal.py:93
+#: code:addons/project/controllers/portal.py:96
 #, python-format
 msgid "Search in Messages"
 msgstr "Søk i meldinger"
 
 #. module: project
-#: code:addons/project/controllers/portal.py:95
+#: code:addons/project/controllers/portal.py:98
 #, python-format
 msgid "Search in Stages"
 msgstr "Søk i stadier"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/project.js:62
 #, python-format
 msgid "Select"
@@ -3210,7 +3249,7 @@ msgid "Set Cover Image"
 msgstr "Sett forsidebilde"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/project.js:61
 #, python-format
 msgid "Set a Cover Image"
@@ -3257,21 +3296,21 @@ msgid "Software development"
 msgstr "Programvareutvikling"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:16
 #, python-format
 msgid "Specification"
 msgstr "Spesifikasjon"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:24
 #, python-format
 msgid "Specification is validated"
 msgstr "Spesifikasjonen er validert"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:23
 #, python-format
 msgid "Specification of task is written"
@@ -3283,14 +3322,14 @@ msgid "Split your tasks to organize your work into sub-milestones"
 msgstr ""
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:49
 #, python-format
 msgid "Sprint"
 msgstr "Sprint"
 
 #. module: project
-#: code:addons/project/controllers/portal.py:85
+#: code:addons/project/controllers/portal.py:88
 #: model:ir.model.fields,field_description:project.field_project_task_stage_id
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_stage_id
 #: model:ir.ui.view,arch_db:project.portal_my_tasks
@@ -3396,7 +3435,6 @@ msgstr "Målprosjekt"
 
 #. module: project
 #: model:ir.model,name:project.model_project_task
-#: model:ir.ui.view,arch_db:project.portal_my_tasks
 #: model:ir.ui.view,arch_db:project.view_task_form2
 #: model:ir.ui.view,arch_db:project.view_task_project_user_search
 #: model:ir.ui.view,arch_db:project.view_task_search_form
@@ -3433,7 +3471,7 @@ msgstr "Oppgave åpnet"
 #. module: project
 #: model:ir.filters,name:project.filter_task_report_task_pipe
 msgid "Task Pipe"
-msgstr ""
+msgstr "Oppgaveflyt"
 
 #. module: project
 #: model:mail.message.subtype,name:project.mt_project_task_ready
@@ -3470,21 +3508,21 @@ msgid "Task blocked"
 msgstr "Oppgave blokkert"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:25
 #, python-format
 msgid "Task is Developed"
 msgstr "Oppgaven er utviklet"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:105
 #, python-format
 msgid "Task is completed"
 msgstr "Oppgaven er fullført"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:26
 #, python-format
 msgid "Task is tested"
@@ -3561,21 +3599,21 @@ msgid "Tasks to Merge"
 msgstr "Oppgaver som skal slås sammen"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:50
 #, python-format
 msgid "Test"
 msgstr "Test"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:58
 #, python-format
 msgid "Test is OK, need to document"
 msgstr "Test er OK, må dokumenteres"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:19
 #, python-format
 msgid "Testing"
@@ -3614,7 +3652,7 @@ msgstr ""
 #: model:ir.model.fields,help:project.field_project_project_alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.flectrahq.com>"
 msgstr ""
 
 #. module: project
@@ -3643,7 +3681,7 @@ msgid "There are no tasks."
 msgstr "Det finnes ingen oppgaver."
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/xml/project.xml:7
 #, python-format
 msgid ""
@@ -3657,6 +3695,8 @@ msgid ""
 "These email addresses will be added to the CC field of all inbound\n"
 "        and outbound emails for this record before being sent. Separate multiple email addresses with a comma"
 msgstr ""
+"Disse epostadressene vil bli lagt til i kopifeltet på alle utgående og innkommende epostmeldinger for denne oppføringen før de sendes.\n"
+"        Sett komma mellom hver adresse"
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task_email_from
@@ -3693,6 +3733,8 @@ msgid ""
 "This stage is folded in the kanban view when there are no records in that "
 "stage to display."
 msgstr ""
+"Dette stadiet er minimert i kanban-visning når det ikke er noen oppføringer "
+"på stadiet å vise."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.mail_template_task_merge
@@ -3717,6 +3759,7 @@ msgstr ""
 #: model:ir.model.fields,help:project.field_account_analytic_account_company_uom_id
 #: model:ir.model.fields,help:project.field_project_project_company_uom_id
 #: model:ir.model.fields,help:project.field_res_company_project_time_mode_id
+#: model:ir.model.fields,help:project.field_res_config_settings_project_time_mode_id
 #: model:ir.model.fields,help:project.project_time_mode_id_duplicate_xmlid
 msgid ""
 "This will set the unit of measure used in projects and tasks.\n"
@@ -3762,13 +3805,13 @@ msgid "Timetable working hours to adjust the gantt diagram report"
 msgstr ""
 
 #. module: project
-#: code:addons/project/controllers/portal.py:84
+#: code:addons/project/controllers/portal.py:87
 #, python-format
 msgid "Title"
 msgstr "Tittel"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:97
 #: model:project.task.type,name:project.project_stage_0
 #, python-format
@@ -3800,6 +3843,7 @@ msgid ""
 "Total remaining time, can be re-estimated periodically by the assignee of "
 "the task."
 msgstr ""
+"Total gjenværende tid, kan gjenberegnes periodisk av oppgaveansvarlig."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.res_config_settings_view_form
@@ -3853,7 +3897,7 @@ msgstr ""
 "viktige for hele teamet."
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:103
 #, python-format
 msgid ""
@@ -3864,7 +3908,7 @@ msgstr ""
 "ditt."
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:85
 #, python-format
 msgid "Use the breadcrumbs to <b>go back to your tasks pipeline</b>."
@@ -3895,7 +3939,7 @@ msgid ""
 msgstr ""
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:17
 #, python-format
 msgid "Validation"
@@ -3926,7 +3970,7 @@ msgid "Visible by following customers"
 msgstr "Synlig for følgende kunder"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:67
 #: code:addons/project/static/src/js/web_planner_project.js:82
 #, python-format
@@ -3934,7 +3978,7 @@ msgid "Wait. Customer"
 msgstr "Vent. Kunde"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:68
 #: code:addons/project/static/src/js/web_planner_project.js:83
 #, python-format
@@ -3942,7 +3986,7 @@ msgid "Wait. Expert"
 msgstr "Vent. Ekspert"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:13
 #, python-format
 msgid ""
@@ -3954,7 +3998,7 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_email_cc
 msgid "Watchers Emails"
-msgstr ""
+msgstr "Overvåkere E-poster."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3990,6 +4034,16 @@ msgid ""
 msgstr ""
 "Vi har utviklet en superenkel og effektiv Chrome-utvidelse for å føre "
 "timelister:<br/><br/>"
+
+#. module: project
+#: model:ir.model.fields,field_description:project.field_project_task_website_message_ids
+msgid "Website Messages"
+msgstr "Nettstedmeldinger"
+
+#. module: project
+#: model:ir.model.fields,help:project.field_project_task_website_message_ids
+msgid "Website communication history"
+msgstr "Kommunikasjonshistorikk på nettstedet"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -4035,7 +4089,7 @@ msgid "Whether this project should be displayed on the dashboard or not"
 msgstr "Om dette prosjektet skal vises på dashbord"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:40
 #, python-format
 msgid "Work has started"
@@ -4137,7 +4191,7 @@ msgid "You can save your reports to easily reuse it later"
 msgstr "Du kan lagre rapportene dine for enkel gjenbruk"
 
 #. module: project
-#: code:addons/project/models/project.py:547
+#: code:addons/project/models/project.py:562
 #, python-format
 msgid ""
 "You can't define a parent task if its project is not correctly configured. "
@@ -4200,6 +4254,11 @@ msgid "etc.."
 msgstr "osv."
 
 #. module: project
+#: model:ir.ui.view,arch_db:project.portal_my_tasks
+msgid "for project:"
+msgstr ""
+
+#. module: project
 #: model:ir.ui.view,arch_db:project.view_task_kanban
 msgid "oe_kanban_text_red"
 msgstr "oe_kanban_text_red"
@@ -4220,7 +4279,7 @@ msgid "send us an email"
 msgstr "send oss en epostmelding"
 
 #. module: project
-#: code:addons/project/models/project.py:595
+#: code:addons/project/models/project.py:610
 #, python-format
 msgid "tasks"
 msgstr "oppgaver"

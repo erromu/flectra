@@ -3,15 +3,16 @@
 # * lunch
 # 
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux, 2017
 # Slobodan Simić <slsimic@gmail.com>, 2017
+# Bojan Borovnjak <bojan.borovnjak@modoolar.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
 "PO-Revision-Date: 2017-10-02 11:26+0000\n"
-"Last-Translator: Slobodan Simić <slsimic@gmail.com>, 2017\n"
+"Last-Translator: Bojan Borovnjak <bojan.borovnjak@modoolar.com>, 2018\n"
 "Language-Team: Serbian (https://www.transifex.com/odoo/teams/41243/sr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,7 +44,7 @@ msgstr ""
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.report_lunch_order
 msgid "<strong>Total</strong>"
-msgstr ""
+msgstr "<strong>Total</strong>"
 
 #. module: lunch
 #: model:ir.actions.act_window,help:lunch.lunch_cashmove_action_control_accounts
@@ -65,7 +66,7 @@ msgid "Active"
 msgstr "Активно"
 
 #. module: lunch
-#. flectra-web
+#. openerp-web
 #: code:addons/lunch/static/src/xml/lunch.xml:15
 #, python-format
 msgid "Add"
@@ -294,7 +295,7 @@ msgid "Display Name"
 msgstr ""
 
 #. module: lunch
-#. flectra-web
+#. openerp-web
 #: code:addons/lunch/static/src/xml/lunch.xml:7
 #, python-format
 msgid "Don't forget the alerts displayed in the reddish area"
@@ -750,7 +751,7 @@ msgid "Search"
 msgstr "Pronađi"
 
 #. module: lunch
-#. flectra-web
+#. openerp-web
 #: code:addons/lunch/static/src/xml/lunch.xml:5
 #, python-format
 msgid "Select a product and put your order comments on the note."
@@ -806,7 +807,7 @@ msgid ""
 msgstr ""
 
 #. module: lunch
-#. flectra-web
+#. openerp-web
 #: code:addons/lunch/static/src/xml/lunch.xml:4
 #, python-format
 msgid "This is the first time you order a meal"
@@ -893,7 +894,7 @@ msgid "Your Orders"
 msgstr ""
 
 #. module: lunch
-#. flectra-web
+#. openerp-web
 #: code:addons/lunch/static/src/xml/lunch.xml:6
 #, python-format
 msgid "Your favorite meals will be created based on your last orders."

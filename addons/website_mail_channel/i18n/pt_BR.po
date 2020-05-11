@@ -6,7 +6,7 @@
 # Rodrigo de Almeida Sottomaior Macedo <rmsolucoeseminformatic4@gmail.com>, 2017
 # danimaribeiro <danimaribeiro@gmail.com>, 2017
 # grazziano <gra.negocia@gmail.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 # Mateus Lopes <mateus1@gmail.com>, 2017
 # Clemilton Clementino <clemylton@hotmail.com>, 2017
 msgid ""
@@ -53,7 +53,7 @@ msgid "<span class=\"oe_snippet_thumbnail_title\">Discussion Group</span>"
 msgstr "<span class=\"oe_snippet_thumbnail_title\">Grupo de Discussão</span>"
 
 #. module: website_mail_channel
-#. flectra-web
+#. openerp-web
 #: code:addons/website_mail_channel/static/src/js/website_mail_channel.editor.js:17
 #, python-format
 msgid "Add a Subscribe Button"
@@ -92,7 +92,7 @@ msgid "Change Discussion List"
 msgstr "Alterar lista de discussão"
 
 #. module: website_mail_channel
-#. flectra-web
+#. openerp-web
 #: code:addons/website_mail_channel/static/src/js/website_mail_channel.editor.js:18
 #, python-format
 msgid "Discussion List"

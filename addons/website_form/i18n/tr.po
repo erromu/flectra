@@ -3,18 +3,20 @@
 # * website_form
 # 
 # Translators:
-# Gökhan Erdoğdu <gokhan.erdogdu@mechsoft.com.tr>, 2017
 # Murat Kaplan <muratk@projetgrup.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux, 2017
+# Gökhan Erdoğdu <gokhan.erdogdu@mechsoft.com.tr>, 2017
 # Ayhan KIZILTAN <akiziltan76@hotmail.com>, 2017
 # Ediz Duman <neps1192@gmail.com>, 2017
+# ANIL TAN SAĞIR <anils@projetgrup.com>, 2019
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:54+0000\n"
-"PO-Revision-Date: 2017-09-20 09:54+0000\n"
-"Last-Translator: Ediz Duman <neps1192@gmail.com>, 2017\n"
+"PO-Revision-Date: 2017-09-20 10:26+0000\n"
+"Last-Translator: ANIL TAN SAĞIR <anils@projetgrup.com>, 2019\n"
 "Language-Team: Turkish (https://www.transifex.com/odoo/teams/41243/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,14 +25,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. module: website_form
-#. flectra-web
+#. openerp-web
 #: code:addons/website_form/static/src/js/website_form.js:226
 #, python-format
 msgid "'%s' is not a correct date"
 msgstr "'%s' doğru bir tarih değildir"
 
 #. module: website_form
-#. flectra-web
+#. openerp-web
 #: code:addons/website_form/static/src/js/website_form.js:221
 #, python-format
 msgid "'%s' is not a correct datetime"
@@ -48,7 +50,7 @@ msgid "Allowed to use in forms"
 msgstr "Forumlarda kullanmaya izinli"
 
 #. module: website_form
-#. flectra-web
+#. openerp-web
 #: code:addons/website_form/static/src/xml/website_form.xml:21
 #, python-format
 msgid "An error has occured, the form has not been sent."
@@ -116,11 +118,11 @@ msgid "Models"
 msgstr "Modeller"
 
 #. module: website_form
-#. flectra-web
+#. openerp-web
 #: code:addons/website_form/static/src/xml/website_form.xml:14
 #, python-format
 msgid "Please fill in the form correctly."
-msgstr "Lütfen formu doğru doldurun."
+msgstr "Lütfen formu eksiksiz doldurunuz."
 
 #. module: website_form
 #: model:ir.model.fields,help:website_form.field_ir_model_website_form_default_field_id
@@ -130,7 +132,7 @@ msgstr ""
 "Metadata ve özel form alanlarındaki bilgileri içeren alanı belirleyin."
 
 #. module: website_form
-#. flectra-web
+#. openerp-web
 #: code:addons/website_form/static/src/xml/website_form.xml:7
 #, python-format
 msgid "The form has been sent successfully."

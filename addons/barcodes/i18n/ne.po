@@ -8,10 +8,10 @@
 # Laxman Bhatt <laxmanbhatt1001@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-20 09:53+0000\n"
-"PO-Revision-Date: 2017-09-20 09:53+0000\n"
+"POT-Creation-Date: 2018-02-19 13:43+0000\n"
+"PO-Revision-Date: 2018-02-19 13:43+0000\n"
 "Last-Translator: Laxman Bhatt <laxmanbhatt1001@gmail.com>, 2018\n"
 "Language-Team: Nepali (https://www.transifex.com/odoo/teams/41243/ne/)\n"
 "MIME-Version: 1.0\n"
@@ -149,7 +149,7 @@ msgid "Credit Card"
 msgstr ""
 
 #. module: barcodes
-#. flectra-web
+#. openerp-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:359
 #, python-format
 msgid "Discard"
@@ -188,24 +188,29 @@ msgid "Encoding"
 msgstr ""
 
 #. module: barcodes
-#. flectra-web
+#. openerp-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:301
 #, python-format
 msgid "Error : Barcode command is undefined"
 msgstr ""
 
 #. module: barcodes
-#. flectra-web
+#. openerp-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:63
 #, python-format
 msgid "Error : Document not editable"
 msgstr ""
 
 #. module: barcodes
-#. flectra-web
+#. openerp-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:332
 #, python-format
 msgid "Error : No last scanned barcode"
+msgstr ""
+
+#. module: barcodes
+#: model:ir.model,name:barcodes.model_ir_http
+msgid "HTTP routing"
 msgstr ""
 
 #. module: barcodes
@@ -286,7 +291,7 @@ msgid "Rules"
 msgstr ""
 
 #. module: barcodes
-#. flectra-web
+#. openerp-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:352
 #, python-format
 msgid "Select"
@@ -298,7 +303,7 @@ msgid "Sequence"
 msgstr "अनुक्रम"
 
 #. module: barcodes
-#. flectra-web
+#. openerp-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:351
 #, python-format
 msgid "Set quantity"
@@ -340,14 +345,14 @@ msgid ""
 msgstr ""
 
 #. module: barcodes
-#. flectra-web
+#. openerp-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:64
 #, python-format
 msgid "To modify this document, please first start edition."
 msgstr ""
 
 #. module: barcodes
-#. flectra-web
+#. openerp-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:333
 #, python-format
 msgid "To set the quantity please scan a barcode first."

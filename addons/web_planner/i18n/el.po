@@ -4,8 +4,7 @@
 # 
 # Translators:
 # Kostas Goutoudis <goutoudis@gmail.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
-# George Tarasidis <george_tarasidis@yahoo.com>, 2017
+# Martin Trigaux <mat@flectrahq.com>, 2017
 # Costas Pittalis <cpittalis@gmail.com>, 2017
 msgid ""
 msgstr ""
@@ -28,7 +27,7 @@ msgid "Active"
 msgstr "Ενεργή"
 
 #. module: web_planner
-#. flectra-web
+#. openerp-web
 #: code:addons/web_planner/static/src/js/web_planner_common.js:379
 #, python-format
 msgid "Cancel"
@@ -89,11 +88,11 @@ msgid "Last Updated on"
 msgstr "Τελευταία Ενημέρωση στις"
 
 #. module: web_planner
-#. flectra-web
+#. openerp-web
 #: code:addons/web_planner/static/src/js/web_planner_common.js:133
 #, python-format
 msgid "Mark As Done"
-msgstr "Σήμανση ως Ολοκληρωμένη"
+msgstr "Σήμανση ως Ολοκληρωμένο"
 
 #. module: web_planner
 #: model:ir.model.fields,field_description:web_planner.field_web_planner_menu_id
@@ -106,14 +105,14 @@ msgid "Name"
 msgstr "Περιγραφή"
 
 #. module: web_planner
-#. flectra-web
+#. openerp-web
 #: code:addons/web_planner/static/src/js/web_planner_common.js:141
 #, python-format
 msgid "Next Step"
 msgstr "Επόμενο Βήμα"
 
 #. module: web_planner
-#. flectra-web
+#. openerp-web
 #: code:addons/web_planner/static/src/js/web_planner_common.js:388
 #, python-format
 msgid "Odoo Enterprise"
@@ -153,7 +152,7 @@ msgid "Template"
 msgstr "Πρότυπο"
 
 #. module: web_planner
-#. flectra-web
+#. openerp-web
 #: code:addons/web_planner/static/src/js/web_planner_common.js:365
 #, python-format
 msgid "Upgrade now"

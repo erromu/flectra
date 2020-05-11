@@ -3,19 +3,20 @@
 # * website_blog
 # 
 # Translators:
-# Norimichi Sugimoto <norimichi.sugimoto@tls-ltd.co.jp>, 2017
-# Yoshi Tashiro <tashiro@roomsfor.hk>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
-# Manami Hashi <manami@roomsfor.hk>, 2017
 # NOKA Shigekazu <shigekazu.noka@gmail.com>, 2017
+# Martin Trigaux, 2017
+# Norimichi Sugimoto <norimichi.sugimoto@tls-ltd.co.jp>, 2017
 # 高木正勝 <masakatsu.takagi@pro-spire.co.jp>, 2017
+# Manami Hashi <manami@roomsfor.hk>, 2017
+# Yoshi Tashiro <tashiro@roomsfor.hk>, 2017
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-24 09:00+0000\n"
-"PO-Revision-Date: 2017-10-24 09:00+0000\n"
-"Last-Translator: 高木正勝 <masakatsu.takagi@pro-spire.co.jp>, 2017\n"
+"POT-Creation-Date: 2019-01-03 15:07+0000\n"
+"PO-Revision-Date: 2017-09-20 10:25+0000\n"
+"Last-Translator: Yoshi Tashiro <tashiro@roomsfor.hk>, 2017\n"
 "Language-Team: Japanese (https://www.transifex.com/odoo/teams/41243/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -111,21 +112,21 @@ msgid ""
 msgstr "ブログを(非)自動的にアーカイブし、投稿を(非)アーカイブする。 続行しますか？"
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:53
 #, python-format
 msgid "<b>Click on Save</b> to record your changes."
 msgstr "<b>クリックして保存</b> で変更が記録されます。"
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:69
 #, python-format
 msgid "<b>Publish your blog post</b> to make it visible to your visitors."
 msgstr "訪問者に表示させるには<b>あなたのブログの投稿を公開</b>してください。"
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:73
 #, python-format
 msgid ""
@@ -134,7 +135,7 @@ msgid ""
 msgstr "<b>これで、あなたのブログの投稿が公開されます！</b><i>カスタマイズ</i>メニューからさらに機能を発見できます。"
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:44
 #, python-format
 msgid ""
@@ -143,6 +144,11 @@ msgid ""
 "more graphical blogs."
 msgstr ""
 "<b>あなたの記事をここに書きます</b>上部のツールバーを使用してテキストのスタイルを設定します：画像や表を追加したり、太字や斜体などを設定します。"
+
+#. module: website_blog
+#: model:ir.ui.view,arch_db:website_blog.latest_blogs
+msgid "<span class=\"fa fa-exclamation-triangle ml8\" title=\"Unpublished\"/>"
+msgstr ""
 
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_1
@@ -328,7 +334,7 @@ msgid "Building your company's website and selling your products online easy."
 msgstr "あなたの会社のウェブサイトを構築し、あなたの製品をオンラインで簡単に販売する。"
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:29
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 #, python-format
@@ -336,14 +342,14 @@ msgid "Change Cover"
 msgstr "表紙変更"
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:35
 #, python-format
 msgid "Choose an image from the library."
 msgstr "ライブラリから画像を選択。"
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:30
 #, python-format
 msgid "Click here to change your post cover."
@@ -356,7 +362,7 @@ msgid ""
 msgstr "最初のブログ投稿を書くには、右上隅の「新しいページ」をクリックしてください。"
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:40
 #, python-format
 msgid "Click on <b>Save</b> to set the picture as cover."
@@ -499,7 +505,7 @@ msgstr "ニュースを掲載しています"
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 msgid "Green"
-msgstr "緑色"
+msgstr "緑"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.view_blog_post_search
@@ -611,12 +617,12 @@ msgstr ""
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 msgid "Low"
-msgstr "低い"
+msgstr "低"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 msgid "Medium"
-msgstr "配信手段"
+msgstr "中"
 
 #. module: website_blog
 #: model:ir.model,name:website_blog.model_mail_message
@@ -667,10 +673,10 @@ msgstr "名称"
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 msgid "Narrow"
-msgstr "狭い"
+msgstr "ナロー"
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website_blog.editor.js:37
 #: model:ir.ui.view,arch_db:website_blog.content_new_blogpost
 #, python-format
@@ -729,7 +735,7 @@ msgid "Odoo, email"
 msgstr "Odoo　eメール"
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:63
 #, python-format
 msgid "Once you have reviewed the content on mobile, close the preview."
@@ -837,17 +843,17 @@ msgstr ""
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 msgid "Red"
-msgstr "赤色"
+msgstr "赤"
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:15
 #, python-format
 msgid "Select this menu item to create a new blog post."
 msgstr "新しいブログ投稿を作成するには、このメニュー項目を選択します。"
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:26
 #, python-format
 msgid "Set a blog post <b>cover</b>."
@@ -868,7 +874,7 @@ msgstr ""
 "連絡先用の縮小されたイメージ。それは自動的に保存され、アスペクト比で、64x64pxで画像とサイズを変更します。小さな画像を必要とするどこでも、このフィールドを使用しています。"
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/models/website_blog.py:123
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:52
 #, python-format
@@ -883,7 +889,7 @@ msgstr "ステータス"
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.opt_blog_rc_follow_us
 msgid "Stay updated :"
-msgstr "最新ニュースをお届けします:"
+msgstr "アップデート配信:"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_subtitle
@@ -1005,7 +1011,7 @@ msgid "Untitled Post"
 msgstr "無題の投稿"
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:58
 #, python-format
 msgid "Use this icon to preview your blog post on <b>mobile devices</b>."
@@ -1061,7 +1067,7 @@ msgstr ""
 "                ここに小さなテキストを書いてください。"
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:20
 #, python-format
 msgid "Write a title, the subtitle is optional."
@@ -1070,7 +1076,7 @@ msgstr "タイトルを記入、サブタイトルはオプションです。"
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 msgid "Yellow"
-msgstr "黄色"
+msgstr "黄"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.latest_blogs

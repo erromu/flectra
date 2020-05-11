@@ -3,15 +3,20 @@
 # * project
 # 
 # Translators:
-# Quim - eccit <quim@eccit.com>, 2017
-# RGB Consulting <odoo@rgbconsulting.com>, 2017
+# RGB Consulting <odoo@rgbconsulting.com>, 2018
+# Martin Trigaux, 2018
+# Quim - eccit <quim@eccit.com>, 2018
+# Manel Fernandez Ramirez <manelfera@outlook.com>, 2018
+# Arnau Ros, 2019
+# Carles Antoli <carlesantoli@hotmail.com>, 2019
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-30 13:11+0000\n"
-"PO-Revision-Date: 2017-11-30 13:11+0000\n"
-"Last-Translator: RGB Consulting <odoo@rgbconsulting.com>, 2017\n"
+"POT-Creation-Date: 2018-07-27 11:55+0000\n"
+"PO-Revision-Date: 2017-09-20 10:22+0000\n"
+"Last-Translator: Carles Antoli <carlesantoli@hotmail.com>, 2019\n"
 "Language-Team: Catalan (https://www.transifex.com/odoo/teams/41243/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,7 +37,7 @@ msgid ""
 "                            <img src=\"web/static/src/img/logo.png\"/>\n"
 "                        </td>\n"
 "                        <td style=\"vertical-align: top; padding: 8px 10px;text-align: left;font-size: 14px;\">\n"
-"                            <a href=\"web/login\" style=\"float:right ;margin:15px auto;background: #875A7B;border-radius: 5px;color: #ffffff;font-size: 16px;padding: 10px 20px 10px 20px;text-decoration: none;\">Auto Login</a>\n"
+"                            <a href=\"web/login\" style=\"float:right ;margin:15px auto;background: #009efb;border-radius: 5px;color: #ffffff;font-size: 16px;padding: 10px 20px 10px 20px;text-decoration: none;\">Auto Login</a>\n"
 "                        </td>\n"
 "                    </tr>\n"
 "                </tbody>\n"
@@ -69,7 +74,7 @@ msgid ""
 "                                <span><a href=\"/web#view_type=kanban&model=project.project&action=project.open_view_project_all\">\n"
 "                                    <span style=\"font-weight:bold; text-decoration:underline;\">project planner</span></a></span>\n"
 "                                <span> to activate extra features</span>\n"
-"                                <span style=\"color:#875A7B;margin:0;font-weight:bold\">(${user.env['web.planner'].get_planner_progress('planner_project')}% done)</span>\n"
+"                                <span style=\"color:#009efb;margin:0;font-weight:bold\">(${user.env['web.planner'].get_planner_progress('planner_project')}% done)</span>\n"
 "                            </p>\n"
 "                            <ul style=\"margin-top:0pt;margin-bottom:0pt;font-size:13px;list-style-type:disc;\">\n"
 "                                <li dir=\"ltr\">\n"
@@ -105,12 +110,12 @@ msgid ""
 "                            </p>\n"
 "                            <p dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-bottom:8pt;\">\n"
 "                                <span>We would be delighted to assist you along the way. Contact us through our\n"
-"                                <a href=\"https://www.odoo.com/help\">support form</a> if you have any question.\n"
+"                                <a href=\"https://www.flectrahq.com/help\">support form</a> if you have any question.\n"
 "                                You can also discover how to get the best out of Odoo Project with our </span>\n"
-"                                <a target=\"_blank\" href=\"https://www.odoo.com/documentation/user/10.0/project.html\">\n"
+"                                <a target=\"_blank\" href=\"https://www.flectrahq.com/documentation/user/11.0/project.html\">\n"
 "                                <span style=\"text-decoration:underline;\">User Documentation</span></a>\n"
 "                                </span><span> or with our </span>\n"
-"                                <a target=\"_blank\" href=\"https://www.odoo.com/documentation\">\n"
+"                                <a target=\"_blank\" href=\"https://www.flectrahq.com/documentation\">\n"
 "                                <span style=\"text-decoration:underline;\">API Documentation</span></a>\n"
 "                            </p>\n"
 "                            <br>\n"
@@ -124,107 +129,6 @@ msgid ""
 "            </div>\n"
 "        </div>"
 msgstr ""
-"\n"
-"            <div style=\"margin: 10px auto;\">\n"
-"            % set last_created_project = user.env['project.project'].search([('alias_id','!=',False)], order=\"create_date desc\")[0]\n"
-"            <table cellspacing=\"0\" cellpadding=\"0\" style=\"width:100%;\">\n"
-"                <tbody>\n"
-"                    <tr>\n"
-"                        <td style=\"padding:2px;width:30%;\">\n"
-"                            <img src=\"web/static/src/img/logo.png\"/>\n"
-"                        </td>\n"
-"                        <td style=\"vertical-align: top; padding: 8px 10px;text-align: left;font-size: 14px;\">\n"
-"                            <a href=\"web/login\" style=\"float:right ;margin:15px auto;background: #875A7B;border-radius: 5px;color: #ffffff;font-size: 16px;padding: 10px 20px 10px 20px;text-decoration: none;\">Auto Login</a>\n"
-"                        </td>\n"
-"                    </tr>\n"
-"                </tbody>\n"
-"            </table>\n"
-"            <table style=\"width:100%;text-align:justify;margin:0 auto;border-collapse:collapse;border-top:1px solid lightgray\"\">\n"
-"                <tbody>\n"
-"                    <tr>\n"
-"                        <td style=\"padding:15px 10px;font-size:20px\">\n"
-"                            <p dir=\"ltr\" style=\"font-size:15px;margin-top:0pt;margin-bottom:0pt;\">\n"
-"                                <span>Your Odoo Project application is up and running</span></p><br>\n"
-"                            <p dir=\"ltr\" style=\"margin-top:0pt;margin-bottom:8pt;\">\n"
-"                                <span style=\"font-size:13px;font-weight:bold;\">What’s next?</span></p>\n"
-"                            <ul style=\"margin-top:0pt;margin-bottom:0pt;font-size:13px;list-style-type:disc;\">\n"
-"                                % if last_created_project:\n"
-"                                    <li dir=\"ltr\">\n"
-"                                        <p dir=\"ltr\" style=\"margin-top:0pt;margin-bottom:0pt;\">\n"
-"                                            <span>Try creating a task by sending an email to </span>\n"
-"                                            <a href=\"mailto:${last_created_project.alias_id.name_get()[0][1] if last_created_project.alias_id.alias_domain else user.company_id.email}\">\n"
-"                                                <span style=\"font-weight:bold; text-decoration:underline;\">${last_created_project.alias_id.name_get()[0][1] if last_created_project.alias_id.alias_domain else user.company_id.email}</span>\n"
-"                                            </a>\n"
-"                                        </p>\n"
-"                                    </li>\n"
-"                                % endif\n"
-"                                <li dir=\"ltr\">\n"
-"                                    <p dir=\"ltr\" style=\"margin-top:0pt;margin-bottom:8pt;\">\n"
-"                                        <span><a href=\"/web#view_type=list&model=res.users&action=base.action_res_users\">\n"
-"                                            <span style=\"font-weight:bold; text-decoration:underline;\">Invite new users</span></a></span>\n"
-"                                        <span>to collaborate</span>\n"
-"                                    </p>\n"
-"                                </li>\n"
-"                            </ul> <br>\n"
-"                            <p dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-bottom:8pt;\">\n"
-"                                <span style=\"font-weight:bold;\">Discover the </span>\n"
-"                                <span><a href=\"/web#view_type=kanban&model=project.project&action=project.open_view_project_all\">\n"
-"                                    <span style=\"font-weight:bold; text-decoration:underline;\">project planner</span></a></span>\n"
-"                                <span> to activate extra features</span>\n"
-"                                <span style=\"color:#875A7B;margin:0;font-weight:bold\">(${user.env['web.planner'].get_planner_progress('planner_project')}% done)</span>\n"
-"                            </p>\n"
-"                            <ul style=\"margin-top:0pt;margin-bottom:0pt;font-size:13px;list-style-type:disc;\">\n"
-"                                <li dir=\"ltr\">\n"
-"                                    <p dir=\"ltr\" style=\"margin-top:0pt;margin-bottom:0pt;\">\n"
-"                                        <span>Track hours with timesheets,</span>\n"
-"                                    </p>\n"
-"                                </li>\n"
-"                                <li dir=\"ltr\">\n"
-"                                    <p dir=\"ltr\" style=\"margin-top:0pt;margin-bottom:0pt;\">\n"
-"                                        <span>Plan tasks and resources with forecasts,</span>\n"
-"                                    </p>\n"
-"                                </li>\n"
-"                                <li dir=\"ltr\">\n"
-"                                    <p dir=\"ltr\" style=\"margin-top:0pt;margin-bottom:0pt;\">\n"
-"                                        <span>Get smart reporting and accurate dashboards,</span>\n"
-"                                    </p>\n"
-"                                </li>\n"
-"                                <li dir=\"ltr\">\n"
-"                                    <p dir=\"ltr\" style=\"margin-top:0pt;margin-bottom:0pt;\">\n"
-"                                        <span>Bill time on tasks or issues,</span>\n"
-"                                    </p>\n"
-"                                </li>\n"
-"                                <li dir=\"ltr\">\n"
-"                                    <p dir=\"ltr\" style=\"margin-top:0pt;margin-bottom:8pt;\">\n"
-"                                        <span>And much more...</span>\n"
-"                                    </p>\n"
-"                                </li>\n"
-"                            </ul>\n"
-"                            <br>\n"
-"                            <p dir=\"ltr\" style=\"font-size:13px;line-height:1.3;margin-top:0pt;margin-bottom:8pt;\">\n"
-"                                <span style=\"font-weight:bold;\">Need Help?</span>\n"
-"                                <span style=\"font-style:italic;\">You’re not alone</span>\n"
-"                            </p>\n"
-"                            <p dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-bottom:8pt;\">\n"
-"                                <span>We would be delighted to assist you along the way. Contact us through our\n"
-"                                <a href=\"https://www.odoo.com/help\">support form</a> if you have any question.\n"
-"                                You can also discover how to get the best out of Odoo Project with our </span>\n"
-"                                <a target=\"_blank\" href=\"https://www.odoo.com/documentation/user/10.0/project.html\">\n"
-"                                <span style=\"text-decoration:underline;\">User Documentation</span></a>\n"
-"                                </span><span> or with our </span>\n"
-"                                <a target=\"_blank\" href=\"https://www.odoo.com/documentation\">\n"
-"                                <span style=\"text-decoration:underline;\">API Documentation</span></a>\n"
-"                            </p>\n"
-"                            <br>\n"
-"                            <p dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-bottom:8pt;\"><span>Enjoy your Odoo experience,</span></p>\n"
-"                        </td>\n"
-"                    </tr>\n"
-"                </tbody>\n"
-"            </table>\n"
-"            <div dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-bottom:8pt;color:grey\">\n"
-"                <span><br/>-- <br/>The Odoo Team<br/>PS: People love Odoo, check </span><a target=\"_blank\" href=\"https://twitter.com/odoo/favorites\"><span style=\"text-decoration:underline;\">what they say about it.</span></a></span>\n"
-"            </div>\n"
-"        </div>"
 
 #. module: project
 #: model:mail.template,body_html:project.mail_template_data_project_task
@@ -255,12 +159,12 @@ msgstr "# Tasques"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_working_days_open
 msgid "# Working Days to Assign"
-msgstr ""
+msgstr "# Dies feiners per assignar"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_working_days_close
 msgid "# Working Days to Close"
-msgstr ""
+msgstr "# Dies feiners per tancar"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_nbr
@@ -269,7 +173,7 @@ msgstr "# de tasques"
 
 #. module: project
 #: code:addons/project/models/project.py:244
-#: code:addons/project/models/project.py:533
+#: code:addons/project/models/project.py:542
 #, python-format
 msgid "%s (copy)"
 msgstr "%s (còpia)"
@@ -302,7 +206,7 @@ msgstr ""
 "necessitarà:</strong>"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:69
 #, python-format
 msgid ""
@@ -313,14 +217,14 @@ msgstr ""
 "vol.</i>"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:80
 #, python-format
 msgid "<b>Click the save button</b> to apply your changes to the task."
 msgstr "<b>Clic el botó de guardar</b> per aplicar els canvis a la tasca."
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:48
 #, python-format
 msgid "<b>Drag &amp; drop tasks</b> between columns as you work on them."
@@ -328,7 +232,7 @@ msgstr ""
 "<b>Agafa i deixa anar tasques</b> entre columnes quan treballis amb elles."
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:94
 #, python-format
 msgid ""
@@ -338,7 +242,7 @@ msgstr ""
 "línia.</i>"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:54
 #, python-format
 msgid "<b>Star tasks</b> to mark team priorities."
@@ -743,7 +647,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.portal_my_task
 msgid "<strong>Description</strong>"
-msgstr ""
+msgstr "<strong>Descripció</strong>"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1063,7 +967,7 @@ msgid "Account Preferences"
 msgstr "Preferències del compte"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:39
 #, python-format
 msgid "Action has a clear description"
@@ -1093,7 +997,7 @@ msgstr "Activitats"
 #: model:ir.actions.act_window,name:project.mail_activity_type_action_config_project_types
 #: model:ir.ui.menu,name:project.project_menu_config_activity_type
 msgid "Activity Types"
-msgstr ""
+msgstr "Tipus d'activitats"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.task_type_edit
@@ -1101,7 +1005,7 @@ msgid "Add a description..."
 msgstr "Afegir una descripció..."
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:38
 #, python-format
 msgid ""
@@ -1112,7 +1016,7 @@ msgstr ""
 "tasques</b>.<br/><i>p.ex. Especificació &gt; Desenvolupament &gt; Fet</i>"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:56
 #, python-format
 msgid "Added in current sprint"
@@ -1149,10 +1053,10 @@ msgid "Aliased Model"
 msgstr "Model amb pseudònim"
 
 #. module: project
-#: code:addons/project/controllers/portal.py:89
+#: code:addons/project/controllers/portal.py:92
 #, python-format
 msgid "All"
-msgstr ""
+msgstr "Tot"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1264,7 +1168,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.portal_my_task
 msgid "Attachment"
-msgstr ""
+msgstr "Adjunt"
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task_attachment_ids
@@ -1293,7 +1197,7 @@ msgstr ""
 "diverses tasques i delegats a diversos empleats."
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:32
 #: code:addons/project/static/src/js/web_planner_project.js:48
 #: code:addons/project/static/src/js/web_planner_project.js:64
@@ -1326,6 +1230,7 @@ msgstr ""
 "mantenir reunions d'una hora o menys."
 
 #. module: project
+#: code:addons/project/models/project.py:29
 #: model:project.task,legend_blocked:project.project_task_15
 #: model:project.task,legend_blocked:project.project_task_16
 #: model:project.task,legend_blocked:project.project_task_18
@@ -1352,6 +1257,7 @@ msgstr ""
 #: model:project.task.type,legend_blocked:project.project_stage_data_1
 #: model:project.task.type,legend_blocked:project.project_stage_data_2
 #: selection:report.project.task.user,state:0
+#, python-format
 msgid "Blocked"
 msgstr "Bloquejat"
 
@@ -1394,7 +1300,7 @@ msgid "Cancel"
 msgstr "Cancel·la"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:70
 #: code:addons/project/static/src/js/web_planner_project.js:85
 #: code:addons/project/static/src/js/web_planner_project.js:99
@@ -1409,7 +1315,7 @@ msgid "Change their Stages in the Project Stages tab"
 msgstr "Canvia les etapes en la pestanya d'etapes del projecte"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:23
 #, python-format
 msgid ""
@@ -1433,21 +1339,21 @@ msgid ""
 msgstr ""
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:55
 #, python-format
 msgid "Clear description and purpose"
 msgstr "Descripció clara i propòsit"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:59
 #, python-format
 msgid "Click on a card to get the details of the task."
 msgstr "Clic en una carta per veure els detalls de la tasca."
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:31
 #, python-format
 msgid ""
@@ -1457,7 +1363,7 @@ msgstr ""
 "tasques."
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:64
 #, python-format
 msgid "Click on this button to modify the task."
@@ -1517,7 +1423,7 @@ msgid "Configuration"
 msgstr "Configuració"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:90
 #, python-format
 msgid "Configuration options are available in the Settings app."
@@ -1563,7 +1469,7 @@ msgid "Control projects quality and satisfaction"
 msgstr "Controla la qualitat i satisfacció del projecte"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:34
 #, python-format
 msgid "Copywriting / Design"
@@ -1582,12 +1488,12 @@ msgstr "Crea"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_project_view_form_simplified
 msgid "Create & Edit"
-msgstr ""
+msgstr "Crear i editar"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_create_date
 msgid "Create Date"
-msgstr ""
+msgstr "Data de creació"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1700,7 +1606,7 @@ msgid "Currently there are not any activity scheduled."
 msgstr ""
 
 #. module: project
-#: code:addons/project/models/project.py:818
+#: code:addons/project/models/project.py:836
 #: model:ir.model.fields,field_description:project.field_project_project_partner_id
 #: model:ir.model.fields,field_description:project.field_project_task_partner_id
 #: model:ir.ui.view,arch_db:project.edit_project
@@ -1709,7 +1615,8 @@ msgid "Customer"
 msgstr "Client"
 
 #. module: project
-#: code:addons/project/models/project.py:818
+#: code:addons/project/models/project.py:836
+#: code:addons/project/models/project.py:839
 #, python-format
 msgid "Customer Email"
 msgstr "Correu del client"
@@ -1720,28 +1627,28 @@ msgid "Customer Service"
 msgstr "Servei al client"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:74
 #, python-format
 msgid "Customer feedback has been requested"
 msgstr "S'ha sol·licitat la retroalimentació dels clients"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:92
 #, python-format
 msgid "Customer has cancelled repair"
 msgstr "El client ha cancel·lat la reparació"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:72
 #, python-format
 msgid "Customer has reported new issue"
 msgstr "El client ha reportat una nova incidència"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:71
 #, python-format
 msgid "Customer service has found new issue"
@@ -1765,7 +1672,7 @@ msgstr "Taulell"
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_form2
 msgid "Days"
-msgstr ""
+msgstr "Dies"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_date_deadline
@@ -1818,7 +1725,7 @@ msgid "Deploy"
 msgstr "Desplegar"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:20
 #, python-format
 msgid "Deployment"
@@ -1832,7 +1739,7 @@ msgid "Description"
 msgstr "Descripció"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:18
 #, python-format
 msgid "Development"
@@ -1844,7 +1751,7 @@ msgid "Development Process"
 msgstr "Procés de desenvolupament"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/project.js:71
 #: model:ir.ui.view,arch_db:project.project_project_view_form_simplified
 #, python-format
@@ -1862,21 +1769,21 @@ msgid "Display Name"
 msgstr "Mostrar Nom"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:35
 #, python-format
 msgid "Distribute"
 msgstr "Distribuir"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:43
 #, python-format
 msgid "Distribution is completed"
 msgstr "Distribució completada"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:51
 #, python-format
 msgid "Documentation"
@@ -1918,7 +1825,7 @@ msgstr ""
 "interessat!"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:36
 #: code:addons/project/static/src/js/web_planner_project.js:69
 #: code:addons/project/static/src/js/web_planner_project.js:84
@@ -1955,7 +1862,7 @@ msgstr "Editar tasca"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_email_from
 msgid "Email"
-msgstr ""
+msgstr "Correu electrònic"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.edit_project
@@ -1982,6 +1889,12 @@ msgstr "Fi"
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_date_end
 msgid "Ending Date"
 msgstr "Data de finalització"
+
+#. module: project
+#: code:addons/project/models/project.py:556
+#, python-format
+msgid "Error! You cannot create recursive hierarchy of task(s)."
+msgstr ""
 
 #. module: project
 #: sql_constraint:project.project:0
@@ -2021,7 +1934,7 @@ msgid "Examples"
 msgstr "Exemples"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:75
 #, python-format
 msgid "Expert advice has been requested"
@@ -2055,14 +1968,14 @@ msgid "Extra useful for when you're with a customer or in a meeting."
 msgstr "Molt útil quan estàs amb un client o en una reunió."
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:89
 #, python-format
 msgid "Feedback from customer requested"
 msgstr "La retroalimentació dels clients sol·licitada"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:27
 #, python-format
 msgid "Finally task is deployed"
@@ -2169,7 +2082,7 @@ msgid "Gives the sequence order when displaying a list of tasks."
 msgstr "Indica l'ordre quan es mostra la llista de tasques."
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:99
 #, python-format
 msgid ""
@@ -2189,7 +2102,7 @@ msgstr "Bona sort!"
 #. module: project
 #: selection:project.task,kanban_state:0
 msgid "Green"
-msgstr ""
+msgstr "Verd"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_type_legend_done
@@ -2260,10 +2173,10 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_form2
 msgid "Hours"
-msgstr ""
+msgstr "Hores"
 
 #. module: project
-#: code:addons/project/models/project.py:730
+#: code:addons/project/models/project.py:745
 #, python-format
 msgid "I take it"
 msgstr "Ho tinc"
@@ -2288,14 +2201,14 @@ msgstr ""
 "pseudònim per la creació de tasques)"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:104
 #, python-format
 msgid "Idea has been transformed into concrete actions"
 msgstr "La idea s'ha transformat amb accions concretes"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:103
 #, python-format
 msgid "Idea is fully explained"
@@ -2307,7 +2220,7 @@ msgid "Ideally, a person should only be responsible for one project."
 msgstr "Idealment, una persona només pot ser responsable d'un projecte."
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:96
 #, python-format
 msgid "Ideas"
@@ -2379,6 +2292,7 @@ msgid "Improve collaboration with customers"
 msgstr "Millora la col·laboració amb clients"
 
 #. module: project
+#: code:addons/project/models/project.py:35
 #: model:project.task,legend_normal:project.project_task_1
 #: model:project.task,legend_normal:project.project_task_10
 #: model:project.task,legend_normal:project.project_task_11
@@ -2427,11 +2341,12 @@ msgstr "Millora la col·laboració amb clients"
 #: model:project.task.type,legend_normal:project.project_stage_data_2
 #: model:project.task.type,name:project.project_stage_1
 #: selection:report.project.task.user,state:0
+#, python-format
 msgid "In Progress"
 msgstr "En curs"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:33
 #: code:addons/project/static/src/js/web_planner_project.js:66
 #: code:addons/project/static/src/js/web_planner_project.js:81
@@ -2440,7 +2355,7 @@ msgid "In progress"
 msgstr "En curs"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:80
 #, python-format
 msgid "Incoming"
@@ -2477,14 +2392,14 @@ msgid "Issue Version"
 msgstr "Versió incidència"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:73
 #, python-format
 msgid "Issue is being worked on"
 msgstr "S'està treballant en l'incidència"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:76
 #, python-format
 msgid "Issue is resolved"
@@ -2597,7 +2512,7 @@ msgid "Last Modified on"
 msgstr "Última modificació el "
 
 #. module: project
-#: code:addons/project/controllers/portal.py:86
+#: code:addons/project/controllers/portal.py:89
 #: model:ir.model.fields,field_description:project.field_project_task_date_last_stage_update
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_date_last_stage_update
 #, python-format
@@ -2636,7 +2551,7 @@ msgstr ""
 "i horaris."
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:18
 #, python-format
 msgid "Let's create your first project."
@@ -2776,9 +2691,10 @@ msgid "My Tasks"
 msgstr "Les meves tasques"
 
 #. module: project
-#: code:addons/project/controllers/portal.py:31
+#: code:addons/project/controllers/portal.py:35
 #: model:ir.model.fields,field_description:project.field_project_tags_name
 #: model:ir.ui.view,arch_db:project.portal_my_projects
+#: model:ir.ui.view,arch_db:project.portal_my_tasks
 #, python-format
 msgid "Name"
 msgstr "Nom"
@@ -2807,7 +2723,7 @@ msgid "Need functional or technical help"
 msgstr "Necessita ajuda funcional o tècnica"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:65
 #: model:ir.ui.view,arch_db:project.view_task_project_user_search
 #: model:project.task.type,name:project.project_stage_data_0
@@ -2816,7 +2732,7 @@ msgid "New"
 msgstr "Nou"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:87
 #, python-format
 msgid "New repair added"
@@ -2828,23 +2744,29 @@ msgid "New task name"
 msgstr ""
 
 #. module: project
-#: code:addons/project/controllers/portal.py:30
-#: code:addons/project/controllers/portal.py:83
+#: code:addons/project/controllers/portal.py:34
+#: code:addons/project/controllers/portal.py:86
 #, python-format
 msgid "Newest"
-msgstr ""
+msgstr "Les Novetats"
 
 #. module: project
 #: model:ir.ui.menu,name:project.project_task_menu_activity
 #: model:ir.ui.view,arch_db:project.project_task_view_tree_activity
 msgid "Next Activities"
-msgstr ""
+msgstr "Activitat següent"
 
 #. module: project
-#: code:addons/project/models/project.py:775
+#: code:addons/project/models/project.py:792
 #, python-format
 msgid "No Subject"
-msgstr ""
+msgstr "Sense assumpte"
+
+#. module: project
+#: code:addons/project/controllers/portal.py:102
+#, python-format
+msgid "None"
+msgstr "Cap"
 
 #. module: project
 #: selection:project.task,priority:0
@@ -2874,7 +2796,7 @@ msgid "Notifications"
 msgstr "Notificacions"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:43
 #, python-format
 msgid "Now that the project is set up, <b>create a few tasks</b>."
@@ -3019,7 +2941,7 @@ msgid "Parent Record Thread ID"
 msgstr "Id del registre pare"
 
 #. module: project
-#: code:addons/project/models/project.py:861
+#: code:addons/project/models/project.py:878
 #: model:ir.model.fields,field_description:project.field_project_task_parent_id
 #: model:ir.ui.view,arch_db:project.view_task_form2
 #, python-format
@@ -3048,7 +2970,7 @@ msgid "Planner"
 msgstr "Planificador"
 
 #. module: project
-#: code:addons/project/models/project.py:887
+#: code:addons/project/models/project.py:918
 #, python-format
 msgid ""
 "Please remove existing tasks in the project linked to the accounts you want "
@@ -3092,7 +3014,8 @@ msgid "Product or software version"
 msgstr "Versió de producte o software"
 
 #. module: project
-#: code:addons/project/models/project.py:346
+#: code:addons/project/controllers/portal.py:103
+#: code:addons/project/models/project.py:355
 #: model:ir.model,name:project.model_project_project
 #: model:ir.model.fields,field_description:project.field_project_task_project_id
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_project_id
@@ -3155,6 +3078,7 @@ msgstr "Tasques de projecte"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_res_company_project_time_mode_id
+#: model:ir.model.fields,field_description:project.field_res_config_settings_project_time_mode_id
 #: model:ir.model.fields,field_description:project.project_time_mode_id_duplicate_xmlid
 msgid "Project Time Unit"
 msgstr "Unitat de temps projecte"
@@ -3201,6 +3125,7 @@ msgid "Rating on Tasks"
 msgstr ""
 
 #. module: project
+#: code:addons/project/models/project.py:32
 #: model:project.task,legend_done:project.project_task_1
 #: model:project.task,legend_done:project.project_task_12
 #: model:project.task,legend_done:project.project_task_15
@@ -3230,11 +3155,12 @@ msgstr ""
 #: model:project.task.type,legend_done:project.project_stage_data_0
 #: model:project.task.type,legend_done:project.project_stage_data_1
 #: model:project.task.type,legend_done:project.project_stage_data_2
+#, python-format
 msgid "Ready for Next Stage"
 msgstr ""
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:41
 #, python-format
 msgid "Ready for layout / copywriting"
@@ -3246,21 +3172,21 @@ msgid "Ready for next stage"
 msgstr "Preparat per propera etapa"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:59
 #, python-format
 msgid "Ready for release"
 msgstr "Lles per publicar"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:57
 #, python-format
 msgid "Ready for testing"
 msgstr "Llest per testejar"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:42
 #, python-format
 msgid "Ready to be displayed, published or sent"
@@ -3274,7 +3200,7 @@ msgid "Ready to reopen"
 msgstr "Llest per reobrir"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:77
 #: code:addons/project/static/src/js/web_planner_project.js:106
 #, python-format
@@ -3299,7 +3225,7 @@ msgstr ""
 #. module: project
 #: selection:project.task,kanban_state:0
 msgid "Red"
-msgstr ""
+msgstr "Vermell"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_type_legend_blocked
@@ -3312,12 +3238,17 @@ msgid "Red: the Task is blocked (there's a problem)"
 msgstr "Roig: la tasca és bloquejada (hi ha un problema)"
 
 #. module: project
+#: model:ir.ui.view,arch_db:project.portal_my_tasks
+msgid "Ref"
+msgstr "Ref."
+
+#. module: project
 #: model:ir.model.fields,field_description:project.field_project_project_code
 msgid "Reference"
 msgstr "Referència"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:52
 #, python-format
 msgid "Release"
@@ -3329,7 +3260,7 @@ msgid "Remaining Hours"
 msgstr "Hores restants"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/project.js:69
 #, python-format
 msgid "Remove Cover Image"
@@ -3341,14 +3272,14 @@ msgid "Repair Workshop"
 msgstr "Taller de reparació"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:88
 #, python-format
 msgid "Repair has started"
 msgstr "Reparació començada"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:91
 #, python-format
 msgid "Repair is completed"
@@ -3361,7 +3292,7 @@ msgid "Reporting"
 msgstr "Informant"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:90
 #, python-format
 msgid "Request for parts has been sent"
@@ -3393,7 +3324,7 @@ msgid "Search"
 msgstr "Cercar"
 
 #. module: project
-#: code:addons/project/controllers/portal.py:92
+#: code:addons/project/controllers/portal.py:95
 #, python-format
 msgid "Search <span class=\"nolabel\"> (in Content)</span>"
 msgstr ""
@@ -3404,31 +3335,31 @@ msgid "Search Project"
 msgstr "Cerca projecte"
 
 #. module: project
-#: code:addons/project/controllers/portal.py:96
+#: code:addons/project/controllers/portal.py:99
 #, python-format
 msgid "Search in All"
 msgstr ""
 
 #. module: project
-#: code:addons/project/controllers/portal.py:94
+#: code:addons/project/controllers/portal.py:97
 #, python-format
 msgid "Search in Customer"
 msgstr ""
 
 #. module: project
-#: code:addons/project/controllers/portal.py:93
+#: code:addons/project/controllers/portal.py:96
 #, python-format
 msgid "Search in Messages"
 msgstr ""
 
 #. module: project
-#: code:addons/project/controllers/portal.py:95
+#: code:addons/project/controllers/portal.py:98
 #, python-format
 msgid "Search in Stages"
 msgstr ""
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/project.js:62
 #, python-format
 msgid "Select"
@@ -3464,7 +3395,7 @@ msgid "Set Cover Image"
 msgstr "Ajustar la Imatge de la coberta"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/project.js:61
 #, python-format
 msgid "Set a Cover Image"
@@ -3512,21 +3443,21 @@ msgid "Software development"
 msgstr "Desenvolupament de software"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:16
 #, python-format
 msgid "Specification"
 msgstr "Especificació"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:24
 #, python-format
 msgid "Specification is validated"
 msgstr "L'especificació és validada"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:23
 #, python-format
 msgid "Specification of task is written"
@@ -3538,14 +3469,14 @@ msgid "Split your tasks to organize your work into sub-milestones"
 msgstr ""
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:49
 #, python-format
 msgid "Sprint"
 msgstr "Sprint"
 
 #. module: project
-#: code:addons/project/controllers/portal.py:85
+#: code:addons/project/controllers/portal.py:88
 #: model:ir.model.fields,field_description:project.field_project_task_stage_id
 #: model:ir.model.fields,field_description:project.field_report_project_task_user_stage_id
 #: model:ir.ui.view,arch_db:project.portal_my_tasks
@@ -3584,7 +3515,7 @@ msgstr "Etapes"
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_search_form
 msgid "Starred"
-msgstr ""
+msgstr "Destacat"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_type_legend_priority
@@ -3651,7 +3582,6 @@ msgstr ""
 
 #. module: project
 #: model:ir.model,name:project.model_project_task
-#: model:ir.ui.view,arch_db:project.portal_my_tasks
 #: model:ir.ui.view,arch_db:project.view_task_form2
 #: model:ir.ui.view,arch_db:project.view_task_project_user_search
 #: model:ir.ui.view,arch_db:project.view_task_search_form
@@ -3725,21 +3655,21 @@ msgid "Task blocked"
 msgstr "Tasca bloquejada"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:25
 #, python-format
 msgid "Task is Developed"
 msgstr "La tasca és desenvolupada"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:105
 #, python-format
 msgid "Task is completed"
 msgstr "La tasca està complerta"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:26
 #, python-format
 msgid "Task is tested"
@@ -3817,21 +3747,21 @@ msgid "Tasks to Merge"
 msgstr ""
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:50
 #, python-format
 msgid "Test"
 msgstr "Test"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:58
 #, python-format
 msgid "Test is OK, need to document"
 msgstr "La prova està bé, necessari documentar"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:19
 #, python-format
 msgid "Testing"
@@ -3880,10 +3810,10 @@ msgstr ""
 #: model:ir.model.fields,help:project.field_project_project_alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.flectrahq.com>"
 msgstr ""
 "El nom d'aquest pseudònim de correu electrònic. Per exemple, \"jobs\", si el"
-" que vol és obtenir els correus per <jobs@example.odoo.com>"
+" que vol és obtenir els correus per <jobs@example.flectrahq.com>"
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project_alias_user_id
@@ -3916,7 +3846,7 @@ msgid "There are no tasks."
 msgstr ""
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/xml/project.xml:7
 #, python-format
 msgid ""
@@ -3932,11 +3862,14 @@ msgid ""
 "These email addresses will be added to the CC field of all inbound\n"
 "        and outbound emails for this record before being sent. Separate multiple email addresses with a comma"
 msgstr ""
+"Aquestes adreces de correu seran afegides al camp CC per a tots els correus "
+"entrants i sortints d'aquest registre abans de ser enviats. Separeu les "
+"diferents adreces de correu amb una coma."
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task_email_from
 msgid "These people will receive email."
-msgstr ""
+msgstr "Aquestes persones rebran un correu electrònic."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -4003,6 +3936,7 @@ msgstr ""
 #: model:ir.model.fields,help:project.field_account_analytic_account_company_uom_id
 #: model:ir.model.fields,help:project.field_project_project_company_uom_id
 #: model:ir.model.fields,help:project.field_res_company_project_time_mode_id
+#: model:ir.model.fields,help:project.field_res_config_settings_project_time_mode_id
 #: model:ir.model.fields,help:project.project_time_mode_id_duplicate_xmlid
 msgid ""
 "This will set the unit of measure used in projects and tasks.\n"
@@ -4054,13 +3988,13 @@ msgstr ""
 "Hores de treball de l'horari per a ajustar l'informe del diagrama de Gantt"
 
 #. module: project
-#: code:addons/project/controllers/portal.py:84
+#: code:addons/project/controllers/portal.py:87
 #, python-format
 msgid "Title"
-msgstr ""
+msgstr "Títol"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:97
 #: model:project.task.type,name:project.project_stage_0
 #, python-format
@@ -4145,7 +4079,7 @@ msgid ""
 msgstr ""
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:103
 #, python-format
 msgid ""
@@ -4156,7 +4090,7 @@ msgstr ""
 "la teva companyia."
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:85
 #, python-format
 msgid "Use the breadcrumbs to <b>go back to your tasks pipeline</b>."
@@ -4192,7 +4126,7 @@ msgstr ""
 "Així com pots tu, com a gestor de projecte, estructura una reunió d'estat on els membres de l'equip són compromesos, informats i volen contribuir als següents passos del projecte? Aquí hi ha uns quants consells."
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:17
 #, python-format
 msgid "Validation"
@@ -4223,7 +4157,7 @@ msgid "Visible by following customers"
 msgstr "Visible pels següents clients"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:67
 #: code:addons/project/static/src/js/web_planner_project.js:82
 #, python-format
@@ -4231,7 +4165,7 @@ msgid "Wait. Customer"
 msgstr "Esperi. Client"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:68
 #: code:addons/project/static/src/js/web_planner_project.js:83
 #, python-format
@@ -4239,7 +4173,7 @@ msgid "Wait. Expert"
 msgstr "Esperi. Expert"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/tour.js:13
 #, python-format
 msgid ""
@@ -4251,7 +4185,7 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_email_cc
 msgid "Watchers Emails"
-msgstr ""
+msgstr "Observadors d'Emails (CC)"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -4291,6 +4225,16 @@ msgid ""
 msgstr ""
 "Hem desenvolupat una extensió super senzilla i eficient de Chrome per entrar"
 " als teus horaris:<br/><br/>"
+
+#. module: project
+#: model:ir.model.fields,field_description:project.field_project_task_website_message_ids
+msgid "Website Messages"
+msgstr "Missatges de la pàgina web"
+
+#. module: project
+#: model:ir.model.fields,help:project.field_project_task_website_message_ids
+msgid "Website communication history"
+msgstr "Historial de comunicacions de la pàgina web"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -4336,7 +4280,7 @@ msgid "Whether this project should be displayed on the dashboard or not"
 msgstr "Ja sigui si aquest projecte s'ha de mostrar-se al taulell o no"
 
 #. module: project
-#. flectra-web
+#. openerp-web
 #: code:addons/project/static/src/js/web_planner_project.js:40
 #, python-format
 msgid "Work has started"
@@ -4447,7 +4391,7 @@ msgstr ""
 "Pots guardar els teus informes per reutilitzar-lo més fàcilment després."
 
 #. module: project
-#: code:addons/project/models/project.py:547
+#: code:addons/project/models/project.py:562
 #, python-format
 msgid ""
 "You can't define a parent task if its project is not correctly configured. "
@@ -4513,6 +4457,11 @@ msgid "etc.."
 msgstr "etc.."
 
 #. module: project
+#: model:ir.ui.view,arch_db:project.portal_my_tasks
+msgid "for project:"
+msgstr ""
+
+#. module: project
 #: model:ir.ui.view,arch_db:project.view_task_kanban
 msgid "oe_kanban_text_red"
 msgstr "oe_kanban_text_red"
@@ -4533,7 +4482,7 @@ msgid "send us an email"
 msgstr "enviï'ns un correu electrònic"
 
 #. module: project
-#: code:addons/project/models/project.py:595
+#: code:addons/project/models/project.py:610
 #, python-format
 msgid "tasks"
 msgstr "tasques"

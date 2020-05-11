@@ -5,7 +5,7 @@
 # Translators:
 # Rivo Zängov <eraser@eraser.ee>, 2017
 # Arma Gedonsky <armagedonsky@hot.ee>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux, 2017
 # Egon Raamat <egon@avalah.ee>, 2017
 msgid ""
 msgstr ""
@@ -24,7 +24,7 @@ msgstr ""
 #. module: pad
 #: model:ir.ui.view,arch_db:pad.res_config_settings_view_form
 msgid "API Key"
-msgstr ""
+msgstr "API võti"
 
 #. module: pad
 #: model:ir.model,name:pad.model_res_company
@@ -59,7 +59,7 @@ msgid "Last Modified on"
 msgstr "Viimati muudetud"
 
 #. module: pad
-#. flectra-web
+#. openerp-web
 #: code:addons/pad/static/src/js/pad.js:147
 #, python-format
 msgid "Loading"
@@ -94,7 +94,7 @@ msgid ""
 msgstr ""
 
 #. module: pad
-#. flectra-web
+#. openerp-web
 #: code:addons/pad/static/src/xml/pad.xml:6
 #, python-format
 msgid ""
@@ -108,14 +108,14 @@ msgid "Server"
 msgstr "Server"
 
 #. module: pad
-#. flectra-web
+#. openerp-web
 #: code:addons/pad/static/src/js/pad.js:166
 #, python-format
 msgid "This pad will be initialized on first edit"
 msgstr ""
 
 #. module: pad
-#. flectra-web
+#. openerp-web
 #: code:addons/pad/static/src/js/pad.js:160
 #, python-format
 msgid "Unable to load pad"

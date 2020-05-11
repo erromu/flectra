@@ -3,23 +3,26 @@
 # * website_sale
 # 
 # Translators:
-# Bole <bole@dajmi5.com>, 2017
-# Martin Trigaux, 2017
-# Tina Milas, 2017
-# Karolina Tonković <karolina.tonkovic@storm.hr>, 2017
-# Vladimir Olujić <olujic.vladimir@storm.hr>, 2017
-# Đurđica Žarković <durdica.zarkovic@storm.hr>, 2017
-# Davor Bojkić <davor.bojkic@storm.hr>, 2017
-# Ivica Dimjašević <ivica.dimjasevic@storm.hr>, 2017
-# Ivan Marijanović <ivanm101@yahoo.com>, 2017
 # Mario Jureša <mario.juresa@uvid.hr>, 2017
+# Ivica Dimjašević <ivica.dimjasevic@storm.hr>, 2017
+# Vladimir Olujić <olujic.vladimir@storm.hr>, 2017
+# Martin Trigaux, 2017
+# Đurđica Žarković <durdica.zarkovic@storm.hr>, 2017
+# Tina Milas, 2017
+# Karolina Tonković <karolina.tonkovic@storm.hr>, 2018
+# Davor Bojkić <davor.bojkic@storm.hr>, 2018
+# Ivan Marijanović <ivanm101@yahoo.com>, 2018
+# Igor Krizanovic <krizanovic.igor@gmail.com>, 2019
+# Vojislav Opačić <vojislav.opacic@gmail.com>, 2019
+# Bole <bole@dajmi5.com>, 2020
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-19 13:43+0000\n"
-"PO-Revision-Date: 2018-02-19 13:43+0000\n"
-"Last-Translator: Mario Jureša <mario.juresa@uvid.hr>, 2017\n"
+"POT-Creation-Date: 2018-07-27 11:55+0000\n"
+"PO-Revision-Date: 2017-09-20 10:27+0000\n"
+"Last-Translator: Bole <bole@dajmi5.com>, 2020\n"
 "Language-Team: Croatian (https://www.transifex.com/odoo/teams/41243/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -746,7 +749,7 @@ msgid "A screen worthy of iPad."
 msgstr "Zaslon dostojan iPada."
 
 #. module: website_sale
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:65
 #, python-format
 msgid "AT A GLANCE"
@@ -766,7 +769,7 @@ msgid "Abandoned Carts"
 msgstr ""
 
 #. module: website_sale
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:21
 #: model:ir.ui.view,arch_db:website_sale.crm_team_salesteams_view_kanban_inherit_website_sale
 #, python-format
@@ -898,7 +901,7 @@ msgstr "Primjeni više valuta"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Apply right VAT rates for digital products sold in EU"
-msgstr ""
+msgstr "Primjeni ispravnu stopu PDV-a za digitalne proizvode prodane u EU"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -932,7 +935,7 @@ msgid "Automatic Invoice"
 msgstr ""
 
 #. module: website_sale
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:92
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:93
 #, python-format
@@ -964,7 +967,7 @@ msgid "Benelux"
 msgstr "Benelux"
 
 #. module: website_sale
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:104
 #, python-format
 msgid "Best Sellers"
@@ -1016,7 +1019,7 @@ msgid "Can take up to several days to receive the money"
 msgstr "Može potrajati nekoliko dana dok primite uplatu"
 
 #. module: website_sale
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:12
 #, python-format
 msgid "Capture order payments when the delivery is completed."
@@ -1043,7 +1046,7 @@ msgid "Cart recovery email already sent"
 msgstr ""
 
 #. module: website_sale
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:83
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:84
 #, python-format
@@ -1131,7 +1134,7 @@ msgid "Click here"
 msgstr ""
 
 #. module: website_sale
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:38
 #, python-format
 msgid "Click here to set an image describing your product."
@@ -1143,14 +1146,14 @@ msgid "Click here to unfold a Good Product Page"
 msgstr "Kliknite ovdje kako biste razvili dobru stranicu o proizvodu"
 
 #. module: website_sale
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:28
 #, python-format
 msgid "Click on <em>Continue</em> to create the product."
 msgstr "Klikni na <em>Nastavi</em> za kreiranje proizvoda."
 
 #. module: website_sale
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:60
 #, python-format
 msgid "Click on this button so your customers can see it."
@@ -1252,7 +1255,7 @@ msgid "Confirm Order <span class=\"fa fa-long-arrow-right\"/>"
 msgstr "Potvrdi narudžbu <span class=\"fa fa-long-arrow-right\"/>"
 
 #. module: website_sale
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:5
 #, python-format
 msgid "Confirm orders when you get paid."
@@ -1279,7 +1282,7 @@ msgid "Contact"
 msgstr "Kontakt"
 
 #. module: website_sale
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:96
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:97
 #, python-format
@@ -1451,7 +1454,7 @@ msgid "Display crossed-out public prices"
 msgstr ""
 
 #. module: website_sale
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:50
 #, python-format
 msgid "Drag this website block and drop it in your page."
@@ -1473,7 +1476,7 @@ msgid "Ease the product browsing with:"
 msgstr ""
 
 #. module: website_sale
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:32
 #, python-format
 msgid "Edit the price of this product by clicking on the amount."
@@ -1521,7 +1524,7 @@ msgid "Email sent to the customer after the checkout"
 msgstr ""
 
 #. module: website_sale
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:24
 #, python-format
 msgid "Enter a name for your new product"
@@ -1727,7 +1730,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "How total tax amount is computed in orders and invoices"
-msgstr ""
+msgstr "Kako se računa iznos poreza na ponudama i računima"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.payment_sale_note
@@ -1762,6 +1765,11 @@ msgid ""
 "telecommunications, and services that are electronically supplied instead of"
 " shipped. Gift cards sent online are not included in the definition."
 msgstr ""
+"Ukoliko prodajete digitalne proizvode kupcima u EU morate obračunati PDV "
+"temeljem lokacije vašeg kupca. Ovo pravilo se primjenjuje bez obzira na vašu"
+" lokaciju. Digitalni proizvodi su definirani zakonodavstvom kao odašiljanje,"
+" telekomunikacije i usluge koje se isporučuju elektronskim putem. Darovne "
+"kartice nisu uključene u ovu definiciju."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.terms
@@ -1834,7 +1842,7 @@ msgid "Installs *e-Commerce Inventory*"
 msgstr ""
 
 #. module: website_sale
-#: code:addons/website_sale/controllers/main.py:502
+#: code:addons/website_sale/controllers/main.py:518
 #, python-format
 msgid "Invalid Email! Please enter a valid email address."
 msgstr "Nevažeći e-mail! Unesite valjanu adresu e-pošte!"
@@ -1861,7 +1869,7 @@ msgid "Issue invoices to customers"
 msgstr ""
 
 #. module: website_sale
-#: code:addons/website_sale/models/sale_order.py:146
+#: code:addons/website_sale/models/sale_order.py:157
 #, python-format
 msgid "It is forbidden to modify a sales order which is not in draft status"
 msgstr ""
@@ -1957,14 +1965,14 @@ msgid "Let them buy straight from catalog with:"
 msgstr "Dopusti kupnju izravno iz kataloga preko:"
 
 #. module: website_sale
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:15
 #, python-format
 msgid "Let's create your first product."
 msgstr ""
 
 #. module: website_sale
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:64
 #, python-format
 msgid ""
@@ -2011,11 +2019,6 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Manage promotion &amp; coupon programs"
-msgstr ""
-
-#. module: website_sale
-#: model:ir.ui.view,arch_db:website_sale.sale_order_view_form
-msgid "Mark as Paid"
 msgstr ""
 
 #. module: website_sale
@@ -2068,7 +2071,7 @@ msgid "Music. It's what beats inside."
 msgstr "Glazba. Ono što tuče unutra."
 
 #. module: website_sale
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale/static/src/js/website_sale.js:15
 #, python-format
 msgid "My Cart"
@@ -2097,8 +2100,8 @@ msgid "Network"
 msgstr "Mreža"
 
 #. module: website_sale
-#. flectra-web
-#: code:addons/website_sale/controllers/main.py:968
+#. openerp-web
+#: code:addons/website_sale/controllers/main.py:988
 #: code:addons/website_sale/static/src/js/website_sale.editor.js:32
 #: model:ir.ui.view,arch_db:website_sale.content_new_product
 #, python-format
@@ -2141,7 +2144,7 @@ msgid "Number of Abandoned Carts"
 msgstr ""
 
 #. module: website_sale
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale/static/src/xml/website_sale.xml:12
 #, python-format
 msgid "OK"
@@ -2155,7 +2158,7 @@ msgid ""
 msgstr ""
 
 #. module: website_sale
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:55
 #, python-format
 msgid "Once you click on <b>Save</b>, your product is updated."
@@ -2178,7 +2181,7 @@ msgid "Only Services"
 msgstr "Samo usluge"
 
 #. module: website_sale
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:68
 #, python-format
 msgid "Open your website app here."
@@ -2212,7 +2215,7 @@ msgid ""
 msgstr ""
 
 #. module: website_sale
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:67
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:68
 #: model:ir.actions.act_window,name:website_sale.action_orders_ecommerce
@@ -2229,7 +2232,7 @@ msgid "Orders To Invoice"
 msgstr ""
 
 #. module: website_sale
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:88
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:89
 #, python-format
@@ -2247,7 +2250,7 @@ msgid "Parent Category"
 msgstr "Nadređena kategorija"
 
 #. module: website_sale
-#: code:addons/website_sale/controllers/main.py:756
+#: code:addons/website_sale/controllers/main.py:774
 #: model:ir.ui.view,arch_db:website_sale.payment
 #, python-format
 msgid "Pay Now"
@@ -2296,7 +2299,7 @@ msgid "Payments To Capture"
 msgstr ""
 
 #. module: website_sale
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:14
 #, python-format
 msgid "Payments to Capture"
@@ -2360,7 +2363,7 @@ msgstr ""
 #: code:addons/website_sale/controllers/backend.py:111
 #, python-format
 msgid "Previous Year"
-msgstr ""
+msgstr "Prethodna godina"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.cart_lines
@@ -2401,7 +2404,7 @@ msgid "Printer"
 msgstr "Pisač"
 
 #. module: website_sale
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:107
 #: model:ir.model,name:website_sale.model_product_product
 #: model:ir.ui.view,arch_db:website_sale.cart_lines
@@ -2552,7 +2555,7 @@ msgid "Qty:"
 msgstr "Količina:"
 
 #. module: website_sale
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:108
 #: model:ir.ui.view,arch_db:website_sale.cart_lines
 #: model:ir.ui.view,arch_db:website_sale.confirmation
@@ -2682,7 +2685,7 @@ msgid "Sale Report"
 msgstr ""
 
 #. module: website_sale
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:37
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:49
 #: model:ir.actions.act_window,name:website_sale.sale_report_action_carts
@@ -2707,7 +2710,7 @@ msgid "Sales Report"
 msgstr ""
 
 #. module: website_sale
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:35
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:47
 #, python-format
@@ -2763,7 +2766,7 @@ msgid "Select"
 msgstr "Odaberi"
 
 #. module: website_sale
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:20
 #, python-format
 msgid ""
@@ -2836,7 +2839,7 @@ msgid "Send a recovery email to authenticated shoppers"
 msgstr ""
 
 #. module: website_sale
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:19
 #, python-format
 msgid "Send a recovery email to visitors who haven't completed their order."
@@ -2976,7 +2979,7 @@ msgid "Software"
 msgstr "Softver"
 
 #. module: website_sale
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:76
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:109
 #, python-format
@@ -2991,7 +2994,7 @@ msgid ""
 msgstr ""
 
 #. module: website_sale
-#: code:addons/website_sale/controllers/main.py:520
+#: code:addons/website_sale/controllers/main.py:536
 #, python-format
 msgid "Some required fields are empty."
 msgstr "Neka obavezna polja su prazna."
@@ -3035,7 +3038,7 @@ msgstr "Država / Županija..."
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.address
 msgid "Street 2"
-msgstr ""
+msgstr "Ulica 2"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.address
@@ -3193,6 +3196,14 @@ msgid ""
 msgstr ""
 
 #. module: website_sale
+#: model:ir.model.fields,help:website_sale.field_res_config_settings_automatic_invoice
+msgid ""
+"The invoice is generated automatically and available in the customer portal when the transaction is confirmed by the payment acquirer.\n"
+"The invoice is marked as paid and the payment is registered in the payment journal defined in the configuration of the payment acquirer.\n"
+"This mode is advised if you issue the final invoice at the order and not after the delivery."
+msgstr ""
+
+#. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid ""
 "The mode selected here applies as invoicing policy of any new product "
@@ -3200,7 +3211,7 @@ msgid ""
 msgstr ""
 
 #. module: website_sale
-#: code:addons/website_sale/models/sale_order.py:247
+#: code:addons/website_sale/models/sale_order.py:258
 #, python-format
 msgid ""
 "The quote should be sent and the payment acquirer type should be manual or "
@@ -3220,7 +3231,7 @@ msgid "There is less of it, but no less to it."
 msgstr ""
 
 #. module: website_sale
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:53
 #, python-format
 msgid "There is no recent confirmed order."
@@ -3295,7 +3306,7 @@ msgstr "Ukupno"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.cart_popover
 msgid "True"
-msgstr ""
+msgstr "točno"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_attribute_type
@@ -3332,7 +3343,7 @@ msgid "Unit Price"
 msgstr "Jedinična cijena"
 
 #. module: website_sale
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:7
 #: model:ir.actions.act_window,name:website_sale.action_unpaid_orders_ecommerce
 #: model:ir.ui.menu,name:website_sale.menu_orders_unpaid_orders
@@ -3341,14 +3352,14 @@ msgid "Unpaid Orders"
 msgstr "Neplaćene narudžbe"
 
 #. module: website_sale
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:75
 #, python-format
 msgid "Untaxed Total Sold"
 msgstr ""
 
 #. module: website_sale
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:42
 #, python-format
 msgid "Upload an image from your local library."

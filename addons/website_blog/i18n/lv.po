@@ -3,15 +3,18 @@
 # * website_blog
 # 
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2017
 # Arnis Putniņš <arnis.putnins@its1.lv>, 2018
+# Martin Trigaux, 2018
+# Aivenho <nauris.sedlers@gmail.com>, 2018
+# JanisJanis <jbojars@gmail.com>, 2018
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-24 09:00+0000\n"
-"PO-Revision-Date: 2017-10-24 09:00+0000\n"
-"Last-Translator: Arnis Putniņš <arnis.putnins@its1.lv>, 2018\n"
+"POT-Creation-Date: 2019-01-03 15:07+0000\n"
+"PO-Revision-Date: 2017-09-20 10:25+0000\n"
+"Last-Translator: JanisJanis <jbojars@gmail.com>, 2018\n"
 "Language-Team: Latvian (https://www.transifex.com/odoo/teams/41243/lv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -70,7 +73,7 @@ msgstr ""
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.latest_blogs
 msgid "&amp;times;"
-msgstr ""
+msgstr "&amp;times;"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_feed
@@ -85,21 +88,21 @@ msgid ""
 msgstr ""
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:53
 #, python-format
 msgid "<b>Click on Save</b> to record your changes."
 msgstr ""
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:69
 #, python-format
 msgid "<b>Publish your blog post</b> to make it visible to your visitors."
 msgstr ""
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:73
 #, python-format
 msgid ""
@@ -108,13 +111,18 @@ msgid ""
 msgstr ""
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:44
 #, python-format
 msgid ""
 "<b>Write your story here.</b> Use the top toolbar to style your text: add an"
 " image or table, set bold or italic, etc. Drag and drop building blocks for "
 "more graphical blogs."
+msgstr ""
+
+#. module: website_blog
+#: model:ir.ui.view,arch_db:website_blog.latest_blogs
+msgid "<span class=\"fa fa-exclamation-triangle ml8\" title=\"Unpublished\"/>"
 msgstr ""
 
 #. module: website_blog
@@ -133,7 +141,7 @@ msgstr ""
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.opt_blog_rc_about_us
 msgid "About us"
-msgstr ""
+msgstr "Par mums"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_post_template_new_post
@@ -160,7 +168,7 @@ msgstr "Archived"
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.opt_blog_rc_history
 msgid "Archives"
-msgstr ""
+msgstr "Arhīvi"
 
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_2
@@ -190,7 +198,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_author_id
 #: model:ir.ui.view,arch_db:website_blog.view_blog_post_search
 msgid "Author"
-msgstr ""
+msgstr "Autors"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_author_avatar
@@ -200,7 +208,7 @@ msgstr ""
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 msgid "Black"
-msgstr ""
+msgstr "Melns"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_blog_id
@@ -279,12 +287,12 @@ msgstr ""
 #: model:ir.ui.menu,name:website_blog.menu_blog
 #: model:ir.ui.view,arch_db:website_blog.view_blog_blog_list
 msgid "Blogs"
-msgstr ""
+msgstr "Blogs"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 msgid "Blue"
-msgstr ""
+msgstr "Zils"
 
 #. module: website_blog
 #: model:blog.post,subtitle:website_blog.blog_post_2
@@ -292,7 +300,7 @@ msgid "Building your company's website and selling your products online easy."
 msgstr ""
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:29
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 #, python-format
@@ -300,14 +308,14 @@ msgid "Change Cover"
 msgstr ""
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:35
 #, python-format
 msgid "Choose an image from the library."
 msgstr ""
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:30
 #, python-format
 msgid "Click here to change your post cover."
@@ -320,7 +328,7 @@ msgid ""
 msgstr ""
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:40
 #, python-format
 msgid "Click on <b>Save</b> to set the picture as cover."
@@ -335,7 +343,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_content
 #: model:ir.ui.view,arch_db:website_blog.view_blog_post_search
 msgid "Content"
-msgstr ""
+msgstr "Saturs"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_cover_properties
@@ -374,7 +382,7 @@ msgstr "Display Name"
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_edit_options
 msgid "Duplicate"
-msgstr ""
+msgstr "Dublēt"
 
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_1
@@ -424,7 +432,7 @@ msgstr ""
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 msgid "Full Screen"
-msgstr ""
+msgstr "Full Screen"
 
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_1
@@ -506,7 +514,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_write_uid
 #: model:ir.ui.view,arch_db:website_blog.view_blog_post_search
 msgid "Last Contributor"
-msgstr ""
+msgstr "Pēdējais Papildinājs"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog___last_update
@@ -554,7 +562,7 @@ msgstr "Vidējs"
 #. module: website_blog
 #: model:ir.model,name:website_blog.model_mail_message
 msgid "Message"
-msgstr ""
+msgstr "Ziņojums"
 
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_1
@@ -593,7 +601,7 @@ msgid "Narrow"
 msgstr ""
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website_blog.editor.js:37
 #: model:ir.ui.view,arch_db:website_blog.content_new_blogpost
 #, python-format
@@ -633,7 +641,7 @@ msgstr ""
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 msgid "None"
-msgstr ""
+msgstr "Nav"
 
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_2
@@ -649,7 +657,7 @@ msgid "Odoo, email"
 msgstr ""
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:63
 #, python-format
 msgid "Once you have reviewed the content on mobile, close the preview."
@@ -693,7 +701,7 @@ msgstr ""
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.opt_blog_rc_status
 msgid "Published"
-msgstr ""
+msgstr "Publicēts"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_published_date
@@ -747,17 +755,17 @@ msgstr ""
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 msgid "Red"
-msgstr ""
+msgstr "Sarkans"
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:15
 #, python-format
 msgid "Select this menu item to create a new blog post."
 msgstr ""
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:26
 #, python-format
 msgid "Set a blog post <b>cover</b>."
@@ -766,7 +774,7 @@ msgstr ""
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 msgid "Size"
-msgstr ""
+msgstr "Izmērs"
 
 #. module: website_blog
 #: model:ir.model.fields,help:website_blog.field_blog_post_author_avatar
@@ -775,9 +783,12 @@ msgid ""
 "image, with aspect ratio preserved. Use this field anywhere a small image is"
 " required."
 msgstr ""
+"Small-sized image of this contact. It is automatically resized as a 64x64px "
+"image, with aspect ratio preserved. Use this field anywhere a small image is"
+" required."
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/models/website_blog.py:123
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:52
 #, python-format
@@ -803,7 +814,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website_blog.blog_post_complete
 #: model:ir.ui.view,arch_db:website_blog.opt_blog_post_complete_read_next
 msgid "Subtitle"
-msgstr ""
+msgstr "Subtitle"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_tag_form
@@ -839,7 +850,7 @@ msgstr ""
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.view_blog_post_form
 msgid "Technical"
-msgstr ""
+msgstr "Technical"
 
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_1
@@ -897,7 +908,7 @@ msgstr ""
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.opt_blog_rc_status
 msgid "Unpublished"
-msgstr ""
+msgstr "Nepublicēts"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_post_short
@@ -905,7 +916,7 @@ msgid "Untitled Post"
 msgstr ""
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:58
 #, python-format
 msgid "Use this icon to preview your blog post on <b>mobile devices</b>."
@@ -938,17 +949,17 @@ msgstr ""
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post_website_message_ids
 msgid "Website Messages"
-msgstr ""
+msgstr "Mājaslapas Ziņojumi"
 
 #. module: website_blog
 #: model:ir.model.fields,help:website_blog.field_blog_post_website_message_ids
 msgid "Website communication history"
-msgstr ""
+msgstr "Mājaslapas komunikācijas vēsture"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 msgid "White"
-msgstr ""
+msgstr "Balts"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.opt_blog_rc_about_us
@@ -958,7 +969,7 @@ msgid ""
 msgstr ""
 
 #. module: website_blog
-#. flectra-web
+#. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:20
 #, python-format
 msgid "Write a title, the subtitle is optional."
@@ -985,13 +996,13 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website_blog.blog_post_short
 #: model:ir.ui.view,arch_db:website_blog.latest_blogs
 msgid "comment"
-msgstr ""
+msgstr "komentārs"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_post_short
 #: model:ir.ui.view,arch_db:website_blog.latest_blogs
 msgid "comments"
-msgstr ""
+msgstr "komentāri"
 
 #. module: website_blog
 #: model:blog.tag,name:website_blog.blog_tag_1
@@ -1027,4 +1038,4 @@ msgstr ""
 #. module: website_blog
 #: model:blog.tag,name:website_blog.blog_tag_2
 msgid "website"
-msgstr ""
+msgstr "website"

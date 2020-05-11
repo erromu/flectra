@@ -178,9 +178,9 @@ msgid ""
 "\n"
 "                    <h3 style=\"color:#9A6C8E;\"><strong>Want to learn about us?</strong></h3>\n"
 "                    <ol>\n"
-"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.odoo.com/blog/odoo-news-5/post/the-odoo-story-56\">Founders' story</a></li>\n"
+"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.flectrahq.com/blog/odoo-news-5/post/the-odoo-story-56\">Founders' story</a></li>\n"
 "                        <li><a style=\"color:#1CC5A9\" href=\"https://www.slideshare.net/openobject/the-odoo-culture\">The Odoo Culture</a></li>\n"
-"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.odoo.com/page/about-us\">About us</a></li>\n"
+"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.flectrahq.com/page/about-us\">About us</a></li>\n"
 "                    </ol>\n"
 "\n"
 "                    <hr style=\"margin: 30px 0\"/>\n"
@@ -312,9 +312,9 @@ msgid ""
 "\n"
 "                    <h3 style=\"color:#9A6C8E;\"><strong>Want to learn more?</strong></h3>\n"
 "                    <ol>\n"
-"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.odoo.com/blog/odoo-news-5/post/the-odoo-story-56\">Founders' story</a></li>\n"
+"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.flectrahq.com/blog/odoo-news-5/post/the-odoo-story-56\">Founders' story</a></li>\n"
 "                        <li><a style=\"color:#1CC5A9\" href=\"https://www.slideshare.net/openobject/the-odoo-culture\">The Odoo Culture</a></li>\n"
-"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.odoo.com/page/about-us\">About us</a></li>\n"
+"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.flectrahq.com/page/about-us\">About us</a></li>\n"
 "                    </ol>\n"
 "\n"
 "                    <hr style=\"margin: 30px 0\"/>\n"
@@ -453,7 +453,7 @@ msgid "Active"
 msgstr "सक्रिय"
 
 #. module: hr_recruitment
-#. flectra-web
+#. openerp-web
 #: code:addons/hr_recruitment/static/src/js/tour.js:20
 #, python-format
 msgid ""
@@ -1224,7 +1224,7 @@ msgid "Late Activities"
 msgstr ""
 
 #. module: hr_recruitment
-#. flectra-web
+#. openerp-web
 #: code:addons/hr_recruitment/static/src/js/tour.js:16
 #, python-format
 msgid ""
@@ -1743,7 +1743,7 @@ msgstr ""
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job_alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.flectrahq.com>"
 msgstr ""
 
 #. module: hr_recruitment
@@ -1802,7 +1802,7 @@ msgid "Today Activities"
 msgstr ""
 
 #. module: hr_recruitment
-#. flectra-web
+#. openerp-web
 #: code:addons/hr_recruitment/static/src/js/tour.js:30
 #, python-format
 msgid ""
@@ -1842,7 +1842,7 @@ msgid ""
 msgstr ""
 
 #. module: hr_recruitment
-#. flectra-web
+#. openerp-web
 #: code:addons/hr_recruitment/static/src/js/tour.js:25
 #, python-format
 msgid "Use the breadcrumbs to <b>go back to the dashboard</b>."
@@ -1859,7 +1859,7 @@ msgid "Very Good"
 msgstr ""
 
 #. module: hr_recruitment
-#. flectra-web
+#. openerp-web
 #: code:addons/hr_recruitment/static/src/js/tour.js:11
 #, python-format
 msgid "Want to <b>start recruiting</b> like a pro? <i>Start here.</i>"

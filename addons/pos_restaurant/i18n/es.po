@@ -3,27 +3,32 @@
 # * pos_restaurant
 # 
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2017
-# Jesús Alan Ramos Rodríguez <alan.ramos@jarsa.com.mx>, 2017
-# Gustavo Valverde <g.valverde02@gmail.com>, 2017
-# José Vicente <txusev@gmail.com>, 2017
 # Ana Juaristi <ajuaristio@gmail.com>, 2017
-# Antonio Trueba <atgayol@gmail.com>, 2017
-# alvaro hdz <alaherma@gmail.com>, 2017
+# Gustavo Valverde, 2017
+# José Vicente <txusev@gmail.com>, 2017
+# Pedro M. Baeza <pedro.baeza@gmail.com>, 2017
 # Luis M. Ontalba <luis.martinez@tecnativa.com>, 2017
 # Daniel Santibáñez Polanco <dansanti@gmail.com>, 2017
-# Pedro M. Baeza <pedro.baeza@gmail.com>, 2017
 # Pablo Fuentes <pablo@studio73.es>, 2017
+# Nicolás Broggi <rnbroggi@gmail.com>, 2017
 # Mateo Tibaquirá Palacios <nestormateo@gmail.com>, 2017
+# alvaro hdz <alaherma@gmail.com>, 2017
 # Alejandro Die Sanchis <marketing@domatix.com>, 2017
+# Jesús Alan Ramos Rodríguez <alan.ramos@jarsa.com.mx>, 2017
+# Antonio Trueba, 2017
+# Martin Trigaux, 2017
 # Ivan Nieto <ivan.n.s@tuta.io>, 2017
+# e2f_EPV Translator <e2f_EPV@outlook.com>, 2018
+# ES R1 <e2fes@hotmail.com>, 2018
+# e2f <projects@e2f.com>, 2018
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-20 09:52+0000\n"
-"PO-Revision-Date: 2017-09-20 09:52+0000\n"
-"Last-Translator: Ivan Nieto <ivan.n.s@tuta.io>, 2017\n"
+"POT-Creation-Date: 2019-01-03 15:06+0000\n"
+"PO-Revision-Date: 2017-09-20 10:21+0000\n"
+"Last-Translator: e2f <projects@e2f.com>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,14 +37,19 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: pos_restaurant
-#: model:ir.ui.view,arch_db:pos_restaurant.view_restaurant_floor_kanban
-msgid "<strong>Floor Name: </strong>"
+#: model:ir.ui.view,arch_db:pos_restaurant.pos_config_view_form_inherit_restaurant
+msgid "<span class=\"fa fa-lg fa-cutlery\" title=\"For bars and restaurants\"/>"
 msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.ui.view,arch_db:pos_restaurant.view_restaurant_floor_kanban
+msgid "<strong>Floor Name: </strong>"
+msgstr "<strong>Nombre del piso:</strong>"
+
+#. module: pos_restaurant
+#: model:ir.ui.view,arch_db:pos_restaurant.view_restaurant_floor_kanban
 msgid "<strong>Point of Sale: </strong>"
-msgstr ""
+msgstr "<strong>Punto de venta:</strong>"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_floor_background_image
@@ -57,12 +67,12 @@ msgid ""
 "                define and position the tables."
 msgstr ""
 "El piso de un restaurante representa el lugar donde se da servicio a los clientes, ahí es donde\n"
-"puedes definir la posición de las mesas."
+"puede definir la posición de las mesas."
 
 #. module: pos_restaurant
 #: model:ir.ui.view,arch_db:pos_restaurant.pos_config_view_form_inherit_restaurant
 msgid "Accept customer tips or convert their change to a tip"
-msgstr ""
+msgstr "Aceptar propinas del cliente o dejar el cambio como propina"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table_active
@@ -70,7 +80,7 @@ msgid "Active"
 msgstr "Activo"
 
 #. module: pos_restaurant
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_restaurant/static/src/js/notes.js:54
 #, python-format
 msgid "Add Note"
@@ -79,27 +89,27 @@ msgstr "Añadir Nota"
 #. module: pos_restaurant
 #: model:ir.ui.view,arch_db:pos_restaurant.pos_config_view_form_inherit_restaurant
 msgid "Add notes to orderlines"
-msgstr ""
+msgstr "Añadir notas a las líneas de pedido"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_pos_config_iface_orderline_notes
 msgid "Allow custom notes on Orderlines."
-msgstr ""
+msgstr "Permitir las notas personalizadas en las líneas de pedido."
 
 #. module: pos_restaurant
 #: model:ir.ui.view,arch_db:pos_restaurant.pos_config_view_form_inherit_restaurant
 msgid "Allow to print bill before payment"
-msgstr ""
+msgstr "Permitir imprimir la factura antes del pago"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_pos_config_iface_printbill
 msgid "Allows to print the Bill before payment."
-msgstr ""
+msgstr "Permite imprimir la factura antes del pago."
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_table_name
 msgid "An internal identification of a table"
-msgstr "Una identificador interno de una mesa"
+msgstr "Un identificador interno de una mesa"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_restaurant_printer_name
@@ -117,14 +127,14 @@ msgid "Appearance"
 msgstr "Apariencia"
 
 #. module: pos_restaurant
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_restaurant/static/src/js/floors.js:562
 #, python-format
 msgid "Are you sure ?"
 msgstr "¿Está usted seguro?"
 
 #. module: pos_restaurant
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/printbill.xml:9
 #: code:addons/pos_restaurant/static/src/xml/splitbill.xml:61
 #, python-format
@@ -142,14 +152,14 @@ msgid "Background Image"
 msgstr "Imagen de fondo"
 
 #. module: pos_restaurant
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/printbill.xml:31
 #, python-format
 msgid "Bill"
 msgstr "Factura"
 
 #. module: pos_restaurant
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/printbill.xml:12
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_config_iface_printbill
 #, python-format
@@ -157,7 +167,7 @@ msgid "Bill Printing"
 msgstr "Impresión de la cuenta"
 
 #. module: pos_restaurant
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/splitbill.xml:64
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_config_iface_splitbill
 #, python-format
@@ -165,14 +175,14 @@ msgid "Bill Splitting"
 msgstr "Separación de la cuenta"
 
 #. module: pos_restaurant
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/multiprint.xml:39
 #, python-format
 msgid "CANCELLED"
 msgstr "CANCELADO"
 
 #. module: pos_restaurant
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_restaurant/static/src/js/floors.js:270
 #: code:addons/pos_restaurant/static/src/js/floors.js:309
 #: code:addons/pos_restaurant/static/src/js/floors.js:425
@@ -183,12 +193,12 @@ msgstr "Los cambios no pudieron ser guardados"
 #. module: pos_restaurant
 #: model:ir.actions.act_window,help:pos_restaurant.action_restaurant_floor_form
 msgid "Click to add a Restaurant Floor."
-msgstr "De click para añadir un Piso de Restaurante."
+msgstr "Clic para añadir un Piso de Restaurante."
 
 #. module: pos_restaurant
 #: model:ir.actions.act_window,help:pos_restaurant.action_restaurant_printer_form
 msgid "Click to add a Restaurant Order Printer."
-msgstr "De click para añadir una Impresora de Órdenes del Restaurante."
+msgstr "Clic para añadir una Impresora de Órdenes del Restaurante."
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table_color
@@ -210,14 +220,14 @@ msgid "Created on"
 msgstr "Creado el"
 
 #. module: pos_restaurant
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/printbill.xml:91
 #, python-format
 msgid "Discount:"
 msgstr "Descuento:"
 
 #. module: pos_restaurant
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/printbill.xml:140
 #, python-format
 msgid "Discounts"
@@ -246,7 +256,7 @@ msgstr ""
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_pos_config_iface_splitbill
 msgid "Enables Bill Splitting in the Point of Sale."
-msgstr ""
+msgstr "Permite la división de la factura en el punto de venta."
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table_floor_id
@@ -267,10 +277,10 @@ msgstr "Diseño del Piso"
 #. module: pos_restaurant
 #: model:ir.ui.view,arch_db:pos_restaurant.pos_config_view_form_inherit_restaurant
 msgid "Floors"
-msgstr ""
+msgstr "Pisos"
 
 #. module: pos_restaurant
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/floors.xml:28
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_order_customer_count
 #, python-format
@@ -278,14 +288,14 @@ msgid "Guests"
 msgstr "Clientes"
 
 #. module: pos_restaurant
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_restaurant/static/src/js/floors.js:946
 #, python-format
 msgid "Guests ?"
 msgstr "¿Clientes?"
 
 #. module: pos_restaurant
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/floors.xml:10
 #: code:addons/pos_restaurant/static/src/xml/floors.xml:21
 #, python-format
@@ -342,17 +352,17 @@ msgstr "Última Actualización el"
 #. module: pos_restaurant
 #: model:ir.ui.view,arch_db:pos_restaurant.pos_config_view_form_inherit_restaurant
 msgid "Manage table orders"
-msgstr ""
+msgstr "Gestionar los pedidos de la mesa"
 
 #. module: pos_restaurant
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/multiprint.xml:62
 #, python-format
 msgid "NEW"
 msgstr "NUEVO"
 
 #. module: pos_restaurant
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/multiprint.xml:50
 #: code:addons/pos_restaurant/static/src/xml/multiprint.xml:73
 #, python-format
@@ -360,28 +370,28 @@ msgid "NOTE"
 msgstr "NOTA"
 
 #. module: pos_restaurant
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/notes.xml:16
 #, python-format
 msgid "Note"
 msgstr "Nota"
 
 #. module: pos_restaurant
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_restaurant/static/src/js/floors.js:495
 #, python-format
 msgid "Number of Seats ?"
 msgstr "¿Número de asientos?"
 
 #. module: pos_restaurant
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/printbill.xml:13
 #, python-format
 msgid "Ok"
 msgstr "Aceptar"
 
 #. module: pos_restaurant
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/multiprint.xml:6
 #, python-format
 msgid "Order"
@@ -412,10 +422,10 @@ msgstr "Notas de la Línea de Pedido"
 #. module: pos_restaurant
 #: model:ir.ui.view,arch_db:pos_restaurant.view_restaurant_printer_form
 msgid "POS Printer"
-msgstr "Impresora POS"
+msgstr "Impresora del PdV"
 
 #. module: pos_restaurant
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/splitbill.xml:78
 #, python-format
 msgid "Payment"
@@ -429,10 +439,10 @@ msgstr "Punto de Venta"
 #. module: pos_restaurant
 #: model:ir.model,name:pos_restaurant.model_pos_order
 msgid "Point of Sale Orders"
-msgstr "Pedidos del TPV"
+msgstr "Pedidos del Punto de Venta"
 
 #. module: pos_restaurant
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/printbill.xml:20
 #, python-format
 msgid "Print"
@@ -441,12 +451,12 @@ msgstr "Imprimir"
 #. module: pos_restaurant
 #: model:ir.ui.view,arch_db:pos_restaurant.pos_config_view_form_inherit_restaurant
 msgid "Print orders at the kitchen, at the bar, etc."
-msgstr ""
+msgstr "Imprimir los pedidos en la cocina, en el bar, etc."
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_printer_product_categories_ids
 msgid "Printed Product Categories"
-msgstr "Categorías de producto imprimidas"
+msgstr "Categorías de producto impresos"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_printer_name
@@ -464,7 +474,7 @@ msgid "Proxy IP Address"
 msgstr "Dirección IP del proxy"
 
 #. module: pos_restaurant
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_restaurant/static/src/js/floors.js:563
 #, python-format
 msgid "Removing a table cannot be undone"
@@ -507,7 +517,7 @@ msgid "Sequence"
 msgstr "Secuencia"
 
 #. module: pos_restaurant
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/printbill.xml:71
 #, python-format
 msgid "Served by"
@@ -519,7 +529,7 @@ msgid "Shape"
 msgstr "Forma"
 
 #. module: pos_restaurant
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/splitbill.xml:6
 #, python-format
 msgid "Split"
@@ -528,7 +538,7 @@ msgstr "Dividir"
 #. module: pos_restaurant
 #: model:ir.ui.view,arch_db:pos_restaurant.pos_config_view_form_inherit_restaurant
 msgid "Split total or order lines"
-msgstr ""
+msgstr "Dividir el total o las líneas de pedido"
 
 #. module: pos_restaurant
 #: selection:restaurant.table,shape:0
@@ -536,14 +546,14 @@ msgid "Square"
 msgstr "Cuadrado"
 
 #. module: pos_restaurant
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/printbill.xml:118
 #, python-format
 msgid "Subtotal"
 msgstr "Subtotal"
 
 #. module: pos_restaurant
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/printbill.xml:131
 #, python-format
 msgid "TOTAL"
@@ -557,7 +567,7 @@ msgstr "Mesa"
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_config_is_table_management
 msgid "Table Management"
-msgstr ""
+msgstr "Gestión de la mesa"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table_name
@@ -565,11 +575,11 @@ msgid "Table Name"
 msgstr "Nombre de la Mesa"
 
 #. module: pos_restaurant
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_restaurant/static/src/js/floors.js:483
 #, python-format
 msgid "Table Name ?"
-msgstr "¿ Nombre de la mesa ?"
+msgstr "¿Nombre de la mesa?"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor_table_ids
@@ -578,7 +588,7 @@ msgid "Tables"
 msgstr "Mesas"
 
 #. module: pos_restaurant
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/printbill.xml:54
 #, python-format
 msgid "Tel:"
@@ -617,7 +627,7 @@ msgstr "La lista de mesas en este piso"
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_pos_config_floor_ids
 msgid "The restaurant floors served by this point of sale."
-msgstr ""
+msgstr "Los pisos del restaurante a los que sirve este punto de venta."
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_pos_order_table_id
@@ -629,7 +639,7 @@ msgstr "La mesa donde ésta orden fue servida"
 msgid ""
 "The table's color, expressed as a valid 'background' CSS property value"
 msgstr ""
-"El color de la mesa, expresado como un valor de 'fondo' con propiedad CSS "
+"El color de la mesa, expresado como un valor de 'fondo' de propiedad CSS "
 "válido"
 
 #. module: pos_restaurant
@@ -660,7 +670,7 @@ msgid "The table's width in pixels"
 msgstr "El ancho de la mesa en pixeles"
 
 #. module: pos_restaurant
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/floors.xml:106
 #, python-format
 msgid "This floor has no tables yet, use the"
@@ -669,7 +679,7 @@ msgstr "El  piso no tiene mesas aún, usa el "
 #. module: pos_restaurant
 #: model:ir.ui.view,arch_db:pos_restaurant.pos_config_view_form_inherit_restaurant
 msgid "This product is used as reference on customer receipts."
-msgstr ""
+msgstr "Este producto se usa como referencia en los recibos del cliente."
 
 #. module: pos_restaurant
 #: model:ir.ui.view,arch_db:pos_restaurant.pos_config_view_form_inherit_restaurant
@@ -682,7 +692,7 @@ msgid "Tips"
 msgstr "Propinas"
 
 #. module: pos_restaurant
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/floors.xml:37
 #, python-format
 msgid "Transfer"
@@ -704,14 +714,14 @@ msgid "Width"
 msgstr "Ancho"
 
 #. module: pos_restaurant
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/splitbill.xml:44
 #, python-format
 msgid "With a"
 msgstr "Con un/una"
 
 #. module: pos_restaurant
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_restaurant/static/src/js/floors.js:271
 #: code:addons/pos_restaurant/static/src/js/floors.js:310
 #: code:addons/pos_restaurant/static/src/js/floors.js:426
@@ -720,14 +730,14 @@ msgid "You must be connected to the internet to save your changes."
 msgstr "Debes estar conectado a Internet para poder guardar los cambios."
 
 #. module: pos_restaurant
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/splitbill.xml:36
 #, python-format
 msgid "at"
 msgstr "en"
 
 #. module: pos_restaurant
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/floors.xml:6
 #: code:addons/pos_restaurant/static/src/xml/floors.xml:17
 #, python-format
@@ -735,14 +745,14 @@ msgid "at table"
 msgstr "en la mesa"
 
 #. module: pos_restaurant
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/floors.xml:107
 #, python-format
 msgid "button in the editing toolbar to create new tables."
 msgstr "botón en la barra de edición para crear nuevas mesas."
 
 #. module: pos_restaurant
-#. flectra-web
+#. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/splitbill.xml:46
 #, python-format
 msgid "discount"
@@ -751,7 +761,7 @@ msgstr "descuento"
 #. module: pos_restaurant
 #: model:ir.model,name:pos_restaurant.model_pos_config
 msgid "pos.config"
-msgstr "Configuración del TPV"
+msgstr "pos.config"
 
 #. module: pos_restaurant
 #: model:ir.model,name:pos_restaurant.model_restaurant_floor

@@ -3,15 +3,23 @@
 # * im_livechat
 # 
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2017
 # Eneko <eastigarraga@codesyntax.com>, 2018
+# Martin Trigaux, 2018
+# oihane <oihanecruce@gmail.com>, 2018
+# Esther Martín Menéndez <esthermartin001@gmail.com>, 2018
+# ibinka lete <ilete@fpbidasoa.net>, 2018
+# Gorka Toledo <gorka.toledo@gmail.com>, 2018
+# Naomi Hidalgo <naomihid96@gmail.com>, 2018
+# Mikel Lizarralde <mikellizarralde@gmail.com>, 2018
+# Maialen Rodriguez <maialenrodriguez98@gmail.com>, 2020
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-30 13:12+0000\n"
-"PO-Revision-Date: 2017-11-30 13:12+0000\n"
-"Last-Translator: Eneko <eastigarraga@codesyntax.com>, 2018\n"
+"PO-Revision-Date: 2017-09-20 10:18+0000\n"
+"Last-Translator: Maialen Rodriguez <maialenrodriguez98@gmail.com>, 2020\n"
 "Language-Team: Basque (https://www.transifex.com/odoo/teams/41243/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -56,7 +64,7 @@ msgstr ""
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_rule_action
 msgid "Action"
-msgstr ""
+msgstr "Ekintza"
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_mail_channel_anonymous_name
@@ -69,7 +77,7 @@ msgid "Are you inside the matrix?"
 msgstr ""
 
 #. module: im_livechat
-#. flectra-web
+#. openerp-web
 #: code:addons/im_livechat/static/src/js/im_livechat.js:48
 #, python-format
 msgid "Ask something ..."
@@ -79,7 +87,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:im_livechat.mail_channel_view_form
 #: model:ir.ui.view,arch_db:im_livechat.mail_channel_view_tree
 msgid "Attendees"
-msgstr ""
+msgstr "Partaideak"
 
 #. module: im_livechat
 #: selection:im_livechat.channel.rule,action:0
@@ -108,11 +116,11 @@ msgid "Average time to give the first answer to the visitor"
 msgstr ""
 
 #. module: im_livechat
-#. flectra-web
+#. openerp-web
 #: code:addons/im_livechat/static/src/xml/im_livechat.xml:13
 #, python-format
 msgid "Bad"
-msgstr ""
+msgstr "Txarra"
 
 #. module: im_livechat
 #: model:ir.actions.act_window,name:im_livechat.im_livechat_canned_response_action
@@ -138,7 +146,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_report_operator_view_search
 #: model:ir.ui.view,arch_db:im_livechat.mail_channel_view_search
 msgid "Channel"
-msgstr ""
+msgstr "Kanala"
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_channel_channel_name
@@ -159,7 +167,7 @@ msgstr ""
 #. module: im_livechat
 #: model:ir.ui.menu,name:im_livechat.support_channels
 msgid "Channels"
-msgstr ""
+msgstr "Kanalak "
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_input_placeholder
@@ -167,7 +175,7 @@ msgid "Chat Input Placeholder"
 msgstr ""
 
 #. module: im_livechat
-#. flectra-web
+#. openerp-web
 #: code:addons/im_livechat/static/src/js/im_livechat.js:50
 #, python-format
 msgid "Chat with one of our collaborators"
@@ -187,12 +195,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_channel_technical_name
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_report_channel_view_search
 msgid "Code"
-msgstr ""
+msgstr "Kodea"
 
 #. module: im_livechat
 #: model:ir.ui.menu,name:im_livechat.livechat_config
 msgid "Configuration"
-msgstr ""
+msgstr "Konfigurazioa"
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_channel_channel_id
@@ -201,14 +209,14 @@ msgid "Conversation"
 msgstr ""
 
 #. module: im_livechat
-#. flectra-web
+#. openerp-web
 #: code:addons/im_livechat/static/src/js/copy_clipboard.js:32
 #, python-format
 msgid "Copied !"
 msgstr ""
 
 #. module: im_livechat
-#. flectra-web
+#. openerp-web
 #: code:addons/im_livechat/static/src/xml/copy_clipboard.xml:6
 #: code:addons/im_livechat/static/src/xml/copy_clipboard.xml:12
 #, python-format
@@ -224,7 +232,7 @@ msgstr ""
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_rule_country_ids
 msgid "Country"
-msgstr ""
+msgstr "Herrialdea"
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_create_uid
@@ -296,7 +304,7 @@ msgid ""
 msgstr ""
 
 #. module: im_livechat
-#. flectra-web
+#. openerp-web
 #: code:addons/im_livechat/static/src/xml/im_livechat.xml:7
 #, python-format
 msgid "Did we correctly answer your question ?"
@@ -305,7 +313,7 @@ msgstr ""
 #. module: im_livechat
 #: model:ir.model,name:im_livechat.model_mail_channel
 msgid "Discussion channel"
-msgstr ""
+msgstr "Eztabaida kanala "
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_display_name
@@ -334,7 +342,7 @@ msgid ""
 msgstr ""
 
 #. module: im_livechat
-#. flectra-web
+#. openerp-web
 #: code:addons/im_livechat/static/src/xml/im_livechat.xml:19
 #, python-format
 msgid "Explain your note"
@@ -356,7 +364,7 @@ msgid ""
 msgstr ""
 
 #. module: im_livechat
-#. flectra-web
+#. openerp-web
 #: code:addons/im_livechat/static/src/xml/im_livechat.xml:11
 #, python-format
 msgid "Good"
@@ -367,7 +375,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_report_operator_view_search
 #: model:ir.ui.view,arch_db:im_livechat.mail_channel_view_search
 msgid "Group By..."
-msgstr ""
+msgstr "Taldekatu..."
 
 #. module: im_livechat
 #: selection:im_livechat.channel.rule,action:0
@@ -379,7 +387,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:im_livechat.mail_channel_view_form
 #: model:ir.ui.view,arch_db:im_livechat.mail_channel_view_tree
 msgid "History"
-msgstr ""
+msgstr "Historia"
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_channel_start_date_hour
@@ -387,7 +395,7 @@ msgid "Hour of start Date of session"
 msgstr ""
 
 #. module: im_livechat
-#. flectra-web
+#. openerp-web
 #: code:addons/im_livechat/static/src/js/im_livechat.js:51
 #, python-format
 msgid "How may I help you?"
@@ -399,7 +407,7 @@ msgid "How to use the Website Live Chat widget?"
 msgstr ""
 
 #. module: im_livechat
-#. flectra-web
+#. openerp-web
 #: code:addons/im_livechat/static/src/xml/im_livechat.xml:15
 #, python-format
 msgid "I don't want to rate this conversation"
@@ -416,7 +424,7 @@ msgstr "ID"
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_image
 msgid "Image"
-msgstr ""
+msgstr "Irudia"
 
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_kanban
@@ -437,7 +445,7 @@ msgstr ""
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.rating_rating_view_search_livechat
 msgid "Last 7 days"
-msgstr ""
+msgstr "Azken 7 egun "
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel___last_update
@@ -463,7 +471,7 @@ msgstr "Last Updated on"
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_report_channel_view_search
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_report_operator_view_search
 msgid "Last Week"
-msgstr ""
+msgstr "Aurreko astea "
 
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_kanban
@@ -483,7 +491,7 @@ msgstr ""
 #. module: im_livechat
 #: model:ir.ui.menu,name:im_livechat.menu_livechat_root
 msgid "Live Chat"
-msgstr ""
+msgstr "Zuzeneko txata"
 
 #. module: im_livechat
 #: model:ir.module.category,name:im_livechat.module_category_im_livechat
@@ -491,7 +499,7 @@ msgid "Live Support"
 msgstr ""
 
 #. module: im_livechat
-#. flectra-web
+#. openerp-web
 #: code:addons/im_livechat/static/src/xml/im_livechat_backend.xml:9
 #: code:addons/im_livechat/static/src/xml/im_livechat_backend.xml:21
 #, python-format
@@ -536,7 +544,7 @@ msgstr ""
 #. module: im_livechat
 #: model:res.groups,name:im_livechat.im_livechat_group_manager
 msgid "Manager"
-msgstr ""
+msgstr "Gerentea"
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_rule_sequence
@@ -546,7 +554,7 @@ msgstr ""
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_image_medium
 msgid "Medium"
-msgstr ""
+msgstr "Erdikoa"
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel_image_medium
@@ -564,7 +572,7 @@ msgstr ""
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_name
 msgid "Name"
-msgstr ""
+msgstr "Izena"
 
 #. module: im_livechat
 #: code:addons/im_livechat/models/mail_channel.py:125
@@ -573,7 +581,7 @@ msgid "No history found"
 msgstr ""
 
 #. module: im_livechat
-#. flectra-web
+#. openerp-web
 #: code:addons/im_livechat/static/src/js/im_livechat.js:150
 #, python-format
 msgid ""
@@ -597,11 +605,11 @@ msgid "Number of message in the conversation"
 msgstr ""
 
 #. module: im_livechat
-#. flectra-web
+#. openerp-web
 #: code:addons/im_livechat/static/src/xml/im_livechat.xml:12
 #, python-format
 msgid "OK"
-msgstr ""
+msgstr "Ados"
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_channel_partner_id
@@ -609,7 +617,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_report_channel_view_search
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_report_operator_view_search
 msgid "Operator"
-msgstr ""
+msgstr "Operadorea"
 
 #. module: im_livechat
 #: model:ir.ui.menu,name:im_livechat.menu_reporting_livechat_operator
@@ -640,7 +648,7 @@ msgstr ""
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "Options"
-msgstr ""
+msgstr "Aukerak"
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel_rating_percentage_satisfaction
@@ -652,10 +660,10 @@ msgstr ""
 #: model:ir.ui.view,arch_db:im_livechat.mail_channel_view_form
 #: model:ir.ui.view,arch_db:im_livechat.mail_channel_view_tree
 msgid "Rating"
-msgstr ""
+msgstr "Sailkatu "
 
 #. module: im_livechat
-#. flectra-web
+#. openerp-web
 #: code:addons/im_livechat/static/src/js/im_livechat.js:344
 #, python-format
 msgid "Rating: :rating_%d"
@@ -690,13 +698,13 @@ msgstr ""
 #. module: im_livechat
 #: model:ir.ui.menu,name:im_livechat.menu_reporting_livechat
 msgid "Report"
-msgstr ""
+msgstr "Txostena"
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_rule_ids
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_rule_view_tree
 msgid "Rules"
-msgstr ""
+msgstr "Arauak"
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_script_external
@@ -826,7 +834,7 @@ msgstr ""
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_image_small
 msgid "Thumbnail"
-msgstr ""
+msgstr "Miniatura "
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_operator_time_to_answer
@@ -858,10 +866,10 @@ msgstr ""
 #. module: im_livechat
 #: model:res.groups,name:im_livechat.im_livechat_group_user
 msgid "User"
-msgstr ""
+msgstr "Erabiltzailea"
 
 #. module: im_livechat
-#. flectra-web
+#. openerp-web
 #: code:addons/im_livechat/controllers/main.py:37
 #: code:addons/im_livechat/static/src/js/im_livechat.js:49
 #, python-format
@@ -881,7 +889,7 @@ msgstr ""
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_default_message
 msgid "Welcome Message"
-msgstr ""
+msgstr "Ongi etorri mezua "
 
 #. module: im_livechat
 #: model:ir.actions.act_window,help:im_livechat.im_livechat_channel_action

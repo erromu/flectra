@@ -3,18 +3,17 @@
 # * crm
 # 
 # Translators:
-# Cozmin Candea <office@terrabit.ro>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
-# Dorin Hongu <dhongu@gmail.com>, 2017
-# Adrian Munteanu <adrian.munteanu@itconstruction.ro>, 2017
-# Simonel Criste <simi@erpsystems.ro>, 2017
+# Martin Trigaux, 2017
+# Cozmin Candea <office@terrabit.ro>, 2018
+# Dorin Hongu <dhongu@gmail.com>, 2020
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-16 08:08+0000\n"
-"PO-Revision-Date: 2017-11-16 08:08+0000\n"
-"Last-Translator: Simonel Criste <simi@erpsystems.ro>, 2017\n"
+"POT-Creation-Date: 2018-04-20 11:58+0000\n"
+"PO-Revision-Date: 2017-09-20 10:16+0000\n"
+"Last-Translator: Dorin Hongu <dhongu@gmail.com>, 2020\n"
 "Language-Team: Romanian (https://www.transifex.com/odoo/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,7 +35,7 @@ msgid ""
 "                            <img src=\"web/static/src/img/logo.png\"/>\n"
 "                        </td>\n"
 "                        <td style=\"vertical-align: top; padding: 8px 10px;text-align: left;font-size: 14px;\">\n"
-"                            <a href=\"web/login\" style=\"float:right ;margin:15px auto;background: #875A7B;border-radius: 5px;color: #ffffff;font-size: 16px;padding: 10px 20px 10px 20px;text-decoration: none;\">Auto Login</a>\n"
+"                            <a href=\"web/login\" style=\"float:right ;margin:15px auto;background: #009efb;border-radius: 5px;color: #ffffff;font-size: 16px;padding: 10px 20px 10px 20px;text-decoration: none;\">Auto Login</a>\n"
 "                        </td>\n"
 "                    </tr>\n"
 "                </tbody>\n"
@@ -45,7 +44,7 @@ msgid ""
 "                <tbody>\n"
 "                    <tr>\n"
 "                        <td style=\"padding:15px 10px;font-size:20px\">\n"
-"                            <p style=\"color:#875A7B;margin:0\" >Hooray!</p><br>\n"
+"                            <p style=\"color:#009efb;margin:0\" >Hooray!</p><br>\n"
 "                            <p dir=\"ltr\" style=\"font-size:15px;margin-top:0pt;margin-bottom:0pt;\">\n"
 "                                <span>Your Odoo CRM application is up and running.</span></p><br>\n"
 "                            <p dir=\"ltr\" style=\"margin-top:0pt;margin-bottom:8pt;\">\n"
@@ -70,7 +69,7 @@ msgid ""
 "                                <span><a href=\"/web#view_type=list&model=crm.lead&action=crm.crm_lead_all_leads\">\n"
 "                                    <span style=\"font-weight:bold; text-decoration:underline;\">CRM planner</span></a></span>\n"
 "                                <span> to activate extra features</span>\n"
-"                                <span style=\"color:#875A7B;margin:0;font-weight:bold\">(${user.env['web.planner'].get_planner_progress('planner_crm')}% done)</span>\n"
+"                                <span style=\"color:#009efb;margin:0;font-weight:bold\">(${user.env['web.planner'].get_planner_progress('planner_crm')}% done)</span>\n"
 "                            </p>\n"
 "                            <ul style=\"margin-top:0pt;margin-bottom:0pt;font-size:13px;list-style-type:disc;\">\n"
 "                                <li dir=\"ltr\">\n"
@@ -106,12 +105,12 @@ msgid ""
 "                            </p>\n"
 "                            <p dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-bottom:8pt;\">\n"
 "                                <span>We would be delighted to assist you along the way. Contact us through our\n"
-"                                <a href=\"https://www.odoo.com/help\">support form</a> if you have any question.\n"
+"                                <a href=\"https://www.flectrahq.com/help\">support form</a> if you have any question.\n"
 "                                You can also discover how to get the best out of Odoo CRM with our </span>\n"
-"                                <a target=\"_blank\" href=\"https://www.odoo.com/documentation/user/11.0/crm.html\">\n"
+"                                <a target=\"_blank\" href=\"https://www.flectrahq.com/documentation/user/11.0/crm.html\">\n"
 "                                <span style=\"text-decoration:underline;\">User Documentation</span></a>\n"
 "                                </span><span> or with our </span>\n"
-"                                <a target=\"_blank\" href=\"https://www.odoo.com/documentation\">\n"
+"                                <a target=\"_blank\" href=\"https://www.flectrahq.com/documentation\">\n"
 "                                <span style=\"text-decoration:underline;\">API Documentation</span></a>\n"
 "                            </p>\n"
 "                            <br>\n"
@@ -148,7 +147,7 @@ msgstr "# Întâlniri"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_opportunity_report_nbr_activities
 msgid "# of Activities"
-msgstr "# de activităţi"
+msgstr "# de activități"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -166,7 +165,7 @@ msgid ", if accounting or purchase is installed"
 msgstr ", dacă sunt instalate modulele de contabilitate sau achiziții"
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/tour.js:29
 #, python-format
 msgid ""
@@ -175,7 +174,7 @@ msgid ""
 msgstr ""
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/tour.js:74
 #, python-format
 msgid ""
@@ -194,7 +193,7 @@ msgid "<i class=\"fa fa-question-circle\"> view examples</i>"
 msgstr "<i class=\"fa fa-question-circle\"> afișează exemple</i>"
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/tour.js:60
 #, python-format
 msgid ""
@@ -204,7 +203,7 @@ msgid ""
 msgstr ""
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/tour.js:45
 #, python-format
 msgid ""
@@ -373,6 +372,11 @@ msgid ""
 "                                        <span class=\"small\">&gt; 200 contacts</span>\n"
 "                                    </span>"
 msgstr ""
+"<span class=\"panel-title\">\n"
+"                                        <span class=\"fa\" data-icon=\"\"/>\n"
+"                                        <strong>Importă</strong><br/>\n"
+"                                        <span class=\"small\">&gt; 200 contacte</span>\n"
+"                                    </span>"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -393,6 +397,11 @@ msgid ""
 "                                        <span class=\"small\">&lt; 200 contacts</span>\n"
 "                                    </span>"
 msgstr ""
+"<span class=\"panel-title\">\n"
+"                                        <span class=\"fa\" data-icon=\"\"/>\n"
+"                                        <strong> Creează manual</strong><br/>\n"
+"                                        <span class=\"small\">&lt; 200 contacte</span>\n"
+"                                    </span>"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -558,7 +567,7 @@ msgstr "<strong>Nou:</strong>"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "<strong>Next actions:</strong>"
-msgstr "<strong>Următoarele acţiuni:</strong>"
+msgstr "<strong>Următoarele acțiuni:</strong>"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -780,12 +789,12 @@ msgstr "Stare activitate"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report_mail_activity_type_id
 msgid "Activity Type"
-msgstr ""
+msgstr "Tip activitate"
 
 #. module: crm
 #: model:ir.ui.menu,name:crm.crm_team_menu_config_activity_types
 msgid "Activity Types"
-msgstr ""
+msgstr "Tipuri de activitate"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -840,7 +849,7 @@ msgstr ""
 "vei îmbunătăți continuu performanța"
 
 #. module: crm
-#: code:addons/crm/wizard/base_partner_merge.py:274
+#: code:addons/crm/wizard/base_partner_merge.py:273
 #, python-format
 msgid ""
 "All contacts must have the same email. Only the Administrator can merge "
@@ -850,7 +859,7 @@ msgstr ""
 " fuziona contacte cu diferite e-mailuri."
 
 #. module: crm
-#: code:addons/crm/models/crm_lead.py:905
+#: code:addons/crm/models/crm_lead.py:916
 #, python-format
 msgid ""
 "All email incoming to %s will automatically\n"
@@ -861,7 +870,7 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team_opportunities_amount
 msgid "Amount of quotations to invoice"
-msgstr ""
+msgstr "Suma ofertelor la factură"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_case_form_view_leads
@@ -903,14 +912,14 @@ msgstr "Arhivat"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.base_partner_merge_automatic_wizard_form
 msgid "Are you sure to execute the automatic merge of your contacts ?"
-msgstr "Sunteţi sigur că executaţi îmbinarea automată a contactelor?"
+msgstr "Sunteți sigur că executați îmbinarea automată a contactelor?"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.base_partner_merge_automatic_wizard_form
 msgid ""
 "Are you sure to execute the list of automatic merges of your contacts ?"
 msgstr ""
-"Sunteţi sigur că executaţi lista de îmbinări automate ale contactelor "
+"Sunteți sigur că executați lista de îmbinări automate ale contactelor "
 "dumneavoastră?"
 
 #. module: crm
@@ -1006,7 +1015,7 @@ msgstr "Salt"
 #: model:ir.ui.menu,name:crm.crm_menu_root
 #: model:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "CRM"
-msgstr "CRM (MRC-Managementul Relatiei cu Clientii)"
+msgstr "CRM"
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_activity_report
@@ -1091,11 +1100,11 @@ msgid ""
 "Classify and analyze your lead/opportunity categories like: Training, "
 "Service"
 msgstr ""
-"Clasifică şi analizează categoriile tale de piste/oportunități ca: "
+"Clasifică și analizează categoriile tale de piste/oportunități ca: "
 "instruire, servicii."
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/tour.js:18
 #, python-format
 msgid ""
@@ -1104,7 +1113,7 @@ msgid ""
 msgstr ""
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/tour.js:53
 #, python-format
 msgid "Click on an opportunity to zoom to it."
@@ -1147,7 +1156,7 @@ msgid "Close Date"
 msgstr "Data închidere"
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:29
 #, python-format
 msgid ""
@@ -1164,7 +1173,7 @@ msgstr "Dată închidere"
 #: code:addons/crm/wizard/crm_lead_to_opportunity.py:87
 #, python-format
 msgid "Closed/Dead leads cannot be converted into opportunities."
-msgstr "Pistele închise/moarte nu pot fi transformate în oportunităţi."
+msgstr "Pistele închise/moarte nu pot fi transformate în oportunități."
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_color
@@ -1203,7 +1212,7 @@ msgid "Configuration"
 msgstr "Configurare"
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/tour.js:70
 #, python-format
 msgid "Configuration options are available in the Settings app."
@@ -1271,7 +1280,7 @@ msgstr "Actiunea de conversie"
 #: model:ir.model.fields,field_description:crm.field_crm_opportunity_report_date_conversion
 #: model:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
 msgid "Conversion Date"
-msgstr ""
+msgstr "Dată conversie"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
@@ -1334,7 +1343,7 @@ msgstr "Creează"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_create_opportunity_simplified
 msgid "Create & Edit"
-msgstr ""
+msgstr "Creează și editează"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -1357,13 +1366,14 @@ msgid "Create Vendors"
 msgstr "Creează vânzători"
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:30
 #, python-format
 msgid "Create a Proof of Concept with consultants"
 msgstr ""
 
 #. module: crm
+#: selection:crm.lead.convert2task,action:0
 #: selection:crm.lead2opportunity.partner,action:0
 #: selection:crm.partner.binding,action:0
 msgid "Create a new customer"
@@ -1481,6 +1491,7 @@ msgstr "Linia curentă"
 #: code:addons/crm/models/crm_lead.py:1135
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner_mass_partner_id
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner_partner_id
+#: model:ir.model.fields,field_description:crm.field_crm_lead_convert2task_partner_id
 #: model:ir.model.fields,field_description:crm.field_crm_lead_partner_id
 #: model:ir.model.fields,field_description:crm.field_crm_partner_binding_partner_id
 #: model:ir.ui.view,arch_db:crm.crm_case_form_view_leads
@@ -1580,7 +1591,7 @@ msgid "Delete"
 msgstr "Șterge"
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:27
 #, python-format
 msgid "Demonstration"
@@ -1648,6 +1659,7 @@ msgid "Display your brochures, product sheets, showcases etc."
 msgstr ""
 
 #. module: crm
+#: selection:crm.lead.convert2task,action:0
 #: selection:crm.lead2opportunity.partner,action:0
 #: selection:crm.lead2opportunity.partner.mass,action:0
 #: selection:crm.partner.binding,action:0
@@ -1860,7 +1872,7 @@ msgid "Extra Info"
 msgstr "Informații suplimentare"
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:31
 #, python-format
 msgid "Final Proposal sent"
@@ -1895,8 +1907,8 @@ msgid ""
 "For safety reasons, you cannot merge more than 3 contacts together. You can "
 "re-open the wizard several times if needed."
 msgstr ""
-"Din motive de siguranţă, nu aveţi posibilitatea să îmbinaţi mai mult de 3 "
-"contacte împreună. Puteţi re-deschide expertul de mai multe ori dacă este "
+"Din motive de siguranță, nu aveți posibilitatea să îmbinați mai mult de 3 "
+"contacte împreună. Puteți re-deschide expertul de mai multe ori dacă este "
 "necesar."
 
 #. module: crm
@@ -1912,7 +1924,12 @@ msgid "Force assignation"
 msgstr "Forțează alocare"
 
 #. module: crm
-#: code:addons/crm/models/crm_lead.py:577
+#: model:ir.ui.view,arch_db:crm.res_config_settings_view_form
+msgid "Format phone numbers based on national conventions"
+msgstr ""
+
+#. module: crm
+#: code:addons/crm/models/crm_lead.py:588
 #, python-format
 msgid "From %s : %s"
 msgstr "De la %s : %s"
@@ -1920,7 +1937,7 @@ msgstr "De la %s : %s"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Future Activities"
-msgstr ""
+msgstr "Activități viitoare"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
@@ -1933,7 +1950,7 @@ msgid "Future Activities (All)"
 msgstr ""
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:30
 #, python-format
 msgid "GAP analysis with customer"
@@ -1974,7 +1991,7 @@ msgid "Go, go, go! Congrats for your first deal."
 msgstr ""
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/tour.js:79
 #, python-format
 msgid ""
@@ -2107,14 +2124,14 @@ msgid ""
 "users to filter the leads when performing mass mailing."
 msgstr ""
 "În cazul în care opt-out este verificat, acest contact a refuzat să "
-"primească e-mailuri de corespondenţă în masă şi campanii de marketing. "
+"primească e-mailuri de corespondență în masă și campanii de marketing. "
 "Filtru \"Disponibil pentru Mass Mailing\" permite utilizatorilor să filtreze"
-" pistele la efectuarea de discuţii în masă."
+" pistele la efectuarea de discuții în masă."
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead2opportunity_partner_mass_force_assignation
 msgid "If unchecked, this will leave the salesman of duplicated opportunities"
-msgstr "Dacă este debifat, va lasă vânzătorul să duplice oportunităţi"
+msgstr "Dacă este debifat, va lasă vânzătorul să duplice oportunități"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -2179,7 +2196,7 @@ msgid "Information"
 msgstr "Informații"
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:22
 #, python-format
 msgid "Initial Contact"
@@ -2283,7 +2300,7 @@ msgstr "Ultima actualizare pe"
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Late Activities"
-msgstr ""
+msgstr "Activități întârziate"
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:882
@@ -2459,7 +2476,7 @@ msgid "Look up company information (name, logo, etc.)"
 msgstr ""
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/models/crm_lead.py:1086
 #: code:addons/crm/static/src/js/web_planner_crm.js:33
 #: model:ir.ui.view,arch_db:crm.crm_case_form_view_oppor
@@ -2507,6 +2524,16 @@ msgid "Manually Assignation of Incoming Emails"
 msgstr ""
 
 #. module: crm
+#: model:ir.actions.server,name:crm.action_mark_activities_done
+msgid "Mark All Activities as Done"
+msgstr ""
+
+#. module: crm
+#: model:ir.actions.server,name:crm.action_mark_late_activities_done
+msgid "Mark Late Activities as Done"
+msgstr "Marchează activitățile întârziate ca Efectuate "
+
+#. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_case_form_view_oppor
 msgid "Mark Lost"
 msgstr "Marchează drept pierdut"
@@ -2550,7 +2577,7 @@ msgid "Meeting scheduled at '%s'<br> Subject: %s <br> Duration: %s hour(s)"
 msgstr "Întâlnire planificată la %s'<br> Subiect: %s <br> Durata: %s oră(e)"
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:24
 #, python-format
 msgid "Meeting with a demo. Set Fields: expected revenue, closing date"
@@ -2686,7 +2713,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:crm.crm_activity_report_view_search
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 msgid "My Activities"
-msgstr ""
+msgstr "Activitățile mele"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
@@ -2711,14 +2738,14 @@ msgid "Name"
 msgstr "Nume"
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:27
 #, python-format
 msgid "Needs assessment"
 msgstr ""
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:15
 #: code:addons/crm/static/src/js/web_planner_crm.js:33
 #, python-format
@@ -2726,7 +2753,7 @@ msgid "Negotiation"
 msgstr "Negociere"
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:22
 #: code:addons/crm/static/src/js/web_planner_crm.js:27
 #: code:addons/crm/static/src/js/web_planner_crm.js:33
@@ -2741,7 +2768,7 @@ msgid "New Opportunity"
 msgstr "Oportunitate nouă"
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:16
 #, python-format
 msgid "New propspect assigned to the right salesperson"
@@ -2761,7 +2788,7 @@ msgstr "Următoarea activitate este planificată"
 #. module: crm
 #: selection:crm.lead,kanban_state:0
 msgid "Next activity late"
-msgstr ""
+msgstr "Următoarea activitate întârziată"
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:1146
@@ -3042,14 +3069,14 @@ msgid "Owner"
 msgstr "Proprietar"
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:27
 #, python-format
 msgid "POC Sold"
 msgstr ""
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:31
 #, python-format
 msgid "POC demonstration to the customer"
@@ -3111,11 +3138,11 @@ msgstr "Telefon"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings_module_crm_phone_validation
-msgid "Phone Validation"
+msgid "Phone Formatting"
 msgstr ""
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:23
 #, python-format
 msgid "Phone call with following questions: ..."
@@ -3241,7 +3268,7 @@ msgid "Product"
 msgstr "Produs"
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:22
 #, python-format
 msgid "Product Demonstration"
@@ -3253,7 +3280,7 @@ msgid "Products"
 msgstr "Produse"
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:15
 #: code:addons/crm/static/src/js/web_planner_crm.js:22
 #: code:addons/crm/static/src/js/web_planner_crm.js:27
@@ -3263,7 +3290,7 @@ msgid "Proposal"
 msgstr "Propunere"
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:33
 #: model:crm.stage,name:crm.stage_lead3
 #, python-format
@@ -3276,7 +3303,7 @@ msgid "Qualification form (you can use the survey app for this)"
 msgstr ""
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:14
 #: code:addons/crm/static/src/js/web_planner_crm.js:27
 #: code:addons/crm/static/src/js/web_planner_crm.js:33
@@ -3286,28 +3313,28 @@ msgid "Qualified"
 msgstr "Calificat"
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:14
 #, python-format
 msgid "Qualified Sponsor"
 msgstr ""
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:25
 #, python-format
 msgid "Quotation sent"
 msgstr "Ofertă trimisă"
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:19
 #, python-format
 msgid "Quotation sent to customer"
 msgstr "Ofertă trimisă către client"
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:20
 #, python-format
 msgid "Quotation signed by the customer"
@@ -3319,7 +3346,7 @@ msgid "Read the documentation about pricing &amp; discounts"
 msgstr ""
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/tour.js:13
 #, python-format
 msgid ""
@@ -3397,13 +3424,13 @@ msgstr ""
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Sales Channel"
-msgstr ""
+msgstr "Canal de vânzare"
 
 #. module: crm
 #: model:ir.ui.menu,name:crm.crm_team_config
 #: model:ir.ui.menu,name:crm.sales_team_menu_report_crm
 msgid "Sales Channels"
-msgstr ""
+msgstr "Canale de vânzări"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -3450,7 +3477,7 @@ msgid ""
 msgstr ""
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/tour.js:40
 #, python-format
 msgid "Schedule an activity by clicking here"
@@ -3523,7 +3550,7 @@ msgid "Services"
 msgstr "Servicii"
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:17
 #: code:addons/crm/static/src/js/web_planner_crm.js:28
 #, python-format
@@ -3541,8 +3568,8 @@ msgid ""
 "Setting this stage will change the probability automatically on the "
 "opportunity."
 msgstr ""
-"Configuratea acestei etape va schimba automat probabilitatea in ceea ce "
-"priveste oportunitatea."
+"Configuratea acestei etape va schimba automat probabilitatea în ceea ce "
+"privește oportunitatea."
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -3587,12 +3614,13 @@ msgstr ""
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 msgid "Show all records which has next action date is before today"
 msgstr ""
+"Afișați toate înregistrările care au data următoarei acțiuni în trecut"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_activity_report_view_search
 #: model:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
 msgid "Show only lead"
-msgstr "Afiseaza doar pista"
+msgstr "Afișează doar pista"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_activity_report_view_search
@@ -3788,14 +3816,14 @@ msgid "Templates of quotations (use Odoo Online Proposals for this)"
 msgstr ""
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:14
 #, python-format
 msgid "Territory"
 msgstr ""
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:19
 #, python-format
 msgid "The customer came back to you to discuss your quotation"
@@ -3825,7 +3853,7 @@ msgstr ""
 #: model:ir.model.fields,help:crm.field_crm_team_alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.flectrahq.com>"
 msgstr ""
 
 #. module: crm
@@ -3908,7 +3936,7 @@ msgid ""
 "outbound emails for this record before being sent. Separate multiple email "
 "addresses with a comma"
 msgstr ""
-"Aceste adrese de email vor fi adaugate in campul CC al tuturor email-urilor "
+"Aceste adrese de email vor fi adaugate în campul CC al tuturor email-urilor "
 "primite si trimise pentru aceasta inregistrare inainte de a fi trimise. "
 "Despartiti adresele de mail multiple cu o virgula"
 
@@ -3933,7 +3961,7 @@ msgid "This is the default configuration, there is nothing to setup."
 msgstr "Aceasta este configurația implicită, nu este nimic de modificat."
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/tour.js:35
 #, python-format
 msgid ""
@@ -4057,6 +4085,12 @@ msgid "Unassigned Leads"
 msgstr ""
 
 #. module: crm
+#: code:addons/crm/models/crm_team.py:211
+#, python-format
+msgid "Undefined"
+msgstr "Nedefinit(ă)"
+
+#. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid ""
 "Unless you are starting a new business, you probably have a list of "
@@ -4133,14 +4167,14 @@ msgid ""
 msgstr ""
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/tour.js:83
 #, python-format
 msgid "Use the <b>implementation guide</b> to setup the CRM in your company."
 msgstr ""
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/tour.js:65
 #, python-format
 msgid "Use the breadcrumbs to <b>go back to your sales pipeline</b>."
@@ -4184,11 +4218,6 @@ msgstr "TVA"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "VIP letter to potential sponsors"
-msgstr ""
-
-#. module: crm
-#: model:ir.ui.view,arch_db:crm.res_config_settings_view_form
-msgid "Validate and normalize phone numbers."
 msgstr ""
 
 #. module: crm
@@ -4331,7 +4360,7 @@ msgid "Wizard"
 msgstr "Asistent"
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/models/crm_lead.py:1085
 #: code:addons/crm/static/src/js/web_planner_crm.js:15
 #: code:addons/crm/static/src/js/web_planner_crm.js:22
@@ -4364,7 +4393,7 @@ msgid "Yeah! Deal of the last 7 days for the team."
 msgstr ""
 
 #. module: crm
-#. flectra-web
+#. openerp-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:18
 #, python-format
 msgid ""
@@ -4391,7 +4420,7 @@ msgstr ""
 #: code:addons/crm/wizard/base_partner_merge.py:362
 #, python-format
 msgid "You have to specify a filter for your selection"
-msgstr "Trebuie să specificaţi un filtru pentru selecţie"
+msgstr "Trebuie să specificați un filtru pentru selecție"
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:385
@@ -4524,8 +4553,8 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_case_form_view_leads
 #: model:ir.ui.view,arch_db:crm.crm_case_form_view_oppor
-msgid "e.g. www.odoo.com"
-msgstr "e.g. www.odoo.com"
+msgid "e.g. www.flectrahq.com"
+msgstr "e.g. www.flectrahq.com"
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:912

@@ -3,7 +3,7 @@
 # * website_sale_stock
 # 
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux, 2017
 # Ediz Duman <neps1192@gmail.com>, 2017
 # Murat Kaplan <muratk@projetgrup.com>, 2017
 # Hüseyin Cem Aras <hcemaras@gmail.com>, 2017
@@ -92,7 +92,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_sale_stock.field_product_product_custom_message
 #: model:ir.model.fields,field_description:website_sale_stock.field_product_template_custom_message
 msgid "Custom Message"
-msgstr ""
+msgstr "Özel Mesaj"
 
 #. module: website_sale_stock
 #: model:ir.ui.view,arch_db:website_sale_stock.res_config_settings_view_form
@@ -112,7 +112,7 @@ msgid "Default threshold"
 msgstr ""
 
 #. module: website_sale_stock
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:16
 #, python-format
 msgid "In stock"
@@ -189,7 +189,7 @@ msgid ""
 msgstr ""
 
 #. module: website_sale_stock
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:22
 #, python-format
 msgid "Temporarily out of stock"
@@ -207,7 +207,7 @@ msgid "Website"
 msgstr "Websitesi"
 
 #. module: website_sale_stock
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:19
 #, python-format
 msgid "You already added"
@@ -220,14 +220,14 @@ msgid "You ask for %s products but only %s is available"
 msgstr ""
 
 #. module: website_sale_stock
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:20
 #, python-format
 msgid "all"
 msgstr "tüm"
 
 #. module: website_sale_stock
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:9
 #: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:14
 #, python-format
@@ -235,7 +235,7 @@ msgid "available"
 msgstr ""
 
 #. module: website_sale_stock
-#. flectra-web
+#. openerp-web
 #: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:20
 #, python-format
 msgid "in your cart."

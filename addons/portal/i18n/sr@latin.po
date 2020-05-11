@@ -3,18 +3,19 @@
 # * portal
 # 
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2017
-# Djordje Marjanovic <djordje_m@yahoo.com>, 2017
 # Nemanja Dragovic <nemanjadragovic94@gmail.com>, 2017
+# Djordje Marjanovic <djordje_m@yahoo.com>, 2017
+# Martin Trigaux, 2017
 # Ljubisa Jovev <ljubisa.jovev@gmail.com>, 2017
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-02 11:27+0000\n"
-"PO-Revision-Date: 2017-10-02 11:27+0000\n"
+"POT-Creation-Date: 2018-07-27 11:56+0000\n"
+"PO-Revision-Date: 2017-09-20 10:21+0000\n"
 "Last-Translator: Ljubisa Jovev <ljubisa.jovev@gmail.com>, 2017\n"
-"Language-Team: Serbian (Latin) (https://www.transifex.com/odoo/teams/41243/sr%40latin/)\n"
+"Language-Team: Serbian (Latin) (https://www.transifex.com/odoo/teams/41243/sr@latin/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -55,8 +56,24 @@ msgid "<b>Sign in</b>"
 msgstr ""
 
 #. module: portal
+#: model:ir.ui.view,arch_db:portal.frontend_layout
+msgid ""
+"<span class=\"sr-only\">Toggle navigation</span>\n"
+"                                    <span class=\"icon-bar\"/>\n"
+"                                    <span class=\"icon-bar\"/>\n"
+"                                    <span class=\"icon-bar\"/>"
+msgstr ""
+
+#. module: portal
 #: model:ir.ui.view,arch_db:portal.portal_searchbar
 msgid "<span id=\"search_label\">Search</span> <span class=\"caret\"/>"
+msgstr ""
+
+#. module: portal
+#. openerp-web
+#: code:addons/portal/static/src/xml/portal_signature.xml:24
+#, python-format
+msgid "Accept and Sign"
 msgstr ""
 
 #. module: portal
@@ -85,14 +102,14 @@ msgid "City"
 msgstr "Grad"
 
 #. module: portal
-#. flectra-web
+#. openerp-web
 #: code:addons/portal/static/src/xml/portal_signature.xml:12
 #, python-format
 msgid "Clear"
 msgstr "Očisti"
 
 #. module: portal
-#. flectra-web
+#. openerp-web
 #: code:addons/portal/static/src/xml/portal_signature.xml:27
 #, python-format
 msgid "Click here to see your document."
@@ -159,7 +176,7 @@ msgid "Display Name"
 msgstr "Naziv za prikaz"
 
 #. module: portal
-#. flectra-web
+#. openerp-web
 #: code:addons/portal/static/src/xml/portal_signature.xml:14
 #, python-format
 msgid "Draw your signature"
@@ -183,6 +200,11 @@ msgid "Group %s is not a portal"
 msgstr ""
 
 #. module: portal
+#: model:ir.model,name:portal.model_ir_http
+msgid "HTTP routing"
+msgstr ""
+
+#. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_mixin_id
 #: model:ir.model.fields,field_description:portal.field_portal_wizard_id
 #: model:ir.model.fields,field_description:portal.field_portal_wizard_user_id
@@ -195,7 +217,7 @@ msgid "In Portal"
 msgstr ""
 
 #. module: portal
-#: code:addons/portal/controllers/portal.py:180
+#: code:addons/portal/controllers/portal.py:200
 #, python-format
 msgid "Invalid Email! Please enter a valid email address."
 msgstr ""
@@ -225,7 +247,7 @@ msgid "Last Updated on"
 msgstr "Vreme promene"
 
 #. module: portal
-#. flectra-web
+#. openerp-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:20
 #, python-format
 msgid "Leave a comment"
@@ -257,7 +279,7 @@ msgid "Next"
 msgstr "Sledeće"
 
 #. module: portal
-#. flectra-web
+#. openerp-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:38
 #, python-format
 msgid "Oops! Something went wrong. Try to reload the page and log in."
@@ -300,8 +322,8 @@ msgid "Prev"
 msgstr ""
 
 #. module: portal
-#. flectra-web
-#: code:addons/portal/static/src/js/portal_chatter.js:101
+#. openerp-web
+#: code:addons/portal/static/src/js/portal_chatter.js:102
 #, python-format
 msgid "Published on %s"
 msgstr ""
@@ -315,7 +337,7 @@ msgid ""
 msgstr ""
 
 #. module: portal
-#. flectra-web
+#. openerp-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:41
 #, python-format
 msgid "Send"
@@ -340,7 +362,7 @@ msgid "Some contacts have the same email as an existing portal user:"
 msgstr ""
 
 #. module: portal
-#: code:addons/portal/controllers/portal.py:197
+#: code:addons/portal/controllers/portal.py:219
 #, python-format
 msgid "Some required fields are empty."
 msgstr ""
@@ -356,7 +378,7 @@ msgid "Street"
 msgstr "Ulica"
 
 #. module: portal
-#. flectra-web
+#. openerp-web
 #: code:addons/portal/static/src/xml/portal_signature.xml:25
 #, python-format
 msgid "Thank You !"
@@ -368,7 +390,7 @@ msgid "The portal that users can be added in or removed from."
 msgstr ""
 
 #. module: portal
-#. flectra-web
+#. openerp-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:11
 #, python-format
 msgid "There are no comments for now."
@@ -449,7 +471,6 @@ msgstr ""
 #: model:ir.model.fields,field_description:portal.field_product_product_website_message_ids
 #: model:ir.model.fields,field_description:portal.field_product_template_website_message_ids
 #: model:ir.model.fields,field_description:portal.field_project_project_website_message_ids
-#: model:ir.model.fields,field_description:portal.field_project_task_website_message_ids
 #: model:ir.model.fields,field_description:portal.field_purchase_order_website_message_ids
 #: model:ir.model.fields,field_description:portal.field_purchase_requisition_website_message_ids
 #: model:ir.model.fields,field_description:portal.field_res_partner_website_message_ids
@@ -511,7 +532,6 @@ msgstr "Website poruke"
 #: model:ir.model.fields,help:portal.field_product_product_website_message_ids
 #: model:ir.model.fields,help:portal.field_product_template_website_message_ids
 #: model:ir.model.fields,help:portal.field_project_project_website_message_ids
-#: model:ir.model.fields,help:portal.field_project_task_website_message_ids
 #: model:ir.model.fields,help:portal.field_purchase_order_website_message_ids
 #: model:ir.model.fields,help:portal.field_purchase_requisition_website_message_ids
 #: model:ir.model.fields,help:portal.field_res_partner_website_message_ids
@@ -533,14 +553,14 @@ msgid "Wizard"
 msgstr "Čarobnjak"
 
 #. module: portal
-#. flectra-web
+#. openerp-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:32
 #, python-format
 msgid "Write a message..."
 msgstr ""
 
 #. module: portal
-#. flectra-web
+#. openerp-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:21
 #, python-format
 msgid "You must be"
@@ -570,7 +590,7 @@ msgid "Your Documents"
 msgstr ""
 
 #. module: portal
-#. flectra-web
+#. openerp-web
 #: code:addons/portal/static/src/xml/portal_signature.xml:6
 #: model:ir.ui.view,arch_db:portal.portal_my_details
 #, python-format
@@ -588,28 +608,28 @@ msgid "Zip / Postal Code"
 msgstr ""
 
 #. module: portal
-#. flectra-web
+#. openerp-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:56
 #, python-format
 msgid "avatar"
 msgstr ""
 
 #. module: portal
-#. flectra-web
+#. openerp-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:8
 #, python-format
 msgid "comment"
 msgstr ""
 
 #. module: portal
-#. flectra-web
+#. openerp-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:9
 #, python-format
 msgid "comments"
 msgstr ""
 
 #. module: portal
-#. flectra-web
+#. openerp-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:21
 #, python-format
 msgid "logged in"
@@ -626,7 +646,7 @@ msgid "select..."
 msgstr ""
 
 #. module: portal
-#. flectra-web
+#. openerp-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:21
 #, python-format
 msgid "to post a comment."

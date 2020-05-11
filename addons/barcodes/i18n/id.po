@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Bonny Useful <bonny.useful@gmail.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux, 2017
 # Febrasari Almania <febrasari.almania@gmail.com>, 2017
 # William Surya Permana <zarambie_game@yahoo.com>, 2017
 # Wahyu Setiawan <wahyusetiaaa@gmail.com>, 2017
@@ -14,10 +14,10 @@
 # oon arfiandwi (OonID) <oon.arfiandwi@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-20 09:53+0000\n"
-"PO-Revision-Date: 2017-09-20 09:53+0000\n"
+"POT-Creation-Date: 2018-02-19 13:43+0000\n"
+"PO-Revision-Date: 2018-02-19 13:43+0000\n"
 "Last-Translator: oon arfiandwi (OonID) <oon.arfiandwi@gmail.com>, 2017\n"
 "Language-Team: Indonesian (https://www.transifex.com/odoo/teams/41243/id/)\n"
 "MIME-Version: 1.0\n"
@@ -155,7 +155,7 @@ msgid "Credit Card"
 msgstr "Kartu Kredit"
 
 #. module: barcodes
-#. flectra-web
+#. openerp-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:359
 #, python-format
 msgid "Discard"
@@ -194,25 +194,30 @@ msgid "Encoding"
 msgstr "Enkode"
 
 #. module: barcodes
-#. flectra-web
+#. openerp-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:301
 #, python-format
 msgid "Error : Barcode command is undefined"
 msgstr ""
 
 #. module: barcodes
-#. flectra-web
+#. openerp-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:63
 #, python-format
 msgid "Error : Document not editable"
 msgstr "Kesalahan: Dokumen tidak bisa diubah"
 
 #. module: barcodes
-#. flectra-web
+#. openerp-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:332
 #, python-format
 msgid "Error : No last scanned barcode"
 msgstr ""
+
+#. module: barcodes
+#: model:ir.model,name:barcodes.model_ir_http
+msgid "HTTP routing"
+msgstr "HTTP routing"
 
 #. module: barcodes
 #: model:ir.model.fields,field_description:barcodes.field_barcode_nomenclature_id
@@ -292,7 +297,7 @@ msgid "Rules"
 msgstr "Peraturan"
 
 #. module: barcodes
-#. flectra-web
+#. openerp-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:352
 #, python-format
 msgid "Select"
@@ -304,7 +309,7 @@ msgid "Sequence"
 msgstr "Urutan"
 
 #. module: barcodes
-#. flectra-web
+#. openerp-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:351
 #, python-format
 msgid "Set quantity"
@@ -348,14 +353,14 @@ msgstr ""
 "tertentu."
 
 #. module: barcodes
-#. flectra-web
+#. openerp-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:64
 #, python-format
 msgid "To modify this document, please first start edition."
 msgstr "Untuk mengubah dokumen ini, silahkan mulai edit dahulu"
 
 #. module: barcodes
-#. flectra-web
+#. openerp-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:333
 #, python-format
 msgid "To set the quantity please scan a barcode first."

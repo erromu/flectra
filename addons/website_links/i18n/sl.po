@@ -2,12 +2,22 @@
 # This file contains the translation of the following modules:
 # * website_links
 # 
+# Translators:
+# matjaz k <matjaz@mentis.si>, 2018
+# Martin Trigaux, 2018
+# Dejan Sraka <dejan.sraka@picolabs.si>, 2018
+# Matjaz Mozetic <m.mozetic@matmoz.si>, 2019
+# Boris Kodelja <boris@hbs.si>, 2019
+# Tadej Lupšina <tadej@hbs.si>, 2019
+# Jasmina Macur <jasmina@hbs.si>, 2019
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:54+0000\n"
-"PO-Revision-Date: 2017-09-20 09:54+0000\n"
+"PO-Revision-Date: 2017-09-20 10:27+0000\n"
+"Last-Translator: Jasmina Macur <jasmina@hbs.si>, 2019\n"
 "Language-Team: Slovenian (https://www.transifex.com/odoo/teams/41243/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,35 +26,35 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/js/website_links_charts.js:53
 #, python-format
 msgid " clicks"
-msgstr ""
+msgstr "klikov"
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/js/website_links_charts.js:104
 #, python-format
 msgid " countries"
 msgstr ""
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/js/website_links_charts.js:57
 #, python-format
 msgid "# of clicks"
-msgstr ""
+msgstr "# klikov"
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.share_page_menu
 msgid "<span title=\"Track this page to count clicks\">Track this Page</span>"
-msgstr ""
+msgstr "<span title=\"Track this page to count clicks\">Sledi tej strani</span>"
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.graphs
 msgid "<strong>Campaign</strong>"
-msgstr ""
+msgstr "<strong>Kampanija</strong>"
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.graphs
@@ -64,7 +74,7 @@ msgstr ""
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.graphs
 msgid "<strong>Source</strong>"
-msgstr ""
+msgstr "<strong>Vir:</strong>"
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.graphs
@@ -85,14 +95,14 @@ msgid ""
 msgstr ""
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/xml/recent_link.xml:37
 #, python-format
 msgid "Copy"
 msgstr ""
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/js/website_links.js:358
 #, python-format
 msgid "Generating link..."
@@ -106,18 +116,18 @@ msgstr ""
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.graphs
 msgid "Last Month"
-msgstr ""
+msgstr "Prejšnji mesec"
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.graphs
 msgid "Last Week"
-msgstr ""
+msgstr "Prejšnji teden"
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.create_shorten_url
 #: model:ir.ui.view,arch_db:website_links.graphs
 msgid "Link Tracker"
-msgstr ""
+msgstr "Sledilnik povezavam"
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.create_shorten_url
@@ -135,7 +145,7 @@ msgstr ""
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.create_shorten_url
 msgid "Newest"
-msgstr ""
+msgstr "Najnovejše"
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.create_shorten_url
@@ -148,6 +158,8 @@ msgid ""
 "Share this page with a <strong>short link</strong> that includes "
 "<strong>analytics trackers</strong>."
 msgstr ""
+"Souporabi to stran s <strong>kratko povezavo</strong> , ki vključuje "
+"<strong>analitične sledilnike</strong>."
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.create_shorten_url
@@ -160,17 +172,17 @@ msgstr ""
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.graphs
 msgid "Statistics"
-msgstr ""
+msgstr "Statistike"
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/xml/recent_link.xml:38
 #, python-format
 msgid "Stats"
-msgstr ""
+msgstr "Statistika"
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/js/website_links_charts.js:229
 #: code:addons/website_links/static/src/js/website_links_charts.js:230
 #: code:addons/website_links/static/src/js/website_links_charts.js:231
@@ -188,24 +200,24 @@ msgstr ""
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.create_shorten_url
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/js/website_links.js:225
 #, python-format
 msgid "Unable to get recent links"
 msgstr ""
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/js/website_links_charts.js:99
 #, python-format
 msgid "Undefined"
-msgstr ""
+msgstr "Nedoločeno"
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/js/website_links.js:248
 #, python-format
 msgid "You don't have any recent links."
@@ -217,19 +229,19 @@ msgid "Your tracked links"
 msgstr ""
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/xml/recent_link.xml:23
 #: model:ir.ui.view,arch_db:website_links.graphs
 #, python-format
 msgid "cancel"
-msgstr ""
+msgstr "preklic"
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/xml/recent_link.xml:8
 #, python-format
 msgid "clicks"
-msgstr ""
+msgstr "Klikov"
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.graphs
@@ -237,21 +249,21 @@ msgid "copy"
 msgstr ""
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/js/website_links.js:268
 #, python-format
 msgid "e.g. Newsletter, Social Network, .."
-msgstr ""
+msgstr "npr. Novice, družabno omrežje, .."
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/js/website_links.js:265
 #, python-format
 msgid "e.g. Promotion of June, Winter Newsletter, .."
 msgstr ""
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/js/website_links.js:271
 #, python-format
 msgid "e.g. Search Engine, Website page, .."
@@ -259,11 +271,11 @@ msgstr ""
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.create_shorten_url
-msgid "e.g. https://www.odoo.com/page/contactus"
-msgstr ""
+msgid "e.g. https://www.flectrahq.com/page/contactus"
+msgstr "npr. https://www.flectrahq.com/page/contactus"
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/xml/recent_link.xml:22
 #: model:ir.ui.view,arch_db:website_links.graphs
 #, python-format
@@ -271,9 +283,9 @@ msgid "ok"
 msgstr ""
 
 #. module: website_links
-#. flectra-web
+#. openerp-web
 #: code:addons/website_links/static/src/xml/recent_link.xml:22
 #: model:ir.ui.view,arch_db:website_links.graphs
 #, python-format
 msgid "or"
-msgstr ""
+msgstr "ali"
