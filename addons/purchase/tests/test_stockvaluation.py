@@ -558,7 +558,7 @@ class TestStockValuationWithCOA(AccountingTestCase):
         def _today(*args, **kwargs):
             return date_po
         patchers = [
-            patch('odoo.fields.Date.context_today', _today),
+            patch('flectra.fields.Date.context_today', _today),
         ]
 
         for p in patchers:
@@ -727,8 +727,8 @@ class TestStockValuationWithCOA(AccountingTestCase):
             return today + ' 01:00:00'
 
         patchers = [
-            patch('odoo.fields.Date.context_today', _today),
-            patch('odoo.fields.Datetime.now', _now),
+            patch('flectra.fields.Date.context_today', _today),
+            patch('flectra.fields.Datetime.now', _now),
         ]
 
         for p in patchers:
