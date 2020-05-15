@@ -460,7 +460,7 @@ msgid "Active"
 msgstr "Ativo"
 
 #. module: hr_recruitment
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_recruitment/static/src/js/tour.js:20
 #, python-format
 msgid ""
@@ -1242,7 +1242,7 @@ msgid "Late Activities"
 msgstr "Atividades Tardias"
 
 #. module: hr_recruitment
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_recruitment/static/src/js/tour.js:16
 #, python-format
 msgid ""
@@ -1844,7 +1844,7 @@ msgid "Today Activities"
 msgstr "Atividades do Dia"
 
 #. module: hr_recruitment
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_recruitment/static/src/js/tour.js:30
 #, python-format
 msgid ""
@@ -1884,7 +1884,7 @@ msgid ""
 msgstr ""
 
 #. module: hr_recruitment
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_recruitment/static/src/js/tour.js:25
 #, python-format
 msgid "Use the breadcrumbs to <b>go back to the dashboard</b>."
@@ -1901,7 +1901,7 @@ msgid "Very Good"
 msgstr "Muito bom"
 
 #. module: hr_recruitment
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_recruitment/static/src/js/tour.js:11
 #, python-format
 msgid "Want to <b>start recruiting</b> like a pro? <i>Start here.</i>"

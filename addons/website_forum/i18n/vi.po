@@ -74,7 +74,7 @@ msgid ""
 msgstr ""
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_forum.js:24
 #, python-format
 msgid ""
@@ -131,14 +131,14 @@ msgid "/ (days + 2) **"
 msgstr "/ (days + 2) **"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/xml/website_forum_share_templates.xml:29
 #, python-format
 msgid "45% of questions shared"
 msgstr "45% câu hỏi được chia sẻ"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/xml/website_forum_share_templates.xml:30
 #, python-format
 msgid ""
@@ -494,7 +494,7 @@ msgid "Add a Comment"
 msgstr "Thêm bình luận"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_forum.editor.js:43
 #, python-format
 msgid "Add page in menu"
@@ -645,7 +645,7 @@ msgid "Ask questions without validation"
 msgstr "Đặt câu hỏi không cần duyệt"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_tour_forum.js:29
 #, python-format
 msgid "Ask the question in this forum by clicking on the button."
@@ -754,7 +754,7 @@ msgid "Bumped on"
 msgstr "Đưa lên trên"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/xml/website_forum_share_templates.xml:34
 #, python-format
 msgid "By sharing you answer, you will get additional"
@@ -863,14 +863,14 @@ msgid "City"
 msgstr "Thành phố"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_tour_forum.js:24
 #, python-format
 msgid "Click <em>Continue</em> to create the forum."
 msgstr "Nhấn <em>Tiếp tục</em> để tạo diễn đàn."
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_tour_forum.js:71
 #, python-format
 msgid "Click here to accept this answer."
@@ -894,21 +894,21 @@ msgid "Click to get good question titles"
 msgstr "Chọn để thấy những tiêu đề câu hỏi tốt"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_tour_forum.js:64
 #, python-format
 msgid "Click to post your answer."
 msgstr "Bấm để đăng câu trả lời của bạn"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_tour_forum.js:51
 #, python-format
 msgid "Click to post your question."
 msgstr "Chọn để đăng câu hỏi"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/xml/website_forum_share_templates.xml:46
 #: selection:forum.post,state:0
 #: model:ir.ui.view,arch_db:website_forum.post_description_full
@@ -1264,7 +1264,7 @@ msgid "Enlightened"
 msgstr "Khai sáng"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_tour_forum.js:19
 #, python-format
 msgid "Enter a name for your new forum."
@@ -1469,7 +1469,7 @@ msgid "Gamification user badge"
 msgstr "Huy chương người dùng Gamification"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_tour_forum.js:33
 #, python-format
 msgid "Give your question title."
@@ -1633,7 +1633,7 @@ msgstr ""
 "            chúng."
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_tour_forum.js:43
 #, python-format
 msgid "Insert tags related to your question."
@@ -1806,7 +1806,7 @@ msgid "Most voted"
 msgstr "Được bình chọn nhiều nhất"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/xml/website_forum_share_templates.xml:48
 #, python-format
 msgid ""
@@ -1838,7 +1838,7 @@ msgid "New Discussion"
 msgstr "Cuộc thảo luận mới"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_forum.editor.js:32
 #: model:ir.ui.view,arch_db:website_forum.content_new_forum
 #, python-format
@@ -1954,7 +1954,7 @@ msgid "On"
 msgstr "Mở"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/xml/website_forum_share_templates.xml:29
 #, python-format
 msgid "On average,"
@@ -2128,14 +2128,14 @@ msgid "Pundit"
 msgstr "Pundit"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_tour_forum.js:58
 #, python-format
 msgid "Put your answer here."
 msgstr "Nhập câu trả lời của bạn vào đây"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_tour_forum.js:37
 #, python-format
 msgid "Put your question here."
@@ -2363,7 +2363,7 @@ msgid "Seen:"
 msgstr "Đã xem bởi: "
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_tour_forum.js:15
 #, python-format
 msgid "Select this menu item to create a new forum."
@@ -2403,7 +2403,7 @@ msgstr ""
 "             trong trang chủ."
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/xml/website_forum_share_templates.xml:39
 #, python-format
 msgid ""
@@ -2424,28 +2424,28 @@ msgid "Silver badges count"
 msgstr "Số lượng huy hiệu bạc"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_forum.js:26
 #, python-format
 msgid "Sorry you must be logged in to perform this action"
 msgstr "Xin lỗi bạn phải đăng nhập để thực hiện chức năng này"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_forum.js:101
 #, python-format
 msgid "Sorry you must be logged to flag a post"
 msgstr "Xin lỗi bạn phải đăng nhập để gắn cờ một bài đăng"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_forum.js:150
 #, python-format
 msgid "Sorry you must be logged to vote"
 msgstr "Xin lỗi bạn phải đăng nhập để bình chọn"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_forum.js:200
 #, python-format
 msgid "Sorry, anonymous users cannot choose correct answer."
@@ -2457,7 +2457,7 @@ msgid "Sorry, this question is not available anymore."
 msgstr "Xin lỗi, câu trả lời này không còn nữa."
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_forum.js:145
 #, python-format
 msgid "Sorry, you cannot vote for your own posts"
@@ -2559,7 +2559,7 @@ msgstr ""
 "quyết."
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/xml/website_forum_share_templates.xml:9
 #, python-format
 msgid "Thanks for posting!"
@@ -2649,14 +2649,14 @@ msgid "This forum does not allow %s"
 msgstr "Diễn đàn này không cho phép %s"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_forum.js:111
 #, python-format
 msgid "This post can not be flagged"
 msgstr "Không thể gắn cờ bài đăng này"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_forum.js:106
 #, python-format
 msgid "This post is already flagged"
@@ -3156,7 +3156,7 @@ msgid "has been posted. Click here to access the question :"
 msgstr "đã được đăng. Nhấn vào đây để truy cập câu hỏi :"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/xml/website_forum_share_templates.xml:36
 #, python-format
 msgid "here"
@@ -3180,7 +3180,7 @@ msgid "how to install Odoo on a specific infrastructure,"
 msgstr "Làm sao để cài đặt Odoo trên một cơ sở hạ tầng cụ thể,"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/xml/website_forum_share_templates.xml:34
 #, python-format
 msgid ""
@@ -3218,7 +3218,7 @@ msgid "karma"
 msgstr "karma"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/xml/website_forum_share_templates.xml:34
 #, python-format
 msgid "karma points"
@@ -3263,7 +3263,7 @@ msgid "on"
 msgstr "trên"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/xml/website_forum_share_templates.xml:29
 #, python-format
 msgid ""

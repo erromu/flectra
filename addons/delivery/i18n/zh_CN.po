@@ -342,7 +342,7 @@ msgid "Debug logging"
 msgstr "调试记录"
 
 #. module: delivery
-#. openerp-web
+#. flectra-web
 #: code:addons/delivery/static/src/js/delivery_translations.js:13
 #, python-format
 msgid "Debug requests"
@@ -432,7 +432,7 @@ msgid "Determine the display order"
 msgstr "决定显示顺序"
 
 #. module: delivery
-#. openerp-web
+#. flectra-web
 #: code:addons/delivery/static/src/js/delivery_translations.js:14
 #, python-format
 msgid "Disable debug"
@@ -461,7 +461,7 @@ msgstr ""
 "UPS快运, UPS 标准)并且每种方式都有相应的一套定价规则。"
 
 #. module: delivery
-#. openerp-web
+#. flectra-web
 #: code:addons/delivery/static/src/js/delivery_translations.js:16
 #, python-format
 msgid "Enable debug"
@@ -692,7 +692,7 @@ msgid "No carrier set for this order."
 msgstr "此订单没有设置承运商。"
 
 #. module: delivery
-#. openerp-web
+#. flectra-web
 #: code:addons/delivery/static/src/js/delivery_translations.js:15
 #, python-format
 msgid "No debug"
@@ -799,7 +799,7 @@ msgid "Product Template"
 msgstr "产品模板"
 
 #. module: delivery
-#. openerp-web
+#. flectra-web
 #: code:addons/delivery/static/src/js/delivery_translations.js:9
 #, python-format
 msgid "Production Environment"
@@ -917,21 +917,21 @@ msgid "Stock Move"
 msgstr "库存移动"
 
 #. module: delivery
-#. openerp-web
+#. flectra-web
 #: code:addons/delivery/static/src/js/delivery_translations.js:12
 #, python-format
 msgid "Switch to production environment"
 msgstr "切换到生产环境"
 
 #. module: delivery
-#. openerp-web
+#. flectra-web
 #: code:addons/delivery/static/src/js/delivery_translations.js:10
 #, python-format
 msgid "Switch to test environment"
 msgstr "切换到测试环境"
 
 #. module: delivery
-#. openerp-web
+#. flectra-web
 #: code:addons/delivery/static/src/js/delivery_translations.js:11
 #, python-format
 msgid "Test Environment"

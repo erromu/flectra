@@ -128,7 +128,7 @@ msgid "Please set the Twitter API Key and Secret in the Website Settings."
 msgstr "웹 사이트 설정에서 트위터 API 키와 비밀을 설정하십시오."
 
 #. module: website_twitter
-#. openerp-web
+#. flectra-web
 #: code:addons/website_twitter/static/src/xml/website.twitter.xml:35
 #, python-format
 msgid "Reload"
@@ -248,7 +248,7 @@ msgid "Twitter API secret you can get it from https://apps.twitter.com/"
 msgstr "트위터 API 암호는 https://apps.twitter.com/ 에서 얻을 수 있습니다."
 
 #. module: website_twitter
-#. openerp-web
+#. flectra-web
 #: code:addons/website_twitter/static/src/xml/website.twitter.xml:41
 #, python-format
 msgid "Twitter Configuration"

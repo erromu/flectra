@@ -93,21 +93,21 @@ msgstr ""
 "nó. Bạn có muốn tiếp tục?"
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:53
 #, python-format
 msgid "<b>Click on Save</b> to record your changes."
 msgstr "<b>Bấm nút Lưu</b> để ghi nhận thay đổi của bạn."
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:69
 #, python-format
 msgid "<b>Publish your blog post</b> to make it visible to your visitors."
 msgstr "<b>Xuất bản bài blog của bạn</b> để độc giả có thể thấy được."
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:73
 #, python-format
 msgid ""
@@ -118,7 +118,7 @@ msgstr ""
 "năng thông qua trình đơn <i>Tuỳ chỉnh</i>."
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:44
 #, python-format
 msgid ""
@@ -312,7 +312,7 @@ msgstr ""
 "dàng."
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:29
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 #, python-format
@@ -320,14 +320,14 @@ msgid "Change Cover"
 msgstr "Đổi Cover"
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:35
 #, python-format
 msgid "Choose an image from the library."
 msgstr "Chọn một hình từ thư viện."
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:30
 #, python-format
 msgid "Click here to change your post cover."
@@ -341,7 +341,7 @@ msgstr ""
 "Bấm vào \"Mới\" ở góc phải phía bên trên để viết bài blog đầu tiên của bạn."
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:40
 #, python-format
 msgid "Click on <b>Save</b> to set the picture as cover."
@@ -614,7 +614,7 @@ msgid "Narrow"
 msgstr "Hẹp"
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website_blog.editor.js:37
 #: model:ir.ui.view,arch_db:website_blog.content_new_blogpost
 #, python-format
@@ -670,7 +670,7 @@ msgid "Odoo, email"
 msgstr ""
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:63
 #, python-format
 msgid "Once you have reviewed the content on mobile, close the preview."
@@ -773,14 +773,14 @@ msgid "Red"
 msgstr "Đỏ"
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:15
 #, python-format
 msgid "Select this menu item to create a new blog post."
 msgstr "Chọn trình đơn này để tạo một bài blog mới"
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:26
 #, python-format
 msgid "Set a blog post <b>cover</b>."
@@ -803,7 +803,7 @@ msgstr ""
 " required."
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/models/website_blog.py:123
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:52
 #, python-format
@@ -935,7 +935,7 @@ msgid "Untitled Post"
 msgstr "Bài không tiêu đề"
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:58
 #, python-format
 msgid "Use this icon to preview your blog post on <b>mobile devices</b>."
@@ -994,7 +994,7 @@ msgstr ""
 "            của bạn qua các <b>bài blog</b>, được dẫn chiếu trong kết quả tìm kiếm của Google."
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:20
 #, python-format
 msgid "Write a title, the subtitle is optional."

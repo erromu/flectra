@@ -38,14 +38,14 @@ msgstr ""
 "ефект спливаючих вікон для новин. Натисніть"
 
 #. module: website_mass_mailing
-#. openerp-web
+#. flectra-web
 #: code:addons/website_mass_mailing/static/src/js/website_mass_mailing.editor.js:15
 #, python-format
 msgid "Add a Newsletter Subscribe Button"
 msgstr "Додати кнопку підписки на інформаційний бюлетень"
 
 #. module: website_mass_mailing
-#. openerp-web
+#. flectra-web
 #: code:addons/website_mass_mailing/static/src/js/website_mass_mailing.editor.js:53
 #, python-format
 msgid "Add a Newsletter Subscribe Popup"
@@ -90,7 +90,7 @@ msgid "Mailing Subscriptions"
 msgstr "Розсилки підписок"
 
 #. module: website_mass_mailing
-#. openerp-web
+#. flectra-web
 #: code:addons/website_mass_mailing/static/src/js/website_mass_mailing.editor.js:21
 #, python-format
 msgid "Newsletter"
@@ -130,7 +130,7 @@ msgstr ""
 " приєднатися до списку розсилки."
 
 #. module: website_mass_mailing
-#. openerp-web
+#. flectra-web
 #: code:addons/website_mass_mailing/static/src/js/website_mass_mailing.editor.js:83
 #, python-format
 msgid "Type Here ..."
@@ -172,14 +172,14 @@ msgid "You have been successfully <strong>unsubscribed</strong>!"
 msgstr "Ви успішно відмовилися від<strong>підписки</strong>!"
 
 #. module: website_mass_mailing
-#. openerp-web
+#. flectra-web
 #: code:addons/website_mass_mailing/static/src/js/website_mass_mailing.js:168
 #, python-format
 msgid "Your changes have been saved."
 msgstr "Ваші зміни були збережені."
 
 #. module: website_mass_mailing
-#. openerp-web
+#. flectra-web
 #: code:addons/website_mass_mailing/static/src/js/website_mass_mailing.js:171
 #, python-format
 msgid "Your changes have not been saved, try again later."

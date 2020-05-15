@@ -202,28 +202,28 @@ msgstr ""
 " 選單：註冊、日程表、地圖..."
 
 #. module: website_event
-#. openerp-web
+#. flectra-web
 #: code:addons/website_event/static/src/js/website.tour.event.js:24
 #, python-format
 msgid "Click <em>Continue</em> to create the event."
 msgstr "點選 <em>繼續</em> 創建活動。"
 
 #. module: website_event
-#. openerp-web
+#. flectra-web
 #: code:addons/website_event/static/src/js/website.tour.event.js:15
 #, python-format
 msgid "Click here to create a new event."
 msgstr "點選此處添加一個新的事件。"
 
 #. module: website_event
-#. openerp-web
+#. flectra-web
 #: code:addons/website_event/static/src/js/website.tour.event.js:43
 #, python-format
 msgid "Click here to customize your event further."
 msgstr "點選這裡以進一步定制您的事件。"
 
 #. module: website_event
-#. openerp-web
+#. flectra-web
 #: code:addons/website_event/static/src/js/website.tour.event.js:38
 #, python-format
 msgid "Click to publish your event."
@@ -235,7 +235,7 @@ msgid "Continue"
 msgstr "繼續"
 
 #. module: website_event
-#. openerp-web
+#. flectra-web
 #: code:addons/website_event/static/src/js/website.tour.event.js:19
 #, python-format
 msgid ""
@@ -261,7 +261,7 @@ msgid "Display a dedicated menu on Website"
 msgstr "在網站上顯示專用選單"
 
 #. module: website_event
-#. openerp-web
+#. flectra-web
 #: code:addons/website_event/static/src/js/website.tour.event.js:28
 #, python-format
 msgid "Drag this block and drop it in your page."
@@ -394,7 +394,7 @@ msgid "Name"
 msgstr "名稱"
 
 #. module: website_event
-#. openerp-web
+#. flectra-web
 #: code:addons/website_event/controllers/main.py:183
 #: code:addons/website_event/static/src/js/website_event.editor.js:29
 #: model:ir.ui.view,arch_db:website_event.content_new_event
@@ -432,7 +432,7 @@ msgid "Old Events"
 msgstr "歷史活動"
 
 #. module: website_event
-#. openerp-web
+#. flectra-web
 #: code:addons/website_event/static/src/js/website.tour.event.js:33
 #, python-format
 msgid "Once you click on save, your event is updated."

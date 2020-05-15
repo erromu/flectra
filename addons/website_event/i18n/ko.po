@@ -196,28 +196,28 @@ msgstr ""
 "                                   표시하려면 이 옵션을 선택합니다."
 
 #. module: website_event
-#. openerp-web
+#. flectra-web
 #: code:addons/website_event/static/src/js/website.tour.event.js:24
 #, python-format
 msgid "Click <em>Continue</em> to create the event."
 msgstr "일정을 작성하려면 <em>계속</em>을 클릭하십시오."
 
 #. module: website_event
-#. openerp-web
+#. flectra-web
 #: code:addons/website_event/static/src/js/website.tour.event.js:15
 #, python-format
 msgid "Click here to create a new event."
 msgstr "새로운 일정을 작성하려면 여기를 클릭하십시오."
 
 #. module: website_event
-#. openerp-web
+#. flectra-web
 #: code:addons/website_event/static/src/js/website.tour.event.js:43
 #, python-format
 msgid "Click here to customize your event further."
 msgstr "추가 일정을 사용자 지정하려면 여기를 클릭하십시오."
 
 #. module: website_event
-#. openerp-web
+#. flectra-web
 #: code:addons/website_event/static/src/js/website.tour.event.js:38
 #, python-format
 msgid "Click to publish your event."
@@ -229,7 +229,7 @@ msgid "Continue"
 msgstr "계속"
 
 #. module: website_event
-#. openerp-web
+#. flectra-web
 #: code:addons/website_event/static/src/js/website.tour.event.js:19
 #, python-format
 msgid ""
@@ -255,7 +255,7 @@ msgid "Display a dedicated menu on Website"
 msgstr "웹 사이트에 전용 메뉴 표시"
 
 #. module: website_event
-#. openerp-web
+#. flectra-web
 #: code:addons/website_event/static/src/js/website.tour.event.js:28
 #, python-format
 msgid "Drag this block and drop it in your page."
@@ -388,7 +388,7 @@ msgid "Name"
 msgstr "이름"
 
 #. module: website_event
-#. openerp-web
+#. flectra-web
 #: code:addons/website_event/controllers/main.py:183
 #: code:addons/website_event/static/src/js/website_event.editor.js:29
 #: model:ir.ui.view,arch_db:website_event.content_new_event
@@ -426,7 +426,7 @@ msgid "Old Events"
 msgstr "오래된 일정"
 
 #. module: website_event
-#. openerp-web
+#. flectra-web
 #: code:addons/website_event/static/src/js/website.tour.event.js:33
 #, python-format
 msgid "Once you click on save, your event is updated."

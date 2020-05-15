@@ -355,7 +355,7 @@ msgid "Debug logging"
 msgstr "Registro de depuración"
 
 #. module: delivery
-#. openerp-web
+#. flectra-web
 #: code:addons/delivery/static/src/js/delivery_translations.js:13
 #, python-format
 msgid "Debug requests"
@@ -445,7 +445,7 @@ msgid "Determine the display order"
 msgstr "Determinar el orden de visualización"
 
 #. module: delivery
-#. openerp-web
+#. flectra-web
 #: code:addons/delivery/static/src/js/delivery_translations.js:14
 #, python-format
 msgid "Disable debug"
@@ -475,7 +475,7 @@ msgstr ""
 "precio adjunto a cada método."
 
 #. module: delivery
-#. openerp-web
+#. flectra-web
 #: code:addons/delivery/static/src/js/delivery_translations.js:16
 #, python-format
 msgid "Enable debug"
@@ -711,7 +711,7 @@ msgid "No carrier set for this order."
 msgstr "No hay transportista establecido para esta orden."
 
 #. module: delivery
-#. openerp-web
+#. flectra-web
 #: code:addons/delivery/static/src/js/delivery_translations.js:15
 #, python-format
 msgid "No debug"
@@ -822,7 +822,7 @@ msgid "Product Template"
 msgstr "Plantilla de producto"
 
 #. module: delivery
-#. openerp-web
+#. flectra-web
 #: code:addons/delivery/static/src/js/delivery_translations.js:9
 #, python-format
 msgid "Production Environment"
@@ -945,21 +945,21 @@ msgid "Stock Move"
 msgstr "Movimiento de stock"
 
 #. module: delivery
-#. openerp-web
+#. flectra-web
 #: code:addons/delivery/static/src/js/delivery_translations.js:12
 #, python-format
 msgid "Switch to production environment"
 msgstr "Cambiar a entorno de producción"
 
 #. module: delivery
-#. openerp-web
+#. flectra-web
 #: code:addons/delivery/static/src/js/delivery_translations.js:10
 #, python-format
 msgid "Switch to test environment"
 msgstr "Cambiar a entorno de pruebas"
 
 #. module: delivery
-#. openerp-web
+#. flectra-web
 #: code:addons/delivery/static/src/js/delivery_translations.js:11
 #, python-format
 msgid "Test Environment"

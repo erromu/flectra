@@ -72,7 +72,7 @@ msgstr ""
 " ved indkomne kvitteringer</i>"
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:48
 #, python-format
 msgid ""
@@ -81,14 +81,14 @@ msgid ""
 msgstr ""
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:21
 #, python-format
 msgid "<p>Click here to create your first expense and add it under here.</p>"
 msgstr ""
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:44
 #, python-format
 msgid ""
@@ -97,21 +97,21 @@ msgid ""
 msgstr ""
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:31
 #, python-format
 msgid "<p>Once your Expense is ready, you can save it.</p>"
 msgstr "<p>Når din udgift er klar, kan du gemme den.</p>"
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:39
 #, python-format
 msgid "<p>Select expenses to submit them to your manager</p>"
 msgstr "<p>Vælg udgifter for at sende dem til din manager</p>"
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:52
 #, python-format
 msgid ""
@@ -360,7 +360,7 @@ msgid "Ask your expert accountant what tax must be claimed to your customer"
 msgstr ""
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:35
 #, python-format
 msgid "Attach your receipt here."
@@ -891,7 +891,7 @@ msgid "General Information"
 msgstr "Generelle oplysninger"
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:16
 #, python-format
 msgid "Go to the expense to attach a receipt."
@@ -1028,7 +1028,7 @@ msgid "Manager"
 msgstr "Leder"
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:60
 #, python-format
 msgid "Managers can get all reports to approve from this menu."
@@ -1565,7 +1565,7 @@ msgstr ""
 "journal kun har en tilgængelig, som er 'manuel'"
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:56
 #, python-format
 msgid ""
@@ -1738,7 +1738,7 @@ msgid "When you charge"
 msgstr ""
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:26
 #, python-format
 msgid "Write the name of the product, or select an existing one."

@@ -94,14 +94,14 @@ msgid "$ 8.50"
 msgstr "$ 8.50"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1474
 #, python-format
 msgid "% discount"
 msgstr "% discount"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1603
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1643
 #, python-format
@@ -142,7 +142,7 @@ msgstr ""
 "incluidos"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/tour.js:18
 #, python-format
 msgid ""
@@ -289,14 +289,14 @@ msgid "= Theoretical Closing Balance"
 msgstr "= Saldo teórico de cierre"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:2012
 #, python-format
 msgid "? Clicking \"Confirm\" will validate the payment."
 msgstr "? Dando click en \"Confirmar\" validará el pago."
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:1260
 #, python-format
 msgid "A Customer Name Is Required"
@@ -364,7 +364,7 @@ msgstr ""
 "impreso."
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1642
 #, python-format
 msgid "ABC"
@@ -413,7 +413,7 @@ msgid "Active"
 msgstr "Activo"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:1862
 #, python-format
 msgid "Add Tip"
@@ -430,7 +430,7 @@ msgid "Add a custom message to header and footer"
 msgstr "Añadir un mensaje personalizado en el encabezado y pie de página"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:414
 #: code:addons/point_of_sale/static/src/xml/pos.xml:511
 #, python-format
@@ -500,7 +500,7 @@ msgid "Amount total"
 msgstr "Importe total"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/models.js:1244
 #, python-format
 msgid ""
@@ -528,7 +528,7 @@ msgid "Apply Discount"
 msgstr "Aplicar descuento"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:2004
 #, python-format
 msgid "Are you sure that the customer wants to  pay"
@@ -594,7 +594,7 @@ msgid "Average Price"
 msgstr "Precio medio"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:296
 #: code:addons/point_of_sale/static/src/xml/pos.xml:646
 #, python-format
@@ -613,7 +613,7 @@ msgid "Bank Statement Line"
 msgstr "Línea de extracto bancario"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:380
 #: code:addons/point_of_sale/static/src/xml/pos.xml:443
 #, python-format
@@ -627,7 +627,7 @@ msgid "Barcode Nomenclature"
 msgstr "Nomenclatura de código de barras"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1342
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_barcode_scanner
 #: model:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
@@ -658,7 +658,7 @@ msgid "Boni Oranges"
 msgstr "Naranajas Boni"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:949
 #, python-format
 msgid "Button"
@@ -672,14 +672,14 @@ msgstr ""
 "del hardware."
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:847
 #, python-format
 msgid "CHANGE"
 msgstr "CAMBIO"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:479
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1062
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1079
@@ -701,7 +701,7 @@ msgid "Cancelled"
 msgstr "Cancelado"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:1993
 #, python-format
 msgid "Cannot return change without a cash payment method"
@@ -777,35 +777,35 @@ msgid "Category Pictures"
 msgstr "Imágenes de la categoría"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:552
 #, python-format
 msgid "Change"
 msgstr "Cambiar"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/chrome.js:104
 #, python-format
 msgid "Change Cashier"
 msgstr "Cambiar Cajero"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:1205
 #, python-format
 msgid "Change Customer"
 msgstr "Cambiar Cliente"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:1862
 #, python-format
 msgid "Change Tip"
 msgstr "Cambiar Propina"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:708
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1532
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1693
@@ -861,7 +861,7 @@ msgstr ""
 "sesión."
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:2053
 #, python-format
 msgid "Check your internet connection and try again."
@@ -892,7 +892,7 @@ msgid "Choose among several tax regimes when processing an order"
 msgstr "Escoja entre varios regímenes fiscales al hacer un pedido"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:351
 #: code:addons/point_of_sale/static/src/xml/pos.xml:352
 #, python-format
@@ -930,14 +930,14 @@ msgid "Click to start a new session."
 msgstr "Haga clic aquí para empezar una nueva sesión."
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/chrome.js:462
 #, python-format
 msgid "Client Screen Unsupported. Please upgrade the PosBox"
 msgstr "Pantalla de cliente no admitida. Actualice el PosBox"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/chrome.js:825
 #: code:addons/point_of_sale/static/src/js/chrome.js:833
 #: model:ir.ui.view,arch_db:point_of_sale.view_pos_config_kanban
@@ -951,7 +951,7 @@ msgid "Closed & Posted"
 msgstr "Cerrado y publicado"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/gui.js:346
 #, python-format
 msgid "Closing ..."
@@ -1003,7 +1003,7 @@ msgstr ""
 "una interfaz de TPV."
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/chrome.js:830
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1059
 #, python-format
@@ -1011,14 +1011,14 @@ msgid "Confirm"
 msgstr "Confirmar"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/chrome.js:455
 #, python-format
 msgid "Connected, Not Owned"
 msgstr "Conectado, pero no le pertenece"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/models.js:120
 #, python-format
 msgid "Connecting to the PosBox"
@@ -1040,14 +1040,14 @@ msgid "Control cash box at opening and closing"
 msgstr "Controlar la caja en la apertura y el cierre"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:1363
 #, python-format
 msgid "Could Not Read Image"
 msgstr "No se pudo leer la imagen"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:359
 #, python-format
 msgid "Country"
@@ -1102,7 +1102,7 @@ msgid "Current Session State"
 msgstr "Estado de la sesión actual"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:1873
 #: code:addons/point_of_sale/static/src/xml/pos.xml:145
 #: code:addons/point_of_sale/static/src/xml/pos.xml:676
@@ -1152,7 +1152,7 @@ msgid "Date Order"
 msgstr "Fecha de pedido"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1332
 #, python-format
 msgid "Debug Window"
@@ -1204,42 +1204,42 @@ msgid "Delay Validation"
 msgstr "Retraso validación"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1352
 #, python-format
 msgid "Delete Paid Orders"
 msgstr "Borrar Órdenes Pagadas"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/chrome.js:263
 #, python-format
 msgid "Delete Paid Orders ?"
 msgstr "¿Borrar Órdenes Pagadas?"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1353
 #, python-format
 msgid "Delete Unpaid Orders"
 msgstr "Borrar órdenes sin pagar"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/chrome.js:273
 #, python-format
 msgid "Delete Unpaid Orders ?"
 msgstr "¿Borrar órdenes sin pagar?"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:1208
 #, python-format
 msgid "Deselect Customer"
 msgstr "Deseleccionar cliente"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/chrome.js:55
 #, python-format
 msgid "Destroy Current Order ?"
@@ -1258,7 +1258,7 @@ msgid ""
 msgstr "Diferencia entre el saldo de cierre teórico y el saldo de cierre real"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:168
 #, python-format
 msgid "Disc"
@@ -1270,7 +1270,7 @@ msgid "Disc:"
 msgstr "Desc:"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/chrome.js:460
 #, python-format
 msgid "Disconnected"
@@ -1288,7 +1288,7 @@ msgid "Discount Notice"
 msgstr "Nota de descuento"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:790
 #: code:addons/point_of_sale/static/src/xml/pos.xml:929
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1504
@@ -1297,7 +1297,7 @@ msgid "Discount:"
 msgstr "Descuento:"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:856
 #, python-format
 msgid "Discounts"
@@ -1372,21 +1372,21 @@ msgstr ""
 " Estos dispositivos ya cuentan con un teclado nativo."
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1355
 #, python-format
 msgid "Download Paid Orders"
 msgstr "Descargar Órdenes Pagadas"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1357
 #, python-format
 msgid "Download Unpaid Orders"
 msgstr "Descargar Órdenes No Pagadas"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:550
 #, python-format
 msgid "Due"
@@ -1411,7 +1411,7 @@ msgid "Ekomurz.nl"
 msgstr "Ekomurz.nl"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1335
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_iface_electronic_scale
 #: model:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
@@ -1420,7 +1420,7 @@ msgid "Electronic Scale"
 msgstr "Balanza electrónica"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:372
 #: code:addons/point_of_sale/static/src/xml/pos.xml:423
 #, python-format
@@ -1428,14 +1428,14 @@ msgid "Email"
 msgstr "Correo electrónico"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:1975
 #, python-format
 msgid "Empty Order"
 msgstr "Pedido vacío"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:449
 #, python-format
 msgid "Empty Serial/Lot Number"
@@ -1485,14 +1485,14 @@ msgid "Error ! You cannot create recursive categories."
 msgstr "¡Error! No puedes crear categorías recursivas."
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:1292
 #, python-format
 msgid "Error: Could not Save Changes"
 msgstr "Error: no se pueden guardar los cambios"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/models.js:243
 #, python-format
 msgid ""
@@ -1507,14 +1507,14 @@ msgstr ""
 "equivocada."
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1354
 #, python-format
 msgid "Export Paid Orders"
 msgstr "Exportar órdenes pagadas"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1356
 #, python-format
 msgid "Export Unpaid Orders"
@@ -1538,7 +1538,7 @@ msgid "Fanta"
 msgstr "Fanta"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1211
 #, python-format
 msgid "Finished Importing Orders"
@@ -1657,7 +1657,7 @@ msgid "Group Journal Items"
 msgstr "Agrupar apuntes"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/models.js:135
 #, python-format
 msgid "HTTPS connection to IoT Box failed"
@@ -1670,14 +1670,14 @@ msgid "Group Products in POS"
 msgstr "Agrupar los productos en el TPV"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1369
 #, python-format
 msgid "Hardware Events"
 msgstr "Eventos de hardware"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1364
 #, python-format
 msgid "Hardware Status"
@@ -1716,7 +1716,7 @@ msgid "ID"
 msgstr "ID"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/popups.js:115
 #, python-format
 msgid "IMPORTANT: Bug Report From Odoo Point Of Sale"
@@ -1756,7 +1756,7 @@ msgid "Image"
 msgstr "Imagen"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1358
 #, python-format
 msgid "Import Orders"
@@ -1791,7 +1791,7 @@ msgid "Inactive"
 msgstr "Inactivo"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/gui.js:277
 #, python-format
 msgid "Incorrect Password"
@@ -1828,7 +1828,7 @@ msgid "Inventory"
 msgstr "Inventario"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:684
 #: model:ir.actions.report,name:point_of_sale.pos_invoice_report
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order_invoice_id
@@ -1982,7 +1982,7 @@ msgid "List of Cash Registers"
 msgstr "Lista de cajas registradoras"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/models.js:531
 #: code:addons/point_of_sale/static/src/xml/pos.xml:38
 #, python-format
@@ -2001,7 +2001,7 @@ msgid "Login Sequence Number"
 msgstr "Nº de secuencia de ingreso"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/gui.js:304
 #, python-format
 msgid "Login as a Manager"
@@ -2013,7 +2013,7 @@ msgid "Lot Name"
 msgstr "Nombre del lote"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/models.js:2371
 #, python-format
 msgid "Lot/Serial Number(s) Required"
@@ -2040,7 +2040,7 @@ msgid "Make Payment"
 msgstr "Realizar pago"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/models.js:137
 #, python-format
 msgid ""
@@ -2092,7 +2092,7 @@ msgstr ""
 "formulario o en algunas vistas kanban."
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:553
 #, python-format
 msgid "Method"
@@ -2115,7 +2115,7 @@ msgid "My Sales"
 msgstr "Mis ventas"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:419
 #: code:addons/point_of_sale/static/src/xml/pos.xml:428
 #: code:addons/point_of_sale/static/src/xml/pos.xml:437
@@ -2127,7 +2127,7 @@ msgid "N/A"
 msgstr "N/A"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:339
 #: code:addons/point_of_sale/static/src/xml/pos.xml:510
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_category_name
@@ -2149,7 +2149,7 @@ msgid "New Session"
 msgstr "Nueva sesión"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:709
 #, python-format
 msgid "Next Order"
@@ -2183,7 +2183,7 @@ msgid "No sequence defined on the journal"
 msgstr "No hay una secuencia definida en el diario"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:2106
 #: code:addons/point_of_sale/static/src/xml/pos.xml:361
 #, python-format
@@ -2221,21 +2221,21 @@ msgid "Odoo Logo"
 msgstr "Logo de Odoo"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/chrome.js:402
 #, python-format
 msgid "Offline"
 msgstr "Desconectado"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/gui.js:328
 #, python-format
 msgid "Offline Orders"
 msgstr "Pedidos fuera de línea"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:988
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1002
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1016
@@ -2250,7 +2250,7 @@ msgid "Ok"
 msgstr "Ok"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:450
 #, python-format
 msgid "One or more product(s) required serial/lot number."
@@ -2273,7 +2273,7 @@ msgstr ""
 "aplicación TPV pueden modificar los precios de los productos en los pedidos."
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:1349
 #, python-format
 msgid "Only web-compatible Image formats such as .png or .jpeg are supported"
@@ -2290,7 +2290,7 @@ msgid "Open Cash Register"
 msgstr "Abrir caja registradora"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:695
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1371
 #, python-format
@@ -2372,7 +2372,7 @@ msgid "Orange Butterfly"
 msgstr "Naranja Butterfly"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:311
 #: model:ir.model.fields,field_description:point_of_sale.field_report_pos_order_order_id
 #, python-format
@@ -2380,7 +2380,7 @@ msgid "Order"
 msgstr "Pedir"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/models.js:1946
 #: code:addons/point_of_sale/static/src/js/models.js:1986
 #, python-format
@@ -2447,7 +2447,7 @@ msgid "Order lines"
 msgstr "Líneas de venta"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1349
 #: model:ir.actions.act_window,name:point_of_sale.act_pos_session_orders
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_order_filtered
@@ -2541,7 +2541,7 @@ msgid "Partner Services"
 msgstr "Servicios Asociados"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/gui.js:274
 #, python-format
 msgid "Password ?"
@@ -2553,7 +2553,7 @@ msgid "Pay Order"
 msgstr "Pagar pedido"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:150
 #: code:addons/point_of_sale/static/src/xml/pos.xml:649
 #: code:addons/point_of_sale/wizard/pos_payment.py:65
@@ -2617,7 +2617,7 @@ msgid "Payments"
 msgstr "Pagos"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:939
 #, python-format
 msgid "Payments:"
@@ -2644,7 +2644,7 @@ msgstr ""
 "estudiante o un empleado interino."
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:376
 #: code:addons/point_of_sale/static/src/xml/pos.xml:432
 #: code:addons/point_of_sale/static/src/xml/pos.xml:512
@@ -2653,7 +2653,7 @@ msgid "Phone"
 msgstr "Teléfono"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1450
 #, python-format
 msgid "Phone:"
@@ -2675,7 +2675,7 @@ msgid "Picking Errors"
 msgstr "Errores en la recolección"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:2034
 #, python-format
 msgid "Please Confirm Large Amount"
@@ -2688,7 +2688,7 @@ msgid "Please define income account for this product: \"%s\" (id:%d)."
 msgstr "Defina por favor la cuenta de ingresos para este producto:\"%s\"(id: %d)."
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:2083
 #, python-format
 msgid "Please print the invoice from the backend"
@@ -2701,14 +2701,14 @@ msgid "Please provide a partner for the sale."
 msgstr "Por favor indique una empresa para la venta."
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:533
 #, python-format
 msgid "Please select a payment method."
 msgstr "Por favor seleccione un método de pago"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:2044
 #, python-format
 msgid "Please select the Customer"
@@ -2855,7 +2855,7 @@ msgid "PosBox / Hardware Proxy"
 msgstr "PosBox/proxy del hardware"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:355
 #, python-format
 msgid "Postcode"
@@ -2884,7 +2884,7 @@ msgid "Prefill amount paid with the exact due amount"
 msgstr "Cumplimentar la cantidad pagada con la cantidad exacta debida"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:173
 #: model:ir.ui.view,arch_db:point_of_sale.customer_facing_display_html
 #: model:pos.config,customer_facing_display_html:point_of_sale.pos_config_main
@@ -2903,7 +2903,7 @@ msgid "Price Unit"
 msgstr "Unidad de precio"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:2230
 #: code:addons/point_of_sale/static/src/xml/pos.xml:388
 #: code:addons/point_of_sale/static/src/xml/pos.xml:461
@@ -2931,14 +2931,14 @@ msgid "Print"
 msgstr "Imprimir"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:716
 #, python-format
 msgid "Print Invoice"
 msgstr "Imprimir factura"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:719
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1375
 #, python-format
@@ -2961,28 +2961,28 @@ msgid "Print via Proxy"
 msgstr "Imprimir vía proxy"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/chrome.js:390
 #, python-format
 msgid "Printer"
 msgstr "Impresora"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/devices.js:437
 #, python-format
 msgid "Printing Error: "
 msgstr "Error de impresión: "
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:1569
 #, python-format
 msgid "Printing is not supported on some android browsers"
 msgstr "La impresión no está soportada es algunos navegadores android"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:1570
 #, python-format
 msgid ""
@@ -3072,7 +3072,7 @@ msgid "Put Money In"
 msgstr "Poner dinero"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:163
 #, python-format
 msgid "Qty"
@@ -3087,14 +3087,14 @@ msgid "Quantity"
 msgstr "Cantidad"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1373
 #, python-format
 msgid "Read Weighing Scale"
 msgstr "Leer balanza"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/tour.js:14
 #, python-format
 msgid "Ready to launch your <b>point of sale</b>? <i>Click here</i>."
@@ -3143,7 +3143,7 @@ msgid "Red grapefruit"
 msgstr "Pomelo rojo"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1367
 #, python-format
 msgid "Refresh Display"
@@ -3160,7 +3160,7 @@ msgid "Reprint Receipt"
 msgstr "Reimprimir Recibo"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1339
 #, python-format
 msgid "Reset"
@@ -3249,21 +3249,21 @@ msgid "Save this configuration to see and edit the customer display"
 msgstr "Guardar esta configuración para ver y editar la pantalla del cliente"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/chrome.js:398
 #, python-format
 msgid "Scale"
 msgstr "Balanza"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1345
 #, python-format
 msgid "Scan"
 msgstr "Escanear"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1346
 #, python-format
 msgid "Scan EAN-13"
@@ -3275,21 +3275,21 @@ msgid "Scan via Proxy"
 msgstr "Escanear vía proxy"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/chrome.js:381
 #, python-format
 msgid "Scanner"
 msgstr "Escáner"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:483
 #, python-format
 msgid "Search Customers"
 msgstr "Buscar clientes"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:220
 #, python-format
 msgid "Search Products"
@@ -3312,28 +3312,28 @@ msgid "Security PIN can only contain digits"
 msgstr "PIN de seguridad sólo puede contener dígitos"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:491
 #, python-format
 msgid "Select Customer"
 msgstr "Seleccionar cliente"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/gui.js:247
 #, python-format
 msgid "Select User"
 msgstr "Seleccionar usuario"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:2182
 #, python-format
 msgid "Select pricelist"
 msgstr "Seleccionar lista de precios"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:2117
 #, python-format
 msgid "Select tax"
@@ -3356,21 +3356,21 @@ msgid "Sequence Number"
 msgstr "Número de secuencia"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1099
 #, python-format
 msgid "Serial/Lot Number"
 msgstr "Número de serie/de lote"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:768
 #, python-format
 msgid "Served by"
 msgstr "Servido por"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:2057
 #, python-format
 msgid "Server Error"
@@ -3393,7 +3393,7 @@ msgid "Session ID"
 msgstr "ID de sesión"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1225
 #, python-format
 msgid "Session ids:"
@@ -3415,7 +3415,7 @@ msgid "Sessions"
 msgstr "Sesiones"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:1203
 #, python-format
 msgid "Set Customer"
@@ -3427,7 +3427,7 @@ msgid "Set Start Category"
 msgstr "Establecer la categoría inicial"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1338
 #, python-format
 msgid "Set Weight"
@@ -3446,7 +3446,7 @@ msgid "Set shop-specific prices, seasonal discounts, etc."
 msgstr "Establecer precios propios de tienda, descuentos por temporada, etc."
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/pos.web_editor.js:33
 #, python-format
 msgid "Set your customized advertisement here"
@@ -3469,7 +3469,7 @@ msgid "Show pricelists to customers"
 msgstr "Mostrar tarifas a los clientes"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:42
 #, python-format
 msgid "Skip"
@@ -3497,7 +3497,7 @@ msgstr ""
 "imagen pequeña."
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/gui.js:333
 #, python-format
 msgid "Some orders could not be submitted to"
@@ -3560,7 +3560,7 @@ msgid "Stock location used for the inventory"
 msgstr "Ubicación de las existencias utilizadas para el inventario"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:347
 #: code:addons/point_of_sale/static/src/xml/pos.xml:348
 #, python-format
@@ -3574,7 +3574,7 @@ msgid "Stringers"
 msgstr "Largueros"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:818
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order_line_price_subtotal_incl
 #, python-format
@@ -3592,21 +3592,21 @@ msgid "Subtotal w/o discount"
 msgstr "Subtotal sin descuento"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1489
 #, python-format
 msgid "Subtotal:"
 msgstr "Subtotal:"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1217
 #, python-format
 msgid "Successfully  imported"
 msgstr "Importado con éxito"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1216
 #, python-format
 msgid "Successfully imported"
@@ -3628,7 +3628,7 @@ msgid "Summary by Payment Methods"
 msgstr "Resumen por métodos de pago"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:831
 #, python-format
 msgid "TOTAL"
@@ -3640,7 +3640,7 @@ msgid "Take Money Out"
 msgstr "Sacar dinero"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/models/pos_order.py:376
 #: code:addons/point_of_sale/static/src/js/screens.js:2136
 #, python-format
@@ -3658,7 +3658,7 @@ msgid "Tax Display"
 msgstr "Mostrar impuestos"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:384
 #: code:addons/point_of_sale/static/src/xml/pos.xml:452
 #, python-format
@@ -3696,7 +3696,7 @@ msgid "Taxes"
 msgstr "Impuestos"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:953
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1318
 #, python-format
@@ -3704,14 +3704,14 @@ msgid "Taxes:"
 msgstr "Impuestos:"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:748
 #, python-format
 msgid "Tel:"
 msgstr "Tel.:"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:551
 #, python-format
 msgid "Tendered"
@@ -3724,7 +3724,7 @@ msgid "The POS order must have lines when calling this method"
 msgstr "La orden del PdV debe tener líneas cuando llama a este método"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1040
 #, python-format
 msgid ""
@@ -3803,21 +3803,21 @@ msgid "The number of point of sales orders related to this customer"
 msgstr "El número de pedidos del punto de venta relacionados con este cliente"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:2094
 #, python-format
 msgid "The order could not be sent"
 msgstr "No se pudo enviar el pedido"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:2105
 #, python-format
 msgid "The order could not be sent to the server due to an unknown error"
 msgstr "El orden no se pudo enviar al servidor debido a un error desconocido."
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:2084
 #, python-format
 msgid ""
@@ -3867,7 +3867,7 @@ msgid "The product categories will be displayed with pictures."
 msgstr "Las categorías de productos se mostrarán con imágenes."
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:1364
 #, python-format
 msgid "The provided file could not be read due to an unknown error"
@@ -3898,7 +3898,7 @@ msgstr ""
 "compañía del punto de venta."
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:2058
 #, python-format
 msgid "The server encountered an error while receiving your order."
@@ -3928,7 +3928,7 @@ msgid "Theoretical Closing Balance"
 msgstr "Saldo de cierre teórico"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:117
 #, python-format
 msgid ""
@@ -3939,7 +3939,7 @@ msgstr ""
 "datos, ¿está seguro de que quiere salir?"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:1994
 #, python-format
 msgid ""
@@ -3974,7 +3974,7 @@ msgid "There is no receivable account defined to make payment."
 msgstr "No hay cuenta a cobrar definida para hacer el pago."
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:1976
 #, python-format
 msgid ""
@@ -4051,7 +4051,7 @@ msgstr ""
 "para consumir allí, y que usan tasas impositivas específicas."
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/chrome.js:274
 #, python-format
 msgid ""
@@ -4064,7 +4064,7 @@ msgstr ""
 "venta. Esta operación no se puede deshacer."
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/chrome.js:264
 #, python-format
 msgid ""
@@ -4117,7 +4117,7 @@ msgstr ""
 "venta."
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:690
 #, python-format
 msgid "Tip"
@@ -4177,7 +4177,7 @@ msgid "Total Price"
 msgstr "Precio total"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:868
 #, python-format
 msgid "Total Taxes"
@@ -4204,7 +4204,7 @@ msgid "Total qty"
 msgstr "Ctd. total"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:967
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1317
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1511
@@ -4235,21 +4235,21 @@ msgid "Unit Price"
 msgstr "Precio unitario"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1036
 #, python-format
 msgid "Unknown Barcode"
 msgstr "Código de barras desconocido"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:2062
 #, python-format
 msgid "Unknown Error"
 msgstr "Error desconocido"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:1348
 #, python-format
 msgid "Unsupported File Format"
@@ -4318,7 +4318,7 @@ msgid "User Labels"
 msgstr "Etiquetas de usuario"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1453
 #, python-format
 msgid "User:"
@@ -4335,14 +4335,14 @@ msgid "Uuid"
 msgstr "Uuid"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:751
 #, python-format
 msgid "VAT:"
 msgstr "NIF:"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:650
 #, python-format
 msgid "Validate"
@@ -4376,7 +4376,7 @@ msgid "Water"
 msgstr "Agua"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1366
 #, python-format
 msgid "Weighing"
@@ -4394,7 +4394,7 @@ msgstr ""
 "registran en la contabilidad por separado."
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1290
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1473
 #, python-format
@@ -4538,7 +4538,7 @@ msgstr ""
 "del PdV."
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:2045
 #, python-format
 msgid "You need to select the customer before you can invoice an order."
@@ -4552,14 +4552,14 @@ msgid "You should assign a Point of Sale to your session."
 msgstr "Debería asignar un PdV a su sesión."
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/chrome.js:56
 #, python-format
 msgid "You will lose any data associated with the current order"
 msgstr "Perderá todos los datos asociados con el pedido actual"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:1286
 #, python-format
 msgid "Your Internet connection is probably down."
@@ -4578,14 +4578,14 @@ msgstr ""
 "cerrarlo."
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1309
 #, python-format
 msgid "Your shopping cart is empty"
 msgstr "Su carrito está vacío"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:356
 #, python-format
 msgid "ZIP"
@@ -4598,7 +4598,7 @@ msgid "Zucchini"
 msgstr "Zucchini"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1282
 #, python-format
 msgid "at"
@@ -4610,7 +4610,7 @@ msgid "barcode.rule"
 msgstr "barcode.rule"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1222
 #, python-format
 msgid "belong to another session:"
@@ -4623,7 +4623,7 @@ msgid "camptocamp.com"
 msgstr "camptocamp.com"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1578
 #, python-format
 msgid "caps lock"
@@ -4640,7 +4640,7 @@ msgid "cash.box.out"
 msgstr "cash.box.out"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1605
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1647
 #, python-format
@@ -4648,7 +4648,7 @@ msgid "close"
 msgstr "cerrar"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1563
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1640
 #, python-format
@@ -4656,7 +4656,7 @@ msgid "delete"
 msgstr "eliminar"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1292
 #, python-format
 msgid "discount"
@@ -4673,14 +4673,14 @@ msgid "e.g. Return Policy, Thanks for shopping with us!"
 msgstr "p. ej.: política de devoluciones, ¡Gracias por comprar con nosotros!"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/popups.js:109
 #, python-format
 msgid "error"
 msgstr "error"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/screens.js:2008
 #, python-format
 msgid "for an order of"
@@ -4693,7 +4693,7 @@ msgid "not used"
 msgstr "no usado"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/chrome.js:293
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1216
 #, python-format
@@ -4726,7 +4726,7 @@ msgid "report.point_of_sale.report_saledetails"
 msgstr "report.point_of_sale.report_saledetails"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/models/pos_order.py:147
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1590
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1645
@@ -4735,7 +4735,7 @@ msgid "return"
 msgstr "devolver"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1591
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1602
 #, python-format
@@ -4743,14 +4743,14 @@ msgid "shift"
 msgstr "shift"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1564
 #, python-format
 msgid "tab"
 msgstr "pestaña"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/js/chrome.js:285
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1217
 #, python-format
@@ -4758,14 +4758,14 @@ msgid "unpaid orders"
 msgstr "órdenes sin pagar"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1219
 #, python-format
 msgid "unpaid orders could not be imported"
 msgstr "los pedidos pendientes de pago no pueden ser importados"
 
 #. module: point_of_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1221
 #, python-format
 msgid "were duplicates of existing orders"

@@ -1297,7 +1297,7 @@ msgid "A warning can be set on a partner (Account)"
 msgstr "Може да бъде зададено предупреждение за партньор (профил)"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/js/reconciliation/reconciliation_renderer.js:521
 #: code:addons/account/static/src/js/reconciliation/reconciliation_renderer.js:523
 #: code:addons/account/static/src/xml/account_reconciliation.xml:170
@@ -1773,7 +1773,7 @@ msgid "Active"
 msgstr "Активен"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_payment.xml:17
 #, python-format
 msgid "Add"
@@ -1946,7 +1946,7 @@ msgid "All accounts'"
 msgstr "Всички сметки'"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:47
 #, python-format
 msgid ""
@@ -2032,7 +2032,7 @@ msgid "Allows you to use the analytic accounting."
 msgstr "Позволява Ви да използвате аналитичното счетоводство."
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:193
 #: code:addons/account/static/src/xml/account_reconciliation.xml:235
 #: code:addons/account/static/src/xml/account_reconciliation.xml:252
@@ -2124,7 +2124,7 @@ msgid "Amount type"
 msgstr "Вид валута"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_payment.xml:68
 #, python-format
 msgid "Amount:"
@@ -2176,7 +2176,7 @@ msgid "Analytic"
 msgstr "Аналитичен"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:178
 #, python-format
 msgid "Analytic Acc."
@@ -2396,7 +2396,7 @@ msgid "Automatic formatting"
 msgstr "Автоматично форматиране"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:24
 #, python-format
 msgid "Automatic reconciliation"
@@ -2506,7 +2506,7 @@ msgstr ""
 "карта на доставчик, в противен случай номер на банкова сметка на партньор."
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_dashboard_setup_bar.xml:21
 #: model:ir.actions.act_window,name:account.action_account_bank_journal_form
 #: model:ir.model,name:account.model_res_partner_bank
@@ -2596,7 +2596,7 @@ msgid "Bank and Cash"
 msgstr "Банка и Каса"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/js/reconciliation/reconciliation_action.js:15
 #, python-format
 msgid "Bank reconciliation"
@@ -3062,7 +3062,7 @@ msgid "Chart of Account Checked"
 msgstr "Профилът е проверен"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/models/company.py:278
 #: code:addons/account/static/src/xml/account_dashboard_setup_bar.xml:13
 #: model:ir.actions.act_window,name:account.action_account_form
@@ -3171,7 +3171,7 @@ msgid "Choose Accounting Template"
 msgstr "Изберете Шаблон за счетоводство"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:131
 #, python-format
 msgid "Choose counterpart or Create Write-off"
@@ -3250,14 +3250,14 @@ msgid "Click to register a payment"
 msgstr "Натиснете бутона, за да регистрирате плащане."
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:260
 #, python-format
 msgid "Close"
 msgstr "Затваряне"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:60
 #, python-format
 msgid "Close statement"
@@ -3390,7 +3390,7 @@ msgid "Company Currency"
 msgstr "Валута на фирмата"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/models/company.py:210
 #: code:addons/account/static/src/xml/account_dashboard_setup_bar.xml:25
 #, python-format
@@ -3472,7 +3472,7 @@ msgid "Configuration Error !"
 msgstr "Грешка при настройване!"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_dashboard_setup_bar.xml:29
 #, python-format
 msgid "Configuration Steps:"
@@ -3562,7 +3562,7 @@ msgstr ""
 "регистър."
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:52
 #, python-format
 msgid "Congrats, you're all done!"
@@ -3674,7 +3674,7 @@ msgid "Create invoice/bill"
 msgstr "Create invoice/bill"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:163
 #, python-format
 msgid "Create model"
@@ -4073,7 +4073,7 @@ msgid "DOWN"
 msgstr "НАДОЛУ"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/js/account_dashboard_setup_bar.js:214
 #: model:ir.ui.menu,name:account.menu_board_journal_1
 #, python-format
@@ -4081,7 +4081,7 @@ msgid "Dashboard"
 msgstr "Табло"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: selection:account.print.journal,sort_selection:0
 #: selection:account.report.general.ledger,sortby:0
 #: selection:accounting.report,filter_cmp:0
@@ -4125,7 +4125,7 @@ msgstr ""
 "встъпителното вписване."
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_payment.xml:56
 #, python-format
 msgid "Date:"
@@ -4314,7 +4314,7 @@ msgid "Describe why you take money from the cash register:"
 msgstr "Опишете защо вземате пари от касата:"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:251
 #: model:ir.model.fields,field_description:account.field_account_account_type_note
 #: model:ir.model.fields,field_description:account.field_account_invoice_line_name
@@ -4596,7 +4596,7 @@ msgid "Due Amount"
 msgstr "Дължима сума"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/controllers/portal.py:71
 #: code:addons/account/static/src/xml/account_reconciliation.xml:234
 #: model:ir.model.fields,field_description:account.field_account_invoice_date_due
@@ -4881,7 +4881,7 @@ msgid "Filter by"
 msgstr "Подреждане по"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:141
 #, python-format
 msgid "Filter..."
@@ -4979,7 +4979,7 @@ msgid "Fiscal Positions"
 msgstr "Фискални позиции"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/models/company.py:251
 #: code:addons/account/static/src/xml/account_dashboard_setup_bar.xml:17
 #, python-format
@@ -5235,7 +5235,7 @@ msgstr ""
 "Дава реда на последователност при показване на списък с линии за плащане."
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:57
 #, python-format
 msgid "Go to bank statement(s)"
@@ -5253,7 +5253,7 @@ msgid "Good Debtor"
 msgstr "Добър длъжник"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:46
 #, python-format
 msgid "Good Job!"
@@ -5764,7 +5764,7 @@ msgid "Income Account on Product Template"
 msgstr "Сметка приход в шаблона за продукт"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/js/reconciliation/reconciliation_model.js:700
 #, python-format
 msgid "Incorrect Operation"
@@ -5781,7 +5781,7 @@ msgid "Information addendum"
 msgstr "Допълнителна информация"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/models/company.py:296
 #: code:addons/account/models/company.py:311
 #: code:addons/account/static/src/xml/account_dashboard_setup_bar.xml:9
@@ -6186,7 +6186,7 @@ msgid "January"
 msgstr "Януари"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:185
 #: code:addons/account/static/src/xml/account_reconciliation.xml:229
 #: model:ir.model,name:account.model_account_journal
@@ -6298,7 +6298,7 @@ msgid "Journal Items"
 msgstr "Счетоводна операция"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/js/reconciliation/reconciliation_action.js:323
 #: model:ir.actions.client,name:account.action_manual_reconcile
 #, python-format
@@ -6413,7 +6413,7 @@ msgstr ""
 "категорията продукти."
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/js/reconciliation/reconciliation_renderer.js:522
 #: code:addons/account/static/src/xml/account_reconciliation.xml:189
 #: code:addons/account/static/src/xml/account_reconciliation.xml:230
@@ -6512,7 +6512,7 @@ msgid "Last Month"
 msgstr "Миналия месец"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:119
 #, python-format
 msgid "Last Reconciliation:"
@@ -6723,7 +6723,7 @@ msgid "Less Payment"
 msgstr "Less Payment"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:24
 #, python-format
 msgid "Let odoo try to reconcile entries for the user"
@@ -6768,7 +6768,7 @@ msgid "Litigation"
 msgstr "Жалба"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:29
 #, python-format
 msgid "Load more"
@@ -7011,7 +7011,7 @@ msgid "Memo"
 msgstr "Напомняне"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_payment.xml:64
 #, python-format
 msgid "Memo:"
@@ -7068,7 +7068,7 @@ msgid "Miscellaneous Operations"
 msgstr "Разни операции"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:164
 #, python-format
 msgid "Modify models"
@@ -7189,7 +7189,7 @@ msgid "Name"
 msgstr "Име"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_payment.xml:52
 #, python-format
 msgid "Name:"
@@ -7317,7 +7317,7 @@ msgid "Normal Text"
 msgstr "Нормален текст"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:254
 #: model:ir.model.fields,field_description:account.field_account_account_template_note
 #, python-format
@@ -7348,7 +7348,7 @@ msgid "Nothing to Reconcile"
 msgstr "Нищо за съпоставяне"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:34
 #, python-format
 msgid "Nothing to do!"
@@ -7392,7 +7392,7 @@ msgid "OFX Import"
 msgstr "OFX импортиране"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:17
 #, python-format
 msgid "OK"
@@ -7570,7 +7570,7 @@ msgstr ""
 "отворена фискална година, например."
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: selection:account.invoice,state:0 selection:account.invoice.report,state:0
 #: code:addons/account/static/src/xml/account_payment.xml:82
 #: model:ir.ui.view,arch_db:account.view_account_invoice_filter
@@ -7579,7 +7579,7 @@ msgid "Open"
 msgstr "Отваряне"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/js/reconciliation/reconciliation_model.js:664
 #: code:addons/account/static/src/xml/account_reconciliation.xml:131
 #, python-format
@@ -7786,7 +7786,7 @@ msgid "Paid Invoices"
 msgstr "Paid Invoices"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_payment.xml:28
 #: model:ir.ui.view,arch_db:account.report_invoice_document_with_payments
 #, python-format
@@ -7826,7 +7826,7 @@ msgid "Partial Reconcile"
 msgstr "Частично обединяване"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:232
 #: code:addons/account/static/src/xml/account_reconciliation.xml:249
 #: model:ir.model.fields,field_description:account.field_account_abstract_payment_partner_id
@@ -7979,7 +7979,7 @@ msgid "Payment Method Type"
 msgstr "Тип на начина на плащане"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_payment.xml:60
 #, python-format
 msgid "Payment Method:"
@@ -8557,7 +8557,7 @@ msgid "Receive Money"
 msgstr "Получаване на пари"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:73
 #: code:addons/account/static/src/xml/account_reconciliation.xml:105
 #: code:addons/account/static/src/xml/account_reconciliation.xml:106
@@ -8586,7 +8586,7 @@ msgid "Reconcile Writeoff"
 msgstr "Равняване на отписване"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/js/tour_bank_statement_reconciliation.js:11
 #, python-format
 msgid "Reconcile the demo bank statement"
@@ -8657,7 +8657,7 @@ msgid "Recording invoices"
 msgstr "Записване на фактури"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:231
 #: model:ir.ui.view,arch_db:account.report_generalledger
 #: model:ir.ui.view,arch_db:account.report_partnerledger
@@ -8840,7 +8840,7 @@ msgid "Reset to Draft"
 msgstr "Пращане в проект"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:236
 #, python-format
 msgid "Residual"
@@ -9028,7 +9028,7 @@ msgid "Save"
 msgstr "Запис"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:199
 #, python-format
 msgid "Save and New"
@@ -9153,7 +9153,7 @@ msgstr ""
 "Изберете \"Общи\" за различни дневници за операции."
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:74
 #, python-format
 msgid "Select a partner or choose a counterpart"
@@ -9380,7 +9380,7 @@ msgstr ""
 "интегрирано плащане на партиди."
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:107
 #, python-format
 msgid "Skip"
@@ -9557,7 +9557,7 @@ msgid "Target Moves"
 msgstr "Целеви движения"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:174
 #: model:ir.model,name:account.model_account_tax
 #: model:ir.model.fields,field_description:account.field_account_invoice_amount_tax
@@ -10026,7 +10026,7 @@ msgid "Terms and conditions..."
 msgstr "Правила и условия..."
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:53
 #, python-format
 msgid "That's on average"
@@ -10502,7 +10502,7 @@ msgstr ""
 "Configure it in Accounting/Configuration/Settings"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:46
 #, python-format
 msgid "There is nothing to reconcile."
@@ -10756,7 +10756,7 @@ msgstr ""
 "This method should only be called to process a single invoice's payment."
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/js/reconciliation/reconciliation_renderer.js:395
 #, python-format
 msgid ""
@@ -10794,7 +10794,7 @@ msgstr ""
 "пъти)."
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:35
 #, python-format
 msgid ""
@@ -10805,7 +10805,7 @@ msgstr ""
 "provides with a neat interface to do so."
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:240
 #, python-format
 msgid "This payment is registered but not reconciled."
@@ -10875,7 +10875,7 @@ msgstr ""
 "управление"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:31
 #, python-format
 msgid "Tip: Hit CTRL-Enter to reconcile all the balanced items in the sheet."
@@ -11053,7 +11053,7 @@ msgid "Track costs &amp; revenues by project, department, etc."
 msgstr "Проследяване на разходите &amp; приходи по проект, отдел и др."
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:250
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 #, python-format
@@ -11148,7 +11148,7 @@ msgid "Undistributed Profits/Losses"
 msgstr "Undistributed Profits/Losses"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/js/reconciliation/reconciliation_renderer.js:392
 #, python-format
 msgid "Undo the partial reconciliation."
@@ -11213,7 +11213,7 @@ msgid "Unposted Journal Items"
 msgstr "Непубликувани статии в дневника"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_payment.xml:81
 #: model:ir.ui.view,arch_db:account.account_unreconcile_view
 #, python-format
@@ -11407,7 +11407,7 @@ msgid "VAT:"
 msgstr "ДДС:"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:72
 #: model:ir.ui.view,arch_db:account.invoice_form
 #: model:ir.ui.view,arch_db:account.invoice_supplier_form
@@ -11918,7 +11918,7 @@ msgstr ""
 " lock date for advisors is not set after the last day of the previous month."
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/js/reconciliation/reconciliation_model.js:701
 #, python-format
 msgid "You cannot mix items from receivable and payable accounts."
@@ -12000,7 +12000,7 @@ msgstr ""
 "create a credit note instead."
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:158
 #, python-format
 msgid "You did not configure any reconcile model yet, you can do it"
@@ -12043,7 +12043,7 @@ msgid "You must set a start date."
 msgstr "Трябва да зададете начална дата."
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:53
 #, python-format
 msgid "You reconciled"
@@ -12197,7 +12197,7 @@ msgid "activate this feature"
 msgstr "активирате тази функция"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_payment.xml:17
 #, python-format
 msgid "assign to invoice"
@@ -12264,7 +12264,7 @@ msgstr ""
 "като платена."
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:41
 #, python-format
 msgid "o_manual_statement"
@@ -12332,7 +12332,7 @@ msgid "reversal of: "
 msgstr "reversal of: "
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:53
 #, python-format
 msgid "seconds per transaction."
@@ -12369,7 +12369,7 @@ msgid "the product list"
 msgstr "продуктовия списък"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:158
 #, python-format
 msgid "there"
@@ -12386,7 +12386,7 @@ msgid "to set the balance of all of your accounts."
 msgstr "за да зададете баланса на всичките си профили."
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:53
 #, python-format
 msgid "transactions in"

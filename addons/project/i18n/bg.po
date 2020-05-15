@@ -214,7 +214,7 @@ msgstr ""
 "имате нужда:</strong>"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:69
 #, python-format
 msgid ""
@@ -225,7 +225,7 @@ msgstr ""
 "нов потребител в движение.</i>"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:80
 #, python-format
 msgid "<b>Click the save button</b> to apply your changes to the task."
@@ -234,7 +234,7 @@ msgstr ""
 "задачата."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:48
 #, python-format
 msgid "<b>Drag &amp; drop tasks</b> between columns as you work on them."
@@ -242,7 +242,7 @@ msgstr ""
 "<b>Влачете&amp; пускайте задачи</b> между колони, докато работите върху тях."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:94
 #, python-format
 msgid ""
@@ -252,7 +252,7 @@ msgstr ""
 "ред.</i>"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:54
 #, python-format
 msgid "<b>Star tasks</b> to mark team priorities."
@@ -981,7 +981,7 @@ msgid "Account Preferences"
 msgstr "Предпочитания за сметка"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:39
 #, python-format
 msgid "Action has a clear description"
@@ -1019,7 +1019,7 @@ msgid "Add a description..."
 msgstr "Добави описание ..."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:38
 #, python-format
 msgid ""
@@ -1030,7 +1030,7 @@ msgstr ""
 "си</b>.<br/><i>напр. спецификациия &gt; развитие &gt; извършени</i>"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:56
 #, python-format
 msgid "Added in current sprint"
@@ -1209,7 +1209,7 @@ msgstr ""
 " на няколко служители."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:32
 #: code:addons/project/static/src/js/web_planner_project.js:48
 #: code:addons/project/static/src/js/web_planner_project.js:64
@@ -1313,7 +1313,7 @@ msgid "Cancel"
 msgstr "Откажи"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:70
 #: code:addons/project/static/src/js/web_planner_project.js:85
 #: code:addons/project/static/src/js/web_planner_project.js:99
@@ -1328,7 +1328,7 @@ msgid "Change their Stages in the Project Stages tab"
 msgstr "Променете етапите им в раздела 'Проектни етапи'"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:23
 #, python-format
 msgid ""
@@ -1355,21 +1355,21 @@ msgstr ""
 "самият проект)"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:55
 #, python-format
 msgid "Clear description and purpose"
 msgstr "Ясно описание и цел"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:59
 #, python-format
 msgid "Click on a card to get the details of the task."
 msgstr "Натиснете карта, за да получите подробности за задачата."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:31
 #, python-format
 msgid ""
@@ -1379,7 +1379,7 @@ msgstr ""
 "организирате задачи."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:64
 #, python-format
 msgid "Click on this button to modify the task."
@@ -1439,7 +1439,7 @@ msgid "Configuration"
 msgstr "Настройка"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:90
 #, python-format
 msgid "Configuration options are available in the Settings app."
@@ -1484,7 +1484,7 @@ msgid "Control projects quality and satisfaction"
 msgstr "Контролирайте качеството на проектите и удовлетвореността"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:34
 #, python-format
 msgid "Copywriting / Design"
@@ -1642,28 +1642,28 @@ msgid "Customer Service"
 msgstr "Клиентско обслужване"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:74
 #, python-format
 msgid "Customer feedback has been requested"
 msgstr "Заявена е обратна връзка с клиента"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:92
 #, python-format
 msgid "Customer has cancelled repair"
 msgstr "Клиентът е отменил поправката"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:72
 #, python-format
 msgid "Customer has reported new issue"
 msgstr "Клиентът е докладвал нова грешка"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:71
 #, python-format
 msgid "Customer service has found new issue"
@@ -1737,7 +1737,7 @@ msgid "Deploy"
 msgstr "Внедрете"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:20
 #, python-format
 msgid "Deployment"
@@ -1751,7 +1751,7 @@ msgid "Description"
 msgstr "Описание"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:18
 #, python-format
 msgid "Development"
@@ -1763,7 +1763,7 @@ msgid "Development Process"
 msgstr "Процес по развитието"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/project.js:71
 #: model:ir.ui.view,arch_db:project.project_project_view_form_simplified
 #, python-format
@@ -1781,21 +1781,21 @@ msgid "Display Name"
 msgstr "Име за показване"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:35
 #, python-format
 msgid "Distribute"
 msgstr "Разпределете"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:43
 #, python-format
 msgid "Distribution is completed"
 msgstr "Разпределението извършено"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:51
 #, python-format
 msgid "Documentation"
@@ -1835,7 +1835,7 @@ msgid "Don't hesitate to select only the events you are interested in!"
 msgstr "Не се колебайте да изберете само събитията, които Ви интересуват!"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:36
 #: code:addons/project/static/src/js/web_planner_project.js:69
 #: code:addons/project/static/src/js/web_planner_project.js:84
@@ -1944,7 +1944,7 @@ msgid "Examples"
 msgstr "Примери"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:75
 #, python-format
 msgid "Expert advice has been requested"
@@ -1978,14 +1978,14 @@ msgid "Extra useful for when you're with a customer or in a meeting."
 msgstr "Изключително полезно, когато сте с клиент или на среща."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:89
 #, python-format
 msgid "Feedback from customer requested"
 msgstr "Заявена е обратна връзка от клиент"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:27
 #, python-format
 msgid "Finally task is deployed"
@@ -2091,7 +2091,7 @@ msgid "Gives the sequence order when displaying a list of tasks."
 msgstr "Дава реда на последователност, когато показва списъка със задачи. "
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:99
 #, python-format
 msgid ""
@@ -2211,14 +2211,14 @@ msgstr ""
 "който държи псевдонима за създаване на задачи)"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:104
 #, python-format
 msgid "Idea has been transformed into concrete actions"
 msgstr "Идеята се трансформира в конкретни действия"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:103
 #, python-format
 msgid "Idea is fully explained"
@@ -2231,7 +2231,7 @@ msgstr ""
 "В идеалния случай един човек трябва да носи отговорност само за един проект."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:96
 #, python-format
 msgid "Ideas"
@@ -2357,7 +2357,7 @@ msgid "In Progress"
 msgstr "В процес"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:33
 #: code:addons/project/static/src/js/web_planner_project.js:66
 #: code:addons/project/static/src/js/web_planner_project.js:81
@@ -2366,7 +2366,7 @@ msgid "In progress"
 msgstr "В развитие"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:80
 #, python-format
 msgid "Incoming"
@@ -2403,14 +2403,14 @@ msgid "Issue Version"
 msgstr "Версия"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:73
 #, python-format
 msgid "Issue is being worked on"
 msgstr "Грешката се обработва"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:76
 #, python-format
 msgid "Issue is resolved"
@@ -2558,7 +2558,7 @@ msgid ""
 msgstr ""
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:18
 #, python-format
 msgid "Let's create your first project."
@@ -2732,7 +2732,7 @@ msgid "Need functional or technical help"
 msgstr "Имате нужда от функционална или техническа помощ"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:65
 #: model:ir.ui.view,arch_db:project.view_task_project_user_search
 #: model:project.task.type,name:project.project_stage_data_0
@@ -2741,7 +2741,7 @@ msgid "New"
 msgstr "Nieuw"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:87
 #, python-format
 msgid "New repair added"
@@ -2805,7 +2805,7 @@ msgid "Notifications"
 msgstr "Уведомления"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:43
 #, python-format
 msgid "Now that the project is set up, <b>create a few tasks</b>."
@@ -3166,7 +3166,7 @@ msgid "Ready for Next Stage"
 msgstr ""
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:41
 #, python-format
 msgid "Ready for layout / copywriting"
@@ -3178,21 +3178,21 @@ msgid "Ready for next stage"
 msgstr "Готови за следващ етап"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:59
 #, python-format
 msgid "Ready for release"
 msgstr "Готов за пускане"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:57
 #, python-format
 msgid "Ready for testing"
 msgstr "Готов за тестване"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:42
 #, python-format
 msgid "Ready to be displayed, published or sent"
@@ -3206,7 +3206,7 @@ msgid "Ready to reopen"
 msgstr "Готов за повторно отваряне"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:77
 #: code:addons/project/static/src/js/web_planner_project.js:106
 #, python-format
@@ -3254,7 +3254,7 @@ msgid "Reference"
 msgstr "Означение"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:52
 #, python-format
 msgid "Release"
@@ -3266,7 +3266,7 @@ msgid "Remaining Hours"
 msgstr "Оставащи часове"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/project.js:69
 #, python-format
 msgid "Remove Cover Image"
@@ -3278,14 +3278,14 @@ msgid "Repair Workshop"
 msgstr "Ремонтна работилница"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:88
 #, python-format
 msgid "Repair has started"
 msgstr "Поправката е започнала"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:91
 #, python-format
 msgid "Repair is completed"
@@ -3298,7 +3298,7 @@ msgid "Reporting"
 msgstr "Отчитане"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:90
 #, python-format
 msgid "Request for parts has been sent"
@@ -3365,7 +3365,7 @@ msgid "Search in Stages"
 msgstr ""
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/project.js:62
 #, python-format
 msgid "Select"
@@ -3402,7 +3402,7 @@ msgid "Set Cover Image"
 msgstr "Задайте изображение за корица"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/project.js:61
 #, python-format
 msgid "Set a Cover Image"
@@ -3451,21 +3451,21 @@ msgid "Software development"
 msgstr "Софтуеърно развитие"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:16
 #, python-format
 msgid "Specification"
 msgstr "Спецификация"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:24
 #, python-format
 msgid "Specification is validated"
 msgstr "Спецификацията е валидирана"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:23
 #, python-format
 msgid "Specification of task is written"
@@ -3477,7 +3477,7 @@ msgid "Split your tasks to organize your work into sub-milestones"
 msgstr ""
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:49
 #, python-format
 msgid "Sprint"
@@ -3663,21 +3663,21 @@ msgid "Task blocked"
 msgstr "Блокирана задача"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:25
 #, python-format
 msgid "Task is Developed"
 msgstr "Задачата е разработена"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:105
 #, python-format
 msgid "Task is completed"
 msgstr "Задачата е завършена"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:26
 #, python-format
 msgid "Task is tested"
@@ -3755,21 +3755,21 @@ msgid "Tasks to Merge"
 msgstr ""
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:50
 #, python-format
 msgid "Test"
 msgstr "Тест"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:58
 #, python-format
 msgid "Test is OK, need to document"
 msgstr "Тестът е ОК, трябва да документирате"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:19
 #, python-format
 msgid "Testing"
@@ -3855,7 +3855,7 @@ msgid "There are no tasks."
 msgstr "Няма задачи."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/xml/project.xml:7
 #, python-format
 msgid ""
@@ -4001,7 +4001,7 @@ msgid "Title"
 msgstr "Заглавие"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:97
 #: model:project.task.type,name:project.project_stage_0
 #, python-format
@@ -4086,7 +4086,7 @@ msgid ""
 msgstr ""
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:103
 #, python-format
 msgid ""
@@ -4097,7 +4097,7 @@ msgstr ""
 "на проектите в компанията си."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:85
 #, python-format
 msgid "Use the breadcrumbs to <b>go back to your tasks pipeline</b>."
@@ -4133,7 +4133,7 @@ msgstr ""
 "                        В качеството си на мениджър проект как можете да организирате седмично заседание за състоянието, в която членовете на екипа са ангажирани, информирани и готови да дадат своя принос за следващите стъпки на проекта? Ето някои съвети."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:17
 #, python-format
 msgid "Validation"
@@ -4164,7 +4164,7 @@ msgid "Visible by following customers"
 msgstr "Видимо за следните клиенти"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:67
 #: code:addons/project/static/src/js/web_planner_project.js:82
 #, python-format
@@ -4172,7 +4172,7 @@ msgid "Wait. Customer"
 msgstr "Изчакайте. Клиент"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:68
 #: code:addons/project/static/src/js/web_planner_project.js:83
 #, python-format
@@ -4180,7 +4180,7 @@ msgid "Wait. Expert"
 msgstr "Изчакайте. Експерт"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:13
 #, python-format
 msgid ""
@@ -4285,7 +4285,7 @@ msgid "Whether this project should be displayed on the dashboard or not"
 msgstr "Дали този проект трябва да се показва на таблото за управление или не"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:40
 #, python-format
 msgid "Work has started"

@@ -203,7 +203,7 @@ msgid ""
 msgstr "2. 이제 <strong>필요한 프로젝트</strong>의 리스트를 만들어봅시다"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:69
 #, python-format
 msgid ""
@@ -212,21 +212,21 @@ msgid ""
 msgstr "누군가에게<b>작업할당</b>을 합니다. <i>당신은 즉석에서 새로운 사용자를 생성하거나 초대할 수 있습니다.</i>"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:80
 #, python-format
 msgid "<b>Click the save button</b> to apply your changes to the task."
 msgstr "<b>저장버튼을 눌러</b>작업의 변경사항을 승인합니다."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:48
 #, python-format
 msgid "<b>Drag &amp; drop tasks</b> between columns as you work on them."
 msgstr "행 사이에서 진행중인 <b>작업을 끌어서 이동합니다</b>."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:94
 #, python-format
 msgid ""
@@ -234,7 +234,7 @@ msgid ""
 msgstr "이메일로 <b>동료를 초대합니다</b>.<br/><i>한 행에 하나의 이메일을 입력하십시오..</i>"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:54
 #, python-format
 msgid "<b>Star tasks</b> to mark team priorities."
@@ -960,7 +960,7 @@ msgid "Account Preferences"
 msgstr "계정 환경 설정"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:39
 #, python-format
 msgid "Action has a clear description"
@@ -996,7 +996,7 @@ msgid "Add a description..."
 msgstr "설명 추가..."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:38
 #, python-format
 msgid ""
@@ -1005,7 +1005,7 @@ msgid ""
 msgstr "열을 추가하여 <b>작업에 대한 단계</b>를 구성하십시오. <br/><i>예. 사양 &gt; 개발 &gt; 완료</i>"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:56
 #, python-format
 msgid "Added in current sprint"
@@ -1177,7 +1177,7 @@ msgid ""
 msgstr "사무실로 돌아가서 관리자는 고객의 요청을 여러 작업으로 분할하여 여러 직원에게 위임합니다."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:32
 #: code:addons/project/static/src/js/web_planner_project.js:48
 #: code:addons/project/static/src/js/web_planner_project.js:64
@@ -1279,7 +1279,7 @@ msgid "Cancel"
 msgstr "취소"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:70
 #: code:addons/project/static/src/js/web_planner_project.js:85
 #: code:addons/project/static/src/js/web_planner_project.js:99
@@ -1294,7 +1294,7 @@ msgid "Change their Stages in the Project Stages tab"
 msgstr "프로젝트 단계 탭에서 단계를 변경하십시오"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:23
 #, python-format
 msgid ""
@@ -1316,21 +1316,21 @@ msgid ""
 msgstr "하위 작업 프로젝트를 선택하면 하위 작업을 활성화하고 기본 프로젝트(가능하면 프로젝트 자체)를 설정합니다."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:55
 #, python-format
 msgid "Clear description and purpose"
 msgstr "명확한 설명 및 목적"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:59
 #, python-format
 msgid "Click on a card to get the details of the task."
 msgstr "카드를 클릭하면 작업에 대한 세부정보를 얻을 수 있습니다."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:31
 #, python-format
 msgid ""
@@ -1338,7 +1338,7 @@ msgid ""
 msgstr "카드를 클릭하여 <b>프로젝트로 이동하고</b> 작업 구성을 시작하십시오."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:64
 #, python-format
 msgid "Click on this button to modify the task."
@@ -1398,7 +1398,7 @@ msgid "Configuration"
 msgstr "환경 설정"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:90
 #, python-format
 msgid "Configuration options are available in the Settings app."
@@ -1441,7 +1441,7 @@ msgid "Control projects quality and satisfaction"
 msgstr "프로젝트 품질 및 만족도 제어"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:34
 #, python-format
 msgid "Copywriting / Design"
@@ -1597,28 +1597,28 @@ msgid "Customer Service"
 msgstr "고객 서비스"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:74
 #, python-format
 msgid "Customer feedback has been requested"
 msgstr "고객 의견이 요청되었습니다"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:92
 #, python-format
 msgid "Customer has cancelled repair"
 msgstr "고객이 배상금을 취소했습니다"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:72
 #, python-format
 msgid "Customer has reported new issue"
 msgstr "고객이 새로운 문제를 보고했습니다"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:71
 #, python-format
 msgid "Customer service has found new issue"
@@ -1694,7 +1694,7 @@ msgid "Deploy"
 msgstr "배포하다"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:20
 #, python-format
 msgid "Deployment"
@@ -1708,7 +1708,7 @@ msgid "Description"
 msgstr "설명"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:18
 #, python-format
 msgid "Development"
@@ -1720,7 +1720,7 @@ msgid "Development Process"
 msgstr "발전 과정"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/project.js:71
 #: model:ir.ui.view,arch_db:project.project_project_view_form_simplified
 #, python-format
@@ -1738,21 +1738,21 @@ msgid "Display Name"
 msgstr "표시 이름"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:35
 #, python-format
 msgid "Distribute"
 msgstr "배분"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:43
 #, python-format
 msgid "Distribution is completed"
 msgstr "배분 완료"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:51
 #, python-format
 msgid "Documentation"
@@ -1788,7 +1788,7 @@ msgid "Don't hesitate to select only the events you are interested in!"
 msgstr "관심있는 이벤트 만 선택하는 것을 주저하지 마십시오!"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:36
 #: code:addons/project/static/src/js/web_planner_project.js:69
 #: code:addons/project/static/src/js/web_planner_project.js:84
@@ -1891,7 +1891,7 @@ msgid "Examples"
 msgstr "예시"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:75
 #, python-format
 msgid "Expert advice has been requested"
@@ -1925,14 +1925,14 @@ msgid "Extra useful for when you're with a customer or in a meeting."
 msgstr "고객과 함게 또는 회의 중일 떄 유용합니다."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:89
 #, python-format
 msgid "Feedback from customer requested"
 msgstr "고객이 요청한 피드백"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:27
 #, python-format
 msgid "Finally task is deployed"
@@ -2034,7 +2034,7 @@ msgid "Gives the sequence order when displaying a list of tasks."
 msgstr "작업 목록을 표시 할 때 순서를 제공합니다."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:99
 #, python-format
 msgid ""
@@ -2149,14 +2149,14 @@ msgid ""
 msgstr "별칭을 보유하는 상위 레코드의 ID (예: 작업 작성 별칭을 보유하는 프로젝트)"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:104
 #, python-format
 msgid "Idea has been transformed into concrete actions"
 msgstr "아이디어는 구체적인 행동으로 확장되었습니다."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:103
 #, python-format
 msgid "Idea is fully explained"
@@ -2168,7 +2168,7 @@ msgid "Ideally, a person should only be responsible for one project."
 msgstr "이상적으로 한 사람은 한 프로젝트에 대해서만 책임을 져야합니다."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:96
 #, python-format
 msgid "Ideas"
@@ -2285,7 +2285,7 @@ msgid "In Progress"
 msgstr "진행중"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:33
 #: code:addons/project/static/src/js/web_planner_project.js:66
 #: code:addons/project/static/src/js/web_planner_project.js:81
@@ -2294,7 +2294,7 @@ msgid "In progress"
 msgstr "진행중"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:80
 #, python-format
 msgid "Incoming"
@@ -2328,14 +2328,14 @@ msgid "Issue Version"
 msgstr "이슈 버전"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:73
 #, python-format
 msgid "Issue is being worked on"
 msgstr "문제가 해결 중입니다."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:76
 #, python-format
 msgid "Issue is resolved"
@@ -2483,7 +2483,7 @@ msgid ""
 msgstr "프로젝트, 작업 및 일정표를 사용하여 회사를 보다 잘 조직하는 방법에 대해 알아보십시오."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:18
 #, python-format
 msgid "Let's create your first project."
@@ -2647,7 +2647,7 @@ msgid "Need functional or technical help"
 msgstr "기능적 또는 기술적 도움이 필요함"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:65
 #: model:ir.ui.view,arch_db:project.view_task_project_user_search
 #: model:project.task.type,name:project.project_stage_data_0
@@ -2656,7 +2656,7 @@ msgid "New"
 msgstr "신규"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:87
 #, python-format
 msgid "New repair added"
@@ -2720,7 +2720,7 @@ msgid "Notifications"
 msgstr "알림"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:43
 #, python-format
 msgid "Now that the project is set up, <b>create a few tasks</b>."
@@ -3067,7 +3067,7 @@ msgid "Ready for Next Stage"
 msgstr "다음 단계 대기"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:41
 #, python-format
 msgid "Ready for layout / copywriting"
@@ -3079,21 +3079,21 @@ msgid "Ready for next stage"
 msgstr "다음 단계 대기"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:59
 #, python-format
 msgid "Ready for release"
 msgstr "출시 대기"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:57
 #, python-format
 msgid "Ready for testing"
 msgstr "테스트 대기"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:42
 #, python-format
 msgid "Ready to be displayed, published or sent"
@@ -3107,7 +3107,7 @@ msgid "Ready to reopen"
 msgstr "다시 열 준비 완료"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:77
 #: code:addons/project/static/src/js/web_planner_project.js:106
 #, python-format
@@ -3155,7 +3155,7 @@ msgid "Reference"
 msgstr "참조"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:52
 #, python-format
 msgid "Release"
@@ -3167,7 +3167,7 @@ msgid "Remaining Hours"
 msgstr "잔여 시간"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/project.js:69
 #, python-format
 msgid "Remove Cover Image"
@@ -3179,14 +3179,14 @@ msgid "Repair Workshop"
 msgstr ""
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:88
 #, python-format
 msgid "Repair has started"
 msgstr "복구가 시작되었습니다"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:91
 #, python-format
 msgid "Repair is completed"
@@ -3199,7 +3199,7 @@ msgid "Reporting"
 msgstr "보고"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:90
 #, python-format
 msgid "Request for parts has been sent"
@@ -3266,7 +3266,7 @@ msgid "Search in Stages"
 msgstr "단계별 검색"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/project.js:62
 #, python-format
 msgid "Select"
@@ -3301,7 +3301,7 @@ msgid "Set Cover Image"
 msgstr "표지 이미지 설정"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/project.js:61
 #, python-format
 msgid "Set a Cover Image"
@@ -3348,21 +3348,21 @@ msgid "Software development"
 msgstr "소프트웨어 개발"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:16
 #, python-format
 msgid "Specification"
 msgstr "사양"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:24
 #, python-format
 msgid "Specification is validated"
 msgstr "사양이 확인되었습니다"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:23
 #, python-format
 msgid "Specification of task is written"
@@ -3374,7 +3374,7 @@ msgid "Split your tasks to organize your work into sub-milestones"
 msgstr "하위 마일스톤으로 구성하기 위해 작업을 분할하십시오"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:49
 #, python-format
 msgid "Sprint"
@@ -3560,21 +3560,21 @@ msgid "Task blocked"
 msgstr "작업 차단됨"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:25
 #, python-format
 msgid "Task is Developed"
 msgstr "작업이 발전 되었습니다"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:105
 #, python-format
 msgid "Task is completed"
 msgstr "작업이 완료 었습니다"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:26
 #, python-format
 msgid "Task is tested"
@@ -3651,21 +3651,21 @@ msgid "Tasks to Merge"
 msgstr "병합 할 작업"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:50
 #, python-format
 msgid "Test"
 msgstr "테스트"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:58
 #, python-format
 msgid "Test is OK, need to document"
 msgstr "테스트는 정상이며 문서화해야합니다"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:19
 #, python-format
 msgid "Testing"
@@ -3739,7 +3739,7 @@ msgid "There are no tasks."
 msgstr "작업이 없습니다."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/xml/project.xml:7
 #, python-format
 msgid ""
@@ -3878,7 +3878,7 @@ msgid "Title"
 msgstr "제목"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:97
 #: model:project.task.type,name:project.project_stage_0
 #, python-format
@@ -3959,7 +3959,7 @@ msgid ""
 msgstr "팀 전체에 중요하지 않은 큰 작업이나 작업들을 해결하려면 별도의 모임을 사용하십시오."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:103
 #, python-format
 msgid ""
@@ -3968,7 +3968,7 @@ msgid ""
 msgstr "<b>구현 가이드</b>를 사용하여 회사에서 프로젝트 관리를 설정하십시오."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:85
 #, python-format
 msgid "Use the breadcrumbs to <b>go back to your tasks pipeline</b>."
@@ -4003,7 +4003,7 @@ msgstr ""
 "                        그렇다면 프로젝트 관리자로서 팀 구성원들이 프로젝트의 다음 단계에 참여하고 정보를 제공하며 기꺼이 참여할 수 있는 주간 상황 회의를 어떻게 구성 할 수 있습니까? 다음은 몇 가지 팁입니다."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:17
 #, python-format
 msgid "Validation"
@@ -4034,7 +4034,7 @@ msgid "Visible by following customers"
 msgstr "팔로우 한 고객이 볼 수 있음"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:67
 #: code:addons/project/static/src/js/web_planner_project.js:82
 #, python-format
@@ -4042,7 +4042,7 @@ msgid "Wait. Customer"
 msgstr ""
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:68
 #: code:addons/project/static/src/js/web_planner_project.js:83
 #, python-format
@@ -4050,7 +4050,7 @@ msgid "Wait. Expert"
 msgstr ""
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:13
 #, python-format
 msgid ""
@@ -4145,7 +4145,7 @@ msgid "Whether this project should be displayed on the dashboard or not"
 msgstr "이 프로젝트를 대시 보드에 표시할지 여부"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:40
 #, python-format
 msgid "Work has started"

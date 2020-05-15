@@ -818,7 +818,7 @@ msgid "Description"
 msgstr "說明"
 
 #. module: calendar
-#. openerp-web
+#. flectra-web
 #: code:addons/calendar/static/src/xml/base_calendar.xml:18
 #, python-format
 msgid "Details"
@@ -1240,7 +1240,7 @@ msgid "Number of repetitions"
 msgstr "重複的數量"
 
 #. module: calendar
-#. openerp-web
+#. flectra-web
 #: code:addons/calendar/static/src/xml/base_calendar.xml:17
 #, python-format
 msgid "OK"
@@ -1416,7 +1416,7 @@ msgid "Show Time as"
 msgstr "顯示時間為"
 
 #. module: calendar
-#. openerp-web
+#. flectra-web
 #: code:addons/calendar/static/src/xml/base_calendar.xml:19
 #, python-format
 msgid "Snooze"
@@ -1501,7 +1501,7 @@ msgid "The"
 msgstr "此"
 
 #. module: calendar
-#. openerp-web
+#. flectra-web
 #: code:addons/calendar/static/src/js/mail_activity.js:42
 #, python-format
 msgid ""

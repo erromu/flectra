@@ -64,7 +64,7 @@ msgstr ""
 "предметний префікс для вхідних чеків</i>"
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:48
 #, python-format
 msgid ""
@@ -75,7 +75,7 @@ msgstr ""
 "навести причину завдяки інструментам повідомлення нижче</p>"
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:21
 #, python-format
 msgid "<p>Click here to create your first expense and add it under here.</p>"
@@ -83,7 +83,7 @@ msgstr ""
 "<p>Натисніть тут, щоб створити свій перший рахунок і додати його нижче.</p>"
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:44
 #, python-format
 msgid ""
@@ -94,21 +94,21 @@ msgstr ""
 "витрати своєму менеджеру</p>"
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:31
 #, python-format
 msgid "<p>Once your Expense is ready, you can save it.</p>"
 msgstr "<p>Коли ваші витрати будуть готові, ви можете зберегти це.</p>"
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:39
 #, python-format
 msgid "<p>Select expenses to submit them to your manager</p>"
 msgstr "<p>Виберіть витрати, щоб надіслати їх вашому менеджеру</p>"
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:52
 #, python-format
 msgid ""
@@ -384,7 +384,7 @@ msgstr ""
 "для свого клієнта"
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:35
 #, python-format
 msgid "Attach your receipt here."
@@ -917,7 +917,7 @@ msgid "General Information"
 msgstr "Загальна інформація"
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:16
 #, python-format
 msgid "Go to the expense to attach a receipt."
@@ -1056,7 +1056,7 @@ msgid "Manager"
 msgstr "Керівник"
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:60
 #, python-format
 msgid "Managers can get all reports to approve from this menu."
@@ -1607,7 +1607,7 @@ msgstr ""
 "вибраному журналі є лише один доступний, який є \"ручним\""
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:56
 #, python-format
 msgid ""
@@ -1787,7 +1787,7 @@ msgid "When you charge"
 msgstr "Коли ви заряджаєте"
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:26
 #, python-format
 msgid "Write the name of the product, or select an existing one."

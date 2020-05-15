@@ -1258,7 +1258,7 @@ msgid "A warning can be set on a partner (Account)"
 msgstr "可以針對合作夥伴（科目）設定警告"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/js/reconciliation/reconciliation_renderer.js:521
 #: code:addons/account/static/src/js/reconciliation/reconciliation_renderer.js:523
 #: code:addons/account/static/src/xml/account_reconciliation.xml:170
@@ -1721,7 +1721,7 @@ msgid "Active"
 msgstr "有效"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_payment.xml:17
 #, python-format
 msgid "Add"
@@ -1892,7 +1892,7 @@ msgid "All accounts'"
 msgstr "所有科目的"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:47
 #, python-format
 msgid ""
@@ -1968,7 +1968,7 @@ msgid "Allows you to use the analytic accounting."
 msgstr "允許您使用輔助核算項。"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:193
 #: code:addons/account/static/src/xml/account_reconciliation.xml:235
 #: code:addons/account/static/src/xml/account_reconciliation.xml:252
@@ -2058,7 +2058,7 @@ msgid "Amount type"
 msgstr "金額類型"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_payment.xml:68
 #, python-format
 msgid "Amount:"
@@ -2107,7 +2107,7 @@ msgid "Analytic"
 msgstr "分析"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:178
 #, python-format
 msgid "Analytic Acc."
@@ -2322,7 +2322,7 @@ msgid "Automatic formatting"
 msgstr "自動格式化"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:24
 #, python-format
 msgid "Automatic reconciliation"
@@ -2428,7 +2428,7 @@ msgid ""
 msgstr "憑單將支付的銀行帳號。如果這是客戶憑單或供應商憑單，則是公司銀行帳戶，否則是合作夥伴銀行帳號。"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_dashboard_setup_bar.xml:21
 #: model:ir.actions.act_window,name:account.action_account_bank_journal_form
 #: model:ir.model,name:account.model_res_partner_bank
@@ -2518,7 +2518,7 @@ msgid "Bank and Cash"
 msgstr "銀行和現金"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/js/reconciliation/reconciliation_action.js:15
 #, python-format
 msgid "Bank reconciliation"
@@ -2968,7 +2968,7 @@ msgid "Chart of Account Checked"
 msgstr "已經檢查的科目表"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/models/company.py:278
 #: code:addons/account/static/src/xml/account_dashboard_setup_bar.xml:13
 #: model:ir.actions.act_window,name:account.action_account_form
@@ -3069,7 +3069,7 @@ msgid "Choose Accounting Template"
 msgstr "選擇科目模板"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:131
 #, python-format
 msgid "Choose counterpart or Create Write-off"
@@ -3147,14 +3147,14 @@ msgid "Click to register a payment"
 msgstr "點選以登記一個付款"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:260
 #, python-format
 msgid "Close"
 msgstr "關閉"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:60
 #, python-format
 msgid "Close statement"
@@ -3285,7 +3285,7 @@ msgid "Company Currency"
 msgstr "公司幣別"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/models/company.py:210
 #: code:addons/account/static/src/xml/account_dashboard_setup_bar.xml:25
 #, python-format
@@ -3365,7 +3365,7 @@ msgid "Configuration Error !"
 msgstr "配置錯誤！"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_dashboard_setup_bar.xml:29
 #, python-format
 msgid "Configuration Steps:"
@@ -3452,7 +3452,7 @@ msgid ""
 msgstr "確認這個之後就會自動創建一個帶有現金日記帳中設定的損／益科目差異的日記帳分錄。"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:52
 #, python-format
 msgid "Congrats, you're all done!"
@@ -3560,7 +3560,7 @@ msgid "Create invoice/bill"
 msgstr "創建憑單／帳單"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:163
 #, python-format
 msgid "Create model"
@@ -3957,7 +3957,7 @@ msgid "DOWN"
 msgstr "向下"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/js/account_dashboard_setup_bar.js:214
 #: model:ir.ui.menu,name:account.menu_board_journal_1
 #, python-format
@@ -3965,7 +3965,7 @@ msgid "Dashboard"
 msgstr "儀表板"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: selection:account.print.journal,sort_selection:0
 #: selection:account.report.general.ledger,sortby:0
 #: selection:accounting.report,filter_cmp:0
@@ -4005,7 +4005,7 @@ msgid ""
 msgstr "會計在Odoo中管理的日期。這是開戶分錄的日期。"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_payment.xml:56
 #, python-format
 msgid "Date:"
@@ -4190,7 +4190,7 @@ msgid "Describe why you take money from the cash register:"
 msgstr "說明從您從現金出納機取錢的原因："
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:251
 #: model:ir.model.fields,field_description:account.field_account_account_type_note
 #: model:ir.model.fields,field_description:account.field_account_invoice_line_name
@@ -4469,7 +4469,7 @@ msgid "Due Amount"
 msgstr "到期金額"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/controllers/portal.py:71
 #: code:addons/account/static/src/xml/account_reconciliation.xml:234
 #: model:ir.model.fields,field_description:account.field_account_invoice_date_due
@@ -4751,7 +4751,7 @@ msgid "Filter by"
 msgstr "篩選"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:141
 #, python-format
 msgid "Filter..."
@@ -4847,7 +4847,7 @@ msgid "Fiscal Positions"
 msgstr "財務狀況"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/models/company.py:251
 #: code:addons/account/static/src/xml/account_dashboard_setup_bar.xml:17
 #, python-format
@@ -5079,7 +5079,7 @@ msgid ""
 msgstr "當顯示付款明細列表時給予序號排序。"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:57
 #, python-format
 msgid "Go to bank statement(s)"
@@ -5097,7 +5097,7 @@ msgid "Good Debtor"
 msgstr "信用好的債務人"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:46
 #, python-format
 msgid "Good Job!"
@@ -5559,7 +5559,7 @@ msgid "Income Account on Product Template"
 msgstr "產品模板的收入科目"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/js/reconciliation/reconciliation_model.js:700
 #, python-format
 msgid "Incorrect Operation"
@@ -5576,7 +5576,7 @@ msgid "Information addendum"
 msgstr "附加信息"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/models/company.py:296
 #: code:addons/account/models/company.py:311
 #: code:addons/account/static/src/xml/account_dashboard_setup_bar.xml:9
@@ -5965,7 +5965,7 @@ msgid "January"
 msgstr "一月"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:185
 #: code:addons/account/static/src/xml/account_reconciliation.xml:229
 #: model:ir.model,name:account.model_account_journal
@@ -6077,7 +6077,7 @@ msgid "Journal Items"
 msgstr "日記帳項"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/js/reconciliation/reconciliation_action.js:323
 #: model:ir.actions.client,name:account.action_manual_reconcile
 #, python-format
@@ -6188,7 +6188,7 @@ msgid ""
 msgstr "保持這個字段為空，使用來自產品類別的預設值。"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/js/reconciliation/reconciliation_renderer.js:522
 #: code:addons/account/static/src/xml/account_reconciliation.xml:189
 #: code:addons/account/static/src/xml/account_reconciliation.xml:230
@@ -6287,7 +6287,7 @@ msgid "Last Month"
 msgstr "上個月"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:119
 #, python-format
 msgid "Last Reconciliation:"
@@ -6491,7 +6491,7 @@ msgid "Less Payment"
 msgstr "減付款"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:24
 #, python-format
 msgid "Let odoo try to reconcile entries for the user"
@@ -6535,7 +6535,7 @@ msgid "Litigation"
 msgstr "訴訟"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:29
 #, python-format
 msgid "Load more"
@@ -6773,7 +6773,7 @@ msgid "Memo"
 msgstr "備忘錄"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_payment.xml:64
 #, python-format
 msgid "Memo:"
@@ -6830,7 +6830,7 @@ msgid "Miscellaneous Operations"
 msgstr "雜項操作"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:164
 #, python-format
 msgid "Modify models"
@@ -6946,7 +6946,7 @@ msgid "Name"
 msgstr "名稱"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_payment.xml:52
 #, python-format
 msgid "Name:"
@@ -7071,7 +7071,7 @@ msgid "Normal Text"
 msgstr "常規文本"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:254
 #: model:ir.model.fields,field_description:account.field_account_account_template_note
 #, python-format
@@ -7101,7 +7101,7 @@ msgid "Nothing to Reconcile"
 msgstr "沒有需要調節的"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:34
 #, python-format
 msgid "Nothing to do!"
@@ -7145,7 +7145,7 @@ msgid "OFX Import"
 msgstr "OFX導入"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:17
 #, python-format
 msgid "OK"
@@ -7300,7 +7300,7 @@ msgid ""
 msgstr "只有帶有「主辦會計」角色的使用者可以編輯此日期前以及包括此日期的帳戶。例如：用它來對開啟狀態的會計年度進行期間鎖定。"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: selection:account.invoice,state:0 selection:account.invoice.report,state:0
 #: code:addons/account/static/src/xml/account_payment.xml:82
 #: model:ir.ui.view,arch_db:account.view_account_invoice_filter
@@ -7309,7 +7309,7 @@ msgid "Open"
 msgstr "開啟"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/js/reconciliation/reconciliation_model.js:664
 #: code:addons/account/static/src/xml/account_reconciliation.xml:131
 #, python-format
@@ -7510,7 +7510,7 @@ msgid "Paid Invoices"
 msgstr "已付憑單"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_payment.xml:28
 #: model:ir.ui.view,arch_db:account.report_invoice_document_with_payments
 #, python-format
@@ -7550,7 +7550,7 @@ msgid "Partial Reconcile"
 msgstr "部分調節"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:232
 #: code:addons/account/static/src/xml/account_reconciliation.xml:249
 #: model:ir.model.fields,field_description:account.field_account_abstract_payment_partner_id
@@ -7702,7 +7702,7 @@ msgid "Payment Method Type"
 msgstr "付款方式類型"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_payment.xml:60
 #, python-format
 msgid "Payment Method:"
@@ -8272,7 +8272,7 @@ msgid "Receive Money"
 msgstr "收款"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:73
 #: code:addons/account/static/src/xml/account_reconciliation.xml:105
 #: code:addons/account/static/src/xml/account_reconciliation.xml:106
@@ -8301,7 +8301,7 @@ msgid "Reconcile Writeoff"
 msgstr "調節核銷"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/js/tour_bank_statement_reconciliation.js:11
 #, python-format
 msgid "Reconcile the demo bank statement"
@@ -8372,7 +8372,7 @@ msgid "Recording invoices"
 msgstr "記錄憑單"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:231
 #: model:ir.ui.view,arch_db:account.report_generalledger
 #: model:ir.ui.view,arch_db:account.report_partnerledger
@@ -8547,7 +8547,7 @@ msgid "Reset to Draft"
 msgstr "重置為草稿"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:236
 #, python-format
 msgid "Residual"
@@ -8735,7 +8735,7 @@ msgid "Save"
 msgstr "保存"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:199
 #, python-format
 msgid "Save and New"
@@ -8860,7 +8860,7 @@ msgstr ""
 "給其餘操作的日記帳選擇『通用』。"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:74
 #, python-format
 msgid "Select a partner or choose a counterpart"
@@ -9064,7 +9064,7 @@ msgid ""
 msgstr "使用整合的批次付款功能來簡化現金、支票或是信用卡存款。"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:107
 #, python-format
 msgid "Skip"
@@ -9239,7 +9239,7 @@ msgid "Target Moves"
 msgstr "目標移動"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:174
 #: model:ir.model,name:account.model_account_tax
 #: model:ir.model.fields,field_description:account.field_account_invoice_amount_tax
@@ -9671,7 +9671,7 @@ msgid "Terms and conditions..."
 msgstr "條款和條件..."
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:53
 #, python-format
 msgid "That's on average"
@@ -10095,7 +10095,7 @@ msgstr ""
 "在』會計/配置/設定『下設定"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:46
 #, python-format
 msgid "There is nothing to reconcile."
@@ -10308,7 +10308,7 @@ msgid ""
 msgstr "此方法應僅在處理單個憑單付款時調用。"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/js/reconciliation/reconciliation_renderer.js:395
 #, python-format
 msgid ""
@@ -10337,7 +10337,7 @@ msgstr ""
 "這允許您定義可以擴展到另一科目模版的模版圖表，並且以幾個新科目來完成（您不需要定義幾次這兩個共用的整個架構）。"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:35
 #, python-format
 msgid ""
@@ -10346,7 +10346,7 @@ msgid ""
 msgstr "此頁顯示所有的要被調節的銀行交易，並提供了一個整潔的界面"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:240
 #, python-format
 msgid "This payment is registered but not reconciled."
@@ -10402,7 +10402,7 @@ msgid "Tick if you wish to hide the setup bar on the dashboard"
 msgstr "勾選此框，如果您想要在儀表板隱藏設定進度條"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:31
 #, python-format
 msgid "Tip: Hit CTRL-Enter to reconcile all the balanced items in the sheet."
@@ -10574,7 +10574,7 @@ msgid "Track costs &amp; revenues by project, department, etc."
 msgstr "追蹤專案、部門等的成本和收入等"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:250
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 #, python-format
@@ -10669,7 +10669,7 @@ msgid "Undistributed Profits/Losses"
 msgstr "未分配利潤／虧損"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/js/reconciliation/reconciliation_renderer.js:392
 #, python-format
 msgid "Undo the partial reconciliation."
@@ -10732,7 +10732,7 @@ msgid "Unposted Journal Items"
 msgstr "未過帳日記帳專案"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_payment.xml:81
 #: model:ir.ui.view,arch_db:account.account_unreconcile_view
 #, python-format
@@ -10914,7 +10914,7 @@ msgid "VAT:"
 msgstr "增值稅："
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:72
 #: model:ir.ui.view,arch_db:account.invoice_form
 #: model:ir.ui.view,arch_db:account.invoice_supplier_form
@@ -11391,7 +11391,7 @@ msgstr ""
 " lock date for advisors is not set after the last day of the previous month."
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/js/reconciliation/reconciliation_model.js:701
 #, python-format
 msgid "You cannot mix items from receivable and payable accounts."
@@ -11461,7 +11461,7 @@ msgid ""
 msgstr "有著負值總額的憑單不能被驗證。 您應該創建一張退款單。"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:158
 #, python-format
 msgid "You did not configure any reconcile model yet, you can do it"
@@ -11504,7 +11504,7 @@ msgid "You must set a start date."
 msgstr "您須配置開始日期。"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:53
 #, python-format
 msgid "You reconciled"
@@ -11645,7 +11645,7 @@ msgid "activate this feature"
 msgstr "啟用此功能"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_payment.xml:17
 #, python-format
 msgid "assign to invoice"
@@ -11708,7 +11708,7 @@ msgid "for this supplier. You can allocate them to mark this bill as paid."
 msgstr "對於此供應商，您可以將它們分配為標記此帳單已付款。"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:41
 #, python-format
 msgid "o_manual_statement"
@@ -11776,7 +11776,7 @@ msgid "reversal of: "
 msgstr "退款："
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:53
 #, python-format
 msgid "seconds per transaction."
@@ -11813,7 +11813,7 @@ msgid "the product list"
 msgstr "產品列表"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:158
 #, python-format
 msgid "there"
@@ -11830,7 +11830,7 @@ msgid "to set the balance of all of your accounts."
 msgstr "為您的所有帳戶設定餘額。"
 
 #. module: account
-#. openerp-web
+#. flectra-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:53
 #, python-format
 msgid "transactions in"

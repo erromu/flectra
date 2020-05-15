@@ -78,7 +78,7 @@ msgid "Are you inside the matrix?"
 msgstr "您是否在矩陣中？"
 
 #. module: im_livechat
-#. openerp-web
+#. flectra-web
 #: code:addons/im_livechat/static/src/js/im_livechat.js:48
 #, python-format
 msgid "Ask something ..."
@@ -117,7 +117,7 @@ msgid "Average time to give the first answer to the visitor"
 msgstr "首次回覆訪客的平均時間"
 
 #. module: im_livechat
-#. openerp-web
+#. flectra-web
 #: code:addons/im_livechat/static/src/xml/im_livechat.xml:13
 #, python-format
 msgid "Bad"
@@ -180,7 +180,7 @@ msgid "Chat Input Placeholder"
 msgstr "聊天輸入預留位置"
 
 #. module: im_livechat
-#. openerp-web
+#. flectra-web
 #: code:addons/im_livechat/static/src/js/im_livechat.js:50
 #, python-format
 msgid "Chat with one of our collaborators"
@@ -214,14 +214,14 @@ msgid "Conversation"
 msgstr "對話"
 
 #. module: im_livechat
-#. openerp-web
+#. flectra-web
 #: code:addons/im_livechat/static/src/js/copy_clipboard.js:32
 #, python-format
 msgid "Copied !"
 msgstr "已複製 !"
 
 #. module: im_livechat
-#. openerp-web
+#. flectra-web
 #: code:addons/im_livechat/static/src/xml/copy_clipboard.xml:6
 #: code:addons/im_livechat/static/src/xml/copy_clipboard.xml:12
 #, python-format
@@ -309,7 +309,7 @@ msgid ""
 msgstr "自動打開對話窗口的延遲（以秒計）。注意：所選操作必須為「自動彈出」，否則將不會考慮此參數。"
 
 #. module: im_livechat
-#. openerp-web
+#. flectra-web
 #: code:addons/im_livechat/static/src/xml/im_livechat.xml:7
 #, python-format
 msgid "Did we correctly answer your question ?"
@@ -347,7 +347,7 @@ msgid ""
 msgstr "每個頻道都有對應的網址，您可以通過發送電郵來開始和您的客戶進行談話。"
 
 #. module: im_livechat
-#. openerp-web
+#. flectra-web
 #: code:addons/im_livechat/static/src/xml/im_livechat.xml:19
 #, python-format
 msgid "Explain your note"
@@ -371,7 +371,7 @@ msgid ""
 msgstr "幫助訂單找到匹配規則。如果2條規則同時匹配給定的網址l/國家，會選擇低序列的一個。"
 
 #. module: im_livechat
-#. openerp-web
+#. flectra-web
 #: code:addons/im_livechat/static/src/xml/im_livechat.xml:11
 #, python-format
 msgid "Good"
@@ -402,7 +402,7 @@ msgid "Hour of start Date of session"
 msgstr "會話開始的小時數"
 
 #. module: im_livechat
-#. openerp-web
+#. flectra-web
 #: code:addons/im_livechat/static/src/js/im_livechat.js:51
 #, python-format
 msgid "How may I help you?"
@@ -414,7 +414,7 @@ msgid "How to use the Website Live Chat widget?"
 msgstr "如何使用網站線上交談掛件?"
 
 #. module: im_livechat
-#. openerp-web
+#. flectra-web
 #: code:addons/im_livechat/static/src/xml/im_livechat.xml:15
 #, python-format
 msgid "I don't want to rate this conversation"
@@ -506,7 +506,7 @@ msgid "Live Support"
 msgstr "即時支援"
 
 #. module: im_livechat
-#. openerp-web
+#. flectra-web
 #: code:addons/im_livechat/static/src/xml/im_livechat_backend.xml:9
 #: code:addons/im_livechat/static/src/xml/im_livechat_backend.xml:21
 #, python-format
@@ -588,7 +588,7 @@ msgid "No history found"
 msgstr "未找到歷史記錄"
 
 #. module: im_livechat
-#. openerp-web
+#. flectra-web
 #: code:addons/im_livechat/static/src/js/im_livechat.js:150
 #, python-format
 msgid ""
@@ -612,7 +612,7 @@ msgid "Number of message in the conversation"
 msgstr "對話中的消息數量"
 
 #. module: im_livechat
-#. openerp-web
+#. flectra-web
 #: code:addons/im_livechat/static/src/xml/im_livechat.xml:12
 #, python-format
 msgid "OK"
@@ -673,7 +673,7 @@ msgid "Rating"
 msgstr "點評"
 
 #. module: im_livechat
-#. openerp-web
+#. flectra-web
 #: code:addons/im_livechat/static/src/js/im_livechat.js:344
 #, python-format
 msgid "Rating: :rating_%d"
@@ -881,7 +881,7 @@ msgid "User"
 msgstr "使用者"
 
 #. module: im_livechat
-#. openerp-web
+#. flectra-web
 #: code:addons/im_livechat/controllers/main.py:37
 #: code:addons/im_livechat/static/src/js/im_livechat.js:49
 #, python-format

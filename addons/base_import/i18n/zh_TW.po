@@ -21,14 +21,14 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:535
 #, python-format
 msgid "(%d more)"
 msgstr "( 更多 %d)"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:309
 #, python-format
 msgid ""
@@ -37,7 +37,7 @@ msgid ""
 msgstr "文件中僅有一欄，這經常意味著文件分隔符不正確"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:89
 #, python-format
 msgid "Cancel"
@@ -56,7 +56,7 @@ msgid "Column %s contains incorrect values. Error in line %d: %s"
 msgstr "列 %s 包含非法數據. 錯誤在行%d: %s"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:176
 #: code:addons/base_import/static/src/js/import_action.js:187
 #: code:addons/base_import/static/src/js/import_action.js:194
@@ -109,28 +109,28 @@ msgid "Database ID"
 msgstr "資料庫 ID"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:55
 #, python-format
 msgid "Date Format:"
 msgstr "數據格式："
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:56
 #, python-format
 msgid "Datetime Format:"
 msgstr "日期時間格式:"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:58
 #, python-format
 msgid "Decimal Separator:"
 msgstr "十進制分隔符："
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:71
 #, python-format
 msgid "Defer parent/child computation"
@@ -155,14 +155,14 @@ msgid "Display Name"
 msgstr "顯示名稱"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:353
 #, python-format
 msgid "Don't import"
 msgstr "不導入"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:195
 #: code:addons/base_import/static/src/js/import_action.js:213
 #, python-format
@@ -170,7 +170,7 @@ msgid "Dot"
 msgstr "點"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:50
 #, python-format
 msgid "Encoding:"
@@ -189,7 +189,7 @@ msgid "Error cell found while reading XLS/XLSX file: %s"
 msgstr "讀取XLS/XLSX文件: %s 時發現錯誤單元格"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:512
 #, python-format
 msgid "Everything seems valid."
@@ -223,35 +223,35 @@ msgid "File to check and/or import, raw binary (not base64)"
 msgstr "文件的審核或導入， 原始二進制編碼（不是base64編碼）"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:115
 #, python-format
 msgid "For CSV files, the issue could be an incorrect encoding."
 msgstr "對於CSV文件來說，這個問題可能由錯誤的編碼造成。"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:559
 #, python-format
 msgid "Get all possible values"
 msgstr "獲取所有可能的值"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:11
 #, python-format
 msgid "Help"
 msgstr "幫助"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:546
 #, python-format
 msgid "Here are the possible values:"
 msgstr "這裡是可能的值："
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:116
 #, python-format
 msgid "Here is the start of the file we could not import:"
@@ -276,7 +276,7 @@ msgid "ID"
 msgstr "ID"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:73
 #, python-format
 msgid ""
@@ -291,7 +291,7 @@ msgstr ""
 "                簡單多了尤其是當文件有很多列的時候。"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:60
 #, python-format
 msgid ""
@@ -301,7 +301,7 @@ msgid ""
 msgstr "如果該數據模型聲明使用openchatter，歷史追蹤功能，系統就會自動設定訂閱和發送通知，導入期間，會執行很慢。"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:69
 #, python-format
 msgid ""
@@ -311,7 +311,7 @@ msgid ""
 msgstr ""
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:97
 #: code:addons/base_import/static/src/xml/base_import.xml:156
 #, python-format
@@ -319,14 +319,14 @@ msgid "Import"
 msgstr "導入"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:111
 #, python-format
 msgid "Import a File"
 msgstr "導入文件"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:114
 #, python-format
 msgid "Import preview failed due to:"
@@ -387,14 +387,14 @@ msgid "Last Updated on"
 msgstr "最後更新時間"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:19
 #, python-format
 msgid "Load File"
 msgstr "加載文件"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:56
 #, python-format
 msgid "Map your columns to import"
@@ -411,21 +411,21 @@ msgid "Name"
 msgstr "名稱"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:15
 #, python-format
 msgid "No file chosen..."
 msgstr "沒有選擇文件..."
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:418
 #, python-format
 msgid "Normal Fields"
 msgstr "正常字段"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:30
 #, python-format
 msgid "Options…"
@@ -442,42 +442,42 @@ msgid "Parent"
 msgstr "上級"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:419
 #, python-format
 msgid "Relation Fields"
 msgstr "關聯字段"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:24
 #, python-format
 msgid "Reload File"
 msgstr "重新載入文件"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:11
 #, python-format
 msgid "Select a CSV or Excel file to import."
 msgstr "選擇 CSV 或者 Excel 文件導入。"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:177
 #, python-format
 msgid "Semicolon"
 msgstr "分號"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:51
 #, python-format
 msgid "Separator:"
 msgstr "分隔符："
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:72
 #, python-format
 msgid "Show fields of relation fields (advanced)"
@@ -489,35 +489,35 @@ msgid "Some Value"
 msgstr "一些值"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:179
 #, python-format
 msgid "Space"
 msgstr "空格鍵"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:178
 #, python-format
 msgid "Tab"
 msgstr "選項卡"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:86
 #, python-format
 msgid "Test Import"
 msgstr "測試導入"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:52
 #, python-format
 msgid "Text Delimiter:"
 msgstr "文本分隔符: "
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:68
 #, python-format
 msgid ""
@@ -526,14 +526,14 @@ msgid ""
 msgstr "文件的第一行包含表頭"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:57
 #, python-format
 msgid "Thousands Separator:"
 msgstr "千分位分隔符:"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:62
 #, python-format
 msgid "Track history during import"
@@ -575,7 +575,7 @@ msgid "You must configure at least one field to import"
 msgstr "您必須至少配置一個字段來導入"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:529
 #, python-format
 msgid "at row %d"
@@ -652,7 +652,7 @@ msgid "base_import.tests.models.preview"
 msgstr "base_import.tests.models.preview"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:531
 #, python-format
 msgid "between rows %d and %d"

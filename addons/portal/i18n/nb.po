@@ -92,7 +92,7 @@ msgid "<span id=\"search_label\">Search</span> <span class=\"caret\"/>"
 msgstr "<span id=\"search_label\">Søk</span><span class=\"caret\"/>"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_signature.xml:24
 #, python-format
 msgid "Accept and Sign"
@@ -124,14 +124,14 @@ msgid "City"
 msgstr "By"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_signature.xml:12
 #, python-format
 msgid "Clear"
 msgstr "Tøm"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_signature.xml:27
 #, python-format
 msgid "Click here to see your document."
@@ -200,7 +200,7 @@ msgid "Display Name"
 msgstr "Visningsnavn"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_signature.xml:14
 #, python-format
 msgid "Draw your signature"
@@ -271,7 +271,7 @@ msgid "Last Updated on"
 msgstr "Sist oppdatert"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:20
 #, python-format
 msgid "Leave a comment"
@@ -303,7 +303,7 @@ msgid "Next"
 msgstr "Neste"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:38
 #, python-format
 msgid "Oops! Something went wrong. Try to reload the page and log in."
@@ -346,7 +346,7 @@ msgid "Prev"
 msgstr "Forrige"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/js/portal_chatter.js:102
 #, python-format
 msgid "Published on %s"
@@ -364,7 +364,7 @@ msgstr ""
 "                        Om nødvendig kan du rette opp epostadresser direkte i listen."
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:41
 #, python-format
 msgid "Send"
@@ -406,7 +406,7 @@ msgid "Street"
 msgstr "Gate"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_signature.xml:25
 #, python-format
 msgid "Thank You !"
@@ -418,7 +418,7 @@ msgid "The portal that users can be added in or removed from."
 msgstr "Portalen som brukere kan legges til i eller fjernes fra."
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:11
 #, python-format
 msgid "There are no comments for now."
@@ -584,14 +584,14 @@ msgid "Wizard"
 msgstr "Veileder"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:32
 #, python-format
 msgid "Write a message..."
 msgstr "Skriv en melding ..."
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:21
 #, python-format
 msgid "You must be"
@@ -623,7 +623,7 @@ msgid "Your Documents"
 msgstr "Dokumentene dine"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_signature.xml:6
 #: model:ir.ui.view,arch_db:portal.portal_my_details
 #, python-format
@@ -641,28 +641,28 @@ msgid "Zip / Postal Code"
 msgstr "Postnummer"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:56
 #, python-format
 msgid "avatar"
 msgstr "avatar"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:8
 #, python-format
 msgid "comment"
 msgstr "kommentar"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:9
 #, python-format
 msgid "comments"
 msgstr "kommentarer"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:21
 #, python-format
 msgid "logged in"
@@ -679,7 +679,7 @@ msgid "select..."
 msgstr "velg..."
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:21
 #, python-format
 msgid "to post a comment."

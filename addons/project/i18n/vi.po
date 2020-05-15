@@ -209,7 +209,7 @@ msgstr ""
 "cần:</strong>"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:69
 #, python-format
 msgid ""
@@ -220,14 +220,14 @@ msgstr ""
 " mới bất kỳ lúc nào.</i>"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:80
 #, python-format
 msgid "<b>Click the save button</b> to apply your changes to the task."
 msgstr "<b>Bấm nút lưu</b> để cập nhật sự thay đổi của bạn lên nhiệm vụ."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:48
 #, python-format
 msgid "<b>Drag &amp; drop tasks</b> between columns as you work on them."
@@ -235,7 +235,7 @@ msgstr ""
 "<b>Kéo &amp; thả các nhiệm vụ</b> giữa các cột khi bạn làm việc với chúng."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:94
 #, python-format
 msgid ""
@@ -243,7 +243,7 @@ msgid ""
 msgstr "<b>Mời cộng sự</b> qua email.<br/><i>Nhập mỗi dòng một email.</i>"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:54
 #, python-format
 msgid "<b>Star tasks</b> to mark team priorities."
@@ -1003,7 +1003,7 @@ msgid "Account Preferences"
 msgstr "Tuỳ chọn Tài khoản người dùng"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:39
 #, python-format
 msgid "Action has a clear description"
@@ -1041,7 +1041,7 @@ msgid "Add a description..."
 msgstr "Thêm mô tả..."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:38
 #, python-format
 msgid ""
@@ -1052,7 +1052,7 @@ msgstr ""
 "Phân tích &gt; Phát triển &gt; Hoàn thành</i>"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:56
 #, python-format
 msgid "Added in current sprint"
@@ -1236,7 +1236,7 @@ msgstr ""
 " các nhiệm vụ và uỷ thác cho một vài nhân viên thực hiện."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:32
 #: code:addons/project/static/src/js/web_planner_project.js:48
 #: code:addons/project/static/src/js/web_planner_project.js:64
@@ -1341,7 +1341,7 @@ msgid "Cancel"
 msgstr "Hủy"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:70
 #: code:addons/project/static/src/js/web_planner_project.js:85
 #: code:addons/project/static/src/js/web_planner_project.js:99
@@ -1356,7 +1356,7 @@ msgid "Change their Stages in the Project Stages tab"
 msgstr "Thay đổi các Giai đoạn của chúng trong tab Giai đoạn Dự án"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:23
 #, python-format
 msgid ""
@@ -1382,21 +1382,21 @@ msgstr ""
 "lập dự án đó (có thể là chính dự án)"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:55
 #, python-format
 msgid "Clear description and purpose"
 msgstr "Mục tiêu và mô tả rõ ràng"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:59
 #, python-format
 msgid "Click on a card to get the details of the task."
 msgstr "Bấm vào card để xem chi tiết về nhiệm vụ."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:31
 #, python-format
 msgid ""
@@ -1405,7 +1405,7 @@ msgstr ""
 "Bấm vào card để <b>đến dự án của bạn</b> và bắt đầu tổ chức các nhiệm vụ."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:64
 #, python-format
 msgid "Click on this button to modify the task."
@@ -1465,7 +1465,7 @@ msgid "Configuration"
 msgstr "Cấu hình"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:90
 #, python-format
 msgid "Configuration options are available in the Settings app."
@@ -1510,7 +1510,7 @@ msgid "Control projects quality and satisfaction"
 msgstr "Kiểm soát chất lượng dự án và sự hài lòng"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:34
 #, python-format
 msgid "Copywriting / Design"
@@ -1668,28 +1668,28 @@ msgid "Customer Service"
 msgstr "Dịch vụ khách hàng"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:74
 #, python-format
 msgid "Customer feedback has been requested"
 msgstr "Phản hồi của khách hàng đã được yêu cầu"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:92
 #, python-format
 msgid "Customer has cancelled repair"
 msgstr "Khách hàng đã huỷ sửa chữa"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:72
 #, python-format
 msgid "Customer has reported new issue"
 msgstr "Khách hàng đã báo cáo một phát sinh"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:71
 #, python-format
 msgid "Customer service has found new issue"
@@ -1766,7 +1766,7 @@ msgid "Deploy"
 msgstr "Triển khai"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:20
 #, python-format
 msgid "Deployment"
@@ -1780,7 +1780,7 @@ msgid "Description"
 msgstr "Mô tả"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:18
 #, python-format
 msgid "Development"
@@ -1792,7 +1792,7 @@ msgid "Development Process"
 msgstr "Quy trình phát triển"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/project.js:71
 #: model:ir.ui.view,arch_db:project.project_project_view_form_simplified
 #, python-format
@@ -1810,21 +1810,21 @@ msgid "Display Name"
 msgstr "Tên hiển thị"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:35
 #, python-format
 msgid "Distribute"
 msgstr "Phân phối"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:43
 #, python-format
 msgid "Distribution is completed"
 msgstr "Việc phân phối được hoàn thành"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:51
 #, python-format
 msgid "Documentation"
@@ -1864,7 +1864,7 @@ msgid "Don't hesitate to select only the events you are interested in!"
 msgstr "Đừng ngại trong việc chỉ lựa chọn những sự kiện mà bạn quan tâm!"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:36
 #: code:addons/project/static/src/js/web_planner_project.js:69
 #: code:addons/project/static/src/js/web_planner_project.js:84
@@ -1973,7 +1973,7 @@ msgid "Examples"
 msgstr "Ví dụ"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:75
 #, python-format
 msgid "Expert advice has been requested"
@@ -2009,14 +2009,14 @@ msgid "Extra useful for when you're with a customer or in a meeting."
 msgstr "Cực kỳ hữu ích khi bạn đang gặp khách hàng hoặc đang họp."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:89
 #, python-format
 msgid "Feedback from customer requested"
 msgstr "Phản hồi từ khách hàng được yêu cầu"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:27
 #, python-format
 msgid "Finally task is deployed"
@@ -2124,7 +2124,7 @@ msgid "Gives the sequence order when displaying a list of tasks."
 msgstr "Chỉ ra thứ tự sắp xếp khi hiển thị danh sách nhiệm vụ."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:99
 #, python-format
 msgid ""
@@ -2244,14 +2244,14 @@ msgstr ""
 "vụ)"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:104
 #, python-format
 msgid "Idea has been transformed into concrete actions"
 msgstr "Ý tưởng đã được biến thành các hành động cụ thể"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:103
 #, python-format
 msgid "Idea is fully explained"
@@ -2264,7 +2264,7 @@ msgstr ""
 "Một cách lý tưởng, một người chỉ nên phụ trách một dự án tại một thời điểm."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:96
 #, python-format
 msgid "Ideas"
@@ -2393,7 +2393,7 @@ msgid "In Progress"
 msgstr "Đang thực hiện"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:33
 #: code:addons/project/static/src/js/web_planner_project.js:66
 #: code:addons/project/static/src/js/web_planner_project.js:81
@@ -2402,7 +2402,7 @@ msgid "In progress"
 msgstr "Đang thực hiện"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:80
 #, python-format
 msgid "Incoming"
@@ -2439,14 +2439,14 @@ msgid "Issue Version"
 msgstr "Phiên bản Phát sinh"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:73
 #, python-format
 msgid "Issue is being worked on"
 msgstr "Phát sinh đang được xem xét"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:76
 #, python-format
 msgid "Issue is resolved"
@@ -2602,7 +2602,7 @@ msgstr ""
 "vụ và Bảng chấm công."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:18
 #, python-format
 msgid "Let's create your first project."
@@ -2774,7 +2774,7 @@ msgid "Need functional or technical help"
 msgstr "Cần trợ giúp về tính năng hoặc kỹ thuật"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:65
 #: model:ir.ui.view,arch_db:project.view_task_project_user_search
 #: model:project.task.type,name:project.project_stage_data_0
@@ -2783,7 +2783,7 @@ msgid "New"
 msgstr "Mới"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:87
 #, python-format
 msgid "New repair added"
@@ -2847,7 +2847,7 @@ msgid "Notifications"
 msgstr "Thông báo"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:43
 #, python-format
 msgid "Now that the project is set up, <b>create a few tasks</b>."
@@ -3212,7 +3212,7 @@ msgid "Ready for Next Stage"
 msgstr "Sẵn sàng giai đoạn kế tiếp"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:41
 #, python-format
 msgid "Ready for layout / copywriting"
@@ -3224,21 +3224,21 @@ msgid "Ready for next stage"
 msgstr "Sẵn sàng cho giai đoạn kế tiếp"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:59
 #, python-format
 msgid "Ready for release"
 msgstr "Sẵn sàng phát hành"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:57
 #, python-format
 msgid "Ready for testing"
 msgstr "Sẵn sàng kiểm thử"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:42
 #, python-format
 msgid "Ready to be displayed, published or sent"
@@ -3252,7 +3252,7 @@ msgid "Ready to reopen"
 msgstr "Sẵn sàng Mở lại"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:77
 #: code:addons/project/static/src/js/web_planner_project.js:106
 #, python-format
@@ -3300,7 +3300,7 @@ msgid "Reference"
 msgstr "Tham chiếu"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:52
 #, python-format
 msgid "Release"
@@ -3312,7 +3312,7 @@ msgid "Remaining Hours"
 msgstr "Số giờ còn lại"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/project.js:69
 #, python-format
 msgid "Remove Cover Image"
@@ -3324,14 +3324,14 @@ msgid "Repair Workshop"
 msgstr "Xưởng Sửa chữa"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:88
 #, python-format
 msgid "Repair has started"
 msgstr "Sửa chữa đã được khởi động"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:91
 #, python-format
 msgid "Repair is completed"
@@ -3344,7 +3344,7 @@ msgid "Reporting"
 msgstr "Báo cáo"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:90
 #, python-format
 msgid "Request for parts has been sent"
@@ -3411,7 +3411,7 @@ msgid "Search in Stages"
 msgstr "Tìm trong trạng thái"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/project.js:62
 #, python-format
 msgid "Select"
@@ -3450,7 +3450,7 @@ msgid "Set Cover Image"
 msgstr "Đặt hình Đại diện"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/project.js:61
 #, python-format
 msgid "Set a Cover Image"
@@ -3500,21 +3500,21 @@ msgid "Software development"
 msgstr "Phát triển phần mềm"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:16
 #, python-format
 msgid "Specification"
 msgstr "Đặc điểm kỹ thuật"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:24
 #, python-format
 msgid "Specification is validated"
 msgstr "Thông số & đặc điểm kỹ thuật được thẩm định"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:23
 #, python-format
 msgid "Specification of task is written"
@@ -3528,7 +3528,7 @@ msgstr ""
 "hơn"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:49
 #, python-format
 msgid "Sprint"
@@ -3714,21 +3714,21 @@ msgid "Task blocked"
 msgstr "Nhiệm vụ bị phong tỏa"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:25
 #, python-format
 msgid "Task is Developed"
 msgstr "Nhiệm vụ được Phát triển"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:105
 #, python-format
 msgid "Task is completed"
 msgstr "Nhiệm vụ hoàn thành"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:26
 #, python-format
 msgid "Task is tested"
@@ -3806,21 +3806,21 @@ msgid "Tasks to Merge"
 msgstr "Tác vụ để hợp nhất"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:50
 #, python-format
 msgid "Test"
 msgstr "Kiểm thử"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:58
 #, python-format
 msgid "Test is OK, need to document"
 msgstr "Kiểm thử OK, cần tài liệu hoá"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:19
 #, python-format
 msgid "Testing"
@@ -3905,7 +3905,7 @@ msgid "There are no tasks."
 msgstr "Ở đây không có tác vụ."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/xml/project.xml:7
 #, python-format
 msgid ""
@@ -4055,7 +4055,7 @@ msgid "Title"
 msgstr "Tiêu đề"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:97
 #: model:project.task.type,name:project.project_stage_0
 #, python-format
@@ -4142,7 +4142,7 @@ msgstr ""
 "không quan trọng đối với toàn bộ nhóm."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:103
 #, python-format
 msgid ""
@@ -4153,7 +4153,7 @@ msgstr ""
 " của bạn."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:85
 #, python-format
 msgid "Use the breadcrumbs to <b>go back to your tasks pipeline</b>."
@@ -4188,7 +4188,7 @@ msgstr ""
 "                        Vậy bạn có thể làm thế nào, với vai trò chủ nhiệm dự án, để kiến trúc nên một buổi họp tình trạng hàng tuần mà tất cả các thành viên dự án được gắn kết, có đủ thông tin và sẵn lòng đóng góp và bước tiếp theo của dự án? Dưới đây là một số lời khuyên."
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:17
 #, python-format
 msgid "Validation"
@@ -4219,7 +4219,7 @@ msgid "Visible by following customers"
 msgstr "Thấy được bởi Khách hàng dưới đây"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:67
 #: code:addons/project/static/src/js/web_planner_project.js:82
 #, python-format
@@ -4227,7 +4227,7 @@ msgid "Wait. Customer"
 msgstr "Đợi Khách hàng"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:68
 #: code:addons/project/static/src/js/web_planner_project.js:83
 #, python-format
@@ -4235,7 +4235,7 @@ msgid "Wait. Expert"
 msgstr "Đợi Chuyên gia"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/tour.js:13
 #, python-format
 msgid ""
@@ -4344,7 +4344,7 @@ msgid "Whether this project should be displayed on the dashboard or not"
 msgstr "Có hiển thị dự án này ở bảng thông tin hay không"
 
 #. module: project
-#. openerp-web
+#. flectra-web
 #: code:addons/project/static/src/js/web_planner_project.js:40
 #, python-format
 msgid "Work has started"

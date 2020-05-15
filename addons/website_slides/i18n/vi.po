@@ -402,7 +402,7 @@ msgid "Categories"
 msgstr "Phân loại"
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/static/src/js/slides_upload.js:250
 #: code:addons/website_slides/static/src/xml/website_slides.xml:54
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_category_id
@@ -433,7 +433,7 @@ msgid "Channel Settings"
 msgstr "Cấu hình kênh"
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/static/src/js/slides_upload.js:170
 #, python-format
 msgid ""
@@ -469,7 +469,7 @@ msgid "Content"
 msgstr "Nội dung"
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:20
 #, python-format
 msgid "Content Preview"
@@ -501,7 +501,7 @@ msgid "Create a Google Project and Get a Key"
 msgstr ""
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/static/src/js/slides_upload.js:219
 #, python-format
 msgid "Create new tag '%s'"
@@ -535,7 +535,7 @@ msgstr ""
 "dung của kênh này."
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:60
 #: code:addons/website_slides/static/src/xml/website_slides.xml:62
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_description
@@ -546,7 +546,7 @@ msgid "Description"
 msgstr "Miêu tả"
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:71
 #, python-format
 msgid "Discard"
@@ -726,7 +726,7 @@ msgid "Featuring Policy"
 msgstr "Chính sách đặc trưng"
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/controllers/main.py:263
 #: code:addons/website_slides/static/src/js/slides_upload.js:89
 #, python-format
@@ -812,7 +812,7 @@ msgstr ""
 "Đây là thông báo lỗi: %s"
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/static/src/js/slides_upload.js:84
 #, python-format
 msgid "Invalid file type. Please select pdf or image file"
@@ -1014,7 +1014,7 @@ msgid "OpenSource CMS, A performance comparison - Mantavya Gajjar"
 msgstr "Mã nguồn mở CMS, so sánh hiệu suất - Mantavya Gajjar"
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:28
 #, python-format
 msgid "PDF or Image File"
@@ -1031,7 +1031,7 @@ msgid "Please"
 msgstr "Vui lòng"
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/static/src/js/slides.js:56
 #, python-format
 msgid "Please <a href=\"/web?redirect=%s\">login</a> to vote this slide"
@@ -1125,14 +1125,14 @@ msgstr ""
 "được đăng gần đây"
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:70
 #, python-format
 msgid "Save and Publish"
 msgstr "Lưu và xuất bản"
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:69
 #, python-format
 msgid "Save as Draft"
@@ -1248,7 +1248,7 @@ msgid "Tag"
 msgstr "Từ khóa"
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/static/src/js/slides_upload.js:273
 #: code:addons/website_slides/static/src/xml/website_slides.xml:48
 #: model:ir.actions.act_window,name:website_slides.action_slide_tag
@@ -1312,7 +1312,7 @@ msgid "Thumbnail"
 msgstr "Hình nhỏ"
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:42
 #: code:addons/website_slides/static/src/xml/website_slides.xml:44
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_name
@@ -1377,7 +1377,7 @@ msgid ""
 msgstr "Tải bài đăng PDF, tài liệu, video hoặc đồ họa bằng nút bên dưới"
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:9
 #: model:ir.ui.view,arch_db:website_slides.slides_channel_header
 #, python-format
@@ -1385,7 +1385,7 @@ msgid "Upload Presentation"
 msgstr "Đang tải bài đăng"
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:12
 #, python-format
 msgid "Uploading presentation..."
@@ -1450,28 +1450,28 @@ msgid "Website"
 msgstr "Trang web"
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/static/src/js/slides_upload.js:114
 #, python-format
 msgid "You can not upload password protected file."
 msgstr "Bạn không thể tải lên tập tin bảo mật mật khẩu."
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/static/src/js/slides.js:65
 #, python-format
 msgid "You have already voted for this slide"
 msgstr "Bạn đã bình chọn cho bài viết này"
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:36
 #, python-format
 msgid "Youtube Video URL"
 msgstr "Đường dẫn URL video youtube"
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:34
 #, python-format
 msgid "Youtube or Google Doc URL"

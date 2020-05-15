@@ -82,7 +82,7 @@ msgid "Are you inside the matrix?"
 msgstr "매트릭스 안에 있습니까?"
 
 #. module: im_livechat
-#. openerp-web
+#. flectra-web
 #: code:addons/im_livechat/static/src/js/im_livechat.js:48
 #, python-format
 msgid "Ask something ..."
@@ -121,7 +121,7 @@ msgid "Average time to give the first answer to the visitor"
 msgstr "방문자에게 첫 번째 답변을 제공하는 데 걸린 평균 시간"
 
 #. module: im_livechat
-#. openerp-web
+#. flectra-web
 #: code:addons/im_livechat/static/src/xml/im_livechat.xml:13
 #, python-format
 msgid "Bad"
@@ -183,7 +183,7 @@ msgid "Chat Input Placeholder"
 msgstr "채팅 입력 자리표시"
 
 #. module: im_livechat
-#. openerp-web
+#. flectra-web
 #: code:addons/im_livechat/static/src/js/im_livechat.js:50
 #, python-format
 msgid "Chat with one of our collaborators"
@@ -217,14 +217,14 @@ msgid "Conversation"
 msgstr "대화"
 
 #. module: im_livechat
-#. openerp-web
+#. flectra-web
 #: code:addons/im_livechat/static/src/js/copy_clipboard.js:32
 #, python-format
 msgid "Copied !"
 msgstr "복사됨 !"
 
 #. module: im_livechat
-#. openerp-web
+#. flectra-web
 #: code:addons/im_livechat/static/src/xml/copy_clipboard.xml:6
 #: code:addons/im_livechat/static/src/xml/copy_clipboard.xml:12
 #, python-format
@@ -314,7 +314,7 @@ msgstr ""
 "고려되지 않습니다."
 
 #. module: im_livechat
-#. openerp-web
+#. flectra-web
 #: code:addons/im_livechat/static/src/xml/im_livechat.xml:7
 #, python-format
 msgid "Did we correctly answer your question ?"
@@ -354,7 +354,7 @@ msgstr ""
 "                   이메일로 보낼 수 있는 자체 URL이 있습니다."
 
 #. module: im_livechat
-#. openerp-web
+#. flectra-web
 #: code:addons/im_livechat/static/src/xml/im_livechat.xml:19
 #, python-format
 msgid "Explain your note"
@@ -378,7 +378,7 @@ msgstr ""
 "선택됩니다."
 
 #. module: im_livechat
-#. openerp-web
+#. flectra-web
 #: code:addons/im_livechat/static/src/xml/im_livechat.xml:11
 #, python-format
 msgid "Good"
@@ -409,7 +409,7 @@ msgid "Hour of start Date of session"
 msgstr "세션 시작 시간"
 
 #. module: im_livechat
-#. openerp-web
+#. flectra-web
 #: code:addons/im_livechat/static/src/js/im_livechat.js:51
 #, python-format
 msgid "How may I help you?"
@@ -421,7 +421,7 @@ msgid "How to use the Website Live Chat widget?"
 msgstr "웹사이트 실시간 채팅 위젯을 어떻게 사용합니까?"
 
 #. module: im_livechat
-#. openerp-web
+#. flectra-web
 #: code:addons/im_livechat/static/src/xml/im_livechat.xml:15
 #, python-format
 msgid "I don't want to rate this conversation"
@@ -513,7 +513,7 @@ msgid "Live Support"
 msgstr "실시간 지원"
 
 #. module: im_livechat
-#. openerp-web
+#. flectra-web
 #: code:addons/im_livechat/static/src/xml/im_livechat_backend.xml:9
 #: code:addons/im_livechat/static/src/xml/im_livechat_backend.xml:21
 #, python-format
@@ -599,7 +599,7 @@ msgid "No history found"
 msgstr "기록이 없습니다"
 
 #. module: im_livechat
-#. openerp-web
+#. flectra-web
 #: code:addons/im_livechat/static/src/js/im_livechat.js:150
 #, python-format
 msgid ""
@@ -623,7 +623,7 @@ msgid "Number of message in the conversation"
 msgstr "대화 내 메시지 수"
 
 #. module: im_livechat
-#. openerp-web
+#. flectra-web
 #: code:addons/im_livechat/static/src/xml/im_livechat.xml:12
 #, python-format
 msgid "OK"
@@ -681,7 +681,7 @@ msgid "Rating"
 msgstr "평가"
 
 #. module: im_livechat
-#. openerp-web
+#. flectra-web
 #: code:addons/im_livechat/static/src/js/im_livechat.js:344
 #, python-format
 msgid "Rating: :rating_%d"
@@ -891,7 +891,7 @@ msgid "User"
 msgstr "사용자"
 
 #. module: im_livechat
-#. openerp-web
+#. flectra-web
 #: code:addons/im_livechat/controllers/main.py:37
 #: code:addons/im_livechat/static/src/js/im_livechat.js:49
 #, python-format

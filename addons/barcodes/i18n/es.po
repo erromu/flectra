@@ -175,7 +175,7 @@ msgid "Credit Card"
 msgstr "Tarjeta de Crédito"
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:359
 #, python-format
 msgid "Discard"
@@ -214,21 +214,21 @@ msgid "Encoding"
 msgstr "Codificación"
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:301
 #, python-format
 msgid "Error : Barcode command is undefined"
 msgstr "Error : El comando de código de barra no se ha definido."
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:63
 #, python-format
 msgid "Error : Document not editable"
 msgstr "Error: Documento no editable"
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:332
 #, python-format
 msgid "Error : No last scanned barcode"
@@ -323,7 +323,7 @@ msgid "Rules"
 msgstr "Reglas"
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:352
 #, python-format
 msgid "Select"
@@ -335,7 +335,7 @@ msgid "Sequence"
 msgstr "Secuencia"
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:351
 #, python-format
 msgid "Set quantity"
@@ -379,14 +379,14 @@ msgstr ""
 "codificación especificada"
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:64
 #, python-format
 msgid "To modify this document, please first start edition."
 msgstr "Para modificar este documento, inicie primero la edición."
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:333
 #, python-format
 msgid "To set the quantity please scan a barcode first."

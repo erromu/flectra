@@ -26,7 +26,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/xml/pos_mercury.xml:75
 #, python-format
 msgid "&nbsp;&nbsp;APPROVAL CODE:"
@@ -48,14 +48,14 @@ msgid ""
 msgstr ""
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/xml/pos_mercury.xml:46
 #, python-format
 msgid "ABOVE AMOUNT PURSUANT"
 msgstr "YUKARIDAKİ TUTAR GEREĞİNCE"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/xml/pos_mercury.xml:60
 #, python-format
 msgid "APPROVAL CODE:"
@@ -67,7 +67,7 @@ msgid "Bank Statement Line"
 msgstr "Banka Hesap Özeti Kalemi"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/xml/pos_mercury.xml:45
 #, python-format
 msgid "CARDHOLDER WILL PAY CARD ISSUER"
@@ -101,7 +101,7 @@ msgid "Click to configure your card reader."
 msgstr "Kart okuyucunuzu yapılandırmak için tıklayınız."
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:360
 #, python-format
 msgid "Could not read card"
@@ -126,7 +126,7 @@ msgid "Credit Card"
 msgstr "Kredi Kartı"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:346
 #, python-format
 msgid ""
@@ -142,14 +142,14 @@ msgid "Display Name"
 msgstr "Görünüm Adı"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/xml/pos_mercury.xml:7
 #, python-format
 msgid "Electronic Payment"
 msgstr "Elektronik Ödeme"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:651
 #, python-format
 msgid "Error"
@@ -167,14 +167,14 @@ msgstr ""
 "tahsil edecektir."
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:256
 #, python-format
 msgid "Go to payment screen to use cards"
 msgstr "Kart kullanmak için ödeme ekranına git"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:396
 #, python-format
 msgid "Handling transaction..."
@@ -287,21 +287,21 @@ msgid "No opened point of sale session for user %s found"
 msgstr ""
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:328
 #, python-format
 msgid "No response from Mercury (Mercury down?)"
 msgstr "Mercury'den cevap yok (Mercury çöktü mü?)"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:330
 #, python-format
 msgid "No response from server (connected to network?)"
 msgstr "Mercury'den cevap yok (Ağa bağlı mı?)"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:423
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:577
 #, python-format
@@ -309,14 +309,14 @@ msgid "Odoo error while processing transaction."
 msgstr "İşlem yapılırken Odoo hatası."
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:652
 #, python-format
 msgid "One credit card swipe already pending."
 msgstr "Bir kredi kartı okutması zaten bekliyor."
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:470
 #, python-format
 msgid "Partially approved"
@@ -339,7 +339,7 @@ msgid "Payment reference number from Mercury Pay"
 msgstr "Mercury Ödemesi'nden ödeme referans numarası"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:416
 #, python-format
 msgid "Please setup your Mercury merchant account."
@@ -351,35 +351,35 @@ msgid "Point of Sale Orders"
 msgstr "Satış Noktası Siparişi"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:345
 #, python-format
 msgid "Refunds not supported"
 msgstr ""
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:549
 #, python-format
 msgid "Reversal failed, sending VoidSale..."
 msgstr "Ters kayıt başarısız oldu, VoidSale gönderiliyor."
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:591
 #, python-format
 msgid "Reversal succeeded"
 msgstr "Ters Kayıt başarılı oldu."
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:552
 #, python-format
 msgid "Sending reversal..."
 msgstr "Ters kayıt gönderiliyor"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/xml/pos_mercury.xml:47
 #, python-format
 msgid "TO CARDHOLDER AGREEMENT"
@@ -411,7 +411,7 @@ msgid "The name of the card owner"
 msgstr "Kart sahibinin adı"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:361
 #, python-format
 msgid ""
@@ -422,7 +422,7 @@ msgstr ""
 "olarak ayarlanmadığından olabilir. (US International değil)"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:146
 #, python-format
 msgid "Transaction approved"
@@ -446,14 +446,14 @@ msgid "Vantiv Accounts"
 msgstr "Vantiv Hesabı"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:599
 #, python-format
 msgid "VoidSale succeeded"
 msgstr "VoidSale Başarıyla Gerçekleşti"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/xml/pos_mercury.xml:17
 #, python-format
 msgid "WAITING FOR SWIPE"
@@ -469,7 +469,7 @@ msgstr ""
 "Noktasına ya da POSBox'a bağlanmış olabilir."
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/xml/pos_mercury.xml:50
 #, python-format
 msgid "X______________________________"

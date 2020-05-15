@@ -21,7 +21,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;\n"
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:79
 #, python-format
 msgid ""
@@ -30,7 +30,7 @@ msgid ""
 msgstr ""
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:60
 #, python-format
 msgid ""
@@ -39,14 +39,14 @@ msgid ""
 msgstr ""
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:33
 #, python-format
 msgid "Click here to add some lines to your quotations."
 msgstr ""
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:75
 #, python-format
 msgid "Configuration options are available in the Settings app."
@@ -58,7 +58,7 @@ msgid "Create Invoice"
 msgstr "יצירת חשבונית"
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:18
 #, python-format
 msgid ""
@@ -69,7 +69,7 @@ msgstr ""
 "על הפעולות הלוגיות הבאות.</i>"
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:55
 #, python-format
 msgid "Once your quotation is ready, you can save, print or send it by email."
@@ -77,14 +77,14 @@ msgstr ""
 "כאשר הצעת המחיר שלך מוכנה, ניתן לשמור, להדפיס או לשלוח אותה בדואר אלקטרוני"
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:13
 #, python-format
 msgid "Organize your sales activities with the <b>Sales Management app</b>."
 msgstr "ארגן את פעילויות המכירה שלך באמצעות  <b>אפליקציית ניהול מכירות</b>."
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:38
 #, python-format
 msgid ""
@@ -94,21 +94,21 @@ msgid ""
 msgstr ""
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:65
 #, python-format
 msgid "Use the breadcrumbs to <b>go back to preceeding screens</b>."
 msgstr "השתמש בכתובת הניווט <b>כדי לחזור אחורה במסכים</b>."
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:69
 #, python-format
 msgid "Use this menu to access quotations, sales orders and customers."
 msgstr "השתמש בתפריט זה כדי לגשת להצעות מחיר, להזמנות לקוח וללקוחות."
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:23
 #, python-format
 msgid ""

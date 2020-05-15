@@ -20,28 +20,28 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);\n"
 
 #. module: pos_reprint
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_reprint/static/src/xml/reprint.xml:13
 #, python-format
 msgid "Back"
 msgstr "Til baka"
 
 #. module: pos_reprint
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_reprint/static/src/js/reprint.js:38
 #, python-format
 msgid "Nothing to Print"
 msgstr ""
 
 #. module: pos_reprint
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_reprint/static/src/xml/reprint.xml:6
 #, python-format
 msgid "Reprint Receipt"
 msgstr "Endurprenta kvittun"
 
 #. module: pos_reprint
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_reprint/static/src/js/reprint.js:39
 #, python-format
 msgid "There is no previous receipt to print."

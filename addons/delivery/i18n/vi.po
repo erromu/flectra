@@ -270,7 +270,7 @@ msgid "Debug logging"
 msgstr "Gỡ lỗi đăng nhập"
 
 #. module: delivery
-#. openerp-web
+#. flectra-web
 #: code:addons/delivery/static/src/js/delivery_translations.js:13
 #, python-format
 msgid "Debug requests"
@@ -360,7 +360,7 @@ msgid "Determine the display order"
 msgstr "Chỉ ra thứ tự hiển thị"
 
 #. module: delivery
-#. openerp-web
+#. flectra-web
 #: code:addons/delivery/static/src/js/delivery_translations.js:14
 #, python-format
 msgid "Disable debug"
@@ -390,7 +390,7 @@ msgstr ""
 "                cho mỗi phương thức."
 
 #. module: delivery
-#. openerp-web
+#. flectra-web
 #: code:addons/delivery/static/src/js/delivery_translations.js:16
 #, python-format
 msgid "Enable debug"
@@ -626,7 +626,7 @@ msgid "No carrier set for this order."
 msgstr "Chưa có nhà vận chuyển được thiết lập cho đơn hàng này."
 
 #. module: delivery
-#. openerp-web
+#. flectra-web
 #: code:addons/delivery/static/src/js/delivery_translations.js:15
 #, python-format
 msgid "No debug"
@@ -735,7 +735,7 @@ msgid "Product Template"
 msgstr "Mẫu sản phẩm"
 
 #. module: delivery
-#. openerp-web
+#. flectra-web
 #: code:addons/delivery/static/src/js/delivery_translations.js:9
 #, python-format
 msgid "Production Environment"
@@ -856,21 +856,21 @@ msgid "Stock Move"
 msgstr "Dịch chuyển kho"
 
 #. module: delivery
-#. openerp-web
+#. flectra-web
 #: code:addons/delivery/static/src/js/delivery_translations.js:12
 #, python-format
 msgid "Switch to production environment"
 msgstr ""
 
 #. module: delivery
-#. openerp-web
+#. flectra-web
 #: code:addons/delivery/static/src/js/delivery_translations.js:10
 #, python-format
 msgid "Switch to test environment"
 msgstr ""
 
 #. module: delivery
-#. openerp-web
+#. flectra-web
 #: code:addons/delivery/static/src/js/delivery_translations.js:11
 #, python-format
 msgid "Test Environment"

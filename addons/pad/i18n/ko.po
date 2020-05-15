@@ -60,7 +60,7 @@ msgid "Last Modified on"
 msgstr "최근 수정"
 
 #. module: pad
-#. openerp-web
+#. flectra-web
 #: code:addons/pad/static/src/js/pad.js:147
 #, python-format
 msgid "Loading"
@@ -95,7 +95,7 @@ msgid ""
 msgstr "패드 작성에 실패했습니다. 패드 서버 URL에 문제가 있거나 연결에 문제가 있습니다."
 
 #. module: pad
-#. openerp-web
+#. flectra-web
 #: code:addons/pad/static/src/xml/pad.xml:6
 #, python-format
 msgid ""
@@ -109,14 +109,14 @@ msgid "Server"
 msgstr "서버"
 
 #. module: pad
-#. openerp-web
+#. flectra-web
 #: code:addons/pad/static/src/js/pad.js:166
 #, python-format
 msgid "This pad will be initialized on first edit"
 msgstr "이 패드는 첫 번째 편집에 초기화됩니다"
 
 #. module: pad
-#. openerp-web
+#. flectra-web
 #: code:addons/pad/static/src/js/pad.js:160
 #, python-format
 msgid "Unable to load pad"

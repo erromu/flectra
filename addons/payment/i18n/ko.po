@@ -112,7 +112,7 @@ msgid ""
 msgstr "<i>보류중.</i> 귀하의 온라인 결제가 성공적으로 처리되었습니다. 하지만 주문이 아직 확인되지 않았습니다."
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:350
 #, python-format
 msgid "<p>This card is currently linked to the following records:<p/>"
@@ -327,7 +327,7 @@ msgid "Callback Method"
 msgstr "콜백 메서드"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:358
 #, python-format
 msgid "Cancel"
@@ -344,7 +344,7 @@ msgid "Canceled"
 msgstr "취소됨"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:188
 #, python-format
 msgid "Cannot set-up the payment"
@@ -409,7 +409,7 @@ msgid "Configure"
 msgstr "구성"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:357
 #, python-format
 msgid "Confirm Deletion"
@@ -552,7 +552,7 @@ msgid "Error Message"
 msgstr "오류 메시지"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:428
 #, python-format
 msgid "Error: "
@@ -816,7 +816,7 @@ msgid "No payment acquirer found."
 msgstr "결제 매입사를 찾을 수 없습니다."
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:199
 #: code:addons/payment/static/src/js/payment_form.js:308
 #, python-format
@@ -843,7 +843,7 @@ msgid "Ogone"
 msgstr "Ogone"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:432
 #, python-format
 msgid "Ok"
@@ -1022,14 +1022,14 @@ msgid "Please configure a payment acquirer."
 msgstr "결제 매입사를 구성해 주십시오."
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:200
 #, python-format
 msgid "Please select a payment method."
 msgstr "결제 방법을 선택하십시오."
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:309
 #, python-format
 msgid "Please select the option to add a new payment method."
@@ -1065,14 +1065,14 @@ msgid "Provider"
 msgstr "공급자"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_translations.js:9
 #, python-format
 msgid "Publish"
 msgstr "발행"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_translations.js:8
 #, python-format
 msgid "Published"
@@ -1146,7 +1146,7 @@ msgid "Sequence"
 msgstr "순서"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:119
 #: code:addons/payment/static/src/js/payment_form.js:134
 #: code:addons/payment/static/src/js/payment_form.js:173
@@ -1164,7 +1164,7 @@ msgid "Server To Server"
 msgstr "서버 상호간"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:300
 #, python-format
 msgid "Server error"
@@ -1339,28 +1339,28 @@ msgid "Void Transaction"
 msgstr "무효 거래"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:353
 #, python-format
 msgid "Warning!"
 msgstr "경고!"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:135
 #, python-format
 msgid "We are not able to add your payment method at the moment."
 msgstr "현재 결제 방법을 추가할 수 없습니다."
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:301
 #, python-format
 msgid "We are not able to add your payment method at the moment.</p>"
 msgstr "현재 결제 방법을 추가할 수 없습니다.</p>"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:333
 #: code:addons/payment/static/src/js/payment_form.js:368
 #, python-format
@@ -1368,21 +1368,21 @@ msgid "We are not able to delete your payment method at the moment."
 msgstr "현재 결제 방법을 삭제할 수 없습니다."
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:174
 #, python-format
 msgid "We are not able to redirect you to the payment form."
 msgstr "결제 양식으로 전환할 수 없습니다."
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:180
 #, python-format
 msgid "We are not able to redirect you to the payment form. "
 msgstr "결제 양식으로 전환할 수 없습니다."
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:189
 #, python-format
 msgid "We're unable to process your payment."
@@ -1488,7 +1488,7 @@ msgid "currency: the transaction currency browse record"
 msgstr "currency : 거래 통화 레코드 검색"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:120
 #: code:addons/payment/static/src/js/payment_form.js:286
 #, python-format

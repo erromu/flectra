@@ -58,7 +58,7 @@ msgid "Last Modified on"
 msgstr "最後修改時間"
 
 #. module: pad
-#. openerp-web
+#. flectra-web
 #: code:addons/pad/static/src/js/pad.js:147
 #, python-format
 msgid "Loading"
@@ -93,7 +93,7 @@ msgid ""
 msgstr "Pad的創建失敗了，估您的Pad 網址有問題或者您的連接有問題。"
 
 #. module: pad
-#. openerp-web
+#. flectra-web
 #: code:addons/pad/static/src/xml/pad.xml:6
 #, python-format
 msgid ""
@@ -107,14 +107,14 @@ msgid "Server"
 msgstr "伺服器"
 
 #. module: pad
-#. openerp-web
+#. flectra-web
 #: code:addons/pad/static/src/js/pad.js:166
 #, python-format
 msgid "This pad will be initialized on first edit"
 msgstr "此Pad將在第一個編輯時初始化"
 
 #. module: pad
-#. openerp-web
+#. flectra-web
 #: code:addons/pad/static/src/js/pad.js:160
 #, python-format
 msgid "Unable to load pad"

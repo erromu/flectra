@@ -2363,7 +2363,7 @@ msgid "Download the"
 msgstr "Télécharger le"
 
 #. module: stock
-#. openerp-web
+#. flectra-web
 #: code:addons/stock/static/src/xml/stock_traceability_report_line.xml:78
 #, python-format
 msgid "Downstream Traceability"
@@ -2407,7 +2407,7 @@ msgid "Entire Package Detail"
 msgstr "Détail de la totalité du colis"
 
 #. module: stock
-#. openerp-web
+#. flectra-web
 #: code:addons/stock/static/src/xml/stock_traceability_report_backend.xml:14
 #, python-format
 msgid "Error"
@@ -4635,7 +4635,7 @@ msgid "P&L Qty"
 msgstr "Qté pertes et profits"
 
 #. module: stock
-#. openerp-web
+#. flectra-web
 #: code:addons/stock/static/src/xml/stock_traceability_report_backend.xml:6
 #, python-format
 msgid "PRINT"
@@ -7357,7 +7357,7 @@ msgid "Update Qty On Hand"
 msgstr "Mettre à jour le stock disponible"
 
 #. module: stock
-#. openerp-web
+#. flectra-web
 #: code:addons/stock/static/src/xml/stock_traceability_report_line.xml:77
 #: model:ir.actions.client,name:stock.action_stock_report
 #: model:ir.ui.view,arch_db:stock.report_stock_inventory

@@ -53,7 +53,7 @@ msgid "Last Modified on"
 msgstr ""
 
 #. module: pad
-#. openerp-web
+#. flectra-web
 #: code:addons/pad/static/src/js/pad.js:147
 #, python-format
 msgid "Loading"
@@ -86,7 +86,7 @@ msgid "Pad creation failed, either there is a problem with your pad server URL o
 msgstr ""
 
 #. module: pad
-#. openerp-web
+#. flectra-web
 #: code:addons/pad/static/src/xml/pad.xml:6
 #, python-format
 msgid "Please enter your Etherpad credentials through the menu 'Settings > General Settings'."
@@ -98,14 +98,14 @@ msgid "Server"
 msgstr ""
 
 #. module: pad
-#. openerp-web
+#. flectra-web
 #: code:addons/pad/static/src/js/pad.js:166
 #, python-format
 msgid "This pad will be initialized on first edit"
 msgstr ""
 
 #. module: pad
-#. openerp-web
+#. flectra-web
 #: code:addons/pad/static/src/js/pad.js:160
 #, python-format
 msgid "Unable to load pad"

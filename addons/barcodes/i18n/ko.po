@@ -158,7 +158,7 @@ msgid "Credit Card"
 msgstr "신용 카드"
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:359
 #, python-format
 msgid "Discard"
@@ -197,21 +197,21 @@ msgid "Encoding"
 msgstr "인코딩"
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:301
 #, python-format
 msgid "Error : Barcode command is undefined"
 msgstr "오류 : 바코드 명령이 정의되지 않았습니다."
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:63
 #, python-format
 msgid "Error : Document not editable"
 msgstr "오류 : 문서를 편집할 수 없습니다."
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:332
 #, python-format
 msgid "Error : No last scanned barcode"
@@ -305,7 +305,7 @@ msgid "Rules"
 msgstr "규칙"
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:352
 #, python-format
 msgid "Select"
@@ -317,7 +317,7 @@ msgid "Sequence"
 msgstr "순서"
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:351
 #, python-format
 msgid "Set quantity"
@@ -359,14 +359,14 @@ msgid ""
 msgstr "이 규칙은 바코드가 지정된 인코딩으로 인코딩된 경우에만 적용됩니다."
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:64
 #, python-format
 msgid "To modify this document, please first start edition."
 msgstr "이 문서를 수정하려면 먼저 편집본을 만들어야 합니다."
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:333
 #, python-format
 msgid "To set the quantity please scan a barcode first."

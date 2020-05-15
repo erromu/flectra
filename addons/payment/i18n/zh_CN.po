@@ -130,7 +130,7 @@ msgid ""
 msgstr "<i>待定,</i> 你的在线付款已完成. 但是你的订单还验证。"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:350
 #, python-format
 msgid "<p>This card is currently linked to the following records:<p/>"
@@ -343,7 +343,7 @@ msgid "Callback Method"
 msgstr "回调方法"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:358
 #, python-format
 msgid "Cancel"
@@ -360,7 +360,7 @@ msgid "Canceled"
 msgstr "已取消"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:188
 #, python-format
 msgid "Cannot set-up the payment"
@@ -425,7 +425,7 @@ msgid "Configure"
 msgstr "设置"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:357
 #, python-format
 msgid "Confirm Deletion"
@@ -568,7 +568,7 @@ msgid "Error Message"
 msgstr "错误消息"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:428
 #, python-format
 msgid "Error: "
@@ -830,7 +830,7 @@ msgid "No payment acquirer found."
 msgstr "未找到付款收单方."
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:199
 #: code:addons/payment/static/src/js/payment_form.js:308
 #, python-format
@@ -857,7 +857,7 @@ msgid "Ogone"
 msgstr "Ogone"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:432
 #, python-format
 msgid "Ok"
@@ -1038,14 +1038,14 @@ msgid "Please configure a payment acquirer."
 msgstr "请配置付款收单方"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:200
 #, python-format
 msgid "Please select a payment method."
 msgstr "请选择付款方式"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:309
 #, python-format
 msgid "Please select the option to add a new payment method."
@@ -1081,14 +1081,14 @@ msgid "Provider"
 msgstr "服务商"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_translations.js:9
 #, python-format
 msgid "Publish"
 msgstr "发布"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_translations.js:8
 #, python-format
 msgid "Published"
@@ -1162,7 +1162,7 @@ msgid "Sequence"
 msgstr "序列"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:119
 #: code:addons/payment/static/src/js/payment_form.js:134
 #: code:addons/payment/static/src/js/payment_form.js:173
@@ -1180,7 +1180,7 @@ msgid "Server To Server"
 msgstr "服务器到服务器"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:300
 #, python-format
 msgid "Server error"
@@ -1353,28 +1353,28 @@ msgid "Void Transaction"
 msgstr "无效交易"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:353
 #, python-format
 msgid "Warning!"
 msgstr "警告!"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:135
 #, python-format
 msgid "We are not able to add your payment method at the moment."
 msgstr "目前我们无法添加您的付款方式。"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:301
 #, python-format
 msgid "We are not able to add your payment method at the moment.</p>"
 msgstr "目前我们无法添加您的付款方式。</p>"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:333
 #: code:addons/payment/static/src/js/payment_form.js:368
 #, python-format
@@ -1382,21 +1382,21 @@ msgid "We are not able to delete your payment method at the moment."
 msgstr "我们此时无法删除您的支付方式。"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:174
 #, python-format
 msgid "We are not able to redirect you to the payment form."
 msgstr "我们无法为您重新提交付款表。"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:180
 #, python-format
 msgid "We are not able to redirect you to the payment form. "
 msgstr "我们无法为你重新递交付款表单。"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:189
 #, python-format
 msgid "We're unable to process your payment."
@@ -1502,7 +1502,7 @@ msgid "currency: the transaction currency browse record"
 msgstr "货币：交易币种浏览记录"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:120
 #: code:addons/payment/static/src/js/payment_form.js:286
 #, python-format

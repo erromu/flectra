@@ -147,14 +147,14 @@ msgid "%(user_name)s invited you to follow a new document."
 msgstr "%(user_name)s님이 새 문서를 팔로우하도록 초대했습니다."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/chat_manager.js:63
 #, python-format
 msgid "%d Messages"
 msgstr "메시지 %d"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/activity.js:89
 #, python-format
 msgid "%d days overdue"
@@ -179,14 +179,14 @@ msgid "%s has joined the %s network."
 msgstr "%s 님이 %s 네트워크에 가입했습니다."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:211
 #, python-format
 msgid "&nbsp;("
 msgstr "&nbsp;("
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:184
 #, python-format
 msgid "(from"
@@ -201,35 +201,35 @@ msgstr ""
 "* 스마일은 이미지를 표시하기 위해 HTML 코드에만 사용됩니다. * 텍스트 (기본값)는 텍스트를 다른 텍스트로 대체하는 데 사용됩니다"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/activity.xml:49
 #, python-format
 msgid ", due on"
 msgstr ", 에 만기가 되는"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:336
 #, python-format
 msgid "-------- Show older messages --------"
 msgstr "-------- 오래된 메시지보기 --------"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/systray.xml:78
 #, python-format
 msgid "0 Future"
 msgstr "0 향후"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/systray.xml:74
 #, python-format
 msgid "0 Late"
 msgstr "0 지남"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/systray.xml:76
 #, python-format
 msgid "0 Today"
@@ -295,7 +295,7 @@ msgstr ""
 "class=\"o_channel_redirect\" data-oe-id=\"%s\">#%s채널을 떠났습니다</a></div>"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/tour.js:28
 #, python-format
 msgid ""
@@ -307,7 +307,7 @@ msgstr ""
 "할 수도 있습니다.</i></p>"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/tour.js:15
 #, python-format
 msgid ""
@@ -320,7 +320,7 @@ msgstr ""
 "시작하십시오."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/tour.js:11
 #, python-format
 msgid ""
@@ -522,7 +522,7 @@ msgid "Active domain"
 msgstr "도메인 활성"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/systray.xml:87
 #: model:ir.model.fields,field_description:mail.field_account_invoice_activity_ids
 #: model:ir.model.fields,field_description:mail.field_crm_lead_activity_ids
@@ -553,7 +553,7 @@ msgid "Activities"
 msgstr "활동"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/chatter.xml:60
 #: model:ir.model,name:mail.model_mail_activity
 #: model:ir.model.fields,field_description:mail.field_mail_activity_activity_type_id
@@ -583,21 +583,21 @@ msgid "Activity Types"
 msgstr "활동 유형"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/activity.xml:37
 #, python-format
 msgid "Activity type"
 msgstr "활동 유형"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:87
 #, python-format
 msgid "Add"
 msgstr "추가"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/followers.xml:64
 #: model:ir.model.fields,field_description:mail.field_ir_act_server_channel_ids
 #, python-format
@@ -605,7 +605,7 @@ msgid "Add Channels"
 msgstr "채널 추가"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/followers.xml:61
 #: model:ir.model.fields,field_description:mail.field_ir_act_server_partner_ids
 #: model:ir.ui.view,arch_db:mail.mail_wizard_invite_form
@@ -626,7 +626,7 @@ msgid "Add Signature"
 msgstr "서명 추가"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:41
 #: code:addons/mail/static/src/xml/client_action.xml:186
 #, python-format
@@ -634,7 +634,7 @@ msgid "Add a channel"
 msgstr "채널 추가"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:60
 #, python-format
 msgid "Add a private channel"
@@ -721,7 +721,7 @@ msgid "Aliases"
 msgstr "별칭"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/systray.xml:17
 #: code:addons/mail/static/src/xml/systray.xml:28
 #, python-format
@@ -734,7 +734,7 @@ msgid "Always"
 msgstr "항상"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/models/mail_channel.py:685
 #: code:addons/mail/static/src/js/chat_manager.js:207
 #, python-format
@@ -758,14 +758,14 @@ msgid "Applies to"
 msgstr "적용 대상"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/followers.js:333
 #, python-format
 msgid "Apply"
 msgstr "적용"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/activity.xml:45
 #: model:ir.model.fields,field_description:mail.field_mail_activity_user_id
 #, python-format
@@ -866,7 +866,7 @@ msgid "Available for mass mailing"
 msgstr "대량 메일 발송 가능"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/followers.xml:89
 #, python-format
 msgid "Be careful with channels following internal notifications"
@@ -897,7 +897,7 @@ msgid "Call"
 msgstr "전화"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/followers.js:341
 #: code:addons/mail/static/src/xml/activity.xml:65
 #: model:ir.ui.view,arch_db:mail.email_compose_message_wizard_form
@@ -985,7 +985,7 @@ msgid "Channel Type"
 msgstr "채널 타입"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:36
 #: code:addons/mail/static/src/xml/client_action.xml:172
 #: code:addons/mail/static/src/xml/systray.xml:19
@@ -1010,7 +1010,7 @@ msgid "Channels/Partner"
 msgstr "채널/파트너"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:168
 #: code:addons/mail/static/src/xml/systray.xml:18
 #: code:addons/mail/static/src/xml/systray.xml:32
@@ -1118,14 +1118,14 @@ msgid "Configure your activity types"
 msgstr "활동 유형 환경 설정"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:114
 #, python-format
 msgid "Congratulations, your inbox is empty"
 msgstr "축하합니다, 수신함이 비어 있습니다."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/client_action.js:650
 #, python-format
 msgid "Congratulations, your inbox is empty!"
@@ -1161,7 +1161,7 @@ msgid "Conversation is minimized"
 msgstr "대화가 간략해집니다"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/systray.xml:6
 #, python-format
 msgid "Conversations"
@@ -1174,7 +1174,7 @@ msgid "Counter of the number of bounced emails for this contact"
 msgstr "이 연락처의 반송 된 이메일 수의 계산"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/client_action.js:307
 #, python-format
 msgid "Create %s"
@@ -1212,7 +1212,7 @@ msgid "Created by"
 msgstr "작성자"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/activity.xml:41
 #: model:ir.model.fields,field_description:mail.field_email_template_preview_create_date
 #: model:ir.model.fields,field_description:mail.field_mail_activity_create_date
@@ -1385,7 +1385,7 @@ msgid "Delete sent emails (mass mailing only)"
 msgstr "보낸 이메일 삭제 (대량 메일 발송에만 해당)"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:325
 #, python-format
 msgid "Delete this attachment"
@@ -1414,14 +1414,14 @@ msgid ""
 msgstr "이 하위 유형에 대해 게시 된 메시지에 추가 될 설명입니다. 비워두면 이름이 대신 추가됩니다."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:46
 #, python-format
 msgid "Direct Messages"
 msgstr "개인 메시지"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/activity.xml:81
 #: model:ir.ui.view,arch_db:mail.email_template_preview_form
 #: model:ir.ui.view,arch_db:mail.mail_activity_view_form_popup
@@ -1502,28 +1502,28 @@ msgid "Document Name"
 msgstr "문서명"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/activity.xml:79
 #, python-format
 msgid "Done"
 msgstr "완료"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/activity.xml:77
 #, python-format
 msgid "Done & Schedule Next"
 msgstr "완료 및 다음 예정"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:301
 #, python-format
 msgid "Download this PDF"
 msgstr "해당 PDF 다운로드"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:277
 #: code:addons/mail/static/src/xml/thread.xml:290
 #: code:addons/mail/static/src/xml/thread.xml:313
@@ -1537,7 +1537,7 @@ msgid "Due Date"
 msgstr "만기일 "
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/activity.js:95
 #, python-format
 msgid "Due in %d days"
@@ -1549,21 +1549,21 @@ msgid "Dynamic Placeholder Generator"
 msgstr "동적 사전 표시 문자 생성기"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/activity.xml:62
 #, python-format
 msgid "Edit"
 msgstr "편집"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/followers.js:330
 #, python-format
 msgid "Edit Subscription of "
 msgstr "다음에 대한 구독 편집 "
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/followers.xml:49
 #, python-format
 msgid "Edit subscription"
@@ -1757,7 +1757,7 @@ msgid "Favorited By"
 msgstr "로 즐겨찾기"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/activity.js:235
 #: model:ir.model.fields,field_description:mail.field_mail_activity_feedback
 #, python-format
@@ -1815,7 +1815,7 @@ msgid "Folded"
 msgstr "접이식"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/models/mail_thread.py:701
 #: code:addons/mail/static/src/xml/followers.xml:20
 #, python-format
@@ -2023,7 +2023,7 @@ msgid "Followers Form"
 msgstr "팔로워 양식"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/chatter.xml:15
 #, python-format
 msgid "Followers of"
@@ -2035,7 +2035,7 @@ msgid "Followers only"
 msgstr "팔로워 만"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/followers.xml:24
 #, python-format
 msgid "Following"
@@ -2058,7 +2058,7 @@ msgid "From"
 msgstr "보낸 사람"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/systray.xml:77
 #, python-format
 msgid "Future"
@@ -2190,7 +2190,7 @@ msgid "Id of the followed resource"
 msgstr "팔로우 된 자원의 ID"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:119
 #: code:addons/mail/static/src/xml/client_action.xml:203
 #, python-format
@@ -2382,7 +2382,7 @@ msgid "Inactive Alias"
 msgstr "별칭 비활성"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/chat_manager.js:664
 #: code:addons/mail/static/src/xml/client_action.xml:22
 #: code:addons/mail/static/src/xml/client_action.xml:154
@@ -2433,7 +2433,7 @@ msgid "Invalid token in route %s"
 msgstr "%s 경로에 토큰이 잘못되었습니다"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/chat_manager.js:588
 #, python-format
 msgid "Invitation"
@@ -2446,7 +2446,7 @@ msgid "Invitation to follow %s: %s"
 msgstr "%s 팔로우에 초대장 보내기: %s"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/client_action.js:44
 #: code:addons/mail/static/src/xml/client_action.xml:133
 #, python-format
@@ -2454,14 +2454,14 @@ msgid "Invite"
 msgstr "초대"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/followers.js:170
 #, python-format
 msgid "Invite Follower"
 msgstr "팔로워 초대"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/client_action.js:31
 #: code:addons/mail/static/src/xml/client_action.xml:133
 #, python-format
@@ -2469,7 +2469,7 @@ msgid "Invite people"
 msgstr "사람들 초대"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/client_action.js:870
 #, python-format
 msgid "Invite people to #%s"
@@ -2729,7 +2729,7 @@ msgid "Last Updated on"
 msgstr "최근 갱신 날짜"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/systray.xml:73
 #, python-format
 msgid "Late"
@@ -2747,7 +2747,7 @@ msgid "Leave"
 msgstr "휴가"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/models/mail_channel.py:695
 #: code:addons/mail/static/src/xml/client_action.xml:112
 #, python-format
@@ -2793,7 +2793,7 @@ msgid "Livechat Conversation"
 msgstr "라이브 채팅 대화"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/chatter_composer.js:31
 #: model:ir.ui.view,arch_db:mail.email_compose_message_wizard_form
 #, python-format
@@ -2801,7 +2801,7 @@ msgid "Log"
 msgstr "기록"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/chatter.xml:56
 #, python-format
 msgid "Log a note. Followers will not be notified."
@@ -2824,14 +2824,14 @@ msgid "Log an Internal Note"
 msgstr "내부 메모 기록"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/chatter.xml:56
 #, python-format
 msgid "Log note"
 msgstr "노트 기록"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/chatter.xml:59
 #, python-format
 msgid "Log or schedule an activity"
@@ -2891,21 +2891,21 @@ msgid "Mailing Opt-Out"
 msgstr ""
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/activity.xml:59
 #, python-format
 msgid "Mark Done"
 msgstr "완료 표시"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:134
 #, python-format
 msgid "Mark all as read"
 msgstr "모두 읽음으로 표시"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:134
 #, python-format
 msgid "Mark all read"
@@ -2917,14 +2917,14 @@ msgid "Mark as Done"
 msgstr "완료로 표시"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:211
 #, python-format
 msgid "Mark as Read"
 msgstr "모두 읽음 표시"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:158
 #: code:addons/mail/static/src/xml/thread.xml:205
 #, python-format
@@ -2932,7 +2932,7 @@ msgid "Mark as Todo"
 msgstr "Todo로 표시"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/web_kanban_activity.xml:49
 #, python-format
 msgid "Mark as done"
@@ -3014,7 +3014,7 @@ msgid "Message references, such as identifiers of previous messages"
 msgstr "이전 메시지 식별자 같은 메시지 참조"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:124
 #, python-format
 msgid "Message sent in \""
@@ -3143,7 +3143,7 @@ msgid "Messages Search"
 msgstr "메시지 검색"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/tour.js:20
 #, python-format
 msgid "Messages can be <b>starred</b> to remind you to check back later."
@@ -3244,14 +3244,14 @@ msgid "Needaction Recipient"
 msgstr "수신자 행동 필요"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:138
 #, python-format
 msgid "New Channel"
 msgstr "신규 채널"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:137
 #, python-format
 msgid "New Message"
@@ -3288,7 +3288,7 @@ msgid "New Value Text"
 msgstr "새 Text 값"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/chat_manager.js:55
 #: code:addons/mail/static/src/js/window_manager.js:139
 #: code:addons/mail/static/src/xml/systray.xml:12
@@ -3298,21 +3298,21 @@ msgid "New message"
 msgstr "새 메세지"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:238
 #, python-format
 msgid "New messages"
 msgstr "새 메세지"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:115
 #, python-format
 msgid "New messages appear here."
 msgstr "여기에 새 메세지가 나타납니다."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/client_action.js:97
 #, python-format
 msgid "New people"
@@ -3401,7 +3401,7 @@ msgid "Next activities available"
 msgstr "다음 활동 가능"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/systray.xml:58
 #: code:addons/mail/static/src/xml/web_kanban_activity.xml:22
 #, python-format
@@ -3409,35 +3409,35 @@ msgid "No activities planned."
 msgstr "활동 계획이 없습니다."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/systray.xml:47
 #, python-format
 msgid "No discussion yet..."
 msgstr "의논/토의가 아직 없습니다 ..."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/followers.js:185
 #, python-format
 msgid "No follower"
 msgstr "팔로워가 없습니다"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:16
 #, python-format
 msgid "No matches found"
 msgstr "검색 결과가 없습니다"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:17
 #, python-format
 msgid "No message matches your search. Try to change your search filters."
 msgstr "귀하의 검색과 일치하는 메시지가 없습니다. 검색 필터를 변경하십시오."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:118
 #, python-format
 msgid "No starred message"
@@ -3458,7 +3458,7 @@ msgid "Note"
 msgstr "노트"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:162
 #, python-format
 msgid "Note by"
@@ -3699,7 +3699,7 @@ msgid "Odoo"
 msgstr "Odoo"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/client_action.js:898
 #, python-format
 msgid ""
@@ -3707,14 +3707,14 @@ msgid ""
 msgstr "Odoo는 지금 이 장치에서 기본 알림을 보낼 수있는 권한을 갖습니다."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:11
 #, python-format
 msgid "Odoo needs your permission to"
 msgstr "Odoo는 귀하의 허락을 받아야 합니다."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/client_action.js:895
 #, python-format
 msgid ""
@@ -3723,7 +3723,7 @@ msgid ""
 msgstr "Odoo는 지금 이 장치에서 기본 알림을 보낼 수있는 권한이 없습니다."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:120
 #, python-format
 msgid "Offline"
@@ -3765,7 +3765,7 @@ msgid "On Change"
 msgstr "변경 시"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/tour.js:24
 #, python-format
 msgid ""
@@ -3774,14 +3774,14 @@ msgid ""
 msgstr "별표가 표시된 메일은 언제든지 여기에서 다시 볼 수 있습니다."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/followers.js:187
 #, python-format
 msgid "One follower"
 msgstr "팔로어 1명"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:118
 #: code:addons/mail/static/src/xml/client_action.xml:202
 #, python-format
@@ -3810,21 +3810,21 @@ msgid "Open Parent Document"
 msgstr "상위 문서 열기"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:139
 #, python-format
 msgid "Open channel settings"
 msgstr "채널 설정 열기"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:187
 #, python-format
 msgid "Open chat"
 msgstr "채팅 열기"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/extended_chat_window.xml:15
 #, python-format
 msgid "Open in Discuss"
@@ -4028,14 +4028,14 @@ msgid "Permanently delete this email after sending it, to save space"
 msgstr "공간을 절약하기 위해 이메일을 전송한 후에 영구 삭제합니다"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/client_action.js:894
 #, python-format
 msgid "Permission denied"
 msgstr "사용 권한이 거부되었습니다"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/client_action.js:897
 #, python-format
 msgid "Permission granted"
@@ -4074,35 +4074,35 @@ msgid "Planned"
 msgstr "계획됨"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/activity.xml:6
 #, python-format
 msgid "Planned activities"
 msgstr "계획된 활동"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:287
 #, python-format
 msgid "Play this video"
 msgstr "이 비디오 재생합니다"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/chatter_composer.js:158
 #, python-format
 msgid "Please complete customer's informations"
 msgstr "고객 정보를 작성하십시오."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/many2many_tags_email.js:96
 #, python-format
 msgid "Please complete customer's informations and email"
 msgstr "고객 정보 및 전자 메일을 작성하십시오."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/composer.js:667
 #, python-format
 msgid "Please, wait while the file is uploading."
@@ -4179,7 +4179,7 @@ msgid "Privacy"
 msgstr "공개설정"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:56
 #: code:addons/mail/static/src/xml/client_action.xml:176
 #, python-format
@@ -4187,7 +4187,7 @@ msgid "Private Channels"
 msgstr "비공개 채널"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/client_action.js:851
 #, python-format
 msgid "Public Channels"
@@ -4304,14 +4304,14 @@ msgid "Remove the contextual action to use this template on related documents"
 msgstr "이 템플릿(서식) 사용과 관련된 문서의 문맥 동작 제거"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/followers.xml:51
 #, python-format
 msgid "Remove this follower"
 msgstr "이 팔로워를 삭제합니다"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:208
 #: model:ir.ui.view,arch_db:mail.view_mail_form
 #, python-format
@@ -4405,7 +4405,7 @@ msgid "Save as new template"
 msgstr "새로운 템플릿(서식)으로 저장"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/chat_window.js:41
 #, python-format
 msgid "Say something"
@@ -4417,14 +4417,14 @@ msgid "Schedule"
 msgstr "일정"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/chatter.xml:60
 #, python-format
 msgid "Schedule activity"
 msgstr "행동 일정"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/web_kanban_activity.xml:56
 #, python-format
 msgid "Schedule an activity"
@@ -4468,7 +4468,7 @@ msgid "Selected group of users"
 msgstr "선택한 사용자 그룹"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/composer.js:382
 #: model:ir.ui.view,arch_db:mail.email_compose_message_wizard_form
 #, python-format
@@ -4493,14 +4493,14 @@ msgid "Send Now"
 msgstr "지금 보내기"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/chatter.xml:53
 #, python-format
 msgid "Send a message"
 msgstr "메세지 보내기"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/chatter.xml:53
 #, python-format
 msgid "Send message"
@@ -4522,14 +4522,14 @@ msgstr ""
 "주소를 사용합니다."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/thread_field.js:83
 #, python-format
 msgid "Sending Error"
 msgstr "전송 오류"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:108
 #, python-format
 msgid "Sends messages by email"
@@ -4553,7 +4553,7 @@ msgid "Sequence"
 msgstr "순서"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:139
 #, python-format
 msgid "Settings"
@@ -4642,7 +4642,7 @@ msgid ""
 msgstr "활동이 모델에 고유해야 하고 다른 모델에 대한 활동을 관리 할 때 사용할 수 없는 경우 모델을 지정하십시오."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/chat_manager.js:670
 #: code:addons/mail/static/src/xml/client_action.xml:28
 #: code:addons/mail/static/src/xml/client_action.xml:156
@@ -4731,7 +4731,7 @@ msgid "Sub-model"
 msgstr "보조 모델"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/composer.xml:8
 #: model:ir.model.fields,field_description:mail.field_email_template_preview_subject
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message_subject
@@ -4756,7 +4756,7 @@ msgid "Subject..."
 msgstr "제목..."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:221
 #, python-format
 msgid "Subject:"
@@ -4941,7 +4941,7 @@ msgid "To (Partners)"
 msgstr "받는 사람 (파트너)"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/chatter.xml:14
 #: code:addons/mail/static/src/xml/extended_chat_window.xml:7
 #, python-format
@@ -4949,7 +4949,7 @@ msgid "To:"
 msgstr "받는 사람 :"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: selection:account.invoice,activity_state:0
 #: code:addons/mail/static/src/js/activity.js:83
 #: code:addons/mail/static/src/js/thread.js:246
@@ -4986,7 +4986,7 @@ msgid "Todo"
 msgstr "할 일 목록"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/activity.js:93
 #, python-format
 msgid "Tomorrow"
@@ -5061,7 +5061,7 @@ msgid "Unable to send email, please configure the sender's email address."
 msgstr "이메일을 보낼 수 없습니다. 보낸사람의 이메일 주소를 구성하십시오."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/models/mail_thread.py:705
 #: code:addons/mail/static/src/xml/followers.xml:22
 #, python-format
@@ -5213,35 +5213,35 @@ msgid "Unread messages"
 msgstr "읽지 않은 메세지"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:135
 #, python-format
 msgid "Unstar all"
 msgstr "모든 별표 취소"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:135
 #, python-format
 msgid "Unstar all messages"
 msgstr "모든 메세지 별표 취소"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:136
 #, python-format
 msgid "Unsubscribe"
 msgstr "구독 취소"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:136
 #, python-format
 msgid "Unsubscribe from channel"
 msgstr "채널 구독 취소"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/chat_manager.js:486
 #, python-format
 msgid "Unsubscribed"
@@ -5254,14 +5254,14 @@ msgid "Unsupported report type %s found."
 msgstr "지원되지 않는 보고서 유형 %s이(가) 발견되었습니다."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:327
 #, python-format
 msgid "Uploading"
 msgstr "업로드 중"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/composer.js:667
 #, python-format
 msgid "Uploading error"
@@ -5297,7 +5297,7 @@ msgid "User"
 msgstr "사용자"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:51
 #: code:addons/mail/static/src/xml/extended_chat_window.xml:8
 #, python-format
@@ -5339,7 +5339,7 @@ msgid "View %s"
 msgstr "보기 %s"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/followers.js:240
 #, python-format
 msgid ""
@@ -5390,21 +5390,21 @@ msgid "Who can follow the group's activities?"
 msgstr "누가 그룹의 활동을 따를 수 있습니까?"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/activity.xml:75
 #, python-format
 msgid "Write Feedback"
 msgstr "Feedback(의견) 작성"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/composer.xml:12
 #, python-format
 msgid "Write something..."
 msgstr "내용 입력..."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/activity.js:87
 #: code:addons/mail/static/src/js/thread.js:248
 #, python-format
@@ -5412,7 +5412,7 @@ msgid "Yesterday"
 msgstr "어제"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/client_action.js:96
 #, python-format
 msgid "You added <b>%s</b> to the conversation."
@@ -5437,7 +5437,7 @@ msgid "You are in channel <b>#%s</b>."
 msgstr "<b># % s</b> 채널에 있습니다."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:119
 #, python-format
 msgid ""
@@ -5476,7 +5476,7 @@ msgid "You have been assigned to the"
 msgstr "다음에 할당되었습니다"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/chat_manager.js:588
 #, python-format
 msgid "You have been invited to: "
@@ -5491,28 +5491,28 @@ msgid ""
 msgstr "이 템플릿(서식)에 파일을 첨부할 수 있습니다. 이 서식으로 작성된 모든 이메일에 추가할 수 있습니다."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/chat_manager.js:482
 #, python-format
 msgid "You unpinned your conversation with <b>%s</b>."
 msgstr "<b>% s</b>(으)로 대화를 고정 해제했습니다."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/chat_manager.js:480
 #, python-format
 msgid "You unsubscribed from <b>%s</b>."
 msgstr "<b> % s</b>의 수신 거부입니다."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:217
 #, python-format
 msgid "You:"
 msgstr "귀하 :"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/thread_field.js:83
 #, python-format
 msgid "Your message has not been sent."
@@ -5566,21 +5566,21 @@ msgid "e.g. Discuss proposal"
 msgstr "예: 의논/토의 제안"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:11
 #, python-format
 msgid "enable desktop notifications"
 msgstr "Desktop 알림 사용"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/followers.js:189
 #, python-format
 msgid "followers"
 msgstr "팔로워"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/activity.xml:30
 #, python-format
 msgid "for"
@@ -5658,14 +5658,14 @@ msgid "mycompany.flectrahq.com"
 msgstr "mycompany.flectrahq.com"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/thread.js:22
 #, python-format
 msgid "now"
 msgstr "즉시"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:181
 #: model:ir.ui.view,arch_db:mail.view_mail_form
 #, python-format
@@ -5698,14 +5698,14 @@ msgid "rd"
 msgstr "rd"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/thread.js:18
 #, python-format
 msgid "read less"
 msgstr "조금 읽기"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/thread.js:17
 #, python-format
 msgid "read more"
@@ -5773,7 +5773,7 @@ msgid "skipping"
 msgstr "건너 뛰기"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/chatter.xml:20
 #, python-format
 msgid "this document"

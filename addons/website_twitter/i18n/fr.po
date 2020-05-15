@@ -140,7 +140,7 @@ msgstr ""
 "Merci d'encoder votre clé API Twitter et scrète dans les paramètres Website."
 
 #. module: website_twitter
-#. openerp-web
+#. flectra-web
 #: code:addons/website_twitter/static/src/xml/website.twitter.xml:35
 #, python-format
 msgid "Reload"
@@ -273,7 +273,7 @@ msgstr ""
 "Clé secrète API de Twitter, accessible sur la page https://apps.twitter.com/"
 
 #. module: website_twitter
-#. openerp-web
+#. flectra-web
 #: code:addons/website_twitter/static/src/xml/website.twitter.xml:41
 #, python-format
 msgid "Twitter Configuration"

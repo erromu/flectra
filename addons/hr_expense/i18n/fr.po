@@ -91,7 +91,7 @@ msgstr ""
 "mail pour les notes de frais envoyées par courrier électronique</i>"
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:48
 #, python-format
 msgid ""
@@ -103,7 +103,7 @@ msgstr ""
 "ci-dessous</p>"
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:21
 #, python-format
 msgid "<p>Click here to create your first expense and add it under here.</p>"
@@ -112,7 +112,7 @@ msgstr ""
 "dessous.</p>"
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:44
 #, python-format
 msgid ""
@@ -123,7 +123,7 @@ msgstr ""
 "notes de frais sélectionnées au responsable</p>"
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:31
 #, python-format
 msgid "<p>Once your Expense is ready, you can save it.</p>"
@@ -132,14 +132,14 @@ msgstr ""
 "l'enregistrer.</p>"
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:39
 #, python-format
 msgid "<p>Select expenses to submit them to your manager</p>"
 msgstr "<p>Sélectionnez les notes de frais à envoyer à votre responsable</p>"
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:52
 #, python-format
 msgid ""
@@ -402,7 +402,7 @@ msgstr ""
 "Demandez à votre expert comptable les taxes devant être réclamées au client"
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:35
 #, python-format
 msgid "Attach your receipt here."
@@ -935,7 +935,7 @@ msgid "General Information"
 msgstr "Information Générale"
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:16
 #, python-format
 msgid "Go to the expense to attach a receipt."
@@ -1076,7 +1076,7 @@ msgid "Manager"
 msgstr "Gestionnaire"
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:60
 #, python-format
 msgid "Managers can get all reports to approve from this menu."
@@ -1628,7 +1628,7 @@ msgstr ""
 "sélectionné a seulement une méthode possible qui est \"manuelle\""
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:56
 #, python-format
 msgid ""
@@ -1810,7 +1810,7 @@ msgid "When you charge"
 msgstr "La date de prélèvement"
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:26
 #, python-format
 msgid "Write the name of the product, or select an existing one."

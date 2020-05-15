@@ -88,7 +88,7 @@ msgid ""
 msgstr "자산의 정가 구매를 기록하는 데 사용하는 계정입니다."
 
 #. module: account_asset
-#. openerp-web
+#. flectra-web
 #: code:addons/account_asset/static/src/js/account_asset.js:52
 #, python-format
 msgid "Accounting entries waiting for manual verification"
@@ -828,7 +828,7 @@ msgid "Post Depreciation Lines"
 msgstr "감가상각 라인 전기"
 
 #. module: account_asset
-#. openerp-web
+#. flectra-web
 #: code:addons/account_asset/static/src/js/account_asset.js:49
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_depreciation_line_move_posted_check
 #: model:ir.model.fields,field_description:account_asset.field_asset_asset_report_move_check
@@ -1024,7 +1024,7 @@ msgid "Type"
 msgstr "유형"
 
 #. module: account_asset
-#. openerp-web
+#. flectra-web
 #: code:addons/account_asset/static/src/js/account_asset.js:55
 #, python-format
 msgid "Unposted"

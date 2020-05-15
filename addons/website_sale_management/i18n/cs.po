@@ -20,14 +20,14 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
 #. module: website_sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale_management/static/src/xml/website_sale_dashboard.xml:5
 #, python-format
 msgid "Generate an invoice from orders ready for invoicing."
 msgstr "Vytvořit fakturu z objednávek připravených k fakturaci."
 
 #. module: website_sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale_management/static/src/xml/website_sale_dashboard.xml:7
 #, python-format
 msgid "Orders to Invoice"

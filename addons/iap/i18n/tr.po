@@ -33,14 +33,14 @@ msgid "Account Token"
 msgstr "Hesap Tokenı"
 
 #. module: iap
-#. openerp-web
+#. flectra-web
 #: code:addons/iap/static/src/js/crash_manager.js:40
 #, python-format
 msgid "Buy credits at Odoo"
 msgstr "Odoo'da Kredi Satın Al."
 
 #. module: iap
-#. openerp-web
+#. flectra-web
 #: code:addons/iap/static/src/js/crash_manager.js:43
 #, python-format
 msgid "Cancel"
@@ -89,21 +89,21 @@ msgid "ID"
 msgstr "ID"
 
 #. module: iap
-#. openerp-web
+#. flectra-web
 #: code:addons/iap/static/src/xml/iap_templates.xml:22
 #, python-format
 msgid "In-App Purchases"
 msgstr "Uygulama İçi Satın Alma "
 
 #. module: iap
-#. openerp-web
+#. flectra-web
 #: code:addons/iap/static/src/js/crash_manager.js:37
 #, python-format
 msgid "Insufficient Balance"
 msgstr "Yetersiz Bakiye"
 
 #. module: iap
-#. openerp-web
+#. flectra-web
 #: code:addons/iap/static/src/xml/iap_templates.xml:14
 #, python-format
 msgid "Insufficient credit to perform this service."

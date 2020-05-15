@@ -26,21 +26,21 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: website_links
-#. openerp-web
+#. flectra-web
 #: code:addons/website_links/static/src/js/website_links_charts.js:53
 #, python-format
 msgid " clicks"
 msgstr "Klicks"
 
 #. module: website_links
-#. openerp-web
+#. flectra-web
 #: code:addons/website_links/static/src/js/website_links_charts.js:104
 #, python-format
 msgid " countries"
 msgstr "Länder"
 
 #. module: website_links
-#. openerp-web
+#. flectra-web
 #: code:addons/website_links/static/src/js/website_links_charts.js:57
 #, python-format
 msgid "# of clicks"
@@ -100,14 +100,14 @@ msgstr ""
 " Aktion.\"/>"
 
 #. module: website_links
-#. openerp-web
+#. flectra-web
 #: code:addons/website_links/static/src/xml/recent_link.xml:37
 #, python-format
 msgid "Copy"
 msgstr "Kopieren"
 
 #. module: website_links
-#. openerp-web
+#. flectra-web
 #: code:addons/website_links/static/src/js/website_links.js:358
 #, python-format
 msgid "Generating link..."
@@ -187,14 +187,14 @@ msgid "Statistics"
 msgstr "Statistik"
 
 #. module: website_links
-#. openerp-web
+#. flectra-web
 #: code:addons/website_links/static/src/xml/recent_link.xml:38
 #, python-format
 msgid "Stats"
 msgstr "Statistik"
 
 #. module: website_links
-#. openerp-web
+#. flectra-web
 #: code:addons/website_links/static/src/js/website_links_charts.js:229
 #: code:addons/website_links/static/src/js/website_links_charts.js:230
 #: code:addons/website_links/static/src/js/website_links_charts.js:231
@@ -218,21 +218,21 @@ msgid "URL"
 msgstr "URL"
 
 #. module: website_links
-#. openerp-web
+#. flectra-web
 #: code:addons/website_links/static/src/js/website_links.js:225
 #, python-format
 msgid "Unable to get recent links"
 msgstr "Zuletzt geöffnete Links können nicht abgerufen werden."
 
 #. module: website_links
-#. openerp-web
+#. flectra-web
 #: code:addons/website_links/static/src/js/website_links_charts.js:99
 #, python-format
 msgid "Undefined"
 msgstr "Undefiniert"
 
 #. module: website_links
-#. openerp-web
+#. flectra-web
 #: code:addons/website_links/static/src/js/website_links.js:248
 #, python-format
 msgid "You don't have any recent links."
@@ -244,7 +244,7 @@ msgid "Your tracked links"
 msgstr "Ihre verfolgten Links"
 
 #. module: website_links
-#. openerp-web
+#. flectra-web
 #: code:addons/website_links/static/src/xml/recent_link.xml:23
 #: model:ir.ui.view,arch_db:website_links.graphs
 #, python-format
@@ -252,7 +252,7 @@ msgid "cancel"
 msgstr "Abbrechen"
 
 #. module: website_links
-#. openerp-web
+#. flectra-web
 #: code:addons/website_links/static/src/xml/recent_link.xml:8
 #, python-format
 msgid "clicks"
@@ -264,21 +264,21 @@ msgid "copy"
 msgstr "Kopieren"
 
 #. module: website_links
-#. openerp-web
+#. flectra-web
 #: code:addons/website_links/static/src/js/website_links.js:268
 #, python-format
 msgid "e.g. Newsletter, Social Network, .."
 msgstr "z. B. Newsletter, soziales Netzwerk, …"
 
 #. module: website_links
-#. openerp-web
+#. flectra-web
 #: code:addons/website_links/static/src/js/website_links.js:265
 #, python-format
 msgid "e.g. Promotion of June, Winter Newsletter, .."
 msgstr "z. B. Juni-Angebot, Winter-Newsletter, …"
 
 #. module: website_links
-#. openerp-web
+#. flectra-web
 #: code:addons/website_links/static/src/js/website_links.js:271
 #, python-format
 msgid "e.g. Search Engine, Website page, .."
@@ -290,7 +290,7 @@ msgid "e.g. https://www.flectrahq.com/page/contactus"
 msgstr "z. B. https://www.flectrahq.com/page/contactus"
 
 #. module: website_links
-#. openerp-web
+#. flectra-web
 #: code:addons/website_links/static/src/xml/recent_link.xml:22
 #: model:ir.ui.view,arch_db:website_links.graphs
 #, python-format
@@ -298,7 +298,7 @@ msgid "ok"
 msgstr "Ok"
 
 #. module: website_links
-#. openerp-web
+#. flectra-web
 #: code:addons/website_links/static/src/xml/recent_link.xml:22
 #: model:ir.ui.view,arch_db:website_links.graphs
 #, python-format

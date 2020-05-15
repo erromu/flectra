@@ -135,7 +135,7 @@ msgstr ""
 "configurações do site."
 
 #. module: website_twitter
-#. openerp-web
+#. flectra-web
 #: code:addons/website_twitter/static/src/xml/website.twitter.xml:35
 #, python-format
 msgid "Reload"
@@ -268,7 +268,7 @@ msgid "Twitter API secret you can get it from https://apps.twitter.com/"
 msgstr "Twitter API secret pode ser obtida em https://apps.twitter.com/"
 
 #. module: website_twitter
-#. openerp-web
+#. flectra-web
 #: code:addons/website_twitter/static/src/xml/website.twitter.xml:41
 #, python-format
 msgid "Twitter Configuration"

@@ -26,7 +26,7 @@ msgstr ""
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/xml/pos_mercury.xml:75
 #, python-format
 msgid "&nbsp;&nbsp;APPROVAL CODE:"
@@ -53,14 +53,14 @@ msgstr ""
 "                                الإعدادات، ينبغي أن تربطها بطريقة السداد المستخدمة في نقطة البيع."
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/xml/pos_mercury.xml:46
 #, python-format
 msgid "ABOVE AMOUNT PURSUANT"
 msgstr "طبقا للمبلغ أعلاه"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/xml/pos_mercury.xml:60
 #, python-format
 msgid "APPROVAL CODE:"
@@ -72,7 +72,7 @@ msgid "Bank Statement Line"
 msgstr "بند كشف حساب المصرف"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/xml/pos_mercury.xml:45
 #, python-format
 msgid "CARDHOLDER WILL PAY CARD ISSUER"
@@ -106,7 +106,7 @@ msgid "Click to configure your card reader."
 msgstr "انقر لتكوين قارئ بطاقتك"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:360
 #, python-format
 msgid "Could not read card"
@@ -131,7 +131,7 @@ msgid "Credit Card"
 msgstr "البطاقة الإئتمانية"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:346
 #, python-format
 msgid ""
@@ -150,14 +150,14 @@ msgid "Display Name"
 msgstr "الاسم المعروض"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/xml/pos_mercury.xml:7
 #, python-format
 msgid "Electronic Payment"
 msgstr "الدفع الإلكتروني"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:651
 #, python-format
 msgid "Error"
@@ -175,14 +175,14 @@ msgstr ""
 "                                من البطاقة."
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:256
 #, python-format
 msgid "Go to payment screen to use cards"
 msgstr "الذهاب إلى شاشة الدفع لاستخدام البطاقات"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:396
 #, python-format
 msgid "Handling transaction..."
@@ -295,21 +295,21 @@ msgid "No opened point of sale session for user %s found"
 msgstr ""
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:328
 #, python-format
 msgid "No response from Mercury (Mercury down?)"
 msgstr "لا يصلنا رد من Mercury (ربما يكون مفصولًا؟)"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:330
 #, python-format
 msgid "No response from server (connected to network?)"
 msgstr "لا يصلنا رد من السيرفر (هل أنت متصل بالشبكة؟)"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:423
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:577
 #, python-format
@@ -317,14 +317,14 @@ msgid "Odoo error while processing transaction."
 msgstr "حدث خطأ بأودو أثناء معالجة المعاملة."
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:652
 #, python-format
 msgid "One credit card swipe already pending."
 msgstr "لا تزال إحدى عمليات سحب البطاقة الائتمانية معلقة."
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:470
 #, python-format
 msgid "Partially approved"
@@ -347,7 +347,7 @@ msgid "Payment reference number from Mercury Pay"
 msgstr "رقم إشارة عملية السداد من Mercury Pay"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:416
 #, python-format
 msgid "Please setup your Mercury merchant account."
@@ -359,35 +359,35 @@ msgid "Point of Sale Orders"
 msgstr "طلبات نقطة البيع"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:345
 #, python-format
 msgid "Refunds not supported"
 msgstr "لا ندعم المرتجعات"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:549
 #, python-format
 msgid "Reversal failed, sending VoidSale..."
 msgstr "فشلت الحركة العكسية، جاري إرسال VoidSale..."
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:591
 #, python-format
 msgid "Reversal succeeded"
 msgstr "الانعكاس نجح"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:552
 #, python-format
 msgid "Sending reversal..."
 msgstr "إرسال انعكاس ..."
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/xml/pos_mercury.xml:47
 #, python-format
 msgid "TO CARDHOLDER AGREEMENT"
@@ -419,7 +419,7 @@ msgid "The name of the card owner"
 msgstr "اسم صاحب البطاقة"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:361
 #, python-format
 msgid ""
@@ -430,7 +430,7 @@ msgstr ""
 "كمخطط لوحة مفاتيحك (لا النظام الأمريكي الدولي)."
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:146
 #, python-format
 msgid "Transaction approved"
@@ -455,14 +455,14 @@ msgid "Vantiv Accounts"
 msgstr "حسابات Vantiv"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:599
 #, python-format
 msgid "VoidSale succeeded"
 msgstr "نجحت VoidSale"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/xml/pos_mercury.xml:17
 #, python-format
 msgid "WAITING FOR SWIPE"
@@ -476,7 +476,7 @@ msgid ""
 msgstr ""
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/xml/pos_mercury.xml:50
 #, python-format
 msgid "X______________________________"

@@ -22,14 +22,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: hr_org_chart
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_org_chart/static/src/js/hr_org_chart.js:136
 #, python-format
 msgid "Direct Subordinates of %s"
 msgstr "Diretto sottoposto di %s"
 
 #. module: hr_org_chart
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_org_chart/static/src/xml/hr_org_chart.xml:126
 #, python-format
 msgid "Direct subordinates"
@@ -41,7 +41,7 @@ msgid "Employee"
 msgstr "Impiegato"
 
 #. module: hr_org_chart
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_org_chart/static/src/xml/hr_org_chart.xml:89
 #, python-format
 msgid "In order to get an organigram, set a manager and save the record."
@@ -49,7 +49,7 @@ msgstr ""
 "Per ottenere un organigramma impostare un responsabile e salvare il record."
 
 #. module: hr_org_chart
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_org_chart/static/src/js/hr_org_chart.js:146
 #, python-format
 msgid "Indirect Subordinates of %s"
@@ -61,14 +61,14 @@ msgid "Indirect Surbordinates Count"
 msgstr "Numero sottoposti indiretti"
 
 #. module: hr_org_chart
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_org_chart/static/src/xml/hr_org_chart.xml:136
 #, python-format
 msgid "Indirect subordinates"
 msgstr "Sottoposti indiretti"
 
 #. module: hr_org_chart
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_org_chart/static/src/xml/hr_org_chart.xml:87
 #, python-format
 msgid "No hierarchy position."
@@ -80,21 +80,21 @@ msgid "Organization Chart"
 msgstr "Organigramma"
 
 #. module: hr_org_chart
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_org_chart/static/src/js/hr_org_chart.js:139
 #, python-format
 msgid "Subordinates of %s"
 msgstr "Sottoposti di %s"
 
 #. module: hr_org_chart
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_org_chart/static/src/xml/hr_org_chart.xml:88
 #, python-format
 msgid "This employee has no manager or subordinate."
 msgstr "Questo dipendente non ha responsabili o sottoposti."
 
 #. module: hr_org_chart
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_org_chart/static/src/xml/hr_org_chart.xml:144
 #, python-format
 msgid "Total"

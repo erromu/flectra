@@ -826,7 +826,7 @@ msgid "Active"
 msgstr "有效"
 
 #. module: hr_recruitment
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_recruitment/static/src/js/tour.js:20
 #, python-format
 msgid ""
@@ -1608,7 +1608,7 @@ msgid "Late Activities"
 msgstr "晚活动"
 
 #. module: hr_recruitment
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_recruitment/static/src/js/tour.js:16
 #, python-format
 msgid ""
@@ -2202,7 +2202,7 @@ msgid "Today Activities"
 msgstr "今天的活动"
 
 #. module: hr_recruitment
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_recruitment/static/src/js/tour.js:30
 #, python-format
 msgid ""
@@ -2242,7 +2242,7 @@ msgid ""
 msgstr "在招聘流程中使用针对每个职位定制的面试表单。选择要在职位详细信息表单中使用的表单。具体取决于“调查”应用。"
 
 #. module: hr_recruitment
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_recruitment/static/src/js/tour.js:25
 #, python-format
 msgid "Use the breadcrumbs to <b>go back to the dashboard</b>."
@@ -2259,7 +2259,7 @@ msgid "Very Good"
 msgstr "非常好"
 
 #. module: hr_recruitment
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_recruitment/static/src/js/tour.js:11
 #, python-format
 msgid "Want to <b>start recruiting</b> like a pro? <i>Start here.</i>"

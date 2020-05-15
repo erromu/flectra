@@ -75,7 +75,7 @@ msgid ""
 msgstr ""
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:349
 #, python-format
 msgid "<p>This card is currently linked to the following records:<p/>"
@@ -284,7 +284,7 @@ msgid "Callback Method"
 msgstr ""
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:323
 #, python-format
 msgid "Cancel"
@@ -301,7 +301,7 @@ msgid "Canceled"
 msgstr ""
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:168
 #, python-format
 msgid "Cannot set-up the payment"
@@ -360,7 +360,7 @@ msgid "Configure"
 msgstr ""
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:322
 #, python-format
 msgid "Confirm Deletion"
@@ -503,7 +503,7 @@ msgid "Error Message"
 msgstr ""
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:372
 #, python-format
 msgid "Error: "
@@ -760,7 +760,7 @@ msgid "Never"
 msgstr ""
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:179
 #: code:addons/payment/static/src/js/payment_form.js:273
 #, python-format
@@ -787,7 +787,7 @@ msgid "Ogone"
 msgstr ""
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:376
 #, python-format
 msgid "Ok"
@@ -955,14 +955,14 @@ msgid "Phone"
 msgstr ""
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:199
 #, python-format
 msgid "Please select a payment method."
 msgstr ""
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:308
 #, python-format
 msgid "Please select the option to add a new payment method."
@@ -1067,7 +1067,7 @@ msgid "Sequence"
 msgstr ""
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:107
 #: code:addons/payment/static/src/js/payment_form.js:119
 #: code:addons/payment/static/src/js/payment_form.js:154
@@ -1085,7 +1085,7 @@ msgid "Server To Server"
 msgstr ""
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:266
 #, python-format
 msgid "Server error"
@@ -1254,28 +1254,28 @@ msgid "Void Transaction"
 msgstr ""
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:352
 #, python-format
 msgid "Warning!"
 msgstr ""
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:134
 #, python-format
 msgid "We are not able to add your payment method at the moment."
 msgstr ""
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:300
 #, python-format
 msgid "We are not able to add your payment method at the moment.</p>"
 msgstr ""
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:332
 #: code:addons/payment/static/src/js/payment_form.js:367
 #, python-format
@@ -1283,21 +1283,21 @@ msgid "We are not able to delete your payment method at the moment."
 msgstr ""
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:173
 #, python-format
 msgid "We are not able to redirect you to the payment form."
 msgstr ""
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:179
 #, python-format
 msgid "We are not able to redirect you to the payment form.<"
 msgstr ""
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:188
 #, python-format
 msgid "We're unable to process your payment."
@@ -1403,7 +1403,7 @@ msgid "currency: the transaction currency browse record"
 msgstr ""
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:119
 #: code:addons/payment/static/src/js/payment_form.js:285
 #, python-format

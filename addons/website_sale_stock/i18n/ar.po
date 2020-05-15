@@ -114,7 +114,7 @@ msgid "Default threshold"
 msgstr "الحد الافتراضي"
 
 #. module: website_sale_stock
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:16
 #, python-format
 msgid "In stock"
@@ -193,7 +193,7 @@ msgstr ""
 "بعض المنتجات لم تعد متاحة، لذا قمنا بتحديث عربة تسوقكم. نعتذر على الإزعاج."
 
 #. module: website_sale_stock
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:22
 #, python-format
 msgid "Temporarily out of stock"
@@ -211,7 +211,7 @@ msgid "Website"
 msgstr "الموقع الإلكتروني"
 
 #. module: website_sale_stock
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:19
 #, python-format
 msgid "You already added"
@@ -224,14 +224,14 @@ msgid "You ask for %s products but only %s is available"
 msgstr "لقد طلبت كمية %s من المنتج لكن المتوفر هو %s فقط"
 
 #. module: website_sale_stock
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:20
 #, python-format
 msgid "all"
 msgstr "الكل"
 
 #. module: website_sale_stock
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:9
 #: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:14
 #, python-format
@@ -239,7 +239,7 @@ msgid "available"
 msgstr "متاح"
 
 #. module: website_sale_stock
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:20
 #, python-format
 msgid "in your cart."

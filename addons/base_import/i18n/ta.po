@@ -22,14 +22,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:535
 #, python-format
 msgid "(%d more)"
 msgstr "(இன்னும்)"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:309
 #, python-format
 msgid ""
@@ -40,7 +40,7 @@ msgstr ""
 " தவறு"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:89
 #, python-format
 msgid "Cancel"
@@ -59,7 +59,7 @@ msgid "Column %s contains incorrect values. Error in line %d: %s"
 msgstr "நெடுவரிசையில் தவறான மதிப்புகள் உள்ளன. வரியில் பிழை:"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:176
 #: code:addons/base_import/static/src/js/import_action.js:187
 #: code:addons/base_import/static/src/js/import_action.js:194
@@ -112,28 +112,28 @@ msgid "Database ID"
 msgstr "தரவுத்தள ஐடி"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:55
 #, python-format
 msgid "Date Format:"
 msgstr "தேதி வடிவமைப்பு:"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:56
 #, python-format
 msgid "Datetime Format:"
 msgstr "டேட்டா டைம் வடிவம்:"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:58
 #, python-format
 msgid "Decimal Separator:"
 msgstr "டெசிமல் பிரிப்பான்:"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:71
 #, python-format
 msgid "Defer parent/child computation"
@@ -158,14 +158,14 @@ msgid "Display Name"
 msgstr "காட்சி பெயர்"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:353
 #, python-format
 msgid "Don't import"
 msgstr "இறக்குமதி செய்யாதே"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:195
 #: code:addons/base_import/static/src/js/import_action.js:213
 #, python-format
@@ -173,7 +173,7 @@ msgid "Dot"
 msgstr "புள்ளி"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:50
 #, python-format
 msgid "Encoding:"
@@ -192,7 +192,7 @@ msgid "Error cell found while reading XLS/XLSX file: %s"
 msgstr "XLS / XLSX கோப்பை படிக்கும்போது பிழை செல் கண்டறியப்பட்டுள்ளது:"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:512
 #, python-format
 msgid "Everything seems valid."
@@ -228,35 +228,35 @@ msgstr ""
 "இல்லை)"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:115
 #, python-format
 msgid "For CSV files, the issue could be an incorrect encoding."
 msgstr ""
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:559
 #, python-format
 msgid "Get all possible values"
 msgstr "அனைத்து மதிப்புகளையும் பெறவும்"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:11
 #, python-format
 msgid "Help"
 msgstr ""
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:546
 #, python-format
 msgid "Here are the possible values:"
 msgstr "சாத்தியமான மதிப்புகள் இங்கே:"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:116
 #, python-format
 msgid "Here is the start of the file we could not import:"
@@ -281,7 +281,7 @@ msgid "ID"
 msgstr "ID"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:73
 #, python-format
 msgid ""
@@ -296,7 +296,7 @@ msgstr ""
 "                 குறிப்பாக கோப்பில் பல நெடுவரிசைகள் உள்ளன."
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:60
 #, python-format
 msgid ""
@@ -309,7 +309,7 @@ msgstr ""
 "வழிவகுக்கும்."
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:69
 #, python-format
 msgid ""
@@ -319,7 +319,7 @@ msgid ""
 msgstr ""
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:97
 #: code:addons/base_import/static/src/xml/base_import.xml:156
 #, python-format
@@ -327,14 +327,14 @@ msgid "Import"
 msgstr "இறக்குமதி"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:111
 #, python-format
 msgid "Import a File"
 msgstr "ஒரு கோப்பை இறக்குமதி செய்க"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:114
 #, python-format
 msgid "Import preview failed due to:"
@@ -395,14 +395,14 @@ msgid "Last Updated on"
 msgstr "கடைசியாக புதுப்பிக்கப்பட்டது"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:19
 #, python-format
 msgid "Load File"
 msgstr "கோப்பை ஏற்றவும்"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:56
 #, python-format
 msgid "Map your columns to import"
@@ -419,21 +419,21 @@ msgid "Name"
 msgstr "பெயர்"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:15
 #, python-format
 msgid "No file chosen..."
 msgstr ""
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:418
 #, python-format
 msgid "Normal Fields"
 msgstr "சாதாரண புலங்கள்"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:30
 #, python-format
 msgid "Options…"
@@ -450,42 +450,42 @@ msgid "Parent"
 msgstr "பெற்றோர்"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:419
 #, python-format
 msgid "Relation Fields"
 msgstr "உறவு புலங்கள்"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:24
 #, python-format
 msgid "Reload File"
 msgstr "கோப்பு மீண்டும் ஏற்றவும்"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:11
 #, python-format
 msgid "Select a CSV or Excel file to import."
 msgstr "இறக்குமதி செய்ய CSV அல்லது Excel கோப்பைத் தேர்ந்தெடுக்கவும்."
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:177
 #, python-format
 msgid "Semicolon"
 msgstr "காற்"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:51
 #, python-format
 msgid "Separator:"
 msgstr "பிரிப்பான்:"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:72
 #, python-format
 msgid "Show fields of relation fields (advanced)"
@@ -497,35 +497,35 @@ msgid "Some Value"
 msgstr "சில மதிப்பு"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:179
 #, python-format
 msgid "Space"
 msgstr "விண்வெளி"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:178
 #, python-format
 msgid "Tab"
 msgstr "தாவல்"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:86
 #, python-format
 msgid "Test Import"
 msgstr "சோதனை இறக்குமதி"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:52
 #, python-format
 msgid "Text Delimiter:"
 msgstr "டெலிமிட்டர் உரை:"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:68
 #, python-format
 msgid ""
@@ -536,14 +536,14 @@ msgstr ""
 "                  நெடுவரிசையின் லேபிள் உள்ளது"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:57
 #, python-format
 msgid "Thousands Separator:"
 msgstr "ஆயிரக்கணக்கான பிரிப்பான்:"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:62
 #, python-format
 msgid "Track history during import"
@@ -587,7 +587,7 @@ msgid "You must configure at least one field to import"
 msgstr "இறக்குமதி செய்ய குறைந்தது ஒரு புலத்தை நீங்கள் கட்டமைக்க வேண்டும்"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:529
 #, python-format
 msgid "at row %d"
@@ -664,7 +664,7 @@ msgid "base_import.tests.models.preview"
 msgstr ""
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:531
 #, python-format
 msgid "between rows %d and %d"

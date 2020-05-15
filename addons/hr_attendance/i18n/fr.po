@@ -58,14 +58,14 @@ msgid "<span class=\"o_stat_text\">Attendance</span>"
 msgstr "<span class=\"o_stat_text\">Présence</span>"
 
 #. module: hr_attendance
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_attendance/static/src/js/greeting_message.js:117
 #, python-format
 msgid "An apple a day keeps the doctor away"
 msgstr "Une pomme par jour c'est bon pour la santé"
 
 #. module: hr_attendance
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_attendance/static/src/js/greeting_message.js:106
 #, python-format
 msgid "Another good day's work! See you soon!"
@@ -161,14 +161,14 @@ msgid "Check Out"
 msgstr "Sortie"
 
 #. module: hr_attendance
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_attendance/static/src/xml/attendance.xml:53
 #, python-format
 msgid "Check in"
 msgstr "Arriver"
 
 #. module: hr_attendance
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_attendance/static/src/xml/attendance.xml:49
 #, python-format
 msgid "Check out"
@@ -185,7 +185,7 @@ msgid "Checked in"
 msgstr "Arrivé"
 
 #. module: hr_attendance
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_attendance/static/src/xml/attendance.xml:109
 #, python-format
 msgid "Checked in at"
@@ -197,28 +197,28 @@ msgid "Checked out"
 msgstr "Sorti"
 
 #. module: hr_attendance
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_attendance/static/src/xml/attendance.xml:97
 #, python-format
 msgid "Checked out at"
 msgstr "Sorti à"
 
 #. module: hr_attendance
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_attendance/static/src/xml/attendance.xml:27
 #, python-format
 msgid "Click to check in"
 msgstr "Noter l'arrivée"
 
 #. module: hr_attendance
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_attendance/static/src/xml/attendance.xml:31
 #, python-format
 msgid "Click to check out"
 msgstr "Noter la sortie"
 
 #. module: hr_attendance
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_attendance/static/src/xml/attendance.xml:12
 #: model:ir.ui.view,arch_db:hr_attendance.print_employee_badge
 #, python-format
@@ -265,7 +265,7 @@ msgid "Display Name"
 msgstr "Nom à afficher"
 
 #. module: hr_attendance
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_attendance/static/src/js/greeting_message.js:123
 #, python-format
 msgid "Early to bed and early to rise, makes a man healthy, wealthy and wise"
@@ -273,7 +273,7 @@ msgstr ""
 "Se coucher tôt, se lever tôt, c'est amasser santé, richesse et sagesse"
 
 #. module: hr_attendance
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_attendance/static/src/js/greeting_message.js:115
 #, python-format
 msgid "Eat breakfast as a king, lunch as a merchant and supper as a beggar"
@@ -321,63 +321,63 @@ msgid "Enable PIN use"
 msgstr "Activer l'utilisation de code PIN"
 
 #. module: hr_attendance
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_attendance/static/src/js/my_attendances.js:29
 #, python-format
 msgid "Error : Could not find employee linked to user"
 msgstr "Erreur : impossible de trouver l'employé associé à l'utilisateur"
 
 #. module: hr_attendance
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_attendance/static/src/xml/attendance.xml:35
 #, python-format
 msgid "Error : Could not find employee linked to user."
 msgstr "Erreur : impossible de trouver l'employé associé à l'utilisateur."
 
 #. module: hr_attendance
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_attendance/static/src/xml/attendance.xml:81
 #, python-format
 msgid "Error: could not find corresponding employee."
 msgstr "Erreur: impossible de trouver l'employé correspondant."
 
 #. module: hr_attendance
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_attendance/static/src/js/greeting_message.js:70
 #, python-format
 msgid "First come, first served"
 msgstr "Premier arrivé, premier servi"
 
 #. module: hr_attendance
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_attendance/static/src/js/greeting_message.js:85
 #, python-format
 msgid "Glad to have you back, it's been a while!"
 msgstr "Ravi de vous revoir, ça fait longtemps! "
 
 #. module: hr_attendance
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_attendance/static/src/js/greeting_message.js:76
 #, python-format
 msgid "Good afternoon"
 msgstr "Bon après-midi"
 
 #. module: hr_attendance
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_attendance/static/src/js/greeting_message.js:78
 #, python-format
 msgid "Good evening"
 msgstr "Bonne soirée"
 
 #. module: hr_attendance
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_attendance/static/src/js/greeting_message.js:73
 #, python-format
 msgid "Good morning"
 msgstr "Bonjour"
 
 #. module: hr_attendance
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_attendance/static/src/js/greeting_message.js:64
 #: code:addons/hr_attendance/static/src/js/greeting_message.js:80
 #, python-format
@@ -385,7 +385,7 @@ msgid "Good night"
 msgstr "Bonne nuit"
 
 #. module: hr_attendance
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_attendance/static/src/xml/attendance.xml:100
 #, python-format
 msgid "Goodbye"
@@ -397,28 +397,28 @@ msgid "Group By"
 msgstr "Regroupé par"
 
 #. module: hr_attendance
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_attendance/static/src/js/greeting_message.js:120
 #, python-format
 msgid "Have a good afternoon"
 msgstr "Passez une bonne après-midi"
 
 #. module: hr_attendance
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_attendance/static/src/js/greeting_message.js:111
 #, python-format
 msgid "Have a good day!"
 msgstr "Passez une bonne journée!"
 
 #. module: hr_attendance
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_attendance/static/src/js/greeting_message.js:125
 #, python-format
 msgid "Have a good evening"
 msgstr "Passez une bonne soirée"
 
 #. module: hr_attendance
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_attendance/static/src/js/greeting_message.js:113
 #, python-format
 msgid "Have a nice lunch!"
@@ -440,14 +440,14 @@ msgid "ID used for employee identification."
 msgstr "Identifiant utilisé pour l'identification de l'employé."
 
 #. module: hr_attendance
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_attendance/static/src/js/greeting_message.js:88
 #, python-format
 msgid "If a job is worth doing, it is worth doing well!"
 msgstr "Si un travail mérite d'être fait, il mérite d'être bien fait!"
 
 #. module: hr_attendance
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_attendance/static/src/xml/attendance.xml:120
 #, python-format
 msgid "Invalid request, please return to the main menu."
@@ -543,14 +543,14 @@ msgstr ""
 "cette option est activée dans Configuration)."
 
 #. module: hr_attendance
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_attendance/static/src/xml/attendance.xml:62
 #, python-format
 msgid "Please enter your PIN to check in"
 msgstr "Saisissez votre code PIN pour pointer à l'entrée"
 
 #. module: hr_attendance
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_attendance/static/src/xml/attendance.xml:59
 #, python-format
 msgid "Please enter your PIN to check out"
@@ -565,7 +565,7 @@ msgstr ""
 "chose ici."
 
 #. module: hr_attendance
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_attendance/static/src/xml/attendance.xml:82
 #, python-format
 msgid "Please return to the main menu."
@@ -582,14 +582,14 @@ msgid "Reporting"
 msgstr "Rapport"
 
 #. module: hr_attendance
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_attendance/static/src/xml/attendance.xml:13
 #, python-format
 msgid "Scan your badge"
 msgstr "Scannez votre badge"
 
 #. module: hr_attendance
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_attendance/static/src/xml/attendance.xml:15
 #, python-format
 msgid "Select Employee"
@@ -634,7 +634,7 @@ msgid "The attendance records of your employees will be displayed here."
 msgstr "Les enregistrements de présence de vos employés seront affichés ici."
 
 #. module: hr_attendance
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_attendance/static/src/js/greeting_message.js:68
 #, python-format
 msgid "The early bird catches the worm"
@@ -683,7 +683,7 @@ msgid "Use PIN codes to check in in Kiosk Mode"
 msgstr "Utilisez les codes PIN pour le check in en mode kiosque"
 
 #. module: hr_attendance
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_attendance/static/src/js/greeting_message.js:102
 #, python-format
 msgid ""
@@ -694,7 +694,7 @@ msgstr ""
 " n'est pas juste, contactez les Ressources Humaines."
 
 #. module: hr_attendance
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_attendance/static/src/xml/attendance.xml:25
 #: code:addons/hr_attendance/static/src/xml/attendance.xml:46
 #: code:addons/hr_attendance/static/src/xml/attendance.xml:112
@@ -703,7 +703,7 @@ msgid "Welcome"
 msgstr "Bienvenue"
 
 #. module: hr_attendance
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_attendance/static/src/xml/attendance.xml:11
 #, python-format
 msgid "Welcome to"
@@ -732,14 +732,14 @@ msgid "list of attendances for the employee"
 msgstr "liste de présences pour l'employé"
 
 #. module: hr_attendance
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_attendance/static/src/xml/attendance.xml:123
 #, python-format
 msgid "ok"
 msgstr "ok"
 
 #. module: hr_attendance
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_attendance/static/src/xml/attendance.xml:14
 #, python-format
 msgid "or"

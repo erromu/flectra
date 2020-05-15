@@ -1666,7 +1666,7 @@ msgid "Online Signature & Payment options"
 msgstr "在线签名和付款选项"
 
 #. module: sale
-#. openerp-web
+#. flectra-web
 #: code:addons/sale/static/src/js/sale.js:32
 #, python-format
 msgid "Only Integer Value should be valid."
@@ -2411,7 +2411,7 @@ msgid "Set Invoicing Target"
 msgstr "设置发票目标"
 
 #. module: sale
-#. openerp-web
+#. flectra-web
 #: code:addons/sale/static/src/js/sale.js:25
 #, python-format
 msgid "Set an invoicing target: "
@@ -2917,7 +2917,7 @@ msgid "What do you want to invoice?"
 msgstr "你要开什么发票？"
 
 #. module: sale
-#. openerp-web
+#. flectra-web
 #: code:addons/sale/static/src/js/sale.js:32
 #, python-format
 msgid "Wrong value entered!"

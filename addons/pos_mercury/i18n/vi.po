@@ -26,7 +26,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/xml/pos_mercury.xml:75
 #, python-format
 msgid "&nbsp;&nbsp;APPROVAL CODE:"
@@ -53,14 +53,14 @@ msgstr ""
 "                                 cấu hình bạn nên kết hợp nó với phương thức thanh toán điểm bán hàng."
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/xml/pos_mercury.xml:46
 #, python-format
 msgid "ABOVE AMOUNT PURSUANT"
 msgstr "TRÊN SỐ TIỀN MUA"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/xml/pos_mercury.xml:60
 #, python-format
 msgid "APPROVAL CODE:"
@@ -72,7 +72,7 @@ msgid "Bank Statement Line"
 msgstr "Giao dịch trên sổ phụ ngân hàng"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/xml/pos_mercury.xml:45
 #, python-format
 msgid "CARDHOLDER WILL PAY CARD ISSUER"
@@ -106,7 +106,7 @@ msgid "Click to configure your card reader."
 msgstr ""
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:360
 #, python-format
 msgid "Could not read card"
@@ -131,7 +131,7 @@ msgid "Credit Card"
 msgstr "Thẻ tín dụng"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:346
 #, python-format
 msgid ""
@@ -150,14 +150,14 @@ msgid "Display Name"
 msgstr "Tên hiển thị"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/xml/pos_mercury.xml:7
 #, python-format
 msgid "Electronic Payment"
 msgstr ""
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:651
 #, python-format
 msgid "Error"
@@ -175,14 +175,14 @@ msgstr ""
 "                              qua thẻ."
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:256
 #, python-format
 msgid "Go to payment screen to use cards"
 msgstr "Sang màn hình thanh toán để quẹt thẻ"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:396
 #, python-format
 msgid "Handling transaction..."
@@ -296,21 +296,21 @@ msgid "No opened point of sale session for user %s found"
 msgstr ""
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:328
 #, python-format
 msgid "No response from Mercury (Mercury down?)"
 msgstr "Không có phản hồi từ Mercury"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:330
 #, python-format
 msgid "No response from server (connected to network?)"
 msgstr "Không có phản hồi từ máy chủ (kiểm tra kết nối internet?)"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:423
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:577
 #, python-format
@@ -318,14 +318,14 @@ msgid "Odoo error while processing transaction."
 msgstr "Lỗi Odoo khi thực hiện giao dịch"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:652
 #, python-format
 msgid "One credit card swipe already pending."
 msgstr "Một lần quẹt thẻ tín dụng đã chờ xử lý."
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:470
 #, python-format
 msgid "Partially approved"
@@ -350,7 +350,7 @@ msgid "Payment reference number from Mercury Pay"
 msgstr "Mã tham chiếu thanh toán từ Mercury Pay"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:416
 #, python-format
 msgid "Please setup your Mercury merchant account."
@@ -362,35 +362,35 @@ msgid "Point of Sale Orders"
 msgstr "Đơn hàng PoS"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:345
 #, python-format
 msgid "Refunds not supported"
 msgstr "Không hỗ trợ hoàn tiền"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:549
 #, python-format
 msgid "Reversal failed, sending VoidSale..."
 msgstr "Đảo giao dịch thất bại, gửi VoidSale ..."
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:591
 #, python-format
 msgid "Reversal succeeded"
 msgstr "Đảo giao dịch thành công"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:552
 #, python-format
 msgid "Sending reversal..."
 msgstr "Gửi yêu cầu đảo giao dịch..."
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/xml/pos_mercury.xml:47
 #, python-format
 msgid "TO CARDHOLDER AGREEMENT"
@@ -422,7 +422,7 @@ msgid "The name of the card owner"
 msgstr "Tên chủ thẻ"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:361
 #, python-format
 msgid ""
@@ -434,7 +434,7 @@ msgstr ""
 "International)."
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:146
 #, python-format
 msgid "Transaction approved"
@@ -459,14 +459,14 @@ msgid "Vantiv Accounts"
 msgstr "Tài khoản Vantiv"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:599
 #, python-format
 msgid "VoidSale succeeded"
 msgstr "VoidSale thành công"
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/xml/pos_mercury.xml:17
 #, python-format
 msgid "WAITING FOR SWIPE"
@@ -480,7 +480,7 @@ msgid ""
 msgstr ""
 
 #. module: pos_mercury
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_mercury/static/src/xml/pos_mercury.xml:50
 #, python-format
 msgid "X______________________________"

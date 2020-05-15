@@ -26,7 +26,7 @@ msgid "Allow the cashier to give discounts on the whole order."
 msgstr "Sta de kassière toe om korting te geven op het hele order."
 
 #. module: pos_discount
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_discount/static/src/xml/discount_templates.xml:6
 #, python-format
 msgid "Discount"
@@ -38,7 +38,7 @@ msgid "Discount %"
 msgstr "Korting %"
 
 #. module: pos_discount
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_discount/static/src/js/discount.js:14
 #: model:ir.model.fields,field_description:pos_discount.field_pos_config_discount_pc
 #, python-format
@@ -52,7 +52,7 @@ msgid "Discount Product"
 msgstr "Product korting"
 
 #. module: pos_discount
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_discount/static/src/js/discount.js:28
 #, python-format
 msgid "No discount product found"
@@ -69,7 +69,7 @@ msgid "The default discount percentage"
 msgstr "Het standaard kortingspercentage"
 
 #. module: pos_discount
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_discount/static/src/js/discount.js:29
 #, python-format
 msgid ""

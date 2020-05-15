@@ -73,7 +73,7 @@ msgid "<span id=\"search_label\">Search</span> <span class=\"caret\"/>"
 msgstr ""
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_signature.xml:24
 #, python-format
 msgid "Accept and Sign"
@@ -105,14 +105,14 @@ msgid "City"
 msgstr "시군구"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_signature.xml:12
 #, python-format
 msgid "Clear"
 msgstr "제거"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_signature.xml:27
 #, python-format
 msgid "Click here to see your document."
@@ -181,7 +181,7 @@ msgid "Display Name"
 msgstr "표시 이름"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_signature.xml:14
 #, python-format
 msgid "Draw your signature"
@@ -252,7 +252,7 @@ msgid "Last Updated on"
 msgstr "최근 갱신 날짜"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:20
 #, python-format
 msgid "Leave a comment"
@@ -284,7 +284,7 @@ msgid "Next"
 msgstr "다음"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:38
 #, python-format
 msgid "Oops! Something went wrong. Try to reload the page and log in."
@@ -327,7 +327,7 @@ msgid "Prev"
 msgstr "이전"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/js/portal_chatter.js:102
 #, python-format
 msgid "Published on %s"
@@ -345,7 +345,7 @@ msgstr ""
 "                       필요하다면 목록에 있는 연락처의 이메일 주소에 직접 접근해서 해결할 수 있습니다."
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:41
 #, python-format
 msgid "Send"
@@ -386,7 +386,7 @@ msgid "Street"
 msgstr "도로명+건물번호"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_signature.xml:25
 #, python-format
 msgid "Thank You !"
@@ -398,7 +398,7 @@ msgid "The portal that users can be added in or removed from."
 msgstr "사용자를 추가하거나 제거할 수 있는 포털."
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:11
 #, python-format
 msgid "There are no comments for now."
@@ -564,14 +564,14 @@ msgid "Wizard"
 msgstr "마법사"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:32
 #, python-format
 msgid "Write a message..."
 msgstr "메시지 작성..."
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:21
 #, python-format
 msgid "You must be"
@@ -601,7 +601,7 @@ msgid "Your Documents"
 msgstr "귀하의 문서"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_signature.xml:6
 #: model:ir.ui.view,arch_db:portal.portal_my_details
 #, python-format
@@ -619,28 +619,28 @@ msgid "Zip / Postal Code"
 msgstr "우편 코드"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:56
 #, python-format
 msgid "avatar"
 msgstr "아바타"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:8
 #, python-format
 msgid "comment"
 msgstr "덧글"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:9
 #, python-format
 msgid "comments"
 msgstr "덧글"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:21
 #, python-format
 msgid "logged in"
@@ -657,7 +657,7 @@ msgid "select..."
 msgstr "선택..."
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:21
 #, python-format
 msgid "to post a comment."

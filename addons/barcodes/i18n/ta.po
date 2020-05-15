@@ -157,7 +157,7 @@ msgid "Credit Card"
 msgstr "கடன் அட்டை"
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:359
 #, python-format
 msgid "Discard"
@@ -196,21 +196,21 @@ msgid "Encoding"
 msgstr "என்கோடிங்"
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:301
 #, python-format
 msgid "Error : Barcode command is undefined"
 msgstr ""
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:63
 #, python-format
 msgid "Error : Document not editable"
 msgstr ""
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:332
 #, python-format
 msgid "Error : No last scanned barcode"
@@ -305,7 +305,7 @@ msgid "Rules"
 msgstr "விதிகள்"
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:352
 #, python-format
 msgid "Select"
@@ -317,7 +317,7 @@ msgid "Sequence"
 msgstr "வரிசை"
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:351
 #, python-format
 msgid "Set quantity"
@@ -361,14 +361,14 @@ msgstr ""
 "பயன்படுத்தப்படும்"
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:64
 #, python-format
 msgid "To modify this document, please first start edition."
 msgstr "இந்த ஆவணத்தை மாற்ற, முதல் பதிப்பைத் தொடங்கவும்."
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:333
 #, python-format
 msgid "To set the quantity please scan a barcode first."

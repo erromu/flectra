@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:79
 #, python-format
 msgid ""
@@ -28,7 +28,7 @@ msgid ""
 msgstr "通過電子信件<b>邀請銷售員或者經理</b>。<br/><i>每行輸入一個電子信件。</i>"
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:60
 #, python-format
 msgid ""
@@ -37,14 +37,14 @@ msgid ""
 msgstr "<p><b>列印此報價。</b>如果尚未完成，將要求您設定公司數據並選擇文檔佈局。</p>"
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:33
 #, python-format
 msgid "Click here to add some lines to your quotations."
 msgstr "點選此處為報價單添加明細"
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:75
 #, python-format
 msgid "Configuration options are available in the Settings app."
@@ -56,7 +56,7 @@ msgid "Create Invoice"
 msgstr "創建應收憑單"
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:18
 #, python-format
 msgid ""
@@ -65,21 +65,21 @@ msgid ""
 msgstr "讓我們創建一個新的報價。<br/><i>注意，顏色按鈕通常指向下一個邏輯操作。</i>"
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:55
 #, python-format
 msgid "Once your quotation is ready, you can save, print or send it by email."
 msgstr "一旦您準備好報價單，您可以保存、列印或通過電子信件發送。"
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:13
 #, python-format
 msgid "Organize your sales activities with the <b>Sales Management app</b>."
 msgstr "用<b>銷售管理應用程序</b>來組織您的銷售活動。"
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:38
 #, python-format
 msgid ""
@@ -89,21 +89,21 @@ msgid ""
 msgstr "選擇一個產品，或者創建一個新的產品。該產品將自動定義預設的銷售價格（您可以更改）、稅收和描述。"
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:65
 #, python-format
 msgid "Use the breadcrumbs to <b>go back to preceeding screens</b>."
 msgstr "使用麵包屑導航以<b>返回之前的頁面</b>。"
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:69
 #, python-format
 msgid "Use this menu to access quotations, sales orders and customers."
 msgstr "使用此選單訪問報價單，銷售訂單以及客戶。"
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:23
 #, python-format
 msgid ""

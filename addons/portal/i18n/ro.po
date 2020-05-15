@@ -96,7 +96,7 @@ msgid "<span id=\"search_label\">Search</span> <span class=\"caret\"/>"
 msgstr "<span id=\"search_label\">Caută</span> <span class=\"caret\"/>"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_signature.xml:24
 #, python-format
 msgid "Accept and Sign"
@@ -128,14 +128,14 @@ msgid "City"
 msgstr "Oraș"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_signature.xml:12
 #, python-format
 msgid "Clear"
 msgstr "Golește"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_signature.xml:27
 #, python-format
 msgid "Click here to see your document."
@@ -204,7 +204,7 @@ msgid "Display Name"
 msgstr "Nume afișat"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_signature.xml:14
 #, python-format
 msgid "Draw your signature"
@@ -275,7 +275,7 @@ msgid "Last Updated on"
 msgstr "Ultima actualizare pe"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:20
 #, python-format
 msgid "Leave a comment"
@@ -307,7 +307,7 @@ msgid "Next"
 msgstr "Înainte"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:38
 #, python-format
 msgid "Oops! Something went wrong. Try to reload the page and log in."
@@ -351,7 +351,7 @@ msgid "Prev"
 msgstr "Înapoi"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/js/portal_chatter.js:102
 #, python-format
 msgid "Published on %s"
@@ -369,7 +369,7 @@ msgstr ""
 "                        Daca este necesar, puteti repara adresa de email a oricarui contact direct in lista."
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:41
 #, python-format
 msgid "Send"
@@ -412,7 +412,7 @@ msgid "Street"
 msgstr "Stradă"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_signature.xml:25
 #, python-format
 msgid "Thank You !"
@@ -424,7 +424,7 @@ msgid "The portal that users can be added in or removed from."
 msgstr "Portalul in care utilizatorii pot fi adaugati sau stersi."
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:11
 #, python-format
 msgid "There are no comments for now."
@@ -592,14 +592,14 @@ msgid "Wizard"
 msgstr "Asistent"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:32
 #, python-format
 msgid "Write a message..."
 msgstr "Scrie un mesaj..."
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:21
 #, python-format
 msgid "You must be"
@@ -631,7 +631,7 @@ msgid "Your Documents"
 msgstr "Documentele tale"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_signature.xml:6
 #: model:ir.ui.view,arch_db:portal.portal_my_details
 #, python-format
@@ -649,28 +649,28 @@ msgid "Zip / Postal Code"
 msgstr "Cod poștal"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:56
 #, python-format
 msgid "avatar"
 msgstr "avatar"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:8
 #, python-format
 msgid "comment"
 msgstr "comentariu"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:9
 #, python-format
 msgid "comments"
 msgstr "comentarii"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:21
 #, python-format
 msgid "logged in"
@@ -687,7 +687,7 @@ msgid "select..."
 msgstr "selectează..."
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:21
 #, python-format
 msgid "to post a comment."

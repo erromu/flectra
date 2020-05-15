@@ -272,7 +272,7 @@ msgid ", if accounting or purchase is installed"
 msgstr ", 如果已安裝會計或採購模組"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/tour.js:29
 #, python-format
 msgid ""
@@ -281,7 +281,7 @@ msgid ""
 msgstr "隨著您進行您的銷售週期在列中<b>拖和拽商機</b>。"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/tour.js:74
 #, python-format
 msgid ""
@@ -299,7 +299,7 @@ msgid "<i class=\"fa fa-question-circle\"> view examples</i>"
 msgstr "<i class=\"fa fa-question-circle\"> 視圖示例</i>"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/tour.js:60
 #, python-format
 msgid ""
@@ -311,7 +311,7 @@ msgstr ""
 "class=\"mb0\">輸入<i>'@'</i>以提起某人－類似信件的抄送功能。</p>"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/tour.js:45
 #, python-format
 msgid ""
@@ -1271,7 +1271,7 @@ msgid ""
 msgstr "歸類和分析您的線索/商機類別， 例如：培訓、服務"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/tour.js:18
 #, python-format
 msgid ""
@@ -1280,7 +1280,7 @@ msgid ""
 msgstr "點選這裡以<b>創建您的第一條商機</b>， 並且加入到您的商機漏斗。"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/tour.js:53
 #, python-format
 msgid "Click on an opportunity to zoom to it."
@@ -1323,7 +1323,7 @@ msgid "Close Date"
 msgstr "關閉日期"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:29
 #, python-format
 msgid ""
@@ -1379,7 +1379,7 @@ msgid "Configuration"
 msgstr "配置"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/tour.js:70
 #, python-format
 msgid "Configuration options are available in the Settings app."
@@ -1533,7 +1533,7 @@ msgid "Create Vendors"
 msgstr "創建供應商"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:30
 #, python-format
 msgid "Create a Proof of Concept with consultants"
@@ -1762,7 +1762,7 @@ msgid "Delete"
 msgstr "刪除"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:27
 #, python-format
 msgid "Demonstration"
@@ -2040,7 +2040,7 @@ msgid "Extra Info"
 msgstr "額外信息"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:31
 #, python-format
 msgid "Final Proposal sent"
@@ -2117,7 +2117,7 @@ msgid "Future Activities (All)"
 msgstr "未來活動（全部）"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:30
 #, python-format
 msgid "GAP analysis with customer"
@@ -2160,7 +2160,7 @@ msgid "Go, go, go! Congrats for your first deal."
 msgstr "快，快，快！祝賀您獲得首單交易。"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/tour.js:79
 #, python-format
 msgid ""
@@ -2362,7 +2362,7 @@ msgid "Information"
 msgstr "信息"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:22
 #, python-format
 msgid "Initial Contact"
@@ -2635,7 +2635,7 @@ msgid "Look up company information (name, logo, etc.)"
 msgstr "查找公司信息（名稱、商標等）"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/models/crm_lead.py:1086
 #: code:addons/crm/static/src/js/web_planner_crm.js:33
 #: model:ir.ui.view,arch_db:crm.crm_case_form_view_oppor
@@ -2736,7 +2736,7 @@ msgid "Meeting scheduled at '%s'<br> Subject: %s <br> Duration: %s hour(s)"
 msgstr "會議安排在 '%s'<br>   主題: %s <br> 時長: %s 小時"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:24
 #, python-format
 msgid "Meeting with a demo. Set Fields: expected revenue, closing date"
@@ -2897,14 +2897,14 @@ msgid "Name"
 msgstr "名稱"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:27
 #, python-format
 msgid "Needs assessment"
 msgstr "需求評審"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:15
 #: code:addons/crm/static/src/js/web_planner_crm.js:33
 #, python-format
@@ -2912,7 +2912,7 @@ msgid "Negotiation"
 msgstr "協商"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:22
 #: code:addons/crm/static/src/js/web_planner_crm.js:27
 #: code:addons/crm/static/src/js/web_planner_crm.js:33
@@ -2927,7 +2927,7 @@ msgid "New Opportunity"
 msgstr "新商機"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:16
 #, python-format
 msgid "New propspect assigned to the right salesperson"
@@ -3237,14 +3237,14 @@ msgid "Owner"
 msgstr "所有者"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:27
 #, python-format
 msgid "POC Sold"
 msgstr "售出的 POC"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:31
 #, python-format
 msgid "POC demonstration to the customer"
@@ -3311,7 +3311,7 @@ msgid "Phone Formatting"
 msgstr "Phone Formatting"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:23
 #, python-format
 msgid "Phone call with following questions: ..."
@@ -3447,7 +3447,7 @@ msgid "Product"
 msgstr "產品"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:22
 #, python-format
 msgid "Product Demonstration"
@@ -3459,7 +3459,7 @@ msgid "Products"
 msgstr "產品"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:15
 #: code:addons/crm/static/src/js/web_planner_crm.js:22
 #: code:addons/crm/static/src/js/web_planner_crm.js:27
@@ -3469,7 +3469,7 @@ msgid "Proposal"
 msgstr "建議"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:33
 #: model:crm.stage,name:crm.stage_lead3
 #, python-format
@@ -3482,7 +3482,7 @@ msgid "Qualification form (you can use the survey app for this)"
 msgstr "資歷表(您可以為此使用調查應用程序)"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:14
 #: code:addons/crm/static/src/js/web_planner_crm.js:27
 #: code:addons/crm/static/src/js/web_planner_crm.js:33
@@ -3492,28 +3492,28 @@ msgid "Qualified"
 msgstr "驗證"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:14
 #, python-format
 msgid "Qualified Sponsor"
 msgstr "合格贊助商"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:25
 #, python-format
 msgid "Quotation sent"
 msgstr "報價單送出"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:19
 #, python-format
 msgid "Quotation sent to customer"
 msgstr "發送給客戶的報價單"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:20
 #, python-format
 msgid "Quotation signed by the customer"
@@ -3525,7 +3525,7 @@ msgid "Read the documentation about pricing &amp; discounts"
 msgstr "閱讀關於定價和折扣的文件"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/tour.js:13
 #, python-format
 msgid ""
@@ -3658,7 +3658,7 @@ msgid ""
 msgstr "保存篩選或以最喜歡的選單在您的儀表板添加任何報告。"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/tour.js:40
 #, python-format
 msgid "Schedule an activity by clicking here"
@@ -3739,7 +3739,7 @@ msgid "Services"
 msgstr "服務"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:17
 #: code:addons/crm/static/src/js/web_planner_crm.js:28
 #, python-format
@@ -4008,14 +4008,14 @@ msgid "Templates of quotations (use Odoo Online Proposals for this)"
 msgstr "報價單模板（對此使用Odoo線上建議）"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:14
 #, python-format
 msgid "Territory"
 msgstr "領域"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:19
 #, python-format
 msgid "The customer came back to you to discuss your quotation"
@@ -4154,7 +4154,7 @@ msgid "This is the default configuration, there is nothing to setup."
 msgstr "這是預設設定，沒有東西要設定。"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/tour.js:35
 #, python-format
 msgid ""
@@ -4364,14 +4364,14 @@ msgstr ""
 "訂閱的服務等。"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/tour.js:83
 #, python-format
 msgid "Use the <b>implementation guide</b> to setup the CRM in your company."
 msgstr "使用<b>實施指南</b>以在您的公司中設定CRM。"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/tour.js:65
 #, python-format
 msgid "Use the breadcrumbs to <b>go back to your sales pipeline</b>."
@@ -4563,7 +4563,7 @@ msgid "Wizard"
 msgstr "嚮導"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/models/crm_lead.py:1085
 #: code:addons/crm/static/src/js/web_planner_crm.js:15
 #: code:addons/crm/static/src/js/web_planner_crm.js:22
@@ -4596,7 +4596,7 @@ msgid "Yeah! Deal of the last 7 days for the team."
 msgstr "耶！團隊最近 7 天的交易。"
 
 #. module: crm
-#. openerp-web
+#. flectra-web
 #: code:addons/crm/static/src/js/web_planner_crm.js:18
 #, python-format
 msgid ""

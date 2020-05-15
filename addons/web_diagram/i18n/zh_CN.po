@@ -22,7 +22,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: web_diagram
-#. openerp-web
+#. flectra-web
 #: code:addons/web_diagram/static/src/js/diagram_controller.js:73
 #: code:addons/web_diagram/static/src/js/diagram_controller.js:160
 #, python-format
@@ -30,7 +30,7 @@ msgid "Activity"
 msgstr "活动"
 
 #. module: web_diagram
-#. openerp-web
+#. flectra-web
 #: code:addons/web_diagram/static/src/js/diagram_controller.js:192
 #, python-format
 msgid ""
@@ -39,14 +39,14 @@ msgid ""
 msgstr "你确定要删除这个节点？ 这也将删除其连接的转换。"
 
 #. module: web_diagram
-#. openerp-web
+#. flectra-web
 #: code:addons/web_diagram/static/src/js/diagram_controller.js:172
 #, python-format
 msgid "Are you sure you want to remove this transition?"
 msgstr "你确定要删除这个转换吗？"
 
 #. module: web_diagram
-#. openerp-web
+#. flectra-web
 #: code:addons/web_diagram/static/src/js/diagram_controller.js:73
 #: code:addons/web_diagram/static/src/js/diagram_controller.js:110
 #, python-format
@@ -54,21 +54,21 @@ msgid "Create:"
 msgstr "创建："
 
 #. module: web_diagram
-#. openerp-web
+#. flectra-web
 #: code:addons/web_diagram/static/src/js/diagram_view.js:16
 #, python-format
 msgid "Diagram"
 msgstr "图表"
 
 #. module: web_diagram
-#. openerp-web
+#. flectra-web
 #: code:addons/web_diagram/static/src/xml/base_diagram.xml:5
 #, python-format
 msgid "New Node"
 msgstr "新建节点"
 
 #. module: web_diagram
-#. openerp-web
+#. flectra-web
 #: code:addons/web_diagram/static/src/js/diagram_controller.js:143
 #: code:addons/web_diagram/static/src/js/diagram_controller.js:160
 #, python-format
@@ -76,7 +76,7 @@ msgid "Open:"
 msgstr "打开："
 
 #. module: web_diagram
-#. openerp-web
+#. flectra-web
 #: code:addons/web_diagram/static/src/js/diagram_controller.js:110
 #: code:addons/web_diagram/static/src/js/diagram_controller.js:143
 #, python-format

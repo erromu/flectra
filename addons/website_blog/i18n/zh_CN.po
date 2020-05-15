@@ -122,21 +122,21 @@ msgid ""
 msgstr "（取消）归档博客将自动（取消）归档其中的博客文章。是否继续？"
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:53
 #, python-format
 msgid "<b>Click on Save</b> to record your changes."
 msgstr "<b>单击“保存</b>”以记录您的更改。"
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:69
 #, python-format
 msgid "<b>Publish your blog post</b> to make it visible to your visitors."
 msgstr "<b>发布你的博客文章</b>，使其让您的访客可见。"
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:73
 #, python-format
 msgid ""
@@ -145,7 +145,7 @@ msgid ""
 msgstr "<b>就是这样，您的博客文章已发布！</b>通过<i>自定义</i>菜单发现更多功能。"
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:44
 #, python-format
 msgid ""
@@ -346,7 +346,7 @@ msgid "Building your company's website and selling your products online easy."
 msgstr "轻松构建你公司的网站和在线销售你的产品。"
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:29
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 #, python-format
@@ -354,14 +354,14 @@ msgid "Change Cover"
 msgstr "修改封面"
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:35
 #, python-format
 msgid "Choose an image from the library."
 msgstr "从库中选择图像。"
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:30
 #, python-format
 msgid "Click here to change your post cover."
@@ -374,7 +374,7 @@ msgid ""
 msgstr "点击右上角的“新建页面”来写下您的第一篇博客文章。"
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:40
 #, python-format
 msgid "Click on <b>Save</b> to set the picture as cover."
@@ -690,7 +690,7 @@ msgid "Narrow"
 msgstr "变窄"
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website_blog.editor.js:37
 #: model:ir.ui.view,arch_db:website_blog.content_new_blogpost
 #, python-format
@@ -749,7 +749,7 @@ msgid "Odoo, email"
 msgstr "Odoo，电邮"
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:63
 #, python-format
 msgid "Once you have reviewed the content on mobile, close the preview."
@@ -861,14 +861,14 @@ msgid "Red"
 msgstr "红色"
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:15
 #, python-format
 msgid "Select this menu item to create a new blog post."
 msgstr "选择此菜单项新建一篇博文。"
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:26
 #, python-format
 msgid "Set a blog post <b>cover</b>."
@@ -888,7 +888,7 @@ msgid ""
 msgstr "联系人小尺寸图像。自动缩放为64x64px的图片，保留纵横比。此字段用于任何需要小图像的场合。"
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/models/website_blog.py:123
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:52
 #, python-format
@@ -1024,7 +1024,7 @@ msgid "Untitled Post"
 msgstr "无标题帖文"
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:58
 #, python-format
 msgid "Use this icon to preview your blog post on <b>mobile devices</b>."
@@ -1079,7 +1079,7 @@ msgstr ""
 "在这里写下小段文字。"
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:20
 #, python-format
 msgid "Write a title, the subtitle is optional."

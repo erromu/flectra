@@ -442,7 +442,7 @@ msgid "Active"
 msgstr ""
 
 #. module: hr_recruitment
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_recruitment/static/src/js/tour.js:20
 #, python-format
 msgid "Add columns to define the <b>interview stages</b>.<br/><i>e.g. New &gt; Qualified &gt; First Interview &gt; Recruited</i>"
@@ -1195,7 +1195,7 @@ msgid "Late Activities"
 msgstr ""
 
 #. module: hr_recruitment
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_recruitment/static/src/js/tour.js:16
 #, python-format
 msgid "Let's have a look at the <b>applications pipeline</b> for this job position."
@@ -1743,7 +1743,7 @@ msgid "Today Activities"
 msgstr ""
 
 #. module: hr_recruitment
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_recruitment/static/src/js/tour.js:30
 #, python-format
 msgid "Try to send an email to this address, it will create an application automatically."
@@ -1778,7 +1778,7 @@ msgid "Use interview forms tailored to each job position during the recruitment 
 msgstr ""
 
 #. module: hr_recruitment
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_recruitment/static/src/js/tour.js:25
 #, python-format
 msgid "Use the breadcrumbs to <b>go back to the dashboard</b>."
@@ -1795,7 +1795,7 @@ msgid "Very Good"
 msgstr ""
 
 #. module: hr_recruitment
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_recruitment/static/src/js/tour.js:11
 #, python-format
 msgid "Want to <b>start recruiting</b> like a pro? <i>Start here.</i>"

@@ -34,14 +34,14 @@ msgid "API Credentials"
 msgstr "API poverenia"
 
 #. module: google_calendar
-#. openerp-web
+#. flectra-web
 #: code:addons/google_calendar/static/src/js/google_calendar.js:89
 #, python-format
 msgid "Accounts"
 msgstr "Účty"
 
 #. module: google_calendar
-#. openerp-web
+#. flectra-web
 #: code:addons/google_calendar/static/src/js/google_calendar.js:79
 #, python-format
 msgid ""
@@ -52,7 +52,7 @@ msgstr ""
 "reštartovať synchronizáciu"
 
 #. module: google_calendar
-#. openerp-web
+#. flectra-web
 #: code:addons/google_calendar/static/src/js/google_calendar.js:57
 #, python-format
 msgid ""
@@ -63,7 +63,7 @@ msgstr ""
 "pouźívať!"
 
 #. module: google_calendar
-#. openerp-web
+#. flectra-web
 #: code:addons/google_calendar/static/src/js/google_calendar.js:83
 #, python-format
 msgid ""
@@ -109,7 +109,7 @@ msgid "Client_key"
 msgstr "Client_key"
 
 #. module: google_calendar
-#. openerp-web
+#. flectra-web
 #: code:addons/google_calendar/static/src/js/google_calendar.js:54
 #: code:addons/google_calendar/static/src/js/google_calendar.js:58
 #, python-format
@@ -122,7 +122,7 @@ msgid "Display Name"
 msgstr "Zobraziť meno"
 
 #. module: google_calendar
-#. openerp-web
+#. flectra-web
 #: code:addons/google_calendar/static/src/js/google_calendar.js:66
 #, python-format
 msgid "Do you want to do this now?"
@@ -134,14 +134,14 @@ msgid "Event"
 msgstr "Udalosť"
 
 #. module: google_calendar
-#. openerp-web
+#. flectra-web
 #: code:addons/google_calendar/static/src/js/google_calendar.js:84
 #, python-format
 msgid "Event disconnection error"
 msgstr "Chyba odpájania udalosti"
 
 #. module: google_calendar
-#. openerp-web
+#. flectra-web
 #: code:addons/google_calendar/static/src/js/google_calendar.js:80
 #, python-format
 msgid "Event disconnection success"
@@ -182,7 +182,7 @@ msgid "ID"
 msgstr "ID"
 
 #. module: google_calendar
-#. openerp-web
+#. flectra-web
 #: code:addons/google_calendar/static/src/js/google_calendar.js:65
 #, python-format
 msgid ""
@@ -222,7 +222,7 @@ msgid "Odoo Update Date"
 msgstr "Dátum Odoo aktualizácie"
 
 #. module: google_calendar
-#. openerp-web
+#. flectra-web
 #: code:addons/google_calendar/static/src/js/google_calendar.js:46
 #, python-format
 msgid "Redirection"
@@ -239,14 +239,14 @@ msgid "Settings"
 msgstr "Nastavenia"
 
 #. module: google_calendar
-#. openerp-web
+#. flectra-web
 #: code:addons/google_calendar/static/src/js/google_calendar.js:117
 #, python-format
 msgid "Sync with <b>Google</b>"
 msgstr "Synchronizovať s <b>Google</b>"
 
 #. module: google_calendar
-#. openerp-web
+#. flectra-web
 #: code:addons/google_calendar/static/src/js/google_calendar.js:50
 #, python-format
 msgid ""
@@ -257,7 +257,7 @@ msgstr ""
 " chcete to spraviť teraz?"
 
 #. module: google_calendar
-#. openerp-web
+#. flectra-web
 #: code:addons/google_calendar/static/src/js/google_calendar.js:64
 #, python-format
 msgid ""
@@ -288,7 +288,7 @@ msgid "Users"
 msgstr "Používatelia"
 
 #. module: google_calendar
-#. openerp-web
+#. flectra-web
 #: code:addons/google_calendar/static/src/js/google_calendar.js:42
 #, python-format
 msgid "You will be redirected to Google to authorize access to your calendar!"

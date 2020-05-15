@@ -20,28 +20,28 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
 #. module: pos_reprint
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_reprint/static/src/xml/reprint.xml:13
 #, python-format
 msgid "Back"
 msgstr "Zpět"
 
 #. module: pos_reprint
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_reprint/static/src/js/reprint.js:38
 #, python-format
 msgid "Nothing to Print"
 msgstr "Nic k Tisku"
 
 #. module: pos_reprint
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_reprint/static/src/xml/reprint.xml:6
 #, python-format
 msgid "Reprint Receipt"
 msgstr "Znovu tisknout stvrzenku"
 
 #. module: pos_reprint
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_reprint/static/src/js/reprint.js:39
 #, python-format
 msgid "There is no previous receipt to print."

@@ -19,14 +19,14 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: website_sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale_management/static/src/xml/website_sale_dashboard.xml:5
 #, python-format
 msgid "Generate an invoice from orders ready for invoicing."
 msgstr "Tạo hóa đơn từ các đơn đặt hàng đã sẵn sàng để lập hóa đơn."
 
 #. module: website_sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale_management/static/src/xml/website_sale_dashboard.xml:7
 #, python-format
 msgid "Orders to Invoice"

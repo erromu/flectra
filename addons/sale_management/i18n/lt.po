@@ -20,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);\n"
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:79
 #, python-format
 msgid ""
@@ -31,7 +31,7 @@ msgstr ""
 "vieną el. pašto adresą į eilutę.</i>"
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:60
 #, python-format
 msgid ""
@@ -42,14 +42,14 @@ msgstr ""
 "nustatyti įmonės informaciją ir pasirinkti dokumento šabloną.</p>"
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:33
 #, python-format
 msgid "Click here to add some lines to your quotations."
 msgstr "Paspauskite čia, norėdami pridėti savo pasiūlymui eilučių."
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:75
 #, python-format
 msgid "Configuration options are available in the Settings app."
@@ -61,7 +61,7 @@ msgid "Create Invoice"
 msgstr "Sukurti sąskaitą-faktūrą"
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:18
 #, python-format
 msgid ""
@@ -72,7 +72,7 @@ msgstr ""
 " mygtukai dažniausiai nurodo sekantį loginį veiksmą.</i>"
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:55
 #, python-format
 msgid "Once your quotation is ready, you can save, print or send it by email."
@@ -81,7 +81,7 @@ msgstr ""
 "atsispausdinti ir siųsti el. paštu."
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:13
 #, python-format
 msgid "Organize your sales activities with the <b>Sales Management app</b>."
@@ -89,7 +89,7 @@ msgstr ""
 "Tvarkykite savo pardavimų veiksmus su <b>Pardavimų valdymo programa</b>."
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:38
 #, python-format
 msgid ""
@@ -102,7 +102,7 @@ msgstr ""
 "aprašymą."
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:65
 #, python-format
 msgid "Use the breadcrumbs to <b>go back to preceeding screens</b>."
@@ -110,7 +110,7 @@ msgstr ""
 "Norėdami <b>grįžti į ankstesnius langus</b>, naudokite nuorodos kelią."
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:69
 #, python-format
 msgid "Use this menu to access quotations, sales orders and customers."
@@ -119,7 +119,7 @@ msgstr ""
 "užsakymus ir klientus."
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:23
 #, python-format
 msgid ""

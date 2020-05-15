@@ -87,14 +87,14 @@ msgid "Profit Account"
 msgstr ""
 
 #. module: pos_cash_rounding
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_cash_rounding/static/src/xml/pos.xml:19
 #, python-format
 msgid "ROUNDED"
 msgstr ""
 
 #. module: pos_cash_rounding
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_cash_rounding/static/src/xml/pos.xml:7
 #, python-format
 msgid "ROUNDED:"

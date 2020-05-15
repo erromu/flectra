@@ -21,14 +21,14 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: website_sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale_management/static/src/xml/website_sale_dashboard.xml:5
 #, python-format
 msgid "Generate an invoice from orders ready for invoicing."
 msgstr "송장을 받을 준비가 된 주문에서 송장을 생성합니다."
 
 #. module: website_sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale_management/static/src/xml/website_sale_dashboard.xml:7
 #, python-format
 msgid "Orders to Invoice"

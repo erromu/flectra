@@ -152,14 +152,14 @@ msgid "%(user_name)s invited you to follow a new document."
 msgstr "%(user_name)ste-a invitat să urmărești un nou document"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/chat_manager.js:63
 #, python-format
 msgid "%d Messages"
 msgstr "%d Mesaje"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/activity.js:89
 #, python-format
 msgid "%d days overdue"
@@ -184,14 +184,14 @@ msgid "%s has joined the %s network."
 msgstr "%s s-a alăturat rețelei %s."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:211
 #, python-format
 msgid "&nbsp;("
 msgstr "&nbsp;("
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:184
 #, python-format
 msgid "(from"
@@ -205,35 +205,35 @@ msgid ""
 msgstr ""
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/activity.xml:49
 #, python-format
 msgid ", due on"
 msgstr ", scadent la"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:336
 #, python-format
 msgid "-------- Show older messages --------"
 msgstr "-------- Afișează mesaje mai vechi --------"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/systray.xml:78
 #, python-format
 msgid "0 Future"
 msgstr "0 Viitor"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/systray.xml:74
 #, python-format
 msgid "0 Late"
 msgstr "0 Întârziate"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/systray.xml:76
 #, python-format
 msgid "0 Today"
@@ -298,7 +298,7 @@ msgstr ""
 "class=\"o_channel_redirect\" data-oe-id=\"%s\">#%s</a></div>"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/tour.js:28
 #, python-format
 msgid ""
@@ -311,7 +311,7 @@ msgstr ""
 "utilizatorii din Setări.</i></p>"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/tour.js:15
 #, python-format
 msgid ""
@@ -324,7 +324,7 @@ msgstr ""
 "mesajul cu <i>'/'</i> pentru a obține toate comenzile posibile.</p>"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/tour.js:11
 #, python-format
 msgid ""
@@ -521,7 +521,7 @@ msgid "Active domain"
 msgstr "Domeniu Activ"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/systray.xml:87
 #: model:ir.model.fields,field_description:mail.field_account_invoice_activity_ids
 #: model:ir.model.fields,field_description:mail.field_crm_lead_activity_ids
@@ -552,7 +552,7 @@ msgid "Activities"
 msgstr "Activități"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/chatter.xml:60
 #: model:ir.model,name:mail.model_mail_activity
 #: model:ir.model.fields,field_description:mail.field_mail_activity_activity_type_id
@@ -582,21 +582,21 @@ msgid "Activity Types"
 msgstr "Tipuri de activitate"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/activity.xml:37
 #, python-format
 msgid "Activity type"
 msgstr "Tip activitate"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:87
 #, python-format
 msgid "Add"
 msgstr "Adaugă"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/followers.xml:64
 #: model:ir.model.fields,field_description:mail.field_ir_act_server_channel_ids
 #, python-format
@@ -604,7 +604,7 @@ msgid "Add Channels"
 msgstr "Adaugă canale"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/followers.xml:61
 #: model:ir.model.fields,field_description:mail.field_ir_act_server_partner_ids
 #: model:ir.ui.view,arch_db:mail.mail_wizard_invite_form
@@ -625,7 +625,7 @@ msgid "Add Signature"
 msgstr "Adaugă semnătura"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:41
 #: code:addons/mail/static/src/xml/client_action.xml:186
 #, python-format
@@ -633,7 +633,7 @@ msgid "Add a channel"
 msgstr "Adaugă un canal"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:60
 #, python-format
 msgid "Add a private channel"
@@ -720,7 +720,7 @@ msgid "Aliases"
 msgstr "Alias-uri"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/systray.xml:17
 #: code:addons/mail/static/src/xml/systray.xml:28
 #, python-format
@@ -733,7 +733,7 @@ msgid "Always"
 msgstr "Întotdeauna"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/models/mail_channel.py:685
 #: code:addons/mail/static/src/js/chat_manager.js:207
 #, python-format
@@ -757,14 +757,14 @@ msgid "Applies to"
 msgstr "Se aplică pentru"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/followers.js:333
 #, python-format
 msgid "Apply"
 msgstr "Aplică"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/activity.xml:45
 #: model:ir.model.fields,field_description:mail.field_mail_activity_user_id
 #, python-format
@@ -867,7 +867,7 @@ msgid "Available for mass mailing"
 msgstr "Disponibil pentru corespondență în masă"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/followers.xml:89
 #, python-format
 msgid "Be careful with channels following internal notifications"
@@ -898,7 +898,7 @@ msgid "Call"
 msgstr "Apeluri"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/followers.js:341
 #: code:addons/mail/static/src/xml/activity.xml:65
 #: model:ir.ui.view,arch_db:mail.email_compose_message_wizard_form
@@ -988,7 +988,7 @@ msgid "Channel Type"
 msgstr "Tip canal"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:36
 #: code:addons/mail/static/src/xml/client_action.xml:172
 #: code:addons/mail/static/src/xml/systray.xml:19
@@ -1013,7 +1013,7 @@ msgid "Channels/Partner"
 msgstr "Canale/Partener"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:168
 #: code:addons/mail/static/src/xml/systray.xml:18
 #: code:addons/mail/static/src/xml/systray.xml:32
@@ -1125,14 +1125,14 @@ msgid "Configure your activity types"
 msgstr "Configurați tipuri de activitate"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:114
 #, python-format
 msgid "Congratulations, your inbox is empty"
 msgstr "Felicitări, căsuța de mesaje este goală."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/client_action.js:650
 #, python-format
 msgid "Congratulations, your inbox is empty!"
@@ -1168,7 +1168,7 @@ msgid "Conversation is minimized"
 msgstr "Conversațiile sunt minimizate"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/systray.xml:6
 #, python-format
 msgid "Conversations"
@@ -1181,7 +1181,7 @@ msgid "Counter of the number of bounced emails for this contact"
 msgstr ""
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/client_action.js:307
 #, python-format
 msgid "Create %s"
@@ -1219,7 +1219,7 @@ msgid "Created by"
 msgstr "Creat de"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/activity.xml:41
 #: model:ir.model.fields,field_description:mail.field_email_template_preview_create_date
 #: model:ir.model.fields,field_description:mail.field_mail_activity_create_date
@@ -1390,7 +1390,7 @@ msgid "Delete sent emails (mass mailing only)"
 msgstr "Șterge emailuri trimise (doar pentru trimiteri în masă)"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:325
 #, python-format
 msgid "Delete this attachment"
@@ -1421,14 +1421,14 @@ msgstr ""
 "este necompletat, va fi adăugat numele."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:46
 #, python-format
 msgid "Direct Messages"
 msgstr "Mesaje directe"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/activity.xml:81
 #: model:ir.ui.view,arch_db:mail.email_template_preview_form
 #: model:ir.ui.view,arch_db:mail.mail_activity_view_form_popup
@@ -1513,28 +1513,28 @@ msgid "Document Name"
 msgstr "Nume document"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/activity.xml:79
 #, python-format
 msgid "Done"
 msgstr "Efectuat"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/activity.xml:77
 #, python-format
 msgid "Done & Schedule Next"
 msgstr "Făcut & Planificare Nouă"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:301
 #, python-format
 msgid "Download this PDF"
 msgstr ""
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:277
 #: code:addons/mail/static/src/xml/thread.xml:290
 #: code:addons/mail/static/src/xml/thread.xml:313
@@ -1548,7 +1548,7 @@ msgid "Due Date"
 msgstr "Data scadenței"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/activity.js:95
 #, python-format
 msgid "Due in %d days"
@@ -1560,21 +1560,21 @@ msgid "Dynamic Placeholder Generator"
 msgstr ""
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/activity.xml:62
 #, python-format
 msgid "Edit"
 msgstr "Editare"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/followers.js:330
 #, python-format
 msgid "Edit Subscription of "
 msgstr "Editare abonament pentru "
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/followers.xml:49
 #, python-format
 msgid "Edit subscription"
@@ -1772,7 +1772,7 @@ msgid "Favorited By"
 msgstr ""
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/activity.js:235
 #: model:ir.model.fields,field_description:mail.field_mail_activity_feedback
 #, python-format
@@ -1832,7 +1832,7 @@ msgid "Folded"
 msgstr "Pliat"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/models/mail_thread.py:701
 #: code:addons/mail/static/src/xml/followers.xml:20
 #, python-format
@@ -2040,7 +2040,7 @@ msgid "Followers Form"
 msgstr "Persoane interesate de la"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/chatter.xml:15
 #, python-format
 msgid "Followers of"
@@ -2052,7 +2052,7 @@ msgid "Followers only"
 msgstr "Numai cei interesați"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/followers.xml:24
 #, python-format
 msgid "Following"
@@ -2075,7 +2075,7 @@ msgid "From"
 msgstr "De la"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/systray.xml:77
 #, python-format
 msgid "Future"
@@ -2206,7 +2206,7 @@ msgid "Id of the followed resource"
 msgstr "Id-ul resursei urmărite"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:119
 #: code:addons/mail/static/src/xml/client_action.xml:203
 #, python-format
@@ -2396,7 +2396,7 @@ msgid "Inactive Alias"
 msgstr ""
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/chat_manager.js:664
 #: code:addons/mail/static/src/xml/client_action.xml:22
 #: code:addons/mail/static/src/xml/client_action.xml:154
@@ -2449,7 +2449,7 @@ msgid "Invalid token in route %s"
 msgstr "Token invalid în ruta %s"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/chat_manager.js:588
 #, python-format
 msgid "Invitation"
@@ -2462,7 +2462,7 @@ msgid "Invitation to follow %s: %s"
 msgstr "Invitație de a urmări %s: %s"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/client_action.js:44
 #: code:addons/mail/static/src/xml/client_action.xml:133
 #, python-format
@@ -2470,14 +2470,14 @@ msgid "Invite"
 msgstr "Invită"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/followers.js:170
 #, python-format
 msgid "Invite Follower"
 msgstr "Invită interesați"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/client_action.js:31
 #: code:addons/mail/static/src/xml/client_action.xml:133
 #, python-format
@@ -2485,7 +2485,7 @@ msgid "Invite people"
 msgstr "Invită persoane"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/client_action.js:870
 #, python-format
 msgid "Invite people to #%s"
@@ -2745,7 +2745,7 @@ msgid "Last Updated on"
 msgstr "Ultima actualizare pe"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/systray.xml:73
 #, python-format
 msgid "Late"
@@ -2763,7 +2763,7 @@ msgid "Leave"
 msgstr "Părăsește"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/models/mail_channel.py:695
 #: code:addons/mail/static/src/xml/client_action.xml:112
 #, python-format
@@ -2809,7 +2809,7 @@ msgid "Livechat Conversation"
 msgstr ""
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/chatter_composer.js:31
 #: model:ir.ui.view,arch_db:mail.email_compose_message_wizard_form
 #, python-format
@@ -2817,7 +2817,7 @@ msgid "Log"
 msgstr "Jurnal"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/chatter.xml:56
 #, python-format
 msgid "Log a note. Followers will not be notified."
@@ -2840,14 +2840,14 @@ msgid "Log an Internal Note"
 msgstr "Scrie o notă internă"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/chatter.xml:56
 #, python-format
 msgid "Log note"
 msgstr "Scrie notă"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/chatter.xml:59
 #, python-format
 msgid "Log or schedule an activity"
@@ -2907,21 +2907,21 @@ msgid "Mailing Opt-Out"
 msgstr ""
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/activity.xml:59
 #, python-format
 msgid "Mark Done"
 msgstr "Efectuat"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:134
 #, python-format
 msgid "Mark all as read"
 msgstr "Marcați totul ca citit"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:134
 #, python-format
 msgid "Mark all read"
@@ -2933,14 +2933,14 @@ msgid "Mark as Done"
 msgstr "Marchează ca Efectuat"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:211
 #, python-format
 msgid "Mark as Read"
 msgstr "Marcați drept citit"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:158
 #: code:addons/mail/static/src/xml/thread.xml:205
 #, python-format
@@ -2948,7 +2948,7 @@ msgid "Mark as Todo"
 msgstr "Marcați de efectuat"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/web_kanban_activity.xml:49
 #, python-format
 msgid "Mark as done"
@@ -3034,7 +3034,7 @@ msgid "Message references, such as identifiers of previous messages"
 msgstr "Referințe mesaj, cum ar fi identificatorii mesajelor precedente"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:124
 #, python-format
 msgid "Message sent in \""
@@ -3170,7 +3170,7 @@ msgid "Messages Search"
 msgstr "Căutare Mesaje"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/tour.js:20
 #, python-format
 msgid "Messages can be <b>starred</b> to remind you to check back later."
@@ -3275,14 +3275,14 @@ msgid "Needaction Recipient"
 msgstr ""
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:138
 #, python-format
 msgid "New Channel"
 msgstr "Canal nou"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:137
 #, python-format
 msgid "New Message"
@@ -3319,7 +3319,7 @@ msgid "New Value Text"
 msgstr "Valoare text nouă"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/chat_manager.js:55
 #: code:addons/mail/static/src/js/window_manager.js:139
 #: code:addons/mail/static/src/xml/systray.xml:12
@@ -3329,21 +3329,21 @@ msgid "New message"
 msgstr "Mesaj nou"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:238
 #, python-format
 msgid "New messages"
 msgstr "Mesaje noi"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:115
 #, python-format
 msgid "New messages appear here."
 msgstr "Mesajele noi vor apărea aici."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/client_action.js:97
 #, python-format
 msgid "New people"
@@ -3432,7 +3432,7 @@ msgid "Next activities available"
 msgstr ""
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/systray.xml:58
 #: code:addons/mail/static/src/xml/web_kanban_activity.xml:22
 #, python-format
@@ -3440,28 +3440,28 @@ msgid "No activities planned."
 msgstr "Fără activități planificate"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/systray.xml:47
 #, python-format
 msgid "No discussion yet..."
 msgstr "Nu sunt conversații"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/followers.js:185
 #, python-format
 msgid "No follower"
 msgstr "Nicio persoană interesată"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:16
 #, python-format
 msgid "No matches found"
 msgstr "Nu a fost găsit nici un rezultat"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:17
 #, python-format
 msgid "No message matches your search. Try to change your search filters."
@@ -3470,7 +3470,7 @@ msgstr ""
 " căutare."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:118
 #, python-format
 msgid "No starred message"
@@ -3491,7 +3491,7 @@ msgid "Note"
 msgstr "Notă"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:162
 #, python-format
 msgid "Note by"
@@ -3732,7 +3732,7 @@ msgid "Odoo"
 msgstr "Odoo"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/client_action.js:898
 #, python-format
 msgid ""
@@ -3741,14 +3741,14 @@ msgstr ""
 "Odoo are acum permisiunea de a ați trimite notificări pe acest dispozitiv."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:11
 #, python-format
 msgid "Odoo needs your permission to"
 msgstr "Odoo are nevoie de permisiune pentru "
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/client_action.js:895
 #, python-format
 msgid ""
@@ -3758,7 +3758,7 @@ msgstr ""
 "Odoo nu are permisiunea de a ați trimite notificări pe acest dispozitiv."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:120
 #, python-format
 msgid "Offline"
@@ -3800,7 +3800,7 @@ msgid "On Change"
 msgstr ""
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/tour.js:24
 #, python-format
 msgid ""
@@ -3811,14 +3811,14 @@ msgstr ""
 " revedeți mesajul."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/followers.js:187
 #, python-format
 msgid "One follower"
 msgstr "O persoană interesată"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:118
 #: code:addons/mail/static/src/xml/client_action.xml:202
 #, python-format
@@ -3847,21 +3847,21 @@ msgid "Open Parent Document"
 msgstr "Deschide documentul părinte"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:139
 #, python-format
 msgid "Open channel settings"
 msgstr ""
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:187
 #, python-format
 msgid "Open chat"
 msgstr "Deschide conversație"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/extended_chat_window.xml:15
 #, python-format
 msgid "Open in Discuss"
@@ -4065,14 +4065,14 @@ msgstr ""
 "Șterge definitiv acest mesaj după ce il trimite, pentru a economisi spațiu"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/client_action.js:894
 #, python-format
 msgid "Permission denied"
 msgstr "Permisiune neacordată"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/client_action.js:897
 #, python-format
 msgid "Permission granted"
@@ -4111,35 +4111,35 @@ msgid "Planned"
 msgstr "Planificată"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/activity.xml:6
 #, python-format
 msgid "Planned activities"
 msgstr "Activități planificate"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:287
 #, python-format
 msgid "Play this video"
 msgstr ""
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/chatter_composer.js:158
 #, python-format
 msgid "Please complete customer's informations"
 msgstr ""
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/many2many_tags_email.js:96
 #, python-format
 msgid "Please complete customer's informations and email"
 msgstr ""
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/composer.js:667
 #, python-format
 msgid "Please, wait while the file is uploading."
@@ -4209,7 +4209,7 @@ msgid "Privacy"
 msgstr "Confidențialitate"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:56
 #: code:addons/mail/static/src/xml/client_action.xml:176
 #, python-format
@@ -4217,7 +4217,7 @@ msgid "Private Channels"
 msgstr "Canale private"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/client_action.js:851
 #, python-format
 msgid "Public Channels"
@@ -4336,14 +4336,14 @@ msgstr ""
 "documentele conexe."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/followers.xml:51
 #, python-format
 msgid "Remove this follower"
 msgstr "Șterge această urmărire"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:208
 #: model:ir.ui.view,arch_db:mail.view_mail_form
 #, python-format
@@ -4437,7 +4437,7 @@ msgid "Save as new template"
 msgstr "Salvează ca șablon nou"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/chat_window.js:41
 #, python-format
 msgid "Say something"
@@ -4449,14 +4449,14 @@ msgid "Schedule"
 msgstr "Programare"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/chatter.xml:60
 #, python-format
 msgid "Schedule activity"
 msgstr "Planificare activitate"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/web_kanban_activity.xml:56
 #, python-format
 msgid "Schedule an activity"
@@ -4500,7 +4500,7 @@ msgid "Selected group of users"
 msgstr "Grup selectat de utilizatori"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/composer.js:382
 #: model:ir.ui.view,arch_db:mail.email_compose_message_wizard_form
 #, python-format
@@ -4525,14 +4525,14 @@ msgid "Send Now"
 msgstr "Trimite acum"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/chatter.xml:53
 #, python-format
 msgid "Send a message"
 msgstr "Trimite un mesaj"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/chatter.xml:53
 #, python-format
 msgid "Send message"
@@ -4552,14 +4552,14 @@ msgid ""
 msgstr ""
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/thread_field.js:83
 #, python-format
 msgid "Sending Error"
 msgstr "Eroare de trimitere"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:108
 #, python-format
 msgid "Sends messages by email"
@@ -4583,7 +4583,7 @@ msgid "Sequence"
 msgstr "Secvență"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:139
 #, python-format
 msgid "Settings"
@@ -4677,7 +4677,7 @@ msgid ""
 msgstr ""
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/chat_manager.js:670
 #: code:addons/mail/static/src/xml/client_action.xml:28
 #: code:addons/mail/static/src/xml/client_action.xml:156
@@ -4766,7 +4766,7 @@ msgid "Sub-model"
 msgstr "Submodel"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/composer.xml:8
 #: model:ir.model.fields,field_description:mail.field_email_template_preview_subject
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message_subject
@@ -4791,7 +4791,7 @@ msgid "Subject..."
 msgstr "Subiect..."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:221
 #, python-format
 msgid "Subject:"
@@ -4978,7 +4978,7 @@ msgid "To (Partners)"
 msgstr "Destinatar (Parteneri)"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/chatter.xml:14
 #: code:addons/mail/static/src/xml/extended_chat_window.xml:7
 #, python-format
@@ -4986,7 +4986,7 @@ msgid "To:"
 msgstr "Către:"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: selection:account.invoice,activity_state:0
 #: code:addons/mail/static/src/js/activity.js:83
 #: code:addons/mail/static/src/js/thread.js:246
@@ -5023,7 +5023,7 @@ msgid "Todo"
 msgstr "De efectuat"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/activity.js:93
 #, python-format
 msgid "Tomorrow"
@@ -5097,7 +5097,7 @@ msgstr ""
 "Email-ul nu a putut fi trimis, configurați adresa de email a expeditorului."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/models/mail_thread.py:705
 #: code:addons/mail/static/src/xml/followers.xml:22
 #, python-format
@@ -5250,35 +5250,35 @@ msgid "Unread messages"
 msgstr "Mesaje Necitite"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:135
 #, python-format
 msgid "Unstar all"
 msgstr "Eliminați steluța"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:135
 #, python-format
 msgid "Unstar all messages"
 msgstr "Eliminați steluța la toate mesajele"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:136
 #, python-format
 msgid "Unsubscribe"
 msgstr "Dezabonare"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:136
 #, python-format
 msgid "Unsubscribe from channel"
 msgstr "Dezabonare de la canal"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/chat_manager.js:486
 #, python-format
 msgid "Unsubscribed"
@@ -5291,14 +5291,14 @@ msgid "Unsupported report type %s found."
 msgstr ""
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:327
 #, python-format
 msgid "Uploading"
 msgstr "Se încarcă"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/composer.js:667
 #, python-format
 msgid "Uploading error"
@@ -5334,7 +5334,7 @@ msgid "User"
 msgstr "Operator"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:51
 #: code:addons/mail/static/src/xml/extended_chat_window.xml:8
 #, python-format
@@ -5374,7 +5374,7 @@ msgid "View %s"
 msgstr "Vizualizare%s"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/followers.js:240
 #, python-format
 msgid ""
@@ -5431,21 +5431,21 @@ msgid "Who can follow the group's activities?"
 msgstr "Cine poate urmări activitățile grupului?"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/activity.xml:75
 #, python-format
 msgid "Write Feedback"
 msgstr "Scrie o observație"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/composer.xml:12
 #, python-format
 msgid "Write something..."
 msgstr "Scrie ceva..."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/activity.js:87
 #: code:addons/mail/static/src/js/thread.js:248
 #, python-format
@@ -5453,7 +5453,7 @@ msgid "Yesterday"
 msgstr "Ieri"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/client_action.js:96
 #, python-format
 msgid "You added <b>%s</b> to the conversation."
@@ -5478,7 +5478,7 @@ msgid "You are in channel <b>#%s</b>."
 msgstr "Sunteți în canal  <b>#%s</b>."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:119
 #, python-format
 msgid ""
@@ -5516,7 +5516,7 @@ msgid "You have been assigned to the"
 msgstr "Ați fost asignat la "
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/chat_manager.js:588
 #, python-format
 msgid "You have been invited to: "
@@ -5533,28 +5533,28 @@ msgstr ""
 "urilor create din acest șablon"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/chat_manager.js:482
 #, python-format
 msgid "You unpinned your conversation with <b>%s</b>."
 msgstr ""
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/chat_manager.js:480
 #, python-format
 msgid "You unsubscribed from <b>%s</b>."
 msgstr ""
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:217
 #, python-format
 msgid "You:"
 msgstr ""
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/thread_field.js:83
 #, python-format
 msgid "Your message has not been sent."
@@ -5608,21 +5608,21 @@ msgid "e.g. Discuss proposal"
 msgstr ""
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/client_action.xml:11
 #, python-format
 msgid "enable desktop notifications"
 msgstr "activare notificări."
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/followers.js:189
 #, python-format
 msgid "followers"
 msgstr "persoane interesate"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/activity.xml:30
 #, python-format
 msgid "for"
@@ -5700,14 +5700,14 @@ msgid "mycompany.flectrahq.com"
 msgstr "mycompany.flectrahq.com"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/thread.js:22
 #, python-format
 msgid "now"
 msgstr "acum"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/thread.xml:181
 #: model:ir.ui.view,arch_db:mail.view_mail_form
 #, python-format
@@ -5740,14 +5740,14 @@ msgid "rd"
 msgstr ""
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/thread.js:18
 #, python-format
 msgid "read less"
 msgstr "mai puțin"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/js/thread.js:17
 #, python-format
 msgid "read more"
@@ -5815,7 +5815,7 @@ msgid "skipping"
 msgstr "livrare"
 
 #. module: mail
-#. openerp-web
+#. flectra-web
 #: code:addons/mail/static/src/xml/chatter.xml:20
 #, python-format
 msgid "this document"

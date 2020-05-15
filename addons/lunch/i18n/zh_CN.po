@@ -87,7 +87,7 @@ msgid "Active"
 msgstr "有效"
 
 #. module: lunch
-#. openerp-web
+#. flectra-web
 #: code:addons/lunch/static/src/xml/lunch.xml:15
 #, python-format
 msgid "Add"
@@ -318,7 +318,7 @@ msgid "Display Name"
 msgstr "显示名称"
 
 #. module: lunch
-#. openerp-web
+#. flectra-web
 #: code:addons/lunch/static/src/xml/lunch.xml:7
 #, python-format
 msgid "Don't forget the alerts displayed in the reddish area"
@@ -780,7 +780,7 @@ msgid "Search"
 msgstr "搜索"
 
 #. module: lunch
-#. openerp-web
+#. flectra-web
 #: code:addons/lunch/static/src/xml/lunch.xml:5
 #, python-format
 msgid "Select a product and put your order comments on the note."
@@ -836,7 +836,7 @@ msgid ""
 msgstr "未记录先前订单。单击“我的午餐”然后创建新增午餐订单。"
 
 #. module: lunch
-#. openerp-web
+#. flectra-web
 #: code:addons/lunch/static/src/xml/lunch.xml:4
 #, python-format
 msgid "This is the first time you order a meal"
@@ -923,7 +923,7 @@ msgid "Your Orders"
 msgstr "你的订单"
 
 #. module: lunch
-#. openerp-web
+#. flectra-web
 #: code:addons/lunch/static/src/xml/lunch.xml:6
 #, python-format
 msgid "Your favorite meals will be created based on your last orders."

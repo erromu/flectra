@@ -91,7 +91,7 @@ msgid "<span id=\"search_label\">Search</span> <span class=\"caret\"/>"
 msgstr "<span id=\"search_label\">搜尋</span><span class=\"caret\"/>"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_signature.xml:24
 #, python-format
 msgid "Accept and Sign"
@@ -123,14 +123,14 @@ msgid "City"
 msgstr "城市"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_signature.xml:12
 #, python-format
 msgid "Clear"
 msgstr "清除"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_signature.xml:27
 #, python-format
 msgid "Click here to see your document."
@@ -199,7 +199,7 @@ msgid "Display Name"
 msgstr "顯示名稱"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_signature.xml:14
 #, python-format
 msgid "Draw your signature"
@@ -270,7 +270,7 @@ msgid "Last Updated on"
 msgstr "最後更新時間"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:20
 #, python-format
 msgid "Leave a comment"
@@ -302,7 +302,7 @@ msgid "Next"
 msgstr "下一個"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:38
 #, python-format
 msgid "Oops! Something went wrong. Try to reload the page and log in."
@@ -345,7 +345,7 @@ msgid "Prev"
 msgstr "前一個"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/js/portal_chatter.js:102
 #, python-format
 msgid "Published on %s"
@@ -363,7 +363,7 @@ msgstr ""
 "    如果需要，可以直接在列表中修改聯繫人的電郵地址。"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:41
 #, python-format
 msgid "Send"
@@ -404,7 +404,7 @@ msgid "Street"
 msgstr "街道"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_signature.xml:25
 #, python-format
 msgid "Thank You !"
@@ -416,7 +416,7 @@ msgid "The portal that users can be added in or removed from."
 msgstr "使用者能夠添加或刪除的門戶。"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:11
 #, python-format
 msgid "There are no comments for now."
@@ -582,14 +582,14 @@ msgid "Wizard"
 msgstr "嚮導"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:32
 #, python-format
 msgid "Write a message..."
 msgstr "寫信息..."
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:21
 #, python-format
 msgid "You must be"
@@ -619,7 +619,7 @@ msgid "Your Documents"
 msgstr "您的文檔"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_signature.xml:6
 #: model:ir.ui.view,arch_db:portal.portal_my_details
 #, python-format
@@ -637,28 +637,28 @@ msgid "Zip / Postal Code"
 msgstr "郵政代碼"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:56
 #, python-format
 msgid "avatar"
 msgstr "頭像"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:8
 #, python-format
 msgid "comment"
 msgstr "評論"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:9
 #, python-format
 msgid "comments"
 msgstr "備註"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:21
 #, python-format
 msgid "logged in"
@@ -675,7 +675,7 @@ msgid "select..."
 msgstr "請選擇……"
 
 #. module: portal
-#. openerp-web
+#. flectra-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:21
 #, python-format
 msgid "to post a comment."

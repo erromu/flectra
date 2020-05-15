@@ -434,7 +434,7 @@ msgid "Categories"
 msgstr "Ангилалууд"
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/static/src/js/slides_upload.js:250
 #: code:addons/website_slides/static/src/xml/website_slides.xml:54
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_category_id
@@ -465,7 +465,7 @@ msgid "Channel Settings"
 msgstr "Сувгийн Тохиргоо"
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/static/src/js/slides_upload.js:170
 #, python-format
 msgid ""
@@ -503,7 +503,7 @@ msgid "Content"
 msgstr "Агуулга"
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:20
 #, python-format
 msgid "Content Preview"
@@ -535,7 +535,7 @@ msgid "Create a Google Project and Get a Key"
 msgstr ""
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/static/src/js/slides_upload.js:219
 #, python-format
 msgid "Create new tag '%s'"
@@ -569,7 +569,7 @@ msgstr ""
 "эрхтэй."
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:60
 #: code:addons/website_slides/static/src/xml/website_slides.xml:62
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_description
@@ -580,7 +580,7 @@ msgid "Description"
 msgstr "Гүйлгээний утга"
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:71
 #, python-format
 msgid "Discard"
@@ -753,7 +753,7 @@ msgid "Featuring Policy"
 msgstr "Онцлох Бодлого"
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/controllers/main.py:263
 #: code:addons/website_slides/static/src/js/slides_upload.js:89
 #, python-format
@@ -839,7 +839,7 @@ msgstr ""
 "Алдааны зурвас: %s"
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/static/src/js/slides_upload.js:84
 #, python-format
 msgid "Invalid file type. Please select pdf or image file"
@@ -1042,7 +1042,7 @@ msgid "OpenSource CMS, A performance comparison - Mantavya Gajjar"
 msgstr "OpenSource CMS, үзүүлэлтийн харьцуулалт - Мантавяа Гажжар"
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:28
 #, python-format
 msgid "PDF or Image File"
@@ -1059,7 +1059,7 @@ msgid "Please"
 msgstr "Та"
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/static/src/js/slides.js:56
 #, python-format
 msgid "Please <a href=\"/web?redirect=%s\">login</a> to vote this slide"
@@ -1153,14 +1153,14 @@ msgstr ""
 "өөрийн сувгийн тохиргоог шалгана уу"
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:70
 #, python-format
 msgid "Save and Publish"
 msgstr "Хадгалаад Нийтлэх"
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:69
 #, python-format
 msgid "Save as Draft"
@@ -1276,7 +1276,7 @@ msgid "Tag"
 msgstr "Пайз"
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/static/src/js/slides_upload.js:273
 #: code:addons/website_slides/static/src/xml/website_slides.xml:48
 #: model:ir.actions.act_window,name:website_slides.action_slide_tag
@@ -1339,7 +1339,7 @@ msgid "Thumbnail"
 msgstr "Хураангуй"
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:42
 #: code:addons/website_slides/static/src/xml/website_slides.xml:44
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_name
@@ -1406,7 +1406,7 @@ msgstr ""
 "оруулна уу."
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:9
 #: model:ir.ui.view,arch_db:website_slides.slides_channel_header
 #, python-format
@@ -1414,7 +1414,7 @@ msgid "Upload Presentation"
 msgstr "Танилцуулга оруулах"
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:12
 #, python-format
 msgid "Uploading presentation..."
@@ -1475,28 +1475,28 @@ msgid "Website"
 msgstr "Вэбсайт"
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/static/src/js/slides_upload.js:114
 #, python-format
 msgid "You can not upload password protected file."
 msgstr "Та нууц үгээр хамгаалагдсан файл оруулах боломжгүй."
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/static/src/js/slides.js:65
 #, python-format
 msgid "You have already voted for this slide"
 msgstr "Та энэ слайдад аль хэдийн санал өгсөн байна"
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:36
 #, python-format
 msgid "Youtube Video URL"
 msgstr "Youtube Видео URL"
 
 #. module: website_slides
-#. openerp-web
+#. flectra-web
 #: code:addons/website_slides/static/src/xml/website_slides.xml:34
 #, python-format
 msgid "Youtube or Google Doc URL"

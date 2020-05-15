@@ -24,14 +24,14 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:535
 #, python-format
 msgid "(%d more)"
 msgstr "(%d više)"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:309
 #, python-format
 msgid ""
@@ -42,7 +42,7 @@ msgstr ""
 "razdjelnika neispravan."
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:89
 #, python-format
 msgid "Cancel"
@@ -61,7 +61,7 @@ msgid "Column %s contains incorrect values. Error in line %d: %s"
 msgstr "Kolona %s sadrži neispravne vrijednosti. Pogreška u redu %d: %s"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:176
 #: code:addons/base_import/static/src/js/import_action.js:187
 #: code:addons/base_import/static/src/js/import_action.js:194
@@ -114,28 +114,28 @@ msgid "Database ID"
 msgstr "ID baze podataka"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:55
 #, python-format
 msgid "Date Format:"
 msgstr "Format datuma:"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:56
 #, python-format
 msgid "Datetime Format:"
 msgstr "Format datuma i vremena:"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:58
 #, python-format
 msgid "Decimal Separator:"
 msgstr "Decimalni separator:"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:71
 #, python-format
 msgid "Defer parent/child computation"
@@ -160,14 +160,14 @@ msgid "Display Name"
 msgstr "Naziv za prikaz"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:353
 #, python-format
 msgid "Don't import"
 msgstr "Ne uvozi"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:195
 #: code:addons/base_import/static/src/js/import_action.js:213
 #, python-format
@@ -175,7 +175,7 @@ msgid "Dot"
 msgstr "Točka"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:50
 #, python-format
 msgid "Encoding:"
@@ -194,7 +194,7 @@ msgid "Error cell found while reading XLS/XLSX file: %s"
 msgstr "Pogrešna ćelija nađena pri učitavanju xls/xlsx datoteke: %s"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:512
 #, python-format
 msgid "Everything seems valid."
@@ -228,7 +228,7 @@ msgid "File to check and/or import, raw binary (not base64)"
 msgstr "Datoteke za provjeru i/ili uvoz, raw binary ( ne base64)"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:115
 #, python-format
 msgid "For CSV files, the issue could be an incorrect encoding."
@@ -236,28 +236,28 @@ msgstr ""
 "Za CSV datoteke, ova bi greška mogla ukazivati na neispravnu kodnu stranu."
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:559
 #, python-format
 msgid "Get all possible values"
 msgstr "Dohvati sve moguće vrijednosti"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:11
 #, python-format
 msgid "Help"
 msgstr "Pomoć"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:546
 #, python-format
 msgid "Here are the possible values:"
 msgstr "Evo mogućih vrijednosti:"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:116
 #, python-format
 msgid "Here is the start of the file we could not import:"
@@ -282,7 +282,7 @@ msgid "ID"
 msgstr "ID"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:73
 #, python-format
 msgid ""
@@ -293,7 +293,7 @@ msgid ""
 msgstr ""
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:60
 #, python-format
 msgid ""
@@ -303,7 +303,7 @@ msgid ""
 msgstr ""
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:69
 #, python-format
 msgid ""
@@ -313,7 +313,7 @@ msgid ""
 msgstr ""
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:97
 #: code:addons/base_import/static/src/xml/base_import.xml:156
 #, python-format
@@ -321,14 +321,14 @@ msgid "Import"
 msgstr "Uvoz"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:111
 #, python-format
 msgid "Import a File"
 msgstr "Import datoteke"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:114
 #, python-format
 msgid "Import preview failed due to:"
@@ -389,14 +389,14 @@ msgid "Last Updated on"
 msgstr "Vrijeme promjene"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:19
 #, python-format
 msgid "Load File"
 msgstr "Učitaj datoteku"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:56
 #, python-format
 msgid "Map your columns to import"
@@ -413,21 +413,21 @@ msgid "Name"
 msgstr "Naziv"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:15
 #, python-format
 msgid "No file chosen..."
 msgstr "Nije odabrana datoteka..."
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:418
 #, python-format
 msgid "Normal Fields"
 msgstr "Normalna polja"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:30
 #, python-format
 msgid "Options…"
@@ -444,42 +444,42 @@ msgid "Parent"
 msgstr "Nadređeni"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:419
 #, python-format
 msgid "Relation Fields"
 msgstr "Relacijska polja"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:24
 #, python-format
 msgid "Reload File"
 msgstr "Ponovno učitaj datoteku"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:11
 #, python-format
 msgid "Select a CSV or Excel file to import."
 msgstr "Odaberite CSV ili XLS datoteku za uvoz."
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:177
 #, python-format
 msgid "Semicolon"
 msgstr "Točka-zarez"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:51
 #, python-format
 msgid "Separator:"
 msgstr "Razdjelnik:"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:72
 #, python-format
 msgid "Show fields of relation fields (advanced)"
@@ -491,35 +491,35 @@ msgid "Some Value"
 msgstr "Neka vrijednost"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:179
 #, python-format
 msgid "Space"
 msgstr "Razmak"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:178
 #, python-format
 msgid "Tab"
 msgstr "Tabulator"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:86
 #, python-format
 msgid "Test Import"
 msgstr "Test uvoza"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:52
 #, python-format
 msgid "Text Delimiter:"
 msgstr "Razdjelnik teksta:"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:68
 #, python-format
 msgid ""
@@ -530,14 +530,14 @@ msgstr ""
 "sadrži labelu kolone"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:57
 #, python-format
 msgid "Thousands Separator:"
 msgstr "Razdjelnik tisućica:"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/xml/base_import.xml:62
 #, python-format
 msgid "Track history during import"
@@ -583,7 +583,7 @@ msgid "You must configure at least one field to import"
 msgstr "Definirajte barem jedno polje za uvoz"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:529
 #, python-format
 msgid "at row %d"
@@ -660,7 +660,7 @@ msgid "base_import.tests.models.preview"
 msgstr "base_import.tests.models.preview"
 
 #. module: base_import
-#. openerp-web
+#. flectra-web
 #: code:addons/base_import/static/src/js/import_action.js:531
 #, python-format
 msgid "between rows %d and %d"

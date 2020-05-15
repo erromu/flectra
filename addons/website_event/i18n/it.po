@@ -208,28 +208,28 @@ msgstr ""
 "                                sito web: iscrizioni, calendario, mappa, ..."
 
 #. module: website_event
-#. openerp-web
+#. flectra-web
 #: code:addons/website_event/static/src/js/website.tour.event.js:24
 #, python-format
 msgid "Click <em>Continue</em> to create the event."
 msgstr "Fare clic su <em>Continua</em> per creare l'evento."
 
 #. module: website_event
-#. openerp-web
+#. flectra-web
 #: code:addons/website_event/static/src/js/website.tour.event.js:15
 #, python-format
 msgid "Click here to create a new event."
 msgstr "Fare clic qui per creare un nuovo evento."
 
 #. module: website_event
-#. openerp-web
+#. flectra-web
 #: code:addons/website_event/static/src/js/website.tour.event.js:43
 #, python-format
 msgid "Click here to customize your event further."
 msgstr "Fare clic qui per personalizzare l'evento."
 
 #. module: website_event
-#. openerp-web
+#. flectra-web
 #: code:addons/website_event/static/src/js/website.tour.event.js:38
 #, python-format
 msgid "Click to publish your event."
@@ -241,7 +241,7 @@ msgid "Continue"
 msgstr "Continua"
 
 #. module: website_event
-#. openerp-web
+#. flectra-web
 #: code:addons/website_event/static/src/js/website.tour.event.js:19
 #, python-format
 msgid ""
@@ -271,7 +271,7 @@ msgid "Display a dedicated menu on Website"
 msgstr "Visualizzare un menu dedicato sul sito web"
 
 #. module: website_event
-#. openerp-web
+#. flectra-web
 #: code:addons/website_event/static/src/js/website.tour.event.js:28
 #, python-format
 msgid "Drag this block and drop it in your page."
@@ -404,7 +404,7 @@ msgid "Name"
 msgstr "Nome"
 
 #. module: website_event
-#. openerp-web
+#. flectra-web
 #: code:addons/website_event/controllers/main.py:183
 #: code:addons/website_event/static/src/js/website_event.editor.js:29
 #: model:ir.ui.view,arch_db:website_event.content_new_event
@@ -442,7 +442,7 @@ msgid "Old Events"
 msgstr "Eventi conclusi"
 
 #. module: website_event
-#. openerp-web
+#. flectra-web
 #: code:addons/website_event/static/src/js/website.tour.event.js:33
 #, python-format
 msgid "Once you click on save, your event is updated."

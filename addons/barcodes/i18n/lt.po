@@ -162,7 +162,7 @@ msgid "Credit Card"
 msgstr "Kreditinė kortelė"
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:359
 #, python-format
 msgid "Discard"
@@ -201,21 +201,21 @@ msgid "Encoding"
 msgstr "Kodavimas"
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:301
 #, python-format
 msgid "Error : Barcode command is undefined"
 msgstr "Klaida: brūkšninio kodo komanda neapibrėžta"
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:63
 #, python-format
 msgid "Error : Document not editable"
 msgstr "Klaida: neredaguojamas dokumentas"
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:332
 #, python-format
 msgid "Error : No last scanned barcode"
@@ -310,7 +310,7 @@ msgid "Rules"
 msgstr "Taisyklės"
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:352
 #, python-format
 msgid "Select"
@@ -322,7 +322,7 @@ msgid "Sequence"
 msgstr "Seka"
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:351
 #, python-format
 msgid "Set quantity"
@@ -366,14 +366,14 @@ msgstr ""
 "kodavimu"
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:64
 #, python-format
 msgid "To modify this document, please first start edition."
 msgstr "Norėdami keisti šį dokumentą, pradėkite nuo redagavimo."
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:333
 #, python-format
 msgid "To set the quantity please scan a barcode first."

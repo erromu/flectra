@@ -119,21 +119,21 @@ msgstr ""
 "الاستمرار؟"
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:53
 #, python-format
 msgid "<b>Click on Save</b> to record your changes."
 msgstr "<b>اضغط على حفظ</b> لتسجيل التغييرات."
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:69
 #, python-format
 msgid "<b>Publish your blog post</b> to make it visible to your visitors."
 msgstr "<b>انشر مقال مدونتك</b> ليظهر لزوارك."
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:73
 #, python-format
 msgid ""
@@ -144,7 +144,7 @@ msgstr ""
 "<i>تخصيص</i>."
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:44
 #, python-format
 msgid ""
@@ -347,7 +347,7 @@ msgid "Building your company's website and selling your products online easy."
 msgstr "ابني موقع مؤسستك وبع منتجاتك عبره بسهولة."
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:29
 #: model:ir.ui.view,arch_db:website_blog.website_blog
 #, python-format
@@ -355,14 +355,14 @@ msgid "Change Cover"
 msgstr "تغيير الغلاف"
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:35
 #, python-format
 msgid "Choose an image from the library."
 msgstr "اختر صورة من المكتبة."
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:30
 #, python-format
 msgid "Click here to change your post cover."
@@ -376,7 +376,7 @@ msgstr ""
 "انقر على \"صفحة جديدة\" في الزاوية العليا اليمنى لكتابة أول مقال على مدونتك."
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:40
 #, python-format
 msgid "Click on <b>Save</b> to set the picture as cover."
@@ -691,7 +691,7 @@ msgid "Narrow"
 msgstr "ضيق"
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website_blog.editor.js:37
 #: model:ir.ui.view,arch_db:website_blog.content_new_blogpost
 #, python-format
@@ -750,7 +750,7 @@ msgid "Odoo, email"
 msgstr "أودو، البريد الإلكتروني"
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:63
 #, python-format
 msgid "Once you have reviewed the content on mobile, close the preview."
@@ -862,14 +862,14 @@ msgid "Red"
 msgstr "أحمر"
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:15
 #, python-format
 msgid "Select this menu item to create a new blog post."
 msgstr "اختر هذا العنصر من القائمة لإنشاء مقال مدونة جديد."
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:26
 #, python-format
 msgid "Set a blog post <b>cover</b>."
@@ -892,7 +892,7 @@ msgstr ""
 " required."
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/models/website_blog.py:123
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:52
 #, python-format
@@ -1032,7 +1032,7 @@ msgid "Untitled Post"
 msgstr "مشاركة غير مسماة"
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:58
 #, python-format
 msgid "Use this icon to preview your blog post on <b>mobile devices</b>."
@@ -1089,7 +1089,7 @@ msgstr ""
 "            من خلال <b>منشورات المدونة</b>، المذكورة في جوجل."
 
 #. module: website_blog
-#. openerp-web
+#. flectra-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:20
 #, python-format
 msgid "Write a title, the subtitle is optional."

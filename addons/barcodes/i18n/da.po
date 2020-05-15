@@ -160,7 +160,7 @@ msgid "Credit Card"
 msgstr "Kreditkort"
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:359
 #, python-format
 msgid "Discard"
@@ -199,21 +199,21 @@ msgid "Encoding"
 msgstr "Kodning"
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:301
 #, python-format
 msgid "Error : Barcode command is undefined"
 msgstr ""
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:63
 #, python-format
 msgid "Error : Document not editable"
 msgstr ""
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:332
 #, python-format
 msgid "Error : No last scanned barcode"
@@ -302,7 +302,7 @@ msgid "Rules"
 msgstr "Regler"
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:352
 #, python-format
 msgid "Select"
@@ -314,7 +314,7 @@ msgid "Sequence"
 msgstr "Rækkefølge"
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:351
 #, python-format
 msgid "Set quantity"
@@ -357,14 +357,14 @@ msgstr ""
 "Denne regel gælder kun hvis stregkoden er kodet med den angivne kodning"
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:64
 #, python-format
 msgid "To modify this document, please first start edition."
 msgstr "For at ændre dette dokument, bedes du først aktivere redigering."
 
 #. module: barcodes
-#. openerp-web
+#. flectra-web
 #: code:addons/barcodes/static/src/js/barcode_form_view.js:333
 #, python-format
 msgid "To set the quantity please scan a barcode first."

@@ -783,7 +783,7 @@ msgid "A screen worthy of iPad."
 msgstr "iPad-н үнэтэй дэлгэц."
 
 #. module: website_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:65
 #, python-format
 msgid "AT A GLANCE"
@@ -803,7 +803,7 @@ msgid "Abandoned Carts"
 msgstr "Орхигдсон сагс"
 
 #. module: website_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:21
 #: model:ir.ui.view,arch_db:website_sale.crm_team_salesteams_view_kanban_inherit_website_sale
 #, python-format
@@ -977,7 +977,7 @@ msgid "Automatic Invoice"
 msgstr "Автомат нэхэмжлэл"
 
 #. module: website_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:92
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:93
 #, python-format
@@ -1009,7 +1009,7 @@ msgid "Benelux"
 msgstr "Benelux"
 
 #. module: website_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:104
 #, python-format
 msgid "Best Sellers"
@@ -1068,7 +1068,7 @@ msgid "Can take up to several days to receive the money"
 msgstr "Мөнгийг хүлээн автал нилээн хэд хонож магадгүй"
 
 #. module: website_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:12
 #, python-format
 msgid "Capture order payments when the delivery is completed."
@@ -1095,7 +1095,7 @@ msgid "Cart recovery email already sent"
 msgstr "Сагс сэргээх имэйл илгээгдсэн байна"
 
 #. module: website_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:83
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:84
 #, python-format
@@ -1188,7 +1188,7 @@ msgid "Click here"
 msgstr "Энд дарна уу"
 
 #. module: website_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:38
 #, python-format
 msgid "Click here to set an image describing your product."
@@ -1200,14 +1200,14 @@ msgid "Click here to unfold a Good Product Page"
 msgstr "Сайн Бүтээгдэхүүний Хуудсыг дэлгэх бол энд дарна уу"
 
 #. module: website_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:28
 #, python-format
 msgid "Click on <em>Continue</em> to create the product."
 msgstr "Бүтээгдэхүүнийг үүсгэхийн тулд <em>Үргэлжлүүлэх</em> дээр дарна уу."
 
 #. module: website_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:60
 #, python-format
 msgid "Click on this button so your customers can see it."
@@ -1309,7 +1309,7 @@ msgid "Confirm Order <span class=\"fa fa-long-arrow-right\"/>"
 msgstr "Захиалгыг батлах <span class=\"fa fa-long-arrow-right\"/>"
 
 #. module: website_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:5
 #, python-format
 msgid "Confirm orders when you get paid."
@@ -1336,7 +1336,7 @@ msgid "Contact"
 msgstr "Холбох хаяг"
 
 #. module: website_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:96
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:97
 #, python-format
@@ -1513,7 +1513,7 @@ msgid "Display crossed-out public prices"
 msgstr ""
 
 #. module: website_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:50
 #, python-format
 msgid "Drag this website block and drop it in your page."
@@ -1535,7 +1535,7 @@ msgid "Ease the product browsing with:"
 msgstr "Бүтээгдэхүүнийг хялбар үзэх:"
 
 #. module: website_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:32
 #, python-format
 msgid "Edit the price of this product by clicking on the amount."
@@ -1583,7 +1583,7 @@ msgid "Email sent to the customer after the checkout"
 msgstr ""
 
 #. module: website_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:24
 #, python-format
 msgid "Enter a name for your new product"
@@ -2059,14 +2059,14 @@ msgid "Let them buy straight from catalog with:"
 msgstr "Шууд каталогиос худалдаж авах:"
 
 #. module: website_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:15
 #, python-format
 msgid "Let's create your first product."
 msgstr "Анхны барааг үүсгэцгээе"
 
 #. module: website_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:64
 #, python-format
 msgid ""
@@ -2165,7 +2165,7 @@ msgid "Music. It's what beats inside."
 msgstr "Хөгжим. Энэ л дотор нь цохилдог."
 
 #. module: website_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale/static/src/js/website_sale.js:15
 #, python-format
 msgid "My Cart"
@@ -2194,7 +2194,7 @@ msgid "Network"
 msgstr "Сүлжээ"
 
 #. module: website_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale/controllers/main.py:988
 #: code:addons/website_sale/static/src/js/website_sale.editor.js:32
 #: model:ir.ui.view,arch_db:website_sale.content_new_product
@@ -2238,7 +2238,7 @@ msgid "Number of Abandoned Carts"
 msgstr "Орхигдсон сагсны тоо"
 
 #. module: website_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale/static/src/xml/website_sale.xml:12
 #, python-format
 msgid "OK"
@@ -2252,7 +2252,7 @@ msgid ""
 msgstr ""
 
 #. module: website_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:55
 #, python-format
 msgid "Once you click on <b>Save</b>, your product is updated."
@@ -2275,7 +2275,7 @@ msgid "Only Services"
 msgstr "Зөвхөн Үйлчилгээнүүд"
 
 #. module: website_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:68
 #, python-format
 msgid "Open your website app here."
@@ -2311,7 +2311,7 @@ msgstr ""
 "ашиглах ёсгүй."
 
 #. module: website_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:67
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:68
 #: model:ir.actions.act_window,name:website_sale.action_orders_ecommerce
@@ -2328,7 +2328,7 @@ msgid "Orders To Invoice"
 msgstr "Нэхэмжлэх захиалгууд"
 
 #. module: website_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:88
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:89
 #, python-format
@@ -2395,7 +2395,7 @@ msgid "Payments To Capture"
 msgstr ""
 
 #. module: website_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:14
 #, python-format
 msgid "Payments to Capture"
@@ -2503,7 +2503,7 @@ msgid "Printer"
 msgstr "Хэвлэгч"
 
 #. module: website_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:107
 #: model:ir.model,name:website_sale.model_product_product
 #: model:ir.ui.view,arch_db:website_sale.cart_lines
@@ -2654,7 +2654,7 @@ msgid "Qty:"
 msgstr "Тоо:"
 
 #. module: website_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:108
 #: model:ir.ui.view,arch_db:website_sale.cart_lines
 #: model:ir.ui.view,arch_db:website_sale.confirmation
@@ -2797,7 +2797,7 @@ msgid "Sale Report"
 msgstr "Борлуулалтын тайлан"
 
 #. module: website_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:37
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:49
 #: model:ir.actions.act_window,name:website_sale.sale_report_action_carts
@@ -2822,7 +2822,7 @@ msgid "Sales Report"
 msgstr "Борлуулалтын тайлан"
 
 #. module: website_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:35
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:47
 #, python-format
@@ -2884,7 +2884,7 @@ msgid "Select"
 msgstr "Сонгох"
 
 #. module: website_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:20
 #, python-format
 msgid ""
@@ -2958,7 +2958,7 @@ msgid "Send a recovery email to authenticated shoppers"
 msgstr ""
 
 #. module: website_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:19
 #, python-format
 msgid "Send a recovery email to visitors who haven't completed their order."
@@ -3103,7 +3103,7 @@ msgid "Software"
 msgstr "Програм хангамж"
 
 #. module: website_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:76
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:109
 #, python-format
@@ -3370,7 +3370,7 @@ msgid "There is less of it, but no less to it."
 msgstr "Жижиг ч хүчтэй."
 
 #. module: website_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:53
 #, python-format
 msgid "There is no recent confirmed order."
@@ -3490,7 +3490,7 @@ msgid "Unit Price"
 msgstr "Нэгж Үнэ"
 
 #. module: website_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:7
 #: model:ir.actions.act_window,name:website_sale.action_unpaid_orders_ecommerce
 #: model:ir.ui.menu,name:website_sale.menu_orders_unpaid_orders
@@ -3499,14 +3499,14 @@ msgid "Unpaid Orders"
 msgstr "Төлөгдөөгүй Захиалгууд"
 
 #. module: website_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:75
 #, python-format
 msgid "Untaxed Total Sold"
 msgstr "Татваргүй нийт борлуулалт"
 
 #. module: website_sale
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:42
 #, python-format
 msgid "Upload an image from your local library."

@@ -21,14 +21,14 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
 #. module: website_form
-#. openerp-web
+#. flectra-web
 #: code:addons/website_form/static/src/js/website_form.js:226
 #, python-format
 msgid "'%s' is not a correct date"
 msgstr "'%s' není platné datum"
 
 #. module: website_form
-#. openerp-web
+#. flectra-web
 #: code:addons/website_form/static/src/js/website_form.js:221
 #, python-format
 msgid "'%s' is not a correct datetime"
@@ -46,7 +46,7 @@ msgid "Allowed to use in forms"
 msgstr "Povoleno používat ve formulářích"
 
 #. module: website_form
-#. openerp-web
+#. flectra-web
 #: code:addons/website_form/static/src/xml/website_form.xml:21
 #, python-format
 msgid "An error has occured, the form has not been sent."
@@ -112,7 +112,7 @@ msgid "Models"
 msgstr "Modely"
 
 #. module: website_form
-#. openerp-web
+#. flectra-web
 #: code:addons/website_form/static/src/xml/website_form.xml:14
 #, python-format
 msgid "Please fill in the form correctly."
@@ -126,7 +126,7 @@ msgstr ""
 "Zadejte pole, které bude obsahovat metadata a data vlastních polí formuláře."
 
 #. module: website_form
-#. openerp-web
+#. flectra-web
 #: code:addons/website_form/static/src/xml/website_form.xml:7
 #, python-format
 msgid "The form has been sent successfully."

@@ -115,7 +115,7 @@ msgid "Default threshold"
 msgstr "默认阈值"
 
 #. module: website_sale_stock
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:16
 #, python-format
 msgid "In stock"
@@ -192,7 +192,7 @@ msgid ""
 msgstr "一些产品已经下架，您的购物车已更新。给您带来不便我们深表抱歉。"
 
 #. module: website_sale_stock
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:22
 #, python-format
 msgid "Temporarily out of stock"
@@ -210,7 +210,7 @@ msgid "Website"
 msgstr "网站"
 
 #. module: website_sale_stock
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:19
 #, python-format
 msgid "You already added"
@@ -223,14 +223,14 @@ msgid "You ask for %s products but only %s is available"
 msgstr "您想要 %s 的产品但只有 %s 可用"
 
 #. module: website_sale_stock
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:20
 #, python-format
 msgid "all"
 msgstr "所有"
 
 #. module: website_sale_stock
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:9
 #: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:14
 #, python-format
@@ -238,7 +238,7 @@ msgid "available"
 msgstr "可用"
 
 #. module: website_sale_stock
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:20
 #, python-format
 msgid "in your cart."

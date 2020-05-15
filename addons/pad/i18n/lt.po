@@ -62,7 +62,7 @@ msgid "Last Modified on"
 msgstr "Paskutinį kartą keista"
 
 #. module: pad
-#. openerp-web
+#. flectra-web
 #: code:addons/pad/static/src/js/pad.js:147
 #, python-format
 msgid "Loading"
@@ -99,7 +99,7 @@ msgstr ""
 "arba su interneto ryšiu."
 
 #. module: pad
-#. openerp-web
+#. flectra-web
 #: code:addons/pad/static/src/xml/pad.xml:6
 #, python-format
 msgid ""
@@ -115,14 +115,14 @@ msgid "Server"
 msgstr "Serveris"
 
 #. module: pad
-#. openerp-web
+#. flectra-web
 #: code:addons/pad/static/src/js/pad.js:166
 #, python-format
 msgid "This pad will be initialized on first edit"
 msgstr "Ši užrašinė bus paleista su pirmuoju redagavimu"
 
 #. module: pad
-#. openerp-web
+#. flectra-web
 #: code:addons/pad/static/src/js/pad.js:160
 #, python-format
 msgid "Unable to load pad"

@@ -146,7 +146,7 @@ msgstr ""
 "mais votre commande n'est pas encore validée."
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:350
 #, python-format
 msgid "<p>This card is currently linked to the following records:<p/>"
@@ -368,7 +368,7 @@ msgid "Callback Method"
 msgstr "Méthode de rappel"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:358
 #, python-format
 msgid "Cancel"
@@ -385,7 +385,7 @@ msgid "Canceled"
 msgstr "Annulé"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:188
 #, python-format
 msgid "Cannot set-up the payment"
@@ -450,7 +450,7 @@ msgid "Configure"
 msgstr "Configurer"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:357
 #, python-format
 msgid "Confirm Deletion"
@@ -593,7 +593,7 @@ msgid "Error Message"
 msgstr "Message d'erreur"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:428
 #, python-format
 msgid "Error: "
@@ -875,7 +875,7 @@ msgid "No payment acquirer found."
 msgstr "Pas d'intermédiaires de paiement trouvés."
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:199
 #: code:addons/payment/static/src/js/payment_form.js:308
 #, python-format
@@ -906,7 +906,7 @@ msgid "Ogone"
 msgstr "Ogone"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:432
 #, python-format
 msgid "Ok"
@@ -1091,14 +1091,14 @@ msgid "Please configure a payment acquirer."
 msgstr "Veuillez configurer un intermédiaire de paiement."
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:200
 #, python-format
 msgid "Please select a payment method."
 msgstr "Veuillez sélectionner une méthode de paiement."
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:309
 #, python-format
 msgid "Please select the option to add a new payment method."
@@ -1134,14 +1134,14 @@ msgid "Provider"
 msgstr "Fournisseur"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_translations.js:9
 #, python-format
 msgid "Publish"
 msgstr "Publier"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_translations.js:8
 #, python-format
 msgid "Published"
@@ -1217,7 +1217,7 @@ msgid "Sequence"
 msgstr "Séquence"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:119
 #: code:addons/payment/static/src/js/payment_form.js:134
 #: code:addons/payment/static/src/js/payment_form.js:173
@@ -1235,7 +1235,7 @@ msgid "Server To Server"
 msgstr "Serveur vers serveur"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:300
 #, python-format
 msgid "Server error"
@@ -1425,21 +1425,21 @@ msgid "Void Transaction"
 msgstr "Annuler la transaction"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:353
 #, python-format
 msgid "Warning!"
 msgstr "Avertissement!"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:135
 #, python-format
 msgid "We are not able to add your payment method at the moment."
 msgstr "Nous ne pouvons ajouter votre méthode de paiement pour le moment."
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:301
 #, python-format
 msgid "We are not able to add your payment method at the moment.</p>"
@@ -1448,7 +1448,7 @@ msgstr ""
 "moment.</p>"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:333
 #: code:addons/payment/static/src/js/payment_form.js:368
 #, python-format
@@ -1458,21 +1458,21 @@ msgstr ""
 "moment."
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:174
 #, python-format
 msgid "We are not able to redirect you to the payment form."
 msgstr "Nous ne pouvons pas vous rediriger vers le formulaire de paiement."
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:180
 #, python-format
 msgid "We are not able to redirect you to the payment form. "
 msgstr "Nous ne pouvons pas vous rediriger vers le formulaire de paiement."
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:189
 #, python-format
 msgid "We're unable to process your payment."
@@ -1595,7 +1595,7 @@ msgstr ""
 "devise : l'enregistrement de navigation de la devise de la transaction"
 
 #. module: payment
-#. openerp-web
+#. flectra-web
 #: code:addons/payment/static/src/js/payment_form.js:120
 #: code:addons/payment/static/src/js/payment_form.js:286
 #, python-format

@@ -67,7 +67,7 @@ msgid ""
 msgstr ""
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_forum.js:24
 #, python-format
 msgid ""
@@ -120,14 +120,14 @@ msgid "/ (days + 2) **"
 msgstr "/ (일 + 2) **"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/xml/website_forum_share_templates.xml:29
 #, python-format
 msgid "45% of questions shared"
 msgstr "질문의 45 % 공유"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/xml/website_forum_share_templates.xml:30
 #, python-format
 msgid ""
@@ -443,7 +443,7 @@ msgid "Add a Comment"
 msgstr ""
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_forum.editor.js:43
 #, python-format
 msgid "Add page in menu"
@@ -591,7 +591,7 @@ msgid "Ask questions without validation"
 msgstr "검증없이 질문하기"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_tour_forum.js:29
 #, python-format
 msgid "Ask the question in this forum by clicking on the button."
@@ -699,7 +699,7 @@ msgid "Bumped on"
 msgstr "끌어올린 날"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/xml/website_forum_share_templates.xml:34
 #, python-format
 msgid "By sharing you answer, you will get additional"
@@ -807,14 +807,14 @@ msgid "City"
 msgstr "시군구"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_tour_forum.js:24
 #, python-format
 msgid "Click <em>Continue</em> to create the forum."
 msgstr "<em>계속</em>을 클릭해서 게시판 만들기."
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_tour_forum.js:71
 #, python-format
 msgid "Click here to accept this answer."
@@ -838,21 +838,21 @@ msgid "Click to get good question titles"
 msgstr ""
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_tour_forum.js:64
 #, python-format
 msgid "Click to post your answer."
 msgstr "답변을 게시하려면 클릭하십시오."
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_tour_forum.js:51
 #, python-format
 msgid "Click to post your question."
 msgstr "질문을 게시하려면 클릭하십시오."
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/xml/website_forum_share_templates.xml:46
 #: selection:forum.post,state:0
 #: model:ir.ui.view,arch_db:website_forum.post_description_full
@@ -1206,7 +1206,7 @@ msgid "Enlightened"
 msgstr "계몽가"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_tour_forum.js:19
 #, python-format
 msgid "Enter a name for your new forum."
@@ -1405,7 +1405,7 @@ msgid "Gamification user badge"
 msgstr "게임화 사용자 배지"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_tour_forum.js:33
 #, python-format
 msgid "Give your question title."
@@ -1556,7 +1556,7 @@ msgstr ""
 "카르마가 높은 사용자만 모욕 게시물을 볼 수 있습니다."
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_tour_forum.js:43
 #, python-format
 msgid "Insert tags related to your question."
@@ -1727,7 +1727,7 @@ msgid "Most voted"
 msgstr "최고 득표"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/xml/website_forum_share_templates.xml:48
 #, python-format
 msgid ""
@@ -1758,7 +1758,7 @@ msgid "New Discussion"
 msgstr ""
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_forum.editor.js:32
 #: model:ir.ui.view,arch_db:website_forum.content_new_forum
 #, python-format
@@ -1874,7 +1874,7 @@ msgid "On"
 msgstr "사용"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/xml/website_forum_share_templates.xml:29
 #, python-format
 msgid "On average,"
@@ -2046,14 +2046,14 @@ msgid "Pundit"
 msgstr "전문가"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_tour_forum.js:58
 #, python-format
 msgid "Put your answer here."
 msgstr "여기에 답을 넣으십시오."
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_tour_forum.js:37
 #, python-format
 msgid "Put your question here."
@@ -2281,7 +2281,7 @@ msgid "Seen:"
 msgstr "조회 :"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_tour_forum.js:15
 #, python-format
 msgid "Select this menu item to create a new forum."
@@ -2316,7 +2316,7 @@ msgid ""
 msgstr ""
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/xml/website_forum_share_templates.xml:39
 #, python-format
 msgid ""
@@ -2335,28 +2335,28 @@ msgid "Silver badges count"
 msgstr "은배지 수"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_forum.js:26
 #, python-format
 msgid "Sorry you must be logged in to perform this action"
 msgstr "이 작업을 수행하려면 로그인해야 합니다"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_forum.js:101
 #, python-format
 msgid "Sorry you must be logged to flag a post"
 msgstr "게시물을 신고하려면 로그인해야 합니다."
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_forum.js:150
 #, python-format
 msgid "Sorry you must be logged to vote"
 msgstr "투표하려면 로그인해야 합니다."
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_forum.js:200
 #, python-format
 msgid "Sorry, anonymous users cannot choose correct answer."
@@ -2368,7 +2368,7 @@ msgid "Sorry, this question is not available anymore."
 msgstr "죄송합니다, 이 질문은 더이상 사용할 수 없습니다."
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_forum.js:145
 #, python-format
 msgid "Sorry, you cannot vote for your own posts"
@@ -2468,7 +2468,7 @@ msgstr ""
 "write_date에 직접 쓰는 것은 현재 지원되지 않으며 이 필드는 해결 방법입니다."
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/xml/website_forum_share_templates.xml:9
 #, python-format
 msgid "Thanks for posting!"
@@ -2547,14 +2547,14 @@ msgid "This forum does not allow %s"
 msgstr ""
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_forum.js:111
 #, python-format
 msgid "This post can not be flagged"
 msgstr "이 게시물은 신고할 수 없습니다"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/js/website_forum.js:106
 #, python-format
 msgid "This post is already flagged"
@@ -3033,7 +3033,7 @@ msgid "has been posted. Click here to access the question :"
 msgstr "게시되었습니다. 질문에 접근하려면 여기를 클릭하세요 :"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/xml/website_forum_share_templates.xml:36
 #, python-format
 msgid "here"
@@ -3055,7 +3055,7 @@ msgid "how to install Odoo on a specific infrastructure,"
 msgstr "특정 인프라에 Odoo를 설치하는 방법"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/xml/website_forum_share_templates.xml:34
 #, python-format
 msgid ""
@@ -3091,7 +3091,7 @@ msgid "karma"
 msgstr "명성"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/xml/website_forum_share_templates.xml:34
 #, python-format
 msgid "karma points"
@@ -3136,7 +3136,7 @@ msgid "on"
 msgstr "작성일"
 
 #. module: website_forum
-#. openerp-web
+#. flectra-web
 #: code:addons/website_forum/static/src/xml/website_forum_share_templates.xml:29
 #, python-format
 msgid ""

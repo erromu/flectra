@@ -113,7 +113,7 @@ msgid "Default threshold"
 msgstr "Soglia predefinita"
 
 #. module: website_sale_stock
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:16
 #, python-format
 msgid "In stock"
@@ -198,7 +198,7 @@ msgstr ""
 "aggiornato. Ci scusiamo per il disagio."
 
 #. module: website_sale_stock
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:22
 #, python-format
 msgid "Temporarily out of stock"
@@ -216,7 +216,7 @@ msgid "Website"
 msgstr "Sito Web"
 
 #. module: website_sale_stock
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:19
 #, python-format
 msgid "You already added"
@@ -229,14 +229,14 @@ msgid "You ask for %s products but only %s is available"
 msgstr "Chiedi %s prodotti ma solo %s sono disponibili "
 
 #. module: website_sale_stock
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:20
 #, python-format
 msgid "all"
 msgstr "tutte"
 
 #. module: website_sale_stock
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:9
 #: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:14
 #, python-format
@@ -244,7 +244,7 @@ msgid "available"
 msgstr "disponibile"
 
 #. module: website_sale_stock
-#. openerp-web
+#. flectra-web
 #: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:20
 #, python-format
 msgid "in your cart."

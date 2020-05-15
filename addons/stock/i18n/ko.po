@@ -2221,7 +2221,7 @@ msgid "Download the"
 msgstr "다운로드"
 
 #. module: stock
-#. openerp-web
+#. flectra-web
 #: code:addons/stock/static/src/xml/stock_traceability_report_line.xml:78
 #, python-format
 msgid "Downstream Traceability"
@@ -2265,7 +2265,7 @@ msgid "Entire Package Detail"
 msgstr "전체 포장품 세부항목"
 
 #. module: stock
-#. openerp-web
+#. flectra-web
 #: code:addons/stock/static/src/xml/stock_traceability_report_backend.xml:14
 #, python-format
 msgid "Error"
@@ -4405,7 +4405,7 @@ msgid "P&L Qty"
 msgstr "P&L 수량"
 
 #. module: stock
-#. openerp-web
+#. flectra-web
 #: code:addons/stock/static/src/xml/stock_traceability_report_backend.xml:6
 #, python-format
 msgid "PRINT"
@@ -6992,7 +6992,7 @@ msgid "Update Qty On Hand"
 msgstr "보관중(인) 수량 업데이트"
 
 #. module: stock
-#. openerp-web
+#. flectra-web
 #: code:addons/stock/static/src/xml/stock_traceability_report_line.xml:77
 #: model:ir.actions.client,name:stock.action_stock_report
 #: model:ir.ui.view,arch_db:stock.report_stock_inventory

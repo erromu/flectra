@@ -30,14 +30,14 @@ msgid "Account Token"
 msgstr "帳戶指示物"
 
 #. module: iap
-#. openerp-web
+#. flectra-web
 #: code:addons/iap/static/src/js/crash_manager.js:40
 #, python-format
 msgid "Buy credits at Odoo"
 msgstr "在odoo中購買信用"
 
 #. module: iap
-#. openerp-web
+#. flectra-web
 #: code:addons/iap/static/src/js/crash_manager.js:43
 #, python-format
 msgid "Cancel"
@@ -86,21 +86,21 @@ msgid "ID"
 msgstr "ID"
 
 #. module: iap
-#. openerp-web
+#. flectra-web
 #: code:addons/iap/static/src/xml/iap_templates.xml:22
 #, python-format
 msgid "In-App Purchases"
 msgstr "應用內購買"
 
 #. module: iap
-#. openerp-web
+#. flectra-web
 #: code:addons/iap/static/src/js/crash_manager.js:37
 #, python-format
 msgid "Insufficient Balance"
 msgstr "餘額不足"
 
 #. module: iap
-#. openerp-web
+#. flectra-web
 #: code:addons/iap/static/src/xml/iap_templates.xml:14
 #, python-format
 msgid "Insufficient credit to perform this service."

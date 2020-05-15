@@ -76,7 +76,7 @@ msgid ""
 msgstr "<i class=\"text-muted oe_edit_only\">用[参考]作为接收收据的主题前缀</i>"
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:48
 #, python-format
 msgid ""
@@ -85,14 +85,14 @@ msgid ""
 msgstr "<p>在此处审批费用表。提示：</p><p>如果您拒绝，请记得通过下列消息工具给出拒绝的原因</p>"
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:21
 #, python-format
 msgid "<p>Click here to create your first expense and add it under here.</p>"
 msgstr "<p>单击此处创建您的第一笔费用并在下方进行添加。</p>"
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:44
 #, python-format
 msgid ""
@@ -101,21 +101,21 @@ msgid ""
 msgstr "<p>单击<b>向经理提交操作以向</b>您的经理提交所选的费用</p>"
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:31
 #, python-format
 msgid "<p>Once your Expense is ready, you can save it.</p>"
 msgstr "<p>如果您的费用已经准备完毕，可以保存它。</p>"
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:39
 #, python-format
 msgid "<p>Select expenses to submit them to your manager</p>"
 msgstr "<p>选择费用，然后向您的经理提交它们</p>"
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:52
 #, python-format
 msgid ""
@@ -378,7 +378,7 @@ msgid "Ask your expert accountant what tax must be claimed to your customer"
 msgstr "询问您的专家会计必须向您的客户收取何种税费"
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:35
 #, python-format
 msgid "Attach your receipt here."
@@ -905,7 +905,7 @@ msgid "General Information"
 msgstr "一般信息"
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:16
 #, python-format
 msgid "Go to the expense to attach a receipt."
@@ -1042,7 +1042,7 @@ msgid "Manager"
 msgstr "经理"
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:60
 #, python-format
 msgid "Managers can get all reports to approve from this menu."
@@ -1571,7 +1571,7 @@ msgid ""
 msgstr "当所选的日记账的设置只有“手动”， 支付方式的字段被隐藏。"
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:56
 #, python-format
 msgid ""
@@ -1742,7 +1742,7 @@ msgid "When you charge"
 msgstr "收费时间"
 
 #. module: hr_expense
-#. openerp-web
+#. flectra-web
 #: code:addons/hr_expense/static/src/js/tour.js:26
 #, python-format
 msgid "Write the name of the product, or select an existing one."

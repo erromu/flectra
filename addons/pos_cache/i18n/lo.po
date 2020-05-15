@@ -76,7 +76,7 @@ msgid "Last Updated on"
 msgstr "ປັບປຸງລ້າສຸດ ເມື່ອ"
 
 #. module: pos_cache
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_cache/static/src/js/pos_cache.js:36
 #, python-format
 msgid "Loading"

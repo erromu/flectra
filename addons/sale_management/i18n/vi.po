@@ -20,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:79
 #, python-format
 msgid ""
@@ -31,7 +31,7 @@ msgstr ""
 " từng dòng.</i>"
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:60
 #, python-format
 msgid ""
@@ -42,14 +42,14 @@ msgstr ""
 "  một mẫu tài liệu cho công ty bạn.</p>"
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:33
 #, python-format
 msgid "Click here to add some lines to your quotations."
 msgstr "Nhấn vào đây để thêm 1 số dòng cho báo giá của bạn."
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:75
 #, python-format
 msgid "Configuration options are available in the Settings app."
@@ -61,7 +61,7 @@ msgid "Create Invoice"
 msgstr "Tạo Hoá đơn"
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:18
 #, python-format
 msgid ""
@@ -72,7 +72,7 @@ msgstr ""
 " đến một hành động logic tiếp theo trong quy trình.</i>"
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:55
 #, python-format
 msgid "Once your quotation is ready, you can save, print or send it by email."
@@ -80,7 +80,7 @@ msgstr ""
 "Một khi báo giá của bạn sẵn sàng, bạn có thể lưu, in hoặc gửi nó qua email."
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:13
 #, python-format
 msgid "Organize your sales activities with the <b>Sales Management app</b>."
@@ -88,7 +88,7 @@ msgstr ""
 "Tổ chức các hoạt động bán hàng của bạn bằng <b>Ứng dụng Quản lý Bán</b> "
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:38
 #, python-format
 msgid ""
@@ -101,21 +101,21 @@ msgstr ""
 "tự động"
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:65
 #, python-format
 msgid "Use the breadcrumbs to <b>go back to preceeding screens</b>."
 msgstr "Sử dụng breadcrumbs để <b>quay lại màn hình trước đó</b>."
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:69
 #, python-format
 msgid "Use this menu to access quotations, sales orders and customers."
 msgstr "Dùng menu này để truy cập báo giá, đơn hàng và khách hàng."
 
 #. module: sale_management
-#. openerp-web
+#. flectra-web
 #: code:addons/sale_management/static/src/js/tour.js:23
 #, python-format
 msgid ""

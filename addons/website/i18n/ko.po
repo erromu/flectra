@@ -28,7 +28,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/editor/snippets.options.js:726
 #, python-format
 msgid " Add Images"
@@ -64,14 +64,14 @@ msgid "&lt;?xml version=\"1.0\" encoding=\"utf-8\"?&gt;"
 msgstr "&lt;?xml version=\"1.0\" encoding=\"utf-8\"?&gt;"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.xml:40
 #, python-format
 msgid "&nbsp;"
 msgstr "&nbsp;"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.gallery.xml:51
 #, python-format
 msgid "&times;"
@@ -91,7 +91,7 @@ msgid "(copy)"
 msgstr "(복사)"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.pageProperties.xml:29
 #, python-format
 msgid "(could be used in"
@@ -138,7 +138,7 @@ msgid "- The Odoo Team"
 msgstr "- The Odoo Team"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.pageProperties.xml:23
 #, python-format
 msgid ""
@@ -210,14 +210,14 @@ msgid "<b>A Small Subtitle</b>"
 msgstr "<b>소제목</b>"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/tours/banner.js:15
 #, python-format
 msgid "<b>Click Edit</b> to start designing your homepage."
 msgstr "홈페이지 디자인을 시작 하려면 <b>편집을 클릭 합니다</b> ."
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/tours/banner.js:25
 #, python-format
 msgid ""
@@ -257,14 +257,14 @@ msgstr ""
 "                        "
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/tours/banner.js:74
 #, python-format
 msgid "<b>Install a contact form</b> to improve this page."
 msgstr "<b>설치 문의 양식을</b> 이 페이지를 개선 합니다."
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/tours/banner.js:79
 #, python-format
 msgid ""
@@ -484,7 +484,7 @@ msgid "<i>We wish you a fun time!</i>"
 msgstr "<i> 즐거운 시간 되시길 바랍니다! </ i>"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/tours/banner.js:54
 #, python-format
 msgid ""
@@ -991,14 +991,14 @@ msgstr ""
 "                        열을 선택하고 상단 아이콘을 사용하여 작업을 수행하십시오."
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.seo.xml:53
 #, python-format
 msgid "Add"
 msgstr "추가"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.contentMenu.xml:49
 #, python-format
 msgid "Add Menu Entry"
@@ -1010,14 +1010,14 @@ msgid "Add a great slogan"
 msgstr "멋진 슬로건 추가"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/menu/new_content.js:49
 #, python-format
 msgid "Add page in menu"
 msgstr "메뉴에서 페이지 추가"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.backend.xml:55
 #, python-format
 msgid "Add this feature"
@@ -1035,7 +1035,7 @@ msgid ""
 msgstr "다음 세 가지 질문에 대해 YES라고 대답하면 키워드를 광고하십시오."
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/tours/banner.js:50
 #, python-format
 msgid "After having checked how it looks on mobile, <b>close the preview</b>."
@@ -1137,7 +1137,7 @@ msgid "Arch Filename"
 msgstr "보관용 파일명"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.xml:60
 #, python-format
 msgid "Are you sure you want to delete this page ?"
@@ -1273,7 +1273,7 @@ msgid "Can I afford for advertising on the keyword?"
 msgstr "키워드에 광고를 할 여유가 있습니까?"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/backend/dashboard.js:106
 #: code:addons/website/static/src/xml/website.xml:27
 #: model:ir.ui.view,arch_db:website.500
@@ -1396,7 +1396,7 @@ msgid "Clone this page"
 msgstr "이 페이지 복사"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.gallery.xml:51
 #, python-format
 msgid "Close"
@@ -1446,7 +1446,7 @@ msgid "Configuration"
 msgstr "환경 설정"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/editor/snippets.options.js:24
 #, python-format
 msgid "Confirmation"
@@ -1518,7 +1518,7 @@ msgid "Content Delivery Network (CDN)"
 msgstr "콘텐츠 전송 네트워크 (CDN)"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/menu/content.js:388
 #: code:addons/website/static/src/xml/website.xml:26
 #, python-format
@@ -1531,7 +1531,7 @@ msgid "Copyright &amp;copy;"
 msgstr "저작권 &amp; 사본;"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/menu/content.js:328
 #, python-format
 msgid "Create Menu"
@@ -1589,7 +1589,7 @@ msgid "Customize Theme"
 msgstr "테마 사용자 정의"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/tours/banner.js:32
 #, python-format
 msgid ""
@@ -1636,7 +1636,7 @@ msgid "Default language code"
 msgstr "기본 언어 코드"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.seo.xml:41
 #, python-format
 msgid "Define Keywords"
@@ -1648,7 +1648,7 @@ msgid "Delete Blocks"
 msgstr "블록 삭제"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/menu/content.js:741
 #, python-format
 msgid "Delete Page"
@@ -1673,7 +1673,7 @@ msgid "Demo Logo"
 msgstr "데모 로고"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.pageProperties.xml:23
 #: code:addons/website/static/src/xml/website.pageProperties.xml:32
 #, python-format
@@ -1681,7 +1681,7 @@ msgid "Dependencies"
 msgstr "의존성"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.seo.xml:20
 #, python-format
 msgid "Description"
@@ -1704,7 +1704,7 @@ msgid "Disabled"
 msgstr "장애가 있음"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/menu/content.js:45
 #: code:addons/website/static/src/js/menu/seo.js:344
 #, python-format
@@ -1732,7 +1732,7 @@ msgid "Display Name"
 msgstr "표시 이름"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/editor/snippets.options.js:89
 #, python-format
 msgid "Do you want to edit the company data ?"
@@ -1749,7 +1749,7 @@ msgid "Domain Name"
 msgstr ""
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.xml:35
 #, python-format
 msgid "Don't forget to update all links referring to this page."
@@ -1777,21 +1777,21 @@ msgid "Downtown"
 msgstr ""
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.contentMenu.xml:45
 #, python-format
 msgid "Drag a menu to the right to create a sub-menu"
 msgstr "하위 메뉴로 만들려면 메뉴를 오른쪽으로 끌기"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/tours/banner.js:36
 #, python-format
 msgid "Drag another block in your page, below the cover."
 msgstr "페이지에 다른 블록을 표지 아래로 드래그하십시오."
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/tours/banner.js:20
 #, python-format
 msgid "Drag the <i>Cover</i> block and drop it in your page."
@@ -1824,7 +1824,7 @@ msgid "Edit"
 msgstr "편집"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/menu/content.js:417
 #: model:ir.ui.view,arch_db:website.user_navbar
 #, python-format
@@ -1848,7 +1848,7 @@ msgid "Edit in backend"
 msgstr "백엔드에서 편집"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.backend.xml:73
 #, python-format
 msgid "Edit my Analytics Client ID"
@@ -1862,7 +1862,7 @@ msgid ""
 msgstr "\"페이지를 찾을 수 없음\" 기본 페이지에 적용하려면 이 라인 아래의 내용 편집."
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/editor/snippets.options.js:35
 #, python-format
 msgid "Edit the menu"
@@ -1916,7 +1916,7 @@ msgid "Examples"
 msgstr "예시"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.contentMenu.xml:61
 #, python-format
 msgid "Existing Page, URL or Email"
@@ -2025,7 +2025,7 @@ msgid "Folded list"
 msgstr "목록 접기"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.editor.xml:6
 #, python-format
 msgid "Follow all the"
@@ -2107,7 +2107,7 @@ msgid "Get an understanding of your methodology"
 msgstr ""
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/menu/seo.js:340
 #, python-format
 msgid ""
@@ -2126,14 +2126,14 @@ msgid "GitHub Account"
 msgstr "GitHub 계정"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/menu/content.js:48
 #, python-format
 msgid "Go To Page"
 msgstr "해당 페이지로 이동"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/editor/snippets.options.js:27
 #, python-format
 msgid "Go to Link"
@@ -2145,7 +2145,7 @@ msgid "Go to Page Manager"
 msgstr "페이지 관리자로 이동하기"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.backend.xml:20
 #: code:addons/website/static/src/xml/website.backend.xml:22
 #, python-format
@@ -2158,7 +2158,7 @@ msgid "GoDaddy"
 msgstr ""
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/tours/banner.js:46
 #, python-format
 msgid ""
@@ -2172,7 +2172,7 @@ msgid "Google Adwords"
 msgstr ""
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/backend/dashboard.js:89
 #: model:ir.model.fields,field_description:website.field_res_config_settings_has_google_analytics
 #, python-format
@@ -2191,7 +2191,7 @@ msgid "Google Analytics in Dashboard"
 msgstr ""
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.backend.xml:92
 #, python-format
 msgid ""
@@ -2335,7 +2335,7 @@ msgid ""
 msgstr ""
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.pageProperties.xml:110
 #, python-format
 msgid "Hide this page from search results"
@@ -2358,7 +2358,7 @@ msgid "Home <span class=\"sr-only\">(current)</span>"
 msgstr "홈 <span class=\"sr-only\">(current)</span>"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.editor.xml:4
 #: model:ir.model.fields,field_description:website.field_website_homepage_id
 #: model:ir.model.fields,field_description:website.field_website_page_is_homepage
@@ -2377,7 +2377,7 @@ msgid "Homepage 0.0.0.0"
 msgstr ""
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.backend.xml:102
 #: model:ir.ui.view,arch_db:website.res_config_settings_view_form
 #, python-format
@@ -2385,7 +2385,7 @@ msgid "How to get my Client ID"
 msgstr "나의 고객 ID를 얻는 방법"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.backend.xml:97
 #: model:ir.ui.view,arch_db:website.res_config_settings_view_form
 #, python-format
@@ -2441,28 +2441,28 @@ msgid "Improve your conversion from visitors to customers"
 msgstr ""
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.seo.xml:68
 #, python-format
 msgid "In description"
 msgstr ""
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.seo.xml:69
 #, python-format
 msgid "In page's content"
 msgstr ""
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.seo.xml:67
 #, python-format
 msgid "In title"
 msgstr ""
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.pageProperties.xml:108
 #: model:ir.ui.view,arch_db:website.index_management
 #, python-format
@@ -2545,14 +2545,14 @@ msgid ""
 msgstr ""
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.pageProperties.xml:19
 #, python-format
 msgid "It looks like your file is being called by"
 msgstr "파일이 다음에서 호출된 것 같습니다."
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/content/website_root.js:212
 #, python-format
 msgid ""
@@ -2597,7 +2597,7 @@ msgid "Key"
 msgstr "키"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.seo.xml:48
 #, python-format
 msgid "Keyword"
@@ -2638,7 +2638,7 @@ msgid "Last Modified on"
 msgstr "최근 수정"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.backend.xml:110
 #, python-format
 msgid "Last Month"
@@ -2661,14 +2661,14 @@ msgid "Last Updated on"
 msgstr "최근 갱신 날짜"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.backend.xml:109
 #, python-format
 msgid "Last Week"
 msgstr "지난 주"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.backend.xml:111
 #, python-format
 msgid "Last Year"
@@ -2690,7 +2690,7 @@ msgid "Left"
 msgstr "왼쪽"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.seo.xml:65
 #, python-format
 msgid "Legend:"
@@ -2702,7 +2702,7 @@ msgid "Let your customers log in to see their documents"
 msgstr "고객이 로그인하여 문서를 확인할 수 있습니다."
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.editor.xml:5
 #, python-format
 msgid "Let's start designing."
@@ -2720,7 +2720,7 @@ msgid "Limited customization"
 msgstr "제한된 맞춤 설정"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.contentMenu.xml:55
 #: model:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
 #: model:website.page,arch_db:website.bs_debug_page
@@ -2735,7 +2735,7 @@ msgid "Link button"
 msgstr "링크 버튼"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.backend.xml:81
 #, python-format
 msgid "Link my Analytics Account"
@@ -2757,7 +2757,7 @@ msgid "List of Features"
 msgstr "기능 목록"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/menu/seo.js:82
 #, python-format
 msgid "Loading..."
@@ -2827,7 +2827,7 @@ msgid "Menu"
 msgstr "메뉴"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/menu/content.js:338
 #, python-format
 msgid "Menu Label"
@@ -2861,7 +2861,7 @@ msgstr ""
 "                                 마이클은 최고의 직업정신을 가졌습니다."
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/menu/mobile_view.js:54
 #, python-format
 msgid "Mobile preview"
@@ -2884,7 +2884,7 @@ msgid "Models"
 msgstr "모델"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.seo.xml:58
 #, python-format
 msgid "Most searched topics related to your keywords, ordered by importance:"
@@ -2926,7 +2926,7 @@ msgid "My Website"
 msgstr "내 웹사이트"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.pageProperties.xml:40
 #: model:ir.ui.view,arch_db:website.edit_website_pages
 #: model:ir.ui.view,arch_db:website.res_config_settings_view_form
@@ -2951,7 +2951,7 @@ msgid "Navbar"
 msgstr "검색바"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/menu/new_content.js:42
 #: code:addons/website/static/src/xml/website.contentMenu.xml:58
 #: model:ir.ui.view,arch_db:website.user_navbar
@@ -2997,7 +2997,7 @@ msgid "None"
 msgstr "없음"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.seo.xml:66
 #, python-format
 msgid "Not used"
@@ -3076,7 +3076,7 @@ msgid "Odoo text and image block"
 msgstr ""
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.backend.xml:5
 #, python-format
 msgid "On Website"
@@ -3214,14 +3214,14 @@ msgid "Page Indexed"
 msgstr "페이지 색인 생성"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.pageProperties.xml:46
 #, python-format
 msgid "Page Name"
 msgstr "페이지 명"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/menu/content.js:51
 #: model:ir.ui.view,arch_db:website.user_navbar
 #, python-format
@@ -3229,7 +3229,7 @@ msgid "Page Properties"
 msgstr "페이지 속성"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/menu/new_content.js:42
 #: code:addons/website/static/src/xml/website.seo.xml:14
 #, python-format
@@ -3237,7 +3237,7 @@ msgid "Page Title"
 msgstr "페이지 제목"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.pageProperties.xml:53
 #: model:ir.model.fields,field_description:website.field_website_page_url
 #, python-format
@@ -3367,7 +3367,7 @@ msgid "Prev"
 msgstr "이전"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.seo.xml:28
 #, python-format
 msgid "Preview"
@@ -3391,7 +3391,7 @@ msgid "Promote"
 msgstr "촉진"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/menu/seo.js:339
 #, python-format
 msgid "Promote Page"
@@ -3423,7 +3423,7 @@ msgid "Public User"
 msgstr "일반 사용자"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.pageProperties.xml:41
 #: code:addons/website/static/src/xml/website.pageProperties.xml:122
 #, python-format
@@ -3443,14 +3443,14 @@ msgid ""
 msgstr ""
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/tours/banner.js:42
 #, python-format
 msgid "Publish your page by clicking on the <b>Save</b> button."
 msgstr ""
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/backend/button.js:37
 #: model:ir.ui.view,arch_db:website.publish_management
 #: model:ir.ui.view,arch_db:website.publish_short
@@ -3459,7 +3459,7 @@ msgid "Published"
 msgstr "게시됨"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.pageProperties.xml:133
 #: model:ir.model.fields,field_description:website.field_website_page_date_publish
 #, python-format
@@ -3503,7 +3503,7 @@ msgid "Redirect From"
 msgstr ""
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.pageProperties.xml:62
 #, python-format
 msgid "Redirect Old URL"
@@ -3552,14 +3552,14 @@ msgid "Related Page"
 msgstr "관련 페이지"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.backend.xml:58
 #, python-format
 msgid "Remove this suggestion from dashboard"
 msgstr ""
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.xml:68
 #, python-format
 msgid "Rename Page To:"
@@ -3606,7 +3606,7 @@ msgid "Sample images"
 msgstr "예제 이미지"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/backend/dashboard.js:96
 #: code:addons/website/static/src/js/menu/content.js:44
 #: code:addons/website/static/src/js/menu/seo.js:343
@@ -3656,7 +3656,7 @@ msgid "See how to translate on your own"
 msgstr ""
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/menu/content.js:387
 #, python-format
 msgid "Select a Menu"
@@ -3744,7 +3744,7 @@ msgid "Show As Optional Inherit"
 msgstr "선택사항으로 상속 보기"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.pageProperties.xml:86
 #, python-format
 msgid "Show in Top Menu"
@@ -3820,7 +3820,7 @@ msgid "Starter package"
 msgstr "시작 패키지"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/editor/snippets.options.js:50
 #, python-format
 msgid "Stay on this page"
@@ -3842,7 +3842,7 @@ msgid "Subtitle 3"
 msgstr "소제목 3"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.seo.xml:58
 #, python-format
 msgid "Suggested"
@@ -3986,7 +3986,7 @@ msgid ""
 msgstr ""
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.backend.xml:80
 #, python-format
 msgid "There is no data currently available."
@@ -4079,7 +4079,7 @@ msgid "Tony Fred, CEO"
 msgstr "Tony Fred, CEO"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/menu/content.js:382
 #: model:website.menu,name:website.main_menu
 #: model:website.menu,name:website.website2_main_menu
@@ -4103,7 +4103,7 @@ msgid "Tracking ID"
 msgstr "추적 ID"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/editor/rte.summernote.js:17
 #, python-format
 msgid "Transform the picture (click twice to reset transformation)"
@@ -4132,7 +4132,7 @@ msgid "Twitter Scroller"
 msgstr "트위터 스크롤러"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.pageProperties.xml:76
 #: model:ir.ui.view,arch_db:website.snippet_options
 #, python-format
@@ -4147,7 +4147,7 @@ msgid ""
 msgstr "확인하려면 아래 상자에 '<i class=\"confirm_word\">예</i>'를 입력합니다."
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.backend.xml:96
 #: model:ir.ui.view,arch_db:website.res_config_settings_view_form
 #: model:ir.ui.view,arch_db:website.view_website_form
@@ -4182,7 +4182,7 @@ msgid "Unlimited customization"
 msgstr "무제한 맞춤 설정"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/js/backend/button.js:37
 #: model:ir.ui.view,arch_db:website.publish_management
 #: model:ir.ui.view,arch_db:website.publish_short
@@ -4224,7 +4224,7 @@ msgid "Use a Content Delivery Network (CDN)"
 msgstr ""
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.pageProperties.xml:97
 #, python-format
 msgid "Use as Homepage"
@@ -4316,7 +4316,7 @@ msgid ""
 msgstr ""
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.backend.xml:70
 #, python-format
 msgid "Visits"
@@ -4344,7 +4344,7 @@ msgstr ""
 "                           구축할 수 있습니다."
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.xml:37
 #, python-format
 msgid "We found these ones:"
@@ -4592,14 +4592,14 @@ msgid "Welcome"
 msgstr "환영합니다"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.editor.xml:4
 #, python-format
 msgid "Welcome to your"
 msgstr "다음에 오신 것을 환영합니다."
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.editor.xml:10
 #, python-format
 msgid "What do you want to do?"
@@ -4681,7 +4681,7 @@ msgid ""
 msgstr ""
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.backend.xml:91
 #, python-format
 msgid "You do not seem to have access to this Analytics Account."
@@ -4695,7 +4695,7 @@ msgid ""
 msgstr ""
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.backend.xml:90
 #, python-format
 msgid "You need to log in to your Google Account before:"
@@ -4716,7 +4716,7 @@ msgid "You should try other search criteria."
 msgstr "다른 검색 기준을 시도해 볼 수 있습니다."
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.backend.xml:100
 #, python-format
 msgid "Your Client ID:"
@@ -4728,7 +4728,7 @@ msgid "Your Slide Title"
 msgstr ""
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.backend.xml:95
 #, python-format
 msgid "Your Tracking ID:"
@@ -4740,7 +4740,7 @@ msgid "Your Website Title"
 msgstr "귀하의 웹사이트 제목"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.editor.xml:11
 #, python-format
 msgid "Your current changes will be saved automatically."
@@ -4807,14 +4807,14 @@ msgid "check out our Blog application"
 msgstr ""
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.seo.xml:41
 #, python-format
 msgid "describing your page content"
 msgstr "페이지 내용 설명"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.xml:70
 #, python-format
 msgid "e.g. About Us"
@@ -4851,14 +4851,14 @@ msgid "for a free evaluation of the usability of your homepage."
 msgstr ""
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.xml:41
 #, python-format
 msgid "found(s)"
 msgstr "발견"
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.seo.xml:28
 #, python-format
 msgid "how your page will be listed on Google"
@@ -4971,7 +4971,7 @@ msgid "sending us an email"
 msgstr ""
 
 #. module: website
-#. openerp-web
+#. flectra-web
 #: code:addons/website/static/src/xml/website.editor.xml:6
 #, python-format
 msgid "signs to get your website ready in no time."

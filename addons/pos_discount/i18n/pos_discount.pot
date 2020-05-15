@@ -21,7 +21,7 @@ msgid "Allow the cashier to give discounts on the whole order."
 msgstr ""
 
 #. module: pos_discount
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_discount/static/src/xml/discount_templates.xml:6
 #, python-format
 msgid "Discount"
@@ -33,7 +33,7 @@ msgid "Discount %"
 msgstr ""
 
 #. module: pos_discount
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_discount/static/src/js/discount.js:14
 #: model:ir.model.fields,field_description:pos_discount.field_pos_config_discount_pc
 #, python-format
@@ -47,7 +47,7 @@ msgid "Discount Product"
 msgstr ""
 
 #. module: pos_discount
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_discount/static/src/js/discount.js:28
 #, python-format
 msgid "No discount product found"
@@ -64,7 +64,7 @@ msgid "The default discount percentage"
 msgstr ""
 
 #. module: pos_discount
-#. openerp-web
+#. flectra-web
 #: code:addons/pos_discount/static/src/js/discount.js:29
 #, python-format
 msgid "The discount product seems misconfigured. Make sure it is flagged as 'Can be Sold' and 'Available in Point of Sale'."

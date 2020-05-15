@@ -644,7 +644,7 @@ msgid "Checksum/SHA1"
 msgstr "Checksum/SHA1"
 
 #. module: mrp
-#. openerp-web
+#. flectra-web
 #: code:addons/mrp/static/src/xml/mrp.xml:9
 #, python-format
 msgid "Clear"
@@ -2396,7 +2396,7 @@ msgid "Ready"
 msgstr "מוכן"
 
 #. module: mrp
-#. openerp-web
+#. flectra-web
 #: code:addons/mrp/static/src/js/mrp.js:147
 #, python-format
 msgid "Ready to produce"
@@ -2680,7 +2680,7 @@ msgid "Security days for each manufacturing operation."
 msgstr "ימי ביטחון עבור כל פעולת ייצור."
 
 #. module: mrp
-#. openerp-web
+#. flectra-web
 #: code:addons/mrp/static/src/xml/mrp.xml:7
 #: code:addons/mrp/static/src/xml/mrp.xml:8
 #, python-format
@@ -3304,14 +3304,14 @@ msgid "Update"
 msgstr "עדכן"
 
 #. module: mrp
-#. openerp-web
+#. flectra-web
 #: code:addons/mrp/static/src/xml/mrp.xml:7
 #, python-format
 msgid "Upload your file"
 msgstr "העלה את הקובץ שלך"
 
 #. module: mrp
-#. openerp-web
+#. flectra-web
 #: code:addons/mrp/static/src/xml/mrp.xml:6
 #, python-format
 msgid "Uploading..."
@@ -3406,7 +3406,7 @@ msgid "Waiting Availability MO"
 msgstr ""
 
 #. module: mrp
-#. openerp-web
+#. flectra-web
 #: code:addons/mrp/static/src/js/mrp.js:147
 #, python-format
 msgid "Waiting Materials"
