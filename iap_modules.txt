@@ -1,0 +1,43 @@
+List of IAP related modules
+---------------------------------
+
+iap
+crm_iap_lead
+crm_iap_lead_enrich
+iap_mail
+iap_crm
+crm_iap_lead_website
+
+partner_autocomplete
+
+sms
+event_sms
+mass_mailing_sms
+website_sms
+website_crm_sms
+calendar_sms
+mass_mailing_event_sms
+crm_sms
+stock_sms
+mass_mailing_event_track_sms
+
+hr_presence
+
+mail_client_extension
+snailmail
+test_mail_full
+
+
+IAP Hardcoded in the core
+---------------------------------
+
+flectra/addons/base/models/ir_module.py:    has_iap = fields.Boolean(compute='_compute_has_iap')
+flectra/addons/base/models/ir_module.py:    def _compute_has_iap(self):
+flectra/addons/base/models/ir_module.py:            module.has_iap = True
+flectra/addons/base/views/ir_module_views.xml:                        <h6 class="text-muted mt-2" attrs="{'invisible': [('has_iap', '=', True)]}">Contains In-App Purchases</h6>
+flectra/addons/base/views/ir_module_views.xml:                                    <field name="has_iap" invisible="1"/>
+flectra/addons/base/data/res.country.state.csv:state_gt_jut,gt,"Jutiapa","JUT"
+flectra/addons/base/data/res.country.state.csv:state_mx_chis,mx,"Chiapas","CHP"
+
+
+It is harcoded in CRM module too

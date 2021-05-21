@@ -17,14 +17,7 @@ class ResConfigSettings(models.TransientModel):
         compute="_compute_generate_lead_from_alias", readonly=False, store=True)
     group_use_lead = fields.Boolean(string="Leads", implied_group='crm.group_use_lead')
     group_use_recurring_revenues = fields.Boolean(string="Recurring Revenues", implied_group='crm.group_use_recurring_revenues')
-    module_crm_iap_lead = fields.Boolean("Generate new leads based on their country, industries, size, etc.")
-    module_crm_iap_lead_website = fields.Boolean("Create Leads/Opportunities from your website's traffic")
-    module_crm_iap_lead_enrich = fields.Boolean("Enrich your leads automatically with company data based on their email address.")
     module_mail_client_extension = fields.Boolean("See and manage users, companies, and leads from our mail client extensions.")
-    lead_enrich_auto = fields.Selection([
-        ('manual', 'Enrich leads on demand only'),
-        ('auto', 'Enrich all leads automatically'),
-    ], string='Enrich lead automatically', default='manual', config_parameter='crm.iap.lead.enrich.setting')
     lead_mining_in_pipeline = fields.Boolean("Create a lead mining request directly from the opportunity pipeline.", config_parameter='crm.lead_mining_in_pipeline')
     predictive_lead_scoring_start_date = fields.Date(string='Lead Scoring Starting Date', compute="_compute_pls_start_date", inverse="_inverse_pls_start_date_str")
     predictive_lead_scoring_start_date_str = fields.Char(string='Lead Scoring Starting Date in String', config_parameter='crm.pls_start_date')

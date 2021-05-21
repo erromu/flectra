@@ -9,15 +9,6 @@
                 <xpath expr="//div[@name='generate_lead_setting_container']" position="attributes">
                     <attribute name="invisible">1</attribute>
                 </xpath>
-                <xpath expr="//div[@id='crm_iap_lead_settings']" position="attributes">
-                    <attribute name="invisible">1</attribute>
-                </xpath>
-                <xpath expr="//div[@id='crm_iap_lead_enrich']" position="attributes">
-                    <attribute name="invisible">1</attribute>
-                </xpath>
-                <xpath expr="//field[@name='module_crm_iap_lead_enrich']" position="attributes">
-                    <attribute name="invisible">1</attribute>
-                </xpath>
             </field>
         </record>
 
